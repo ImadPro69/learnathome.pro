@@ -1,0 +1,866 @@
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Base
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg {	
+	box-sizing: border-box;
+	margin-bottom: 1rem;
+}
+
+.aiovg,
+.aiovg * {
+	line-height: 1.5;
+}
+
+.aiovg *, 
+.aiovg *:before, 
+.aiovg *:after {
+	box-sizing: inherit;
+}
+
+.aiovg img {
+	display: block;	
+	border-radius: 0;
+	box-shadow: none;
+	max-width: 100%;
+}
+
+.aiovg h2,
+.aiovg h3 {
+	margin: 0;
+	margin-bottom: 1rem;
+}
+
+.aiovg a.aiovg-link-title {
+	text-decoration: none;
+}
+
+.aiovg .aiovg-relative {
+	position: relative;
+}
+
+.aiovg .aiovg-flex,
+.aiovg .aiovg-d-flex {
+	display: flex;
+}
+
+.aiovg .aiovg-flex-col {
+	flex-direction: column;
+}
+
+.aiovg .aiovg-flex-grow-1 {
+	flex-grow: 1;
+}
+
+.aiovg .aiovg-flex-shrink-0 {
+	flex-shrink: 0;
+}
+
+.aiovg .aiovg-flex-wrap {
+	flex-wrap: wrap;
+}
+
+.aiovg .aiovg-gap-1 {
+	gap: 0.25rem;
+}
+
+.aiovg .aiovg-gap-2 {
+	gap: 0.5rem;
+}
+
+.aiovg .aiovg-gap-3 {
+	gap: 0.75rem;
+}
+
+.aiovg .aiovg-gap-4 {
+	gap: 1rem;
+}
+
+.aiovg .aiovg-gap-6 {
+	gap: 1.5rem;
+}
+
+.aiovg .aiovg-items-center {
+	align-items: center;
+}
+
+.aiovg .aiovg-justify-center {
+	justify-content: center;
+}
+
+.aiovg .aiovg-pull-left {
+	float: left;
+}
+
+.aiovg .aiovg-pull-right {
+	float: right;
+}
+
+.aiovg .aiovg-clearfix {
+	display: block;    
+    clear: both;
+	content: "";
+}
+
+.aiovg .aiovg-no-margin {
+	margin: 0;
+}
+
+.aiovg .aiovg-margin {
+	margin: 1rem;
+}
+
+.aiovg .aiovg-margin-top {
+	margin-top: 1rem;
+}
+
+.aiovg .aiovg-margin-right {
+	margin-right: 1rem;
+}
+
+.aiovg .aiovg-margin-bottom {
+	margin-bottom: 1rem;
+}
+
+.aiovg .aiovg-margin-left {
+	margin-left: 1rem;
+}
+
+.aiovg .aiovg-no-padding {
+	padding: 0;
+}
+
+.aiovg .aiovg-padding {
+	padding: 1rem;
+}
+
+.aiovg .aiovg-padding-top {
+	padding-top: 1rem;
+}
+
+.aiovg .aiovg-padding-right {
+	padding-right: 1rem;
+}
+
+.aiovg .aiovg-padding-bottom {
+	padding-bottom: 1rem;
+}
+
+.aiovg .aiovg-padding-left {
+	padding-left: 1rem;
+}
+
+.aiovg .aiovg-text-left {
+	text-align: left;
+}
+
+.aiovg .aiovg-text-right {
+	text-align: right;
+}
+
+.aiovg .aiovg-text-center {
+	text-align: center;
+}
+
+.aiovg .aiovg-leading-none {
+	line-height: 1;
+}
+
+.aiovg .aiovg-text-muted {
+	color: #999;
+}
+
+.aiovg .aiovg-text-success {
+	color: green;
+}
+
+.aiovg .aiovg-text-error {
+	color:#b31105;
+}
+
+.aiovg .aiovg-text-small {
+	font-size: 90%;
+}
+
+.aiovg .aiovg-text-separator {
+	margin: 0 0.125rem;
+	color: #ccc;
+	font-size: 90%;
+}
+
+.aiovg .aiovg-disable-mouse-events {
+	pointer-events: none;
+}
+
+.aiovg .aiovg-hide-if-empty:empty {
+	display: none !important;
+}
+
+.aiovg [hidden] {
+	display: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+	.aiovg-hidden-mobile {
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.aiovg-hidden-desktop {
+		display: none !important;
+	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Icons
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-svg-icon {
+	display: inline-block;	
+	stroke: none;
+	stroke-width: 0;
+	fill: #666;
+	width: 1rem;
+	vertical-align: middle;
+}
+
+.aiovg-svg-icon-videos {
+	margin-top: -2px;
+}
+
+.aiovg-svg-icon-play {
+	pointer-events: none;
+	position: absolute;
+	inset: 0;
+	z-index: 3;	
+	margin: auto;
+	fill: #fff;
+	width: 2rem;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Animations
+ *
+ *--------------------------------------------------------------------------------------------*/
+/** Pulse */
+@keyframes aiovgPulse {
+	0%, 100% {
+	  	opacity: 1;
+	}
+	50% {
+	  	opacity: .5;
+	}
+}
+
+.aiovg .aiovg-animate-pulse {
+	animation: aiovgPulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/** Rotate */
+@keyframes aiovgRotate {
+	from {
+	  	transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.aiovg .aiovg-animate-rotate {
+	animation: aiovgRotate 1s linear infinite;
+}
+
+/** Spinner */
+@keyframes aiovgWait {
+	12.5% {
+		background-position-x: -4px, -4px, -4px, -4px, -4px, -4px, -4px, -4px, -4px, -4px, 0, 0;
+	}
+
+	25% {
+		background-position-x: -4px, -4px, -4px, -4px, -4px, -4px, -4px, -4px, 0, 0, 6px, 6px;
+	}
+
+	37.5% {
+		background-position-x: -4px, -4px, -4px, -4px, -4px, -4px, 0, 0, 6px, 6px, 12px, 12px;
+	}
+
+	50% {
+		background-position-x: -4px, -4px, -4px, -4px, 0, 0, 6px, 6px, 12px, 12px, -4px, -4px;
+	}
+
+	62.5% {
+		background-position-x: -4px, -4px, 0, 0, 6px, 6px, 12px, 12px, -4px, -4px, -4px, -4px;
+	}
+
+	75% {
+		background-position-x:  0, 0, 6px,  6px, 12px, 12px, -4px, -4px,  -4px, -4px,  -4px, -4px;
+	}
+
+	87.5% {
+		background-position-x:  6px, 6px, 12px, 12px, -4px, -4px, -4px, -4px,  -4px, -4px,  -4px, -4px;
+	}
+
+	100% {
+		background-position-x: 12px, 12px, -4px, -4px, -4px, -4px, -4px, -4px,  -4px, -4px,  -4px, -4px;
+	}
+}
+
+.aiovg .aiovg-spinner {
+	background: 
+		linear-gradient(0deg, #f4f5fa 1px, transparent 0, transparent 8px, #f4f5fa 8px),   /* 6  */
+		linear-gradient(90deg, #f4f5fa 1px, #f6f9fb 0, #f6f9fb 3px, #f4f5fa 3px),
+
+		linear-gradient(0deg, #ececf5 1px, transparent 0, transparent 8px, #ececf5 8px),   /* 5  */
+		linear-gradient(90deg, #ececf5 1px, #f2f3f9 0, #f2f3f9 3px, #ececf5 3px),
+
+		linear-gradient(0deg, #e7eaf4 1px, transparent 0, transparent 8px, #e7eaf4 8px),   /* 4  */
+		linear-gradient(90deg, #e7eaf4 1px, #eef1f8 0, #eef1f8 3px, #e7eaf4 3px),
+
+		linear-gradient(0deg, #b9bedd 1px, transparent 0, transparent 10px, #b9bedd 10px), /* 3  */
+		linear-gradient(90deg, #b9bedd 1px, #d0d5e8 0, #d0d5e8 3px, #b9bedd 3px),
+
+		linear-gradient(0deg, #9fa6d2 1px, transparent 0, transparent 15px, #9fa6d2 15px), /* 2  */
+		linear-gradient(90deg, #9fa6d2 1px, #c0c5e1 0, #c0c5e1 3px, #9fa6d2 3px),
+
+		linear-gradient(0deg, #8490c6 1px, transparent 0, transparent 15px, #8490c6 15px), /* 1  */
+		linear-gradient(90deg, #8490c6 1px, #aeb5da 0, #aeb5da 3px, #8490c6 3px); 
+
+	background-repeat: no-repeat;
+
+	background-size: 
+		4px 9px,   /* 6 */
+		4px 9px,
+
+		4px 9px,   /* 5 */
+		4px 9px,
+
+		4px 9px,   /* 4 */
+		4px 9px,
+
+		4px 11px,  /* 3 */
+		4px 11px,
+
+		4px 16px,  /* 2 */
+		4px 16px,
+
+		4px 16px,  /* 1 */
+		4px 16px;
+
+	background-position-x: -4px; /* Hide All */
+	background-position-y: 3px, 3px, 3px, 3px, 3px, 3px, 2px, 2px, 0, 0, 0, 0;
+
+    zoom: 1; /* Increase this for a bigger symbol*/	
+	width: 16px;
+    min-width: 16px;	
+	height: 16px;
+    min-height: 16px;
+
+    animation: aiovgWait .80s steps(1, start) infinite;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Grid
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-grid {
+    margin: -0.75rem;
+}
+
+.aiovg-row {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.aiovg-col {
+    width: 100%;
+}
+
+@media only screen and (min-width: 420px) {
+    .aiovg-col-xs-2 { 
+        width: 50%; 
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .aiovg-col-sm-3 { 
+        width: 33.33%; 
+    }  
+}
+
+@media only screen and (min-width: 768px) {
+	.aiovg-col-2 { 
+		width: 50%; 
+	}
+	
+	.aiovg-col-3 { 
+		width: 33.33%; 
+	}    
+	
+	.aiovg-col-4 { 
+		width: 25%; 
+	}
+	
+	.aiovg-col-5 { 
+		width: 20%; 
+	}
+	
+	.aiovg-col-6 { 
+		width: 16.66%; 
+	}
+	
+	.aiovg-col-7 { 
+		width: 14.28%; 
+	}
+	
+	.aiovg-col-8 { 
+		width: 12.5%; 
+	}
+	
+	.aiovg-col-9 { 
+		width: 11.11%; 
+	}
+	
+	.aiovg-col-10 { 
+		width: 10%; 
+	}
+	
+	.aiovg-col-11 { 
+		width: 9.09%; 
+	}
+	
+	.aiovg-col-12 { 
+		width: 8.33%; 
+	}
+	
+	.aiovg-col-p-25 {
+		width: 25%;
+	}
+	
+	.aiovg-col-p-40 {
+		width: 40%;
+	}
+	
+	.aiovg-col-p-60 {
+		width: 60%;
+	}
+	
+	.aiovg-col-p-75 {
+		width: 75%;
+	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Thumbnail
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-thumbnail {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	margin: 0.75rem;
+}
+
+.aiovg-responsive-container {	
+	display: block;
+	position: relative;
+	background-color: #f0f0f0;
+	padding-bottom: 56.25%;	
+	width: 100%;
+	height: 0;
+}
+
+.aiovg-responsive-container img:not(.aiovg-play),
+img.aiovg-responsive-element {
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	margin: 0;
+	width: 100%;
+	height: 100%;	
+	object-fit: cover;	
+}
+
+.aiovg-duration {
+	pointer-events: none;
+	position: absolute;
+	right: 0.25rem;
+	bottom: 0.25rem;
+	z-index: 2;
+	border-radius: 1px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0.25rem 0.5rem;	
+	line-height: 1;
+	color: #fff;
+	font-size: 90%;	
+}
+
+.aiovg-caption {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.aiovg-caption .aiovg-title {
+	margin: 0;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+
+.aiovg-caption .aiovg-excerpt,
+.aiovg-caption .aiovg-description,
+.aiovg-caption .aiovg-content-after-thumbnail {
+	margin-top: 0.5rem;
+}
+
+.aiovg-thumbnail-style-image-left .aiovg-caption {
+	margin: 0;
+	margin-top: 0.75rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .aiovg-thumbnail-style-image-left .aiovg-caption {
+		margin: 0;
+		margin-left: 0.75rem;
+	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Pagination
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-pagination,
+.aiovg-more {
+	display: block;
+	margin-top: 2rem;
+}
+
+.aiovg-pagination .aiovg-pagination-links {
+	display: flex;
+	gap: 0.25rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.aiovg-pagination-links .page-numbers {
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	padding: 0.5rem 0.75rem;		
+	text-decoration: none;	
+	line-height: 1;
+}
+  
+.aiovg-pagination-links .current {	
+	border: 1px solid #1e90ff;
+	background-color: #1e90ff;
+	color: white;	
+}
+  
+.aiovg-pagination-links a:hover {
+	background-color: #f0f0f0;
+	color: #1e90ff;
+}
+
+.aiovg-pagination .aiovg-pagination-info {
+	margin: 0;
+	margin-top: 0.5rem;
+}
+
+.aiovg-pagination.aiovg-spinner,
+.aiovg-more.aiovg-spinner {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aiovg-pagination.aiovg-spinner *,
+.aiovg-more.aiovg-spinner * {
+	display: none;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Share Buttons
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-social {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+	align-items: center;
+    margin-top: 1rem;
+}
+
+.aiovg-link-social,
+.aiovg-link-social:hover,
+.aiovg-link-social:active {
+	border-radius: 2px;
+	cursor: pointer;	
+    padding: 0.5rem;	
+	text-decoration: none;
+	line-height: 1;
+	color: white;
+	font-size: 1.5rem;
+}
+ 
+.aiovg-link-social:hover,
+.aiovg-link-social:active {   
+	opacity: 0.8;
+} 
+
+.aiovg-social-facebook,
+.aiovg-social-facebook:hover,
+.aiovg-social-facebook:active {
+    background-color: #3B5996;
+}
+
+.aiovg-social-twitter,
+.aiovg-social-twitter:hover,
+.aiovg-social-twitter:active {
+    background-color: #55ACEE;
+}
+ 
+.aiovg-social-linkedin,
+.aiovg-social-linkedin:hover,
+.aiovg-social-linkedin:active {
+    background-color: #006699;
+}
+ 
+.aiovg-social-pinterest,
+.aiovg-social-pinterest:hover,
+.aiovg-social-pinterest:active {
+    background-color: #C00117;
+}
+
+.aiovg-social-tumblr,
+.aiovg-social-tumblr:hover,
+.aiovg-social-tumblr:active {
+    background-color: #28364B;
+}
+
+.aiovg-social-whatsapp,
+.aiovg-social-whatsapp:hover,
+.aiovg-social-whatsapp:active {
+    background-color: #25d366;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Autocomplete
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-autocomplete {
+	position: relative;
+}
+
+.aiovg-autocomplete-items {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99999;	
+	margin-top: 1px;	
+	border: 1px solid #9ca3af;
+	border-radius: 3px;	
+	box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+	max-height: 180px;
+	overflow-x: hidden;
+	overflow-y: auto;	
+}
+
+.aiovg-autocomplete-items div {	
+	border-bottom: 1px solid #eee;
+	background-color: #fff;
+	cursor: pointer;
+	padding: 0.5rem 0.75rem;	
+	line-height: 1;
+	color: #000;
+	font-size: 90%;
+}
+
+.aiovg-autocomplete-items div:last-child {
+	border-bottom: none;
+}
+
+.aiovg-autocomplete-items div:hover {
+	background-color: #1e90ff;
+	color: #fff;
+}
+
+.aiovg-autocomplete-items div.aiovg-autocomplete-active {
+	background-color: #1e90ff;
+	color: #fff;
+}
+
+.aiovg-autocomplete-items div.aiovg-autocomplete-selected {
+	color: #999;
+}
+
+.aiovg-autocomplete-tags {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 0.5rem;
+	column-gap: 0.75rem;
+	margin-top: 0.5rem;
+}
+
+.aiovg-tag-item {		
+	font-size: 90%;
+}
+
+.aiovg-tag-item a {
+	display: flex;
+	gap: 0.25rem;
+	align-items: center;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Categories
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-categories-template-list ul,
+.aiovg-categories-template-list li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.aiovg-categories-template-list .children {
+	margin-left: 1.25rem;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Videos
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-videos .aiovg-count {
+	margin-bottom: 1rem;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Video
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-content-after-player {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+}
+
+/* Likes / Dislikes */
+aiovg-like-button {
+	display: flex;
+	gap: 0.25rem;
+	align-items: center;
+}
+
+aiovg-like-button button {
+	display: flex;
+    gap: 0.35rem;
+    align-items: center;
+    justify-content: center;
+	margin: 0;
+}
+
+aiovg-like-button:not([loaded]) {
+	pointer-events: none;
+	animation: aiovgPulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Search Form
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-search-form form {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.aiovg-search-form .aiovg-form-group {	
+	flex-grow: 1;
+}
+
+.aiovg-search-form .aiovg-form-control {	
+	width: 100%;
+}
+
+/* Template: Compact */
+.aiovg-search-form-template-compact {
+	position: relative;
+}
+
+.aiovg-search-form-template-compact .aiovg-field-submit {
+	position: absolute;	
+	top: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+.aiovg-search-form-template-compact .aiovg-field-submit button,
+.aiovg-search-form-template-compact .aiovg-field-submit button:hover,
+.aiovg-search-form-template-compact .aiovg-field-submit button:focus {	
+	margin: 0;
+	border: 0;
+	box-shadow: none;
+	background: transparent;
+	background-color: transparent;
+	background-image: none;
+	padding: 0;
+	width: 2rem;
+	height: 100%;
+	line-height: 1;
+}
+
+/* Template: Vertical */
+.aiovg-search-form-template-vertical form {
+	flex-direction: column;
+}
+
+/* Template: Horizontal */
+.aiovg-search-form-template-horizontal form {	
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.aiovg-search-form-template-horizontal .aiovg-autocomplete-tags {
+	margin-top: 0;
+	width: 100%;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Third-party theme conflicts
+ *
+ *--------------------------------------------------------------------------------------------*/
+.mfp-bg { 
+	z-index: 999999 !important; 
+}
+
+.mfp-wrap { 
+	z-index: 9999999 !important; 
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Deprecated
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg .aiovg-responsive-button {
+	width: 100%;
+}
+
+@media only screen and (min-width: 481px) {
+	.aiovg .aiovg-responsive-button {
+		width: auto;
+	}
+}

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cursor-1</title>
+    <g id="cursor-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="christmas-cursor-1" transform="translate(15.673067, 16.037358) rotate(-14.000000) translate(-15.673067, -16.037358) translate(3.941304, -1.513586)" fill-rule="nonzero">
+            <polygon id="Path" fill="#62A100" points="5.29714174 6.25188131 5.41270819 31.4651777 6.64629744 31.5807442 7.99545314 29.7686623 9.96206384 27.7637496 11.6579189 26.4535563 12.8915081 27.802712 14.2413242 30.8483831 15.8599148 34.2024515 18.7517175 33.5083925 19.2912477 32.5832005 18.7774723 30.3471549 17.7492611 27.9955429 16.7771822 26.9158221 16.5156718 24.6414744 22.4141832 24.4486436 22.3369188 22.5592973 6.33790013 6.83037392"></polygon>
+            <rect id="Rectangle" fill="#441F01" x="15.5389703" y="33.4826377" width="3.18699236" height="1.61925099"></rect>
+            <rect id="Rectangle" fill="#441F01" x="18.7517175" y="30.2698905" width="1.56774137" height="3.23850198"></rect>
+            <rect id="Rectangle" fill="#441F01" x="17.1324665" y="27.1859174" width="1.6450058" height="3.16123756"></rect>
+            <rect id="Rectangle" fill="#441F01" x="12.3519779" y="27.1086529" width="1.61925099" height="3.21274717"></rect>
+            <rect id="Rectangle" fill="#441F01" x="15.5389703" y="23.8358112" width="1.56774137" height="3.36661564"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="15.4702908" y="23.7248674" width="7.99323572" height="1.82462907"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="21.912955" y="22.3281644" width="1.54198657" height="2.51868812"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="5.90072877" y="6.31659852" width="1.74736465" height="1.67076061"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="7.54573457" y="7.96094394" width="1.72227022" height="1.72227022"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="9.16498556" y="9.55444012" width="1.72227022" height="1.61925099"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="10.7842366" y="10.9940678" width="1.74736465" height="1.87613869"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="12.4034875" y="12.7671873" width="1.74736465" height="1.82462907"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="14.0227385" y="14.3864383" width="1.56774137" height="1.61925099"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="15.4359511" y="15.8511604" width="1.77311946" height="1.79887426"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="17.1067117" y="17.4704114" width="1.74736465" height="1.72227022"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="18.7517175" y="19.0896624" width="1.69651541" height="1.74736465"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="20.2679492" y="20.6831586" width="1.82462907" height="1.77311946"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="10.7584817" y="25.3606279" width="1.61925099" height="1.79887426"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="9.0368719" y="27.0571433" width="1.74736465" height="1.74736465"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="7.59724419" y="28.6763943" width="1.61925099" height="1.61925099"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="4.35874221" y="30.2698905" width="3.3157664" height="1.6450058"></rect>
+            <rect id="Rectangle" fill="#4D7D02" x="4.29468538" y="4.70989475" width="1.73481744" height="27.0636803"></rect>
+            <rect id="Rectangle" fill="#441F01" x="13.9388703" y="29.7237565" width="1.77311946" height="3.77803218"></rect>
+            <g id="Group" transform="translate(5.740257, 10.150103)">
+                <rect id="Rectangle" fill="#EA1F2A" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.159811884" y="0.890852196" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.431888315" y="1.87547831" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.486039449" y="2.29547979" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.324246426" y="2.17463031" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.160472264" y="2.01085614" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.00264151874" y="1.8563273" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806983976" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806983976" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643870194" y="0.400850469" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="0.48273755" y="0.565945391" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="0.319623768" y="0.727078034" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.12396623" y="0.561983113" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.29170267" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.44821265" y="0.894814475" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.61264719" y="1.05462636" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96811662" y="0.886229539" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12660774" y="0.992550668" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20849483" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.00264151874" y="1.54660922" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.158491125" y="1.8563273" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.323586046" y="2.01415804" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.28509887" y="2.18915866" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.46009949" y="2.02274298" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.61793023" y="1.86028958" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(12.873678, 20.972405)">
+                <rect id="Rectangle" fill="#EA1F2A" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.159151504" y="0.890852196" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.431888315" y="1.87613869" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.486039449" y="2.29614017" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.323586046" y="2.17529069" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.160472264" y="2.01151652" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.00264151874" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806323597" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806323597" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643870194" y="0.401510849" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="0.48273755" y="0.565945391" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="0.319623768" y="0.727078034" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.12396623" y="0.562643492" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.29170267" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.44755227" y="0.895474854" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.61198681" y="1.05462636" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96745624" y="0.886889918" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12660774" y="0.993211048" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20915521" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.00264151874" y="1.54660922" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.158491125" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.322925666" y="2.01481842" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.28509887" y="2.18981904" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.45943911" y="2.02340336" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.61726985" y="1.86028958" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(6.368278, 21.787313)">
+                <rect id="Rectangle" fill="#EA1F2A" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.159811884" y="0.890852196" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.431888315" y="1.87613869" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.486039449" y="2.29614017" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.324246426" y="2.17529069" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.160472264" y="2.01151652" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.00264151874" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806983976" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806983976" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643870194" y="0.401510849" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="0.48273755" y="0.565945391" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="0.319623768" y="0.727078034" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.12396623" y="0.562643492" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.29170267" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.44821265" y="0.895474854" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.61264719" y="1.05462636" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96811662" y="0.886889918" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12660774" y="0.993211048" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20915521" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.00264151874" y="1.54660922" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.158491125" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.323586046" y="2.01481842" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.28509887" y="2.18981904" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.46009949" y="2.02340336" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.61793023" y="1.86028958" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(8.676305, 17.567487)">
+                <rect id="Rectangle" fill="#EA1F2A" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.159811884" y="0.890191817" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0.432548694" y="1.87547831" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#EA1F2A" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.486039449" y="2.29547979" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.324246426" y="2.17463031" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.160472264" y="2.01085614" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="0.00264151874" y="1.8563273" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806983976" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806983976" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643870194" y="0.400850469" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="0.48273755" y="0.565285011" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="0.320284148" y="0.726417655" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.12396623" y="0.561983113" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.29170267" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.44821265" y="0.894814475" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5365" x="1.61264719" y="1.05396598" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96811662" y="0.886229539" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12660774" y="0.992550668" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20849483" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.00264151874" y="1.54594884" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.159151504" y="1.8563273" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.323586046" y="2.01415804" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#C8111C" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.28509887" y="2.18915866" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.46009949" y="2.02274298" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FF5250" x="1.61793023" y="1.8596292" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(12.832074, 16.082954)">
+                <rect id="Rectangle" fill="#217CE8" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#217CE8" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#217CE8" x="0.159811884" y="0.890852196" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#217CE8" x="0.432548694" y="1.87547831" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#217CE8" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.486039449" y="2.29547979" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.324246426" y="2.17463031" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.160472264" y="2.01085614" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.00264151874" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806983976" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806983976" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643870194" y="0.401510849" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.48273755" y="0.565945391" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.320284148" y="0.727078034" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.12396623" y="0.562643492" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.29236305" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.44821265" y="0.894814475" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.61264719" y="1.05462636" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96811662" y="0.886229539" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12660774" y="0.992550668" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20849483" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#1667B7" x="0.00264151874" y="1.54660922" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#1667B7" x="0.159151504" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#1667B7" x="0.323586046" y="2.01481842" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#1667B7" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.28509887" y="2.18915866" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.46009949" y="2.02340336" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.61793023" y="1.86028958" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(6.754600, 14.814364)">
+                <rect id="Rectangle" fill="#217CE8" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#217CE8" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#217CE8" x="0.159811884" y="0.890852196" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#217CE8" x="0.431888315" y="1.87547831" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#217CE8" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.486039449" y="2.29547979" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.324246426" y="2.17463031" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.160472264" y="2.01085614" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.00264151874" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806983976" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806983976" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643870194" y="0.401510849" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.48273755" y="0.565945391" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="0.319623768" y="0.727078034" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.12396623" y="0.562643492" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.29170267" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.44821265" y="0.894814475" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.61264719" y="1.05462636" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96811662" y="0.886229539" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12660774" y="0.992550668" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20849483" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#1667B7" x="0.00264151874" y="1.54660922" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#1667B7" x="0.158491125" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#1667B7" x="0.323586046" y="2.01481842" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#1667B7" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.28509887" y="2.18915866" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.46009949" y="2.02340336" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#419AF2" x="1.61793023" y="1.86028958" width="1" height="1"></rect>
+            </g>
+            <rect id="Rectangle" fill="#602E00" x="12.3691478" y="23.9599626" width="3.19953958" height="3.23850198"></rect>
+            <rect id="Rectangle" fill="#602E00" x="13.9415118" y="27.1429927" width="3.23652084" height="2.65802824"></rect>
+            <rect id="Rectangle" fill="#602E00" x="15.7060464" y="29.5243218" width="1.46472214" height="3.98341027"></rect>
+            <rect id="Rectangle" fill="#602E00" x="16.9138808" y="30.1668713" width="1.87613869" height="3.34086083"></rect>
+            <g id="Group" transform="translate(9.725648, 11.632655)">
+                <rect id="Rectangle" fill="#EFA016" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.159811884" y="0.890852196" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.432548694" y="1.87547831" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.486039449" y="2.29614017" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.324246426" y="2.17463031" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.160472264" y="2.01151652" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.00264151874" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806983976" y="-3.75382391e-15" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806983976" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643870194" y="0.401510849" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.48273755" y="0.565945391" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.320284148" y="0.727078034" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.12396623" y="0.562643492" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.29236305" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.44821265" y="0.895474854" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.61264719" y="1.05462636" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96811662" y="0.886889918" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12660774" y="0.993211048" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20915521" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.00264151874" y="1.54660922" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.159151504" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.323586046" y="2.01481842" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.28509887" y="2.18981904" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.46009949" y="2.02340336" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.61793023" y="1.86028958" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(9.148476, 23.623829)">
+                <rect id="Rectangle" fill="#EFA016" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.159151504" y="0.890852196" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.431888315" y="1.87547831" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.486039449" y="2.29547979" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.323586046" y="2.17463031" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.159811884" y="2.01085614" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.00264151874" y="1.8563273" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806323597" y="3.75382391e-15" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806323597" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643209814" y="0.400850469" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.482077171" y="0.565945391" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.319623768" y="0.727078034" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.12330585" y="0.561983113" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.29170267" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.44755227" y="0.894814475" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.61198681" y="1.05462636" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96745624" y="0.886229539" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12594736" y="0.992550668" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20849483" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.00264151874" y="1.54660922" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.158491125" y="1.8563273" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.322925666" y="2.01415804" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.28443849" y="2.18915866" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.45943911" y="2.02274298" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.61726985" y="1.86028958" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(15.875104, 18.779944)">
+                <rect id="Rectangle" fill="#EFA016" x="0.488680968" y="0.713210061" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.632643739" y="0.569247289" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.159811884" y="0.890852196" width="1.2936838" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0.431888315" y="1.87613869" width="1.02358851" height="1"></rect>
+                <rect id="Rectangle" fill="#EFA016" x="0" y="1.05264522" width="1.77972325" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.486039449" y="2.29614017" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.324246426" y="2.17529069" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.160472264" y="2.01151652" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.00264151874" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F9E4D0" x="0.806983976" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#D3D2C9" x="0.806983976" y="0.39952971" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#BAB8AE" x="0.643870194" y="0.401510849" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.48273755" y="0.565945391" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="0.319623768" y="0.727078034" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.12396623" y="0.562643492" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.29170267" y="0.730379933" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.44755227" y="0.895474854" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.61264719" y="1.05462636" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="0.96811662" y="0.886889918" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.12660774" y="0.993211048" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FEFFFF" x="1.28840077" y="1.20915521" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.00264151874" y="1.54660922" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.158491125" y="1.85698768" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.322925666" y="2.01481842" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#F3B432" x="0.486039449" y="2.17727182" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.28509887" y="2.18981904" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.46009949" y="2.02340336" width="1" height="1"></rect>
+                <rect id="Rectangle" fill="#FFD262" x="1.61726985" y="1.86028958" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(0.000000, -0.000000)">
+                <polygon id="Rectangle" fill="#FFAC30" transform="translate(4.382686, 4.288553) rotate(22.297234) translate(-4.382686, -4.288553) " points="3.73157095 1.19608899 5.03380023 1.19608899 5.03380023 7.38101772 3.73157095 7.38101772"></polygon>
+                <polygon id="Rectangle" fill="#FFAC30" transform="translate(4.493392, 4.098444) rotate(22.297234) translate(-4.493392, -4.098444) " points="3.40115727 2.10679952 5.58562708 2.10679952 5.58562708 6.09008909 3.40115727 6.09008909"></polygon>
+                <polygon id="Rectangle" fill="#FFAC30" transform="translate(4.477277, 4.091723) rotate(22.297234) translate(-4.477277, -4.091723) " points="2.50247105 2.99948852 6.45208227 2.99948852 6.45208227 5.18395833 2.50247105 5.18395833"></polygon>
+                <polygon id="Rectangle" fill="#FFAC30" transform="translate(4.475150, 4.086553) rotate(22.297234) translate(-4.475150, -4.086553) " points="1.1683989 3.42685347 7.78190105 3.42685347 7.78190105 4.7462521 1.1683989 4.7462521"></polygon>
+                <polygon id="Rectangle" fill="#FFAC30" transform="translate(4.478663, 4.101221) rotate(22.297234) translate(-4.478663, -4.101221) " points="4.2472066 -0.126401905 4.71011873 -0.126401905 4.71011873 8.32884339 4.2472066 8.32884339"></polygon>
+                <polygon id="Rectangle" fill="#FFAC30" transform="translate(4.485835, 4.104577) rotate(22.297234) translate(-4.485835, -4.104577) " points="-0.157484343 3.86057389 9.12915378 3.86057389 9.12915378 4.34857969 -0.157484343 4.34857969"></polygon>
+                <polygon id="Rectangle" fill="#FFEA65" transform="translate(4.482839, 4.112604) rotate(22.297234) translate(-4.482839, -4.112604) " points="2.94948394 3.44002744 6.01619427 3.44002744 6.01619427 4.7851801 2.94948394 4.7851801"></polygon>
+                <polygon id="Rectangle" fill="#FFEA65" transform="translate(4.469211, 4.111915) rotate(22.297234) translate(-4.469211, -4.111915) " points="1.57782588 3.880459 7.36059556 3.880459 7.36059556 4.34337113 1.57782588 4.34337113"></polygon>
+                <polygon id="Rectangle" fill="#FFEA65" transform="translate(4.481533, 4.093499) rotate(22.297234) translate(-4.481533, -4.093499) " points="3.83041837 2.52151304 5.13264765 2.52151304 5.13264765 5.66548546 3.83041837 5.66548546"></polygon>
+                <polygon id="Rectangle" fill="#E8F5E7" transform="translate(4.471144, 4.084166) rotate(22.297234) translate(-4.471144, -4.084166) " points="4.25256513 2.97905406 4.68972323 2.97905406 4.68972323 5.18927789 4.25256513 5.18927789"></polygon>
+                <polygon id="Rectangle" fill="#E8F5E7" transform="translate(4.485484, 4.095143) rotate(22.297234) translate(-4.485484, -4.095143) " points="3.38466428 3.8937335 5.58630344 3.8937335 5.58630344 4.2965529 3.38466428 4.2965529"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

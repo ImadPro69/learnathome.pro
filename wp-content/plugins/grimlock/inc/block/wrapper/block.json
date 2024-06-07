@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "grimlock/wrapper",
+  "title": "Grimlock Wrapper",
+  "category": "design",
+  "description": "Organize your content in a beautiful wrapper with various spacing and styling options.",
+  "keywords": [ "wrapper", "container", "group", "section", "grimlock" ],
+  "version": "1.0.0",
+  "textdomain": "grimlock",
+  "supports": {
+    "anchor": true,
+    "align": [ "wide", "full", "left", "right" ],
+    "customClassName": true,
+    "color": {
+      "background": false,
+      "text": false,
+      "gradients": true
+    },
+    "html": false
+  },
+  "example": {
+    "attributes": {},
+    "innerBlocks": [
+      {
+        "name": "core/columns",
+        "innerBlocks": [
+          {
+            "name": "core/column",
+            "attributes": { "verticalAlignment": "center" },
+            "innerBlocks": [
+              {"name": "core/image", "attributes": { "align": "center" } }
+            ]
+          },
+          {
+            "name": "core/column",
+            "attributes": { "verticalAlignment": "center" },
+            "innerBlocks": [
+              {"name": "core/heading", "attributes": { "placeholder": "Title..." } },
+              {"name": "core/heading", "attributes": { "placeholder": "Subtitle...", "fontSize": "subheading" } },
+              {"name": "core/paragraph", "attributes": { "placeholder": "Text..." } },
+              {"name": "core/buttons" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

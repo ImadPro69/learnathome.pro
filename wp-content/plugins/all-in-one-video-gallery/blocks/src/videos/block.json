@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "aiovg/videos",
+	"version": "3.6.1",
+	"title": "AIOVG - Video Gallery",
+	"category": "all-in-one-video-gallery",
+	"keywords": [ "videos", "gallery", "all-in-one-video-gallery", "aiovg" ],
+	"icon": "playlist-video",
+	"description": "Display a video gallery.",
+	"textdomain": "all-in-one-video-gallery",
+	"editorScript": "file:./index.js"
+}

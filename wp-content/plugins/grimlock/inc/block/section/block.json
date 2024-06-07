@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "grimlock/section",
+  "title": "Grimlock Section",
+  "icon": "align-left",
+  "category": "widgets",
+  "description": "Display content in a customizable section with multiple layout options.",
+  "keywords": [ "grimlock", "section" ],
+  "version": "1.0.0",
+  "textdomain": "grimlock",
+  "supports": {
+    "anchor": true,
+    "align": [ "wide", "full" ],
+    "customClassName": true,
+    "color": {
+      "background": false,
+      "text": false,
+      "gradients": true
+    },
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  }
+}

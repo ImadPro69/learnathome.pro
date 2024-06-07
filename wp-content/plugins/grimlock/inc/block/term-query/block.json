@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "grimlock/term-query",
+  "title": "Grimlock Term Query",
+  "icon": "editor-code",
+  "category": "widgets",
+  "description": "Display terms with multiple layout options.",
+  "keywords": [ "grimlock", "query", "terms", "taxonomy", "category", "tag" ],
+  "version": "1.0.0",
+  "textdomain": "grimlock",
+  "supports": {
+    "anchor": true,
+    "align": [ "wide", "full" ],
+    "customClassName": true,
+    "color": {
+      "background": false,
+      "text": false,
+      "gradients": true
+    },
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  }
+}

@@ -1,0 +1,117 @@
+import {
+	BaseControl,
+	Button,
+	ColorIndicator,
+	Dropdown,
+	FlexItem,
+	__experimentalDropdownContentWrapper as DropdownContentWrapper,
+	__experimentalHStack as HStack,
+} from '@wordpress/components';
+import { __experimentalColorGradientControl as ColorGradientControl } from '@wordpress/block-editor';
+
+const LabeledColorIndicator = ( { colorValue, label } ) => (
+	<HStack justify="flex-start">
+		<ColorIndicator className="block-editor-panel-color-gradient-settings__color-indicator"
+						colorValue={ colorValue } />
+		<FlexItem className="block-editor-panel-color-gradient-settings__color-name"
+				  title={ label }>
+			{ label }
+		</FlexItem>
+	</HStack>
+);
+
+/**
+ * Renders a color dropdown's toggle as a `Button`
+ *
+ * @param settings
+ * @returns {function({onToggle: *, isOpen: *})}
+ */
+const renderToggle = ( settings ) => ( { onToggle, isOpen } ) => {
+	const { colorValue, label } = settings;
+	const className = 'block-editor-panel-color-gradient-settings__dropdown' + ( isOpen ? ' is-open': '' );
+
+	const toggleProps = {
+		onClick: onToggle,
+		className,
+		'aria-expanded': isOpen,
+	};
+
+	return (
+		<Button { ...toggleProps }>
+			<LabeledColorIndicator colorValue={ colorValue }
+								   label={ label } />
+		</Button>
+	);
+};
+
+export default ( props ) => {
+	let { colors,
+		disableCustomColors,
+		disableCustomGradients,
+		enableAlpha,
+		gradients,
+		settings,
+		label,
+		help,
+		__experimentalHasMultipleOrigins,
+		__experimentalIsRenderedInSidebar,
+		...otherProps } = props;
+
+	let popoverProps;
+	if ( __experimentalIsRenderedInSidebar ) {
+		popoverProps = {
+			placement: 'left-start',
+			offset: 36,
+			shift: true,
+		};
+	}
+
+	return (
+		<BaseControl label={ label || false } help={ help || false } className="grimlock-color-settings-control">
+			{ settings.map( ( setting, index ) => {
+				const controlProps = {
+					clearable: false,
+					colorValue: setting.colorValue,
+					colors,
+					disableCustomColors,
+					disableCustomGradients,
+					enableAlpha,
+					gradientValue: setting.gradientValue,
+					gradients,
+					label: setting.label,
+					onColorChange: setting.onColorChange,
+					onGradientChange: setting.onGradientChange,
+					showTitle: false,
+					__experimentalHasMultipleOrigins,
+					__experimentalIsRenderedInSidebar,
+					...setting,
+				};
+				const toggleSettings = {
+					colorValue: setting.gradientValue ?? setting.colorValue,
+					label: setting.label,
+				};
+
+				return (
+					setting && (
+						<Dropdown key={ index }
+								  popoverProps={ popoverProps }
+								  className="block-editor-tools-panel-color-gradient-settings__dropdown"
+								  renderToggle={ renderToggle( toggleSettings ) }
+								  renderContent={ () => {
+									  if ( ! DropdownContentWrapper ) // WP 6.0 compat
+										  return <ColorGradientControl { ...controlProps } />;
+
+									  return (
+										  <DropdownContentWrapper paddingSize="none">
+											  <div className="block-editor-panel-color-gradient-settings__dropdown-content">
+												  <ColorGradientControl { ...controlProps } />
+											  </div>
+										  </DropdownContentWrapper>
+									  );
+								  } } />
+					)
+				);
+			} ) }
+		</BaseControl>
+	);
+};

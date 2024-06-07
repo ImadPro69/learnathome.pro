@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "grimlock/term-query-section",
+  "title": "Grimlock Term Query Section",
+  "icon": "list-view",
+  "category": "widgets",
+  "description": "Display taxonomy terms in a customizable section with multiple layout options.",
+  "keywords": [ "grimlock", "query", "section", "terms", "taxonomy" ],
+  "version": "1.0.0",
+  "textdomain": "grimlock",
+  "supports": {
+    "anchor": true,
+    "align": [ "wide", "full" ],
+    "customClassName": true,
+    "color": {
+      "background": false,
+      "text": false,
+      "gradients": true
+    },
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  }
+}

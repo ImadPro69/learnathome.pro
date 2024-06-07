@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "grimlock/posts-section",
+  "title": "Grimlock Posts Section",
+  "icon": "grid-view",
+  "category": "design",
+  "description": "Display blog posts in a customizable section with multiple layout options.",
+  "keywords": [ "grimlock", "query", "section", "posts", "archive", "blog" ],
+  "version": "1.0.0",
+  "textdomain": "grimlock",
+  "supports": {
+    "anchor": true,
+    "align": [ "wide", "full" ],
+    "customClassName": true,
+    "color": {
+      "background": false,
+      "text": false,
+      "gradients": true
+    },
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  }
+}

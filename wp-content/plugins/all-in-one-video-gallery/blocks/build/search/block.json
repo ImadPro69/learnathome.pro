@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aiovg/search",
+  "version": "3.6.1",
+  "title": "AIOVG - Search Form",
+  "category": "all-in-one-video-gallery",
+  "attributes": {
+    "template": {
+      "type": "string",
+      "default": "vertical"
+    },
+    "keyword": {
+      "type": "boolean",
+      "default": true
+    },
+    "category": {
+      "type": "boolean",
+      "default": true
+    },
+    "tag": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "keywords": [
+    "search",
+    "videos",
+    "all-in-one-video-gallery",
+    "aiovg"
+  ],
+  "icon": "search",
+  "description": "A videos search form for your site.",
+  "textdomain": "all-in-one-video-gallery",
+  "editorScript": "file:./index.js"
+}

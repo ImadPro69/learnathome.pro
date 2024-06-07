@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>circle2</title>
+    <g id="circle2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M200,100 C255.228475,100 300,144.771525 300,200 C300,255.228475 255.228475,300 200,300 C144.771525,300 100,255.228475 100,200 C100,144.771525 144.771525,100 200,100 Z M200,107.5 C148.913661,107.5 107.5,148.913661 107.5,200 C107.5,251.086339 148.913661,292.5 200,292.5 C251.086339,292.5 292.5,251.086339 292.5,200 C292.5,148.913661 251.086339,107.5 200,107.5 Z" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

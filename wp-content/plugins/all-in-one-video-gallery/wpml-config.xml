@@ -1,0 +1,59 @@
+<wpml-config>    
+    <custom-fields>
+        <custom-field action="copy-once">type</custom-field>        
+        <custom-field action="copy-once">mp4</custom-field>
+        <custom-field action="copy-once">mp4_id</custom-field>
+        <custom-field action="copy-once">has_webm</custom-field>
+        <custom-field action="copy-once">webm</custom-field>
+        <custom-field action="copy-once">webm_id</custom-field>
+        <custom-field action="copy-once">has_ogv</custom-field>
+        <custom-field action="copy-once">ogv</custom-field>
+        <custom-field action="copy-once">ogv_id</custom-field>
+        <custom-field action="copy-once">quality_level</custom-field>
+        <custom-field action="copy-once">sources</custom-field>
+        <custom-field action="copy-once">hls</custom-field>
+        <custom-field action="copy-once">dash</custom-field>
+        <custom-field action="copy-once">youtube</custom-field>
+        <custom-field action="copy-once">vimeo</custom-field>
+        <custom-field action="copy-once">dailymotion</custom-field>
+        <custom-field action="copy-once">rumble</custom-field>
+        <custom-field action="copy-once">facebook</custom-field>
+        <custom-field action="copy-once">embedcode</custom-field>
+        <custom-field action="copy-once">image</custom-field>
+        <custom-field action="copy-once">image_id</custom-field>
+        <custom-field action="copy-once">set_featured_image</custom-field>
+        <custom-field action="copy-once">duration</custom-field>
+        <custom-field action="copy-once">views</custom-field>
+        <custom-field action="copy-once">download</custom-field>
+        <custom-field action="copy-once">track</custom-field>
+        <custom-field action="copy-once">chapter</custom-field>
+        <custom-field action="copy-once">featured</custom-field>         
+    </custom-fields>
+    <custom-term-fields>
+        <custom-term-field action="copy-once">image</custom-term-field>
+        <custom-term-field action="copy-once">image_id</custom-term-field>
+        <custom-term-field action="copy-once">exclude_search_form</custom-term-field>
+        <custom-term-field action="copy-once">exclude_video_form</custom-term-field> 
+    </custom-term-fields>
+    <admin-texts>
+        <key name="aiovg_brand_settings">
+            <key name="logo_link"/>
+            <key name="copyright_text"/>
+        </key>
+        <key name="aiovg_privacy_settings">
+            <key name="consent_message"/>
+            <key name="consent_button_label"/>
+        </key>
+        <key name="aiovg_user_submission_settings">
+            <key name="terms_and_conditions"/>
+        </key>
+        <key name="aiovg_email_video_pending_review_settings">            
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="aiovg_email_video_published_settings">            
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+    </admin-texts>
+</wpml-config>

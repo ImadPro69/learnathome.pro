@@ -1,0 +1,462 @@
+.aiovg-player a,
+.aiovg-player a:hover,
+.aiovg-player a:focus {
+	text-decoration: none;
+} 
+
+.aiovg-player .video-js.vjs-youtube-mobile .vjs-poster {
+	display: none;
+}
+
+.aiovg-player .video-js.vjs-ended .vjs-poster {
+	display: block;
+}		
+
+.aiovg-player .video-js:not(.vjs-has-started) .vjs-text-track-display {
+	display: none;
+}
+
+.aiovg-player .video-js.vjs-ended .vjs-text-track-display {
+	display: none;
+}
+
+.aiovg-player.vjs-waiting .vjs-loading-spinner {
+	display: block !important;
+}
+
+.aiovg-player .vjs-waiting.vjs-paused .vjs-loading-spinner {
+	display: none;
+}
+
+.aiovg-player .video-js .vjs-big-play-button {
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	transition: all 0.2s cubic-bezier(0, 0, 0.2, 1); 
+	border: 0;
+	border-radius: 40px;
+	background-color: rgba(13, 13, 13, 0.6);
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.56047 5.09337C8.34001 4.9668 8.07015 4.96875 7.85254 5.10019C7.63398 5.23162 7.5 5.47113 7.5 5.73011L7.5 18.2698C7.5 18.5298 7.63398 18.7693 7.85254 18.9007C7.96372 18.9669 8.0882 19 8.21268 19C8.33241 19 8.45309 18.9688 8.56047 18.9075L18.1351 12.6377C18.3603 12.5082 18.5 12.2648 18.5 12C18.5 11.7361 18.3603 11.4917 18.1351 11.3632L8.56047 5.09337Z' fill='%23fff'%3E%3C/path%3E%3C/svg%3E");
+	background-position: center;
+	background-size: 64px;
+	width: 80px;
+	height: 80px;	 
+}
+
+.aiovg-player .video-js:hover .vjs-big-play-button,
+.aiovg-player .video-js .vjs-big-play-button:focus {
+	opacity: 0.8;
+	background-color: rgba(13, 13, 13, 0.6);	
+}
+
+.aiovg-player .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+	content: "";
+}
+		
+.aiovg-player.vjs-waiting .vjs-big-play-button {
+	display: none !important;
+}
+
+.aiovg-player .vjs-waiting.vjs-paused .vjs-big-play-button,
+.aiovg-player .video-js.vjs-ended .vjs-big-play-button {
+	display: block;
+}
+
+.aiovg-player .video-js.vjs-no-control-bar .vjs-control-bar {
+	display: none;
+}		
+
+.aiovg-player .video-js.vjs-ended .vjs-control-bar {
+	display: none;
+}
+
+.aiovg-player .video-js .vjs-current-time,
+.aiovg-player .video-js .vjs-duration {
+	display: block;
+}
+
+.aiovg-player .video-js .vjs-play-progress:before,
+.aiovg-player .video-js .vjs-volume-level:before {
+	line-height: normal;
+}
+
+.aiovg-player .video-js .vjs-subtitles-button .vjs-icon-placeholder:before {
+	content: "\f10d";
+}
+
+.aiovg-player .video-js .vjs-marker {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	background: #ffff00;
+	width: 4px;	
+}
+
+.aiovg-player .video-js .vjs-slider-bar::before {
+	z-index: 2;
+}
+
+.aiovg-player .video-js .vjs-progress-control .vjs-mouse-display {
+	z-index: 2;
+}
+
+.aiovg-player .vjs-progress-control:hover .vjs-mouse-display .vjs-time-tooltip {
+	display: flex;
+	left: 50%;
+	gap: 0.2em;
+	transform: translateX(-50%);
+	width: max-content;
+}
+
+.aiovg-player .video-js .vjs-menu li {
+	text-transform: Capitalize;
+}
+
+.aiovg-player .video-js .vjs-menu li.vjs-selected:focus,
+.aiovg-player .video-js .vjs-menu li.vjs-selected:hover {
+	background-color: #fff;
+	color: #2b333f;
+}
+
+.aiovg-player .video-js.vjs-quality-menu .vjs-quality-menu-button-4K-flag:after, 
+.aiovg-player .video-js.vjs-quality-menu .vjs-quality-menu-button-HD-flag:after {
+	background-color: #F00;
+}
+
+.aiovg-player .video-js .vjs-quality-selector .vjs-quality-menu-item-sub-label {			
+	position: absolute;	
+	right: 0;
+	width: 4em;
+	text-align: center;
+	text-transform: none;
+	font-size: 75%;
+	font-weight: bold;				
+}
+
+.aiovg-player .video-js.vjs-4k .vjs-quality-selector:after, 
+.aiovg-player .video-js.vjs-hd .vjs-quality-selector:after {
+	pointer-events: none;
+	position: absolute;
+	top: 0.5em;
+	right: 0;
+	border-radius: 2em;	
+	background-color: #f00;	
+	padding: 0;
+	width: 2.2em;
+	height: 2.2em;
+	text-align: center; 
+	line-height: 2.2em; 	  
+	letter-spacing: 0.1em;
+	color: inherit; 				 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 0.7em;
+	font-weight: 300;	
+	content: "";
+}
+
+.aiovg-player .video-js.vjs-4k .vjs-quality-selector:after {
+	content: "4K";
+}
+
+.aiovg-player .video-js.vjs-hd .vjs-quality-selector:after {
+	content: "HD";
+}	
+
+.aiovg-player .video-js .vjs-playback-rate .vjs-playback-rate-value {
+	line-height: 2.6em;
+	font-size: 1.2em;
+}
+
+.aiovg-player .video-js .vjs-share {
+	margin: 5px;
+}	
+
+.aiovg-player .video-js .vjs-share button {
+	display: flex;
+	margin: 0;
+	border: 0;		
+	border-radius: 2px;
+	box-shadow: none;
+	background: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	padding: 10px;	
+	line-height: 1;
+	color: #fff;
+	font-size: 15px;
+}
+
+.aiovg-player .video-js .vjs-share button:hover {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.aiovg-player .video-js .vjs-share .vjs-icon-share {
+	line-height: 1;
+}
+
+.aiovg-player .video-js.vjs-has-started .vjs-share {
+	display: block;	
+	transition: visibility .1s,opacity .1s;
+	visibility: visible;
+	opacity: 1;
+}
+
+.aiovg-player .video-js.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-share {
+	transition: visibility 1s,opacity 1s;
+	visibility: visible;
+	opacity: 0;
+}		
+
+.aiovg-player .video-js .vjs-modal-dialog-share-embed {
+	background: #222 !important;
+}
+
+.aiovg-player .video-js .vjs-modal-dialog-share-embed .vjs-close-button {
+	margin: 7px;
+}
+
+.aiovg-player .video-js .vjs-share-embed {
+	display: flex !important;
+	flex-direction: column;	
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;   
+}
+
+.aiovg-player .video-js .vjs-share-embed-content {
+	width: 100%;
+}
+
+.aiovg-player .video-js .vjs-share-buttons {
+	text-align: center;
+}
+
+.aiovg-player .video-js .vjs-share-button {
+	display: inline-block;
+	margin: 2px;
+	border-radius: 2px;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	line-height: 1;	
+}       
+
+.aiovg-player .video-js .vjs-share-button,
+.aiovg-player .video-js .vjs-share-button:hover,
+.aiovg-player .video-js .vjs-share-button:focus {
+	text-decoration: none;
+} 
+
+.aiovg-player .video-js .vjs-share-button:hover {
+	opacity: 0.9;
+}
+
+.aiovg-player .video-js .vjs-share-button-facebook {
+	background-color: #3B5996;
+}   
+
+.aiovg-player .video-js .vjs-share-button-twitter {
+	background-color: #55ACEE;
+}
+
+.aiovg-player .video-js .vjs-share-button-linkedin {
+	background-color: #006699;
+}
+
+.aiovg-player .video-js .vjs-share-button-pinterest {
+	background-color: #C00117;
+}
+
+.aiovg-player .video-js .vjs-share-button-tumblr {
+	background-color: #28364B;
+} 
+
+.aiovg-player .video-js .vjs-share-button-whatsapp {
+	background-color: #25d366;
+}  
+
+.aiovg-player .video-js .vjs-share-button span {
+	line-height: 40px;
+	color: #fff;
+	font-size: 24px;	
+}
+
+.aiovg-player .video-js .vjs-embed-code {
+	margin: 20px;
+}
+
+.aiovg-player .video-js .vjs-embed-code label {
+	display: block;
+	margin: 0 0 7px 0;	
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.aiovg-player .video-js .vjs-embed-code input {	
+	border: 1px solid #fff;
+	border-radius: 1px;
+	background: #fff;
+	padding: 7px;
+	width: 100%;	
+	line-height: 1;
+	color: #000;
+}
+
+.aiovg-player .video-js .vjs-embed-code input:focus {
+	border: 1px solid #fff;
+}
+
+.aiovg-player .video-js .vjs-download {
+	margin: 5px;
+	cursor: pointer;
+}
+
+.aiovg-player .video-js .vjs-has-share.vjs-download {
+	margin-top: 50px;
+}
+
+.aiovg-player .video-js .vjs-download a {
+	display: flex;
+	margin: 0;
+	border-radius: 2px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	line-height: 1;
+	color: #fff;
+	font-size: 15px;
+}	
+
+.aiovg-player .video-js .vjs-download:hover a {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.aiovg-player .video-js .vjs-download .aiovg-icon-download {
+	color: inherit;
+}		
+
+.aiovg-player .video-js.vjs-has-started .vjs-download {
+	display: block;	
+	transition: visibility .1s,opacity .1s;
+	visibility: visible;
+	opacity: 1;
+}
+
+.aiovg-player .video-js.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-download {
+	transition: visibility 1s,opacity 1s;
+	visibility: visible;
+	opacity: 0;
+}
+
+.aiovg-player .video-js .vjs-logo {
+	opacity: 0;
+}
+
+.aiovg-player .video-js.vjs-has-started .vjs-logo {
+	transition: opacity 0.1s;
+	opacity: 0.6;
+}
+
+.aiovg-player .video-js.vjs-has-started .vjs-logo:hover {
+	opacity: 1;
+}
+
+.aiovg-player .video-js.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-logo {
+	transition: opacity 1s;
+	opacity: 0;
+}
+
+.aiovg-player .video-js .vjs-logo a {
+	line-height: 1;
+}
+
+.aiovg-player .video-js .vjs-logo img {
+	box-shadow: none;
+	max-width: 100%;	
+}
+
+.aiovg-player .video-js.vjs-ended .vjs-logo {
+	display: none;
+}
+
+.aiovg-player .video-js .vjs-error-display {
+	background: #222 !important;
+}
+
+.aiovg-player .aiovg-privacy-wrapper { 
+	position: absolute; 
+	top: 0;
+	left: 0;	
+	margin: 0;
+	background-color: #222;	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+	width: 100%;
+	height: 100%;	
+}
+
+.aiovg-player .aiovg-privacy-consent-block {
+	box-sizing: border-box;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	margin: 0;
+	border-radius: 3px; 
+	background-color: rgba(0, 0, 0, 0.7);  
+	padding: 15px;
+	width: 90%;
+	max-width: 640px;
+	height: auto;
+	text-align: center;        
+	color: #fff;
+}
+
+@media only screen and (max-width: 320px) {
+	.aiovg-player .aiovg-privacy-consent-block {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.aiovg-player .aiovg-privacy-consent-button {
+	display: inline-block;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 3px;   
+	box-shadow: none; 
+	background: #e70808;
+	cursor: pointer;
+	padding: 7px 15px; 
+	line-height: 1; 
+	color: #fff;  
+}
+
+.aiovg-player .aiovg-privacy-consent-button:hover {
+	opacity: 0.8;
+}
+
+#aiovg-contextmenu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999999999; /* make sure it shows on fullscreen */
+	margin: 0;	
+	border-radius: 2px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0;
+}
+
+#aiovg-contextmenu .aiovg-contextmenu-content {
+	margin: 0;
+	cursor: pointer;
+	padding: 8px 12px;		
+	line-height: 1;		
+	white-space: nowrap;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+    font-size: 11px;
+}

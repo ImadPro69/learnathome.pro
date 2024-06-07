@@ -1,0 +1,4768 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Hide & Security Enhancer\n"
+"POT-Creation-Date: 2023-07-20 09:01+0300\n"
+"PO-Revision-Date: 2023-07-20 09:01+0300\n"
+"Last-Translator: NspCode <contact@nsp-code.com>\n"
+"Language-Team: Nsp Code\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: compatibility/webarx.php:41 compatibility/wps-hide-login.php:38
+msgid "WP Hide Conflict Notice."
+msgstr ""
+
+#: compatibility/webarx.php:41 compatibility/wps-hide-login.php:38
+msgid ""
+"You use another plugin (WebARX) to change the default wp-login.php. To avoid "
+"conflicts, activate the option within a single code."
+msgstr ""
+
+#: compatibility/wp-simple-firewall.php:84
+msgid ""
+"<b>Conflict notice</b>: <b>The Security Firewall</b> - Login Protection -> Hide "
+"Login -> use similar functionality as to WP Hide plugin - Admin Login Url "
+"change.  "
+msgstr ""
+
+#: include/admin-interface.class.php:102
+#: include/admin-interfaces/setup.class.php:172
+msgid "Checking your environment .."
+msgstr ""
+
+#: include/admin-interface.class.php:115
+#: include/admin-interfaces/setup.class.php:185
+msgid ""
+"Critical issues were identified on your site, please fix them before proceeding "
+"with customizations."
+msgstr ""
+
+#: include/admin-interface.class.php:122
+#: include/admin-interfaces/setup.class.php:192
+msgid "No problems have been found on your server environment."
+msgstr ""
+
+#: include/admin-interface.class.php:184
+msgid "Save"
+msgstr ""
+
+#: include/admin-interface.class.php:200
+msgid "Reset Page Settings"
+msgstr ""
+
+#: include/admin-interface.class.php:225
+msgid "Reset All Settings"
+msgstr ""
+
+#: include/admin-interfaces/notice-cache-path.php:5
+msgid "Unable to create cache folder at "
+msgstr ""
+
+#: include/admin-interfaces/notice-cache-path.php:5
+msgid " Is the folder writable? No cache data will be available."
+msgstr ""
+
+#: include/admin-interfaces/notice-is-litespeed.php:7
+msgid ""
+"Your site runs on LiteSpeed ! Before starting, ensure your server is properly "
+"configured and it processes the .htaccess file, or there might be layout and "
+"functionality breaks."
+msgstr ""
+
+#: include/admin-interfaces/notice-is-litespeed.php:7
+msgid "For more details check at"
+msgstr ""
+
+#: include/admin-interfaces/notice-is-litespeed.php:8
+msgid ""
+"Also, once the plugin options changed, a LiteSpeed service may be required. "
+"Through SSH run the command"
+msgstr ""
+
+#: include/admin-interfaces/notice-is-wpengine.php:5
+msgid ""
+"Your server run on WPEngine which works on Nginx rewrite rules, the current "
+"version can't create the required rewrite data, please check with WP Hide "
+msgstr ""
+
+#: include/admin-interfaces/notice-is_multisite.php:6
+msgid ""
+"This plugin version can't handle MultiSite environment and may fail to provide "
+"specific features, please check with WP Hide PRO at"
+msgstr ""
+
+#: include/admin-interfaces/notice-mu-loader-update.php:5
+msgid ""
+"Unable to update /wp-content/mu-plugins/wp-hide-loader.php. Please make sure /"
+"wp-content/mu-plugins/ is writable so the plugin updates the required file."
+msgstr ""
+
+#: include/admin-interfaces/notice-mu-loader.php:5
+msgid ""
+"Unable to launch WP Hide through /wp-content/mu-plugins/wp-hide-loader.php. "
+"Please make sure /wp-content/mu-plugins/ is writable so the plugin creates the "
+"required file."
+msgstr ""
+
+#: include/admin-interfaces/notice-no-permalinks.php:5
+msgid ""
+"Permalink is required to be turned ON at Settings > Permalinks, for WP Hide & "
+"Security Enhancer to work"
+msgstr ""
+
+#: include/admin-interfaces/notice-rewrite-test-static-file.php:6
+msgid "Rewrite test for static php files failed! "
+msgstr ""
+
+#: include/admin-interfaces/notice-rewrite-test-static-file.php:8
+msgid ""
+"This is a <b>soft error</b> and impact only the option at Rewrite > Theme > "
+"'Remove description header from Style file' and should be disabled until the "
+"issue fixed."
+msgstr ""
+
+#: include/admin-interfaces/notice-rewrite-test.php:9
+#: include/admin-interfaces/notice-rewrite-test.php:15
+msgid "Rewrite test failed! "
+msgstr ""
+
+#: include/admin-interfaces/notice-rewrite-test.php:9
+msgid "Ensure the rewrites are active for your server."
+msgstr ""
+
+#: include/admin-interfaces/notice-server-not-supported.php:5
+msgid ""
+"Your site runs on a server type which the current version can't create the "
+"required rewrite data, please check with"
+msgstr ""
+
+#: include/admin-interfaces/notice-server-not-supported.php:5
+msgid "version at"
+msgstr ""
+
+#: include/admin-interfaces/notice-server-not-supported.php:6
+msgid ""
+"This basic version can work with Apache, LiteSpeed, IIS, Nginx set as reverse "
+"proxy for Apache, your site runs"
+msgstr ""
+
+#: include/admin-interfaces/notice-write-check.php:6
+msgid "Unable to write/update required rewrite rules to your site"
+msgstr ""
+
+#: include/admin-interfaces/notice-write-check.php:6
+msgid ""
+"Is this file writable? Until fixed, no changes are applied on the front side."
+msgstr ""
+
+#: include/admin-interfaces/notice-write-check.php:7
+msgid ""
+"Try to go at Settings > Permalinks and save once, the core will attempt to "
+"update the required rewrites. If the problem persists, check with your host "
+"support on the correct file write permission."
+msgstr ""
+
+#: include/admin-interfaces/notice-write-check.php:8
+msgid "Once the file permission is fixed, Save the options once."
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:191
+#: include/admin-interfaces/security-scan.class.php:197
+#: include/admin-interfaces/security-scan.class.php:532
+#: include/widgets.class.php:56
+msgid "Security Scan"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:225
+msgid "Unknow - Start a new Scan"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:286
+msgid "Unknown"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:289
+#: include/admin-interfaces/security-scan.class.php:334
+msgid "Running first Scan.. Please wait!"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:306
+#: include/widgets.class.php:46
+msgid "Your current estimated protection is"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:330
+msgid "Start First Scan"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:332
+#: include/admin-interfaces/security-scan.class.php:367
+msgid "Working"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:332
+#: include/admin-interfaces/security-scan.class.php:367
+msgid "of"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:332
+#: include/admin-interfaces/security-scan.class.php:367
+msgid "total tests"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:335
+#: include/admin-interfaces/security-scan.class.php:397
+msgid "Last Scan"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:335
+msgid "Unavailable"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:346
+#: include/admin-interfaces/security-scan.class.php:388
+msgid "Another Scan instance in progress. Refresh the page in a minute."
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:355
+msgid "Passed"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:359
+msgid "Failed"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:365
+msgid "Start New Scan"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:393
+msgid "Found new Items, a new Security Scann is recommended."
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:448
+msgid "Very Poor"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:450
+msgid "Poor"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:452
+msgid "Fair"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:454
+msgid "Good"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:456
+msgid "Great"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:458
+msgid "Excellent"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:460
+msgid "Perfect"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:519
+#: include/admin-interfaces/security-scan.class.php:522
+msgid "unsatisfactory"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:525
+msgid "dangerously low, an imminent security breach is highly likely."
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:529
+msgid "The current protection level is "
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:529
+msgid ""
+"Consider improving the overall security by fixing the issues reported by the "
+"Scan"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:547
+#: include/functions.class.php:1016 include/functions.class.php:1083
+#: include/functions.class.php:1246 include/functions.class.php:1313
+msgid "Ignore"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:550
+msgid "Restore"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:576
+msgid "Another Scan instance in progress. Please wait until completed."
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:606
+msgid "Scan completed."
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:788
+msgid "The wp_remote_get() returns a Not Found page."
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:794
+#: include/functions.class.php:1070 include/functions.class.php:1186
+#: include/functions.class.php:1300
+msgid ""
+"The wp_remote_get() returns a 401 error code, the request could not be "
+"authenticated. Does the site use an httpd password?"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:800
+#: include/functions.class.php:1078 include/functions.class.php:1194
+#: include/functions.class.php:1308
+msgid "The wp_remote_get() returns a"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:800
+#: include/functions.class.php:1078 include/functions.class.php:1194
+#: include/functions.class.php:1308
+msgid "error code"
+msgstr ""
+
+#: include/admin-interfaces/security-scan.class.php:804
+#: include/functions.class.php:1093 include/functions.class.php:1205
+#: include/functions.class.php:1323
+msgid "Unespected error code for wp_remote_get() call."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_database_prefix.php:32
+msgid ""
+"WordPress security is a serious matter and you can improve it by changing the "
+"WordPress database prefix. A WordPress database contains all of the information "
+"for your website, which makes it a prime target for hackers. \n"
+"                                                                By default, the "
+"WordPress database prefix is “wp_” and is quite easy to locate and target."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_database_prefix.php:46
+#: include/admin-interfaces/security-scan/scan_item_db_debug.php:48
+#: include/admin-interfaces/security-scan/scan_item_disable_file_edit.php:44
+#: include/admin-interfaces/security-scan/scan_item_wp_debug.php:46
+msgid "Current value: "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_database_prefix.php:51
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The database prefix use the "
+"default wp_ prefix."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_database_prefix.php:61
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The database prefix use a custom "
+"name."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_db_debug.php:32
+#: include/admin-interfaces/security-scan/scan_item_wp_debug.php:32
+msgid ""
+"Debugging PHP code is part of any project, but WordPress comes with specific "
+"debug systems designed to simplify the process as well as standardize code "
+"across the core, plugins and themes.\n"
+"                                                                On production "
+"sites, the debug should be disabled to avoid exposing paths and other pieces of "
+"information related to the site. "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_db_debug.php:53
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The database debug is active. "
+"Check your site wp-config.php and comment the WP_DEBUG and  WP_DEBUG_DISPLAY "
+"( if exists ) constants declaration."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_db_debug.php:62
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The database debug is disabled."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_disable_file_edit.php:32
+msgid ""
+"The WordPress theme/plugin file editor lets you open files from the site. It "
+"displays the file content on the text editor allowing changes to the code, "
+"directly on the dashboard.\n"
+"                                                                <br />Unless "
+"this is a development instance, it should be disabled."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_disable_file_edit.php:49
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The file editor is enabled. \n"
+"                                                                        <br /"
+">To fix this security issue, add/change the wp-config.php:\n"
+"                                                                        <br /"
+"><code>define ( 'DISALLOW_FILE_EDIT', TRUE );</code>."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_disable_file_edit.php:60
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The file editor is disabled."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:29
+msgid "Firewall"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:32
+msgid ""
+"A Firewall is a security piece of software that adds a layer of protection to "
+"your site. A firewall works as a rules-based filter for all incoming traffic to "
+"a website, it ensures only the secure traffic is reaching the server, all "
+"malicious attempts will be blocked and logged.\n"
+"                                                                <br />A "
+"Firewall works as Proactive ratter reactive security solution, so it helps to "
+"protect a website before the malicious and malware actually reach it. This is a "
+"huge improvement for security, as preventing any harm and damages to a site, "
+"spare the administrators of incalculable losses which the malware can do."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:49
+msgid "Failed to block requests using malicious header calls."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:53
+msgid "Failed to block requests using malicious set-cookie calls."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:57
+msgid "Failed to block requests using malicious MySQL code."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:61
+msgid "Failed to block requests using malicious globals calls."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:65
+msgid "Failed to block requests using malicious request calls."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:95
+msgid "No valid respons for the call."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:112
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Your site does not appear to use "
+"a Firewall or fails to block specific hacks."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:119
+#: include/admin-interfaces/security-scan/scan_item_hide_replacements.php:137
+msgid "Found"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_firewall.php:133
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>Your site appears to use a "
+"Firewall."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_headers.php:29
+msgid "HTTP Response Security Headers"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_headers.php:32
+msgid ""
+"HTTP Response Headers are a powerful tool to Harden Your Website.\n"
+"                                                                The Hypertext "
+"Transfer Protocol (HTTP) is based on a client-server architecture, in which the "
+"client ( typically a web browser application ) establishes a connection with "
+"the server through a destination URL and waits for a response.\n"
+"                                                                The HTTP "
+"Headers allow the client and the server send additional pieces of information "
+"with the HTTP request or response.\n"
+"                                                                The HTTP "
+"Headers are categorised by their purpose: Authentication, Caching, Client "
+"hints, Conditionals, Connection management, Content negotiation, Controls, "
+"Cookies, CORS, Downloads, Message body information, Proxies, Redirects, Request "
+"context, Response context, Range requests, Security, Server-sent events, "
+"Transfer coding, WebSockets, Other\n"
+"                                                                This area "
+"provides support for the <a href='https://developer.mozilla.org/en-US/docs/Web/"
+"HTTP/Headers#security' target='_blank'>Security Headers</a> type. Those are the "
+"ones responsible for the security implementation for any page."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_headers.php:86
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Your site is missing some "
+"security headers."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_headers.php:98
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_headers.php:81
+#: include/admin-interfaces/security-scan/scan_item_hide_replacements.php:143
+msgid "Unable to complete this security task as an error occoured"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_headers.php:110
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_headers.php:92
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>There are no headers containing "
+"valuable pieces of information regarding your environment."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_admin_ajax.php:29
+msgid "New admin-ajax.php"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_admin_ajax.php:32
+msgid ""
+"The admin-ajax.php is being used by WordPress core and many plugins to initiate "
+"AJAX calls from dashboard and front side. This is specific to WordPress, a site "
+"using such slug is an easy target to hack attempts."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_admin_ajax.php:54
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Rewriting the admin-ajax.php to "
+"another slug to increase overall security for a WordPress site."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_admin_ajax.php:65
+#: include/admin-interfaces/security-scan/scan_item_hide_admin_url.php:66
+#: include/admin-interfaces/security-scan/scan_item_hide_emulate.php:66
+#: include/admin-interfaces/security-scan/scan_item_hide_json.php:67
+#: include/admin-interfaces/security-scan/scan_item_hide_json_clean_api.php:66
+#: include/admin-interfaces/security-scan/scan_item_hide_license_txt.php:70
+#: include/admin-interfaces/security-scan/scan_item_hide_new_wp_login.php:66
+#: include/admin-interfaces/security-scan/scan_item_hide_other_generator.php:65
+#: include/admin-interfaces/security-scan/scan_item_hide_postprocessing.php:69
+#: include/admin-interfaces/security-scan/scan_item_hide_readme_html.php:70
+#: include/admin-interfaces/security-scan/scan_item_hide_registration.php:65
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_header_link.php:65
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_html_comments.php:65
+#: include/admin-interfaces/security-scan/scan_item_hide_robots.php:66
+#: include/admin-interfaces/security-scan/scan_item_hide_wlwmanifest.php:65
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_generator.php:65
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_tagline.php:65
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The option appears properly "
+"configured."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_admin_url.php:29
+#: modules/components/admin-admin_url.php:16
+#: modules/components/admin-admin_url.php:22
+msgid "New Admin Url"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_admin_url.php:32
+msgid ""
+"Despite the flexibility of WordPress framework, there are few ways to configure "
+"the admin login url customization for making a bit safer against unauthorized "
+"access and brute force attempts. All methods are not provided out of the box "
+"through WordPress core but require custom code to make it happen.\n"
+"                                                                <br />This "
+"feature provide an easy way to change the default /wp-admin/ to a different "
+"slug."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_admin_url.php:55
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Map a new admin url instead "
+"default prevent hackers boot to attempt to brute force a site login."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme.php:29
+msgid "New Child Theme Path"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme.php:32
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme.php:32
+msgid ""
+"This option helps to change the theme url to a custom one. As default all theme "
+"assets ( styles, JavaScript etc ) are loaded using the theme url and appear on "
+"front side HTML source code."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme.php:47
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme_style.php:50
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>On the last scan, you are not "
+"using a Child Theme."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme.php:77
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme.php:67
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default theme url has not "
+"been customised."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme.php:81
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme.php:71
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default theme url is still "
+"found within the source HTML."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme.php:83
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme_style.php:80
+#: include/admin-interfaces/security-scan/scan_item_hide_check_comments.php:73
+#: include/admin-interfaces/security-scan/scan_item_hide_check_plugins.php:74
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme.php:73
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme_style.php:73
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_content.php:73
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_includes.php:73
+msgid "<br />Ensure you cleared the site cache, then check again."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme.php:95
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme.php:85
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The default theme url cannot be "
+"found anymore through the site source."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme_style.php:29
+msgid "New Child Theme Style File Path"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme_style.php:32
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme_style.php:32
+msgid ""
+"This allow to change the default style.css filename to something else e.g. "
+"template-style.css. Per this example, on front side the main style link change "
+"from /style.css to /template-style.css "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme_style.php:74
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme_style.php:67
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default theme style url has "
+"not been customised."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme_style.php:78
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme_style.php:71
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default theme style url is "
+"still found within the source HTML."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_child_theme_style.php:92
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme_style.php:85
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The default theme style url "
+"cannot be found anymore through the site source."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_comments.php:29
+#: modules/components/rewrite-comments.php:17
+#: modules/components/rewrite-comments.php:21
+msgid "New wp-comments-post.php"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_comments.php:32
+msgid ""
+"To avoid boots to create smap comments, the default wp-comments-post.php should "
+"be changed to a custom one.\n"
+"                                                            <br />This makes it "
+"easy to recognise as WordPress form. Boots always search for such file ( wp-"
+"comments-post.php ) and automatically submit spam messages.Though this option a "
+"new file slug can replace the default."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_comments.php:67
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default wp-comments-post.php "
+"has not been customised."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_comments.php:71
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default wp-comments-post.php "
+"is still found within the source HTML."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_comments.php:85
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The default wp-comments-post.php "
+"cannot be found anymore through the site source."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_plugins.php:29
+#: modules/components/rewrite-new_plugin_path.php:17
+#: modules/components/rewrite-new_plugin_path.php:21
+msgid "New Plugins Path"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_plugins.php:32
+msgid ""
+"In WordPress, a plugin is a small software application that extends the "
+"features and functions of a WordPress website.\n"
+"                                                                <br />Plugins "
+"play a major role in building great websites using WordPress. They make it "
+"easier for users to add features to their website without knowing a single line "
+"of code."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_plugins.php:68
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default plugins path has not "
+"been customised."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_plugins.php:72
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default plugins path is still "
+"found within the source HTML."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_plugins.php:86
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The default plugins path cannot "
+"be found anymore through the site source."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme.php:29
+#: modules/components/rewrite-new_theme_path.php:27
+#: modules/components/rewrite-new_theme_path.php:31
+#: modules/components/rewrite-new_theme_path.php:119
+#: modules/components/rewrite-new_theme_path.php:123
+msgid "New Theme Path"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_theme_style.php:29
+msgid "New Theme Style File Path"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_content.php:29
+msgid "Hide default /wp-content/ "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_content.php:32
+#: modules/components/rewrite-wp_content_path.php:21
+msgid ""
+"As default a WordPress installation contain a wp-content folder which store "
+"files and resources used by themes and plugin. The wp-content is a common "
+"fingerprint, which makes easily to anyone to identify the site as being created "
+"on WordPress."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_content.php:67
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default /wp-content/ has not "
+"been customised."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_content.php:71
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default /wp-content/ is still "
+"found within the source HTML."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_content.php:85
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The default /wp-content/ cannot "
+"be found anymore through the site source."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_includes.php:29
+msgid "Hide default /wp-includes/ "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_includes.php:32
+#: modules/components/rewrite-new_include_path.php:22
+msgid ""
+"As default a WordPress installation contain a wp-include folder which store "
+"files and resources used by WordPress core, themes and plugin. The wp-includes "
+"is a common fingerprint, which makes easily to anyone to identify the site as "
+"being created on WordPress."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_includes.php:67
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default /wp-includes/ has not "
+"been customised."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_includes.php:71
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The default /wp-includes/ is "
+"still found within the source HTML."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_check_wp_includes.php:85
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The default /wp-includes/ cannot "
+"be found anymore through the site source."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_emulate.php:29
+#: modules/components/general-emulate.php:16
+#: modules/components/general-emulate.php:20
+msgid "Emulate CMS"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_emulate.php:32
+msgid ""
+"Using the option the system try to misguide the used WordPress by outputting "
+"the wrong traces, of the selected CMS.\n"
+"                                                                <br /"
+">Misleading and making a false lead provides an extra security, as the attacker "
+"search and attempt to hack something which not exist."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_emulate.php:55
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>It's recommended to use the "
+"option to output specific CMSs HTML traces to mislead any peculiar check."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_json.php:29
+msgid "JSON REST"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_json.php:32
+msgid ""
+"The WordPress REST API is an easy-to-use set of HTTP endpoints which allows "
+"access a site data in simple JSON format. That including users, posts, "
+"taxonomies and more. Retrieving or updating is as simple as sending a HTTP "
+"request.\n"
+"                                                                <br />A REST "
+"API can be consumed everywhere. On mobile applications, on front-end (web apps) "
+"or any other devices that have access on the net, practically everything can "
+"connect from anywhere to your site and interact though JSON REST API service."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_json.php:56
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The JSON endpoint should be "
+"customised. If not used, should be disabled."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_json_clean_api.php:29
+#: modules/components/rewrite-json-rest.php:17
+#: modules/components/rewrite-json-rest.php:21
+msgid "Clean the REST API response"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_json_clean_api.php:32
+msgid ""
+"When calling the site REST API base route ( e.g. /wp-json/ or ?rest_route=/ ) "
+"the service outputs all available namespaces and routes for current site. This "
+"can be a breach for the system, as outputs important information regarding "
+"certain used theme and plugins.\n"
+"                                                                <br /"
+">Recommended selection for this option is Yes, to ensure no inside data is "
+"being exposed. "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_json_clean_api.php:55
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The \"Clean the REST API "
+"response\" should be active."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_license_txt.php:29
+#: modules/components/rewrite-root-files.php:19
+#: modules/components/rewrite-root-files.php:23
+msgid "Block license.txt"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_license_txt.php:32
+#: modules/components/rewrite-root-files.php:24
+msgid ""
+"This is a text file which contain the licensing terms for WordPress framework. "
+"Obviously you don't want that visible as every site containing such file must "
+"be a WordPress."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_license_txt.php:59
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The license.txt file is still "
+"accessible."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_new_wp_login.php:29
+#: modules/components/admin-new_wp_login_php.php:16
+#: modules/components/admin-new_wp_login_php.php:22
+msgid "New wp-login.php"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_new_wp_login.php:32
+msgid ""
+"There are a lot of security issues that come from having your login page open "
+"to the public. Most specifically, brute force attacks. Because of the ubiquity "
+"of WordPress, these kinds of attacks are becoming more and more common.\n"
+"                                                                <br />Map a new "
+"wp-login.php instead default prevent hackers boot to attempt to brute force a "
+"site login. Being known only by the site owner, the url itself becomes private."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_new_wp_login.php:55
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Map a new wp-login.php instead "
+"default prevent hackers boot to attempt to brute force a site login. Being "
+"known only by the site owner, the url itself becomes private."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_other_generator.php:29
+#: modules/components/general-meta.php:41 modules/components/general-meta.php:45
+msgid "Remove Other Generator Meta"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_other_generator.php:32
+#: modules/components/general-meta.php:42 modules/components/general-meta.php:46
+msgid ""
+"Remove other meta generated tags within head (eg Theme Name, Theme Version)."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_other_generator.php:54
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The Other Generator Meta is still "
+"visible through the HTML code."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_postprocessing.php:29
+msgid "Post-Processing"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_postprocessing.php:32
+msgid ""
+"The feature provides a post-processing engine for all site assets ( CSS /  "
+"JavaScript ). That encodes the CSS  and JavaScript, which makes it unable to "
+"read. Also, ensure perfect URLs disguise, as even if changing the plugin's "
+"name, most of the URLs still contain traces within. \n"
+"                                                                    This is "
+"also a great tool for making optimisation of the site assets by combining, "
+"minifying, comment removal etc. \n"
+"                                                                    Perfectly "
+"functional and integration in conjunction with other SEO/Optimisation plugins.\n"
+"                                                                    <p>&nbsp;</"
+"p>\n"
+"                                                                    <p>There "
+"are 4 types of processing options:\n"
+"                                                                    <b>Combine</"
+"b>: Merge all code in (usually) 2 files, one in the header and another in the "
+"footer.\n"
+"                                                                    <b>Combine "
+"& Encode Inline</b>: Merge all code in (usually) 2 files, one in the header and "
+"another in the footer. Additionally, the Inline code will be base64 encoded and "
+"placed in the same spot.\n"
+"                                                                    <b>In "
+"Place</b>: All JavaScript code will be processed and the results will be placed "
+"in the same spot. Any InLine code will be processed and saved into a data-"
+"collection directory for later usage.\n"
+"                                                                    <b>In Place "
+"& Encode Inline</b>: All code will be processed and the results will be placed "
+"in the same spot. Additionally, the Inline code will be base64 encoded.</p>"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_postprocessing.php:58
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Your site assets still contain "
+"traceable data within CSS / JavaScript"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_readme_html.php:29
+#: modules/components/rewrite-root-files.php:41
+#: modules/components/rewrite-root-files.php:45
+msgid "Block readme.html"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_readme_html.php:32
+#: modules/components/rewrite-root-files.php:46
+msgid ""
+"A Hypertext Markup Language file with general information about installed "
+"WordPress, version, instalation steps, updating, requirements, resources etc."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_readme_html.php:59
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The readme.html file is still "
+"accessible."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_registration.php:29
+msgid "User Registration"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_registration.php:32
+msgid ""
+"Through your site, if the WordPress Membership option is active, anyone can "
+"register."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_registration.php:54
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The Registration should be "
+"customised or disabled through Dashboard > Settings."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_header_link.php:29
+#: modules/components/general-headers.php:17
+#: modules/components/security-add_headers.php:17
+msgid "Remove Link Header"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_header_link.php:32
+msgid ""
+"Remove Link Header being set as default by WordPress which outputs the site "
+"JSON URL."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_header_link.php:54
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The site pages header still "
+"contain the site JSON url."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_headers.php:29
+msgid "Remove Environment Headers"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_headers.php:32
+msgid ""
+"Remove the X-Powered-By and Server Headers if set. This type of header "
+"information discloses important details regarding your server environment."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_headers.php:69
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Your site headers still contain "
+"some valuable pieces of information regarding your environment."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_html_comments.php:29
+#: modules/components/general-html.php:21 modules/components/general-html.php:25
+msgid "Remove Comments"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_html_comments.php:32
+#: modules/components/general-html.php:26
+msgid ""
+"The HTML source code usually contain many comment lines, however there is no "
+"use for that, unless debugging. Remove all HTML Comments, which usually specify "
+"Plugins Name and Version. Any Internet Explorer conditional tags are preserved."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_remove_html_comments.php:54
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The site pages still contain HTML "
+"comments which may provide essential pieces of information regarding the active "
+"plugins and themes."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_replacements.php:29
+msgid "Replacements"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_replacements.php:32
+msgid ""
+"The module implements a post-processing engine, which allows arbitrary words to "
+"be replaced with custom ones. This works for all site data as HTML, Css, "
+"JavaScript assets.\n"
+"                                                                This is the "
+"perfect tool to white-label any plugins or active code on a site, by replacing "
+"the specific words (classes, tags, JavaScript variables etc).\n"
+"                                                                Examples can be "
+"found at <a href='https://wp-hide.com/how-to-easily-hide-elementor-page-"
+"builder/' target='_blank'>How to white label Elementor</a> also <a "
+"href='https://wp-hide.com/hide-your-avada-theme-avada-builder-and-fusion-core/' "
+"target='_blank'>HowHide your Avada Theme, Avada Builder and Fusion core</a> "
+"this makes the plugins totally unrecognizable for anonymous users.\n"
+"                                                                <p>&nbsp;</p>\n"
+"                                                                <p>This feature "
+"integrates perfectly with any site environment, regardles of the used plugins "
+"and themes. Changing any fingerprint does not break the site layout or disable "
+"any existing functionality.</p>"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_replacements.php:130
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Your site assets still contain "
+"traceable data within HTML / CSS / JavaScript. Those can be removed using the "
+"Replacements functionality."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_replacements.php:137
+msgid "Add replacements for <code>"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_replacements.php:154
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>There are no obvious "
+"fingerprints."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_robots.php:29
+msgid "Process robots.txt"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_robots.php:32
+msgid ""
+"The robots.txt file plays a major role in search engine ranking. It blocks "
+"search engine bots and helps index and crawl important parts of your site.\n"
+"                                                                <br />As "
+"default the robots.txt also includes an allow clause to admin URL and admin-"
+"ajax.php url. Once customized those areas, the new slugs might not want to be "
+"show to anyone. Turn this option to Yes removed any reference to new wp-admin "
+"and admin-ajax.php."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_robots.php:55
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The robots.txt should be "
+"processed to ensure none of the default URLs is still used."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wlwmanifest.php:29
+#: modules/components/general-meta.php:125 modules/components/general-meta.php:129
+msgid "Remove wlwmanifest Meta"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wlwmanifest.php:32
+msgid ""
+"The wlwmanifest link is actually used by Windows Live Writer. If you don't te "
+"application, this is just unnecessary code."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wlwmanifest.php:54
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>Unless using the Windows Live "
+"Writer, the file have no usage so should be disabled."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_generator.php:29
+#: modules/components/general-meta.php:17 modules/components/general-meta.php:21
+msgid "Remove WordPress Generator Meta"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_generator.php:32
+#: modules/components/general-meta.php:18 modules/components/general-meta.php:22
+msgid ""
+"Remove the autogenerated meta generator tag within head (WordPress Version)."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_generator.php:54
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The WordPress Generator is still "
+"visible through the HTML code."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_tagline.php:29
+msgid "Change WordPress TagLine"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_tagline.php:32
+msgid ""
+"The WordPress tagline is a short description of your website.  The WordPress "
+"tagline can be modified by accessing the Dasboard > Settings > General"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_tagline.php:47
+msgid "Just another WordPress site"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_wordpress_tagline.php:54
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The tagline still uses the "
+"default WordPress sample, and should be customised."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_xml_rpc.php:29
+msgid "XML-RPC"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_xml_rpc.php:32
+#: modules/components/rewrite-new_xml-rpc-path.php:22
+msgid ""
+"XML-RPC is a remote procedure call (RPC) protocol which uses XML to encode its "
+"calls and HTTP as a transport mechanism. This service allow other applications "
+"to talk to your WordPress site."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_xml_rpc.php:55
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The XML-RPC module has not been "
+"customised."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_hide_xml_rpc.php:66
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The XML-RPC appears properly "
+"configured."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_keys_and_salts.php:32
+msgid ""
+"WordPress security authentication or secret key or SALT keys, are the encrypted "
+"code that protects your login information. \n"
+"                                                                Salt keys are "
+"cryptographic elements used to 'hash' data in order to secure it. In fact, most "
+"serious platforms and systems use similar mechanisms to protect sensitive data."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_keys_and_salts.php:69
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The Authentication unique keys "
+"and salts are empty or invalid."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_keys_and_salts.php:79
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The Authentication unique keys "
+"and salts are correctly set-up."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_mysql_version.php:32
+msgid ""
+"Using a higher MySQL version ensures better capability for your system. Older "
+"versions are often exploitable making the system unstable and predisposing to "
+"security breaches."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_mysql_version.php:47
+#: include/admin-interfaces/security-scan/scan_item_php_version.php:47
+#: include/admin-interfaces/security-scan/scan_item_wp_version.php:50
+#: include/admin-interfaces/security-scan/scan_item_wp_version_stability.php:49
+msgid "Using Version: "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_mysql_version.php:52
+#: include/admin-interfaces/security-scan/scan_item_php_version.php:53
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span> You are using at least the "
+"minimum recommended PHP version."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_mysql_version.php:57
+#: include/admin-interfaces/security-scan/scan_item_php_version.php:58
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span> You are using an older PHP "
+"version that the minimum recommended."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_old_plugins.php:32
+msgid ""
+"Old WordPress plugins can do damage to your website. Vulnerabilities are found "
+"within plugins all the time. Unmaintained code drastically increase the risk, "
+"as there are no patches for known issues. \n"
+"                                                                Inconsistent "
+"updates can lead to serious security issues and compatibility problems, and "
+"land you in technical debt.\n"
+"                                                                This will check "
+"for plugins with more than a year since their last update."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_old_plugins.php:81
+msgid "Found old plugins: "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_old_plugins.php:86
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The following plugins are very "
+"old and appear unmaintained:"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_old_plugins.php:95
+msgid " Last updated on "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_old_plugins.php:101
+msgid ""
+"<br /><p class=\"description\">We strongly suggest finding replacements for the "
+"above plugins and remove from your site.</p>"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_old_plugins.php:112
+msgid "<span class=\"dashicons dashicons-yes\"></span>There are no Old Plugins."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_plugins.php:32
+msgid ""
+"Keeping your plugins up to date is important for the stability and security of "
+"your WordPress site. It also lets you take advantage of any new features the "
+"plugin's developers have added.\n"
+"                                                                A key concept "
+"of updating WordPress core, themes, and plugins is to protect your site from "
+"the possible vulnerabilities that allow a hacker to compromise your site. "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_plugins.php:55
+msgid "Found outdated plugins: "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_plugins.php:60
+#: include/admin-interfaces/security-scan/scan_item_outdated_themes.php:60
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The following plugins are found "
+"outdated on your site:"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_plugins.php:75
+#: include/admin-interfaces/security-scan/scan_item_outdated_themes.php:70
+msgid " Upgrade from "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_plugins.php:75
+#: include/admin-interfaces/security-scan/scan_item_outdated_themes.php:70
+msgid " to "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_plugins.php:81
+msgid ""
+"<br /><p class=\"description\">The inactive plugins require updating as well, "
+"as may contain harmful vulnerabilities, exploaitable even if the code is not "
+"active.</p>"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_plugins.php:92
+msgid "<span class=\"dashicons dashicons-yes\"></span>All plugins are Up to Date."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_themes.php:32
+msgid ""
+"The biggest reason to keep your WordPress website up to date is Security. When "
+"you do not update your WordPress themes, you create a security risk and expose "
+"your site to existing vulnerabilities and imminent attacks. \n"
+"                                                        The WordPress "
+"developers are constantly fixing security breaches or improving security."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_themes.php:55
+msgid "Found outdated themes: "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_themes.php:76
+msgid ""
+"<br /><p class=\"description\">The  inactive themes require updating as well, "
+"as may contain harmful vulnerabilities, exploaitable even if the code is not "
+"active.</p>"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_outdated_themes.php:87
+msgid "<span class=\"dashicons dashicons-yes\"></span>All themes are Up to Date."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_allow_url_include.php:32
+msgid ""
+"The allow_url_include allows a developer to include a remote file using a URL "
+"rather than a local file path. This technique is used to reduce the load on the "
+"server. \n"
+"                                                                There are many "
+"servers with PHP configuration directive allow_url_include as enabled. When "
+"this setting is enabled, the server’s directory allows data retrieval from "
+"remote locations."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_allow_url_include.php:49
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The allow_url_include is ON. \n"
+"                                                                        To fix "
+"this security issue, change the php.ini:\n"
+"\n"
+"                                                                        <br /"
+"><code>allow_url_include = \"off\"</code>\n"
+"\n"
+"                                                                        <br /"
+">or within .htaccess:\n"
+"\n"
+"                                                                        <br /"
+"><code>php_flag allow_url_include off</code>\n"
+"                                                                        <br /"
+">or within wp-config.php:\n"
+"                                                                        <br /"
+"><code>ini_set(\"allow_url_include\", \"0\");</code>."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_allow_url_include.php:67
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The allow_url_include is Off."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_display_errors.php:32
+msgid ""
+"The display_error setting in PHP is used to determine whether errors should be "
+"printed to the screen or not."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_display_errors.php:48
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The display_errors is ON. \n"
+"                                                                        <br /"
+">To fix this security issue, change the php.ini:\n"
+"                                                                        <br /"
+"><code>display_errors = \"off\"</code>\n"
+"                                                                        <br /"
+">or within .htaccess:\n"
+"                                                                        <br /"
+"><code>php_flag display_errors off</code>\n"
+"                                                                        <br /"
+">or within wp-config.php:\n"
+"                                                                        <br /"
+"><code>ini_set(\"display_errors\", \"0\");</code>."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_display_errors.php:63
+msgid "<span class=\"dashicons dashicons-yes\"></span>The display_errors is Off."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_expose.php:32
+msgid ""
+"When the expose_php directive is enabled, PHP includes critical pieces of "
+"information within the HTTP response X-Powered-By header when a page is "
+"requested."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_expose.php:48
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The expose_php is ON. \n"
+"                                                                        To fix "
+"this security issue, change the php.ini:\n"
+"\n"
+"                                                                        <br /"
+"><code>expose_php = \"off\"</code>\n"
+"\n"
+"                                                                        <br /"
+">or within .htaccess:\n"
+"\n"
+"                                                                        <br /"
+"><code>php_flag expose_php off</code>."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_expose.php:64
+msgid "<span class=\"dashicons dashicons-yes\"></span>The expose_php is Off."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_register_globals.php:32
+msgid ""
+"When register_globals is enabled, PHP will automatically create variables in "
+"the global scope for any value passed in GET, POST or COOKIE. This, combined "
+"with the use of variables without initialization, has led to numerous security "
+"vulnerabilities."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_register_globals.php:48
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The register_globals is ON. \n"
+"                                                                        To fix "
+"this security issue, change the php.ini:\n"
+"\n"
+"                                                                        <br /"
+"><code>register_globals = \"off\"</code>\n"
+"\n"
+"                                                                        <br /"
+">or within .htaccess:\n"
+"\n"
+"                                                                        <br /"
+"><code>php_flag register_globals off</code>."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_register_globals.php:64
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>The register_globals is Off."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_safe_mode.php:32
+msgid ""
+"The PHP safe mode is an attempt to solve the shared-server security problem. It "
+"is architecturally incorrect to try to solve this problem at the PHP level, but "
+"since the alternatives at the web server and OS levels aren't very realistic, "
+"many people, especially ISP's, use safe mode for now."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_safe_mode.php:48
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The register_globals is ON. \n"
+"                                                                        To fix "
+"this security issue, change the php.ini:\n"
+"\n"
+"                                                                        <br /"
+"><code>safe_mode = \"off\"</code>\n"
+"\n"
+"                                                                        <br /"
+">or within .htaccess:\n"
+"\n"
+"                                                                        <br /"
+"><code>php_flag safe_mode off</code>."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_safe_mode.php:64
+msgid "<span class=\"dashicons dashicons-yes\"></span>The safe_mode is Off."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_version.php:29
+msgid "PHP Version"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_php_version.php:32
+msgid ""
+"Using the latest PHP version ensures the longevity of security updates. While "
+"older versions of PHP offer security updates for a time past “end of life,” the "
+"most secure option is the version that is actively maintained."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:29
+msgid "Dangerous Files"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:32
+msgid ""
+"This security test checks for any dangerous files on your WordPress root. You "
+"should avoid keeping any unnecessary files on domain root."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:50
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:78
+msgid "PHP executable file"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:54
+msgid "System Error log file"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:58
+msgid "System log file"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:62
+msgid "MySQL database file"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:66
+msgid "Backup file"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:70
+msgid "ZIP Archive file"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:74
+msgid "Text file, may contain sensitive data"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:110
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span> Your WordPress root still "
+"includes dangerous files which may contain valuable pieces of information "
+"regarding your environment."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:111
+msgid "Consider re-locating the followng files from your site root:"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_unwanted_files.php:132
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span> Your WordPress root still "
+"includes dangerous files which may contain valuable pieces of information "
+"regarding your environment."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_use_admin_user.php:32
+msgid ""
+"When setting up a new WordPress site, many users create the default "
+"administrator account using the username `admin`.\n"
+"                                                                Considering "
+"entering the dashboard requires a username and a password, using the login "
+"`admin` makes the hackers have an easier time trying to brute force in. "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_use_admin_user.php:51
+msgid "Found users: "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_use_admin_user.php:56
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The admin or administrator "
+"usernames were found on your system!"
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_use_admin_user.php:66
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span>There are no admin or "
+"administrator usernames."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_debug.php:51
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>The WP_DEBUG is active. Check "
+"your site wp-config.php and comment the constant declaration."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_debug.php:60
+msgid "<span class=\"dashicons dashicons-yes\"></span>The WP_DEBUG is disabled."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version.php:32
+msgid ""
+"WordPress is a permanent evolving software with regularly released security "
+"fixes. The core updates ensure the safety and efficiency of the WordPress "
+"system.\n"
+"                                                            WordPress updates "
+"often include security fixes. It’s an ongoing battle since hackers find "
+"vulnerabilities all the time. It’s important to keep WordPress up to date to "
+"get the latest protections from new types of attacks."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version.php:61
+#: include/admin-interfaces/security-scan/scan_item_wp_version_stability.php:60
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span> Unable to connect with WordPress "
+"API. Try again later."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version.php:82
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span> You are up to date with the "
+"latest Wordpress version."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version.php:87
+msgid "<span class=\"dashicons dashicons-no\"></span> An updated version "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version.php:87
+msgid " of WordPress is available."
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version_stability.php:32
+msgid ""
+"Over time, security breaches are found within the WordPress core. This option "
+"checks whenever the WordPress version deployed on your site is succeptible to a "
+"known vulenrability. "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version_stability.php:81
+msgid ""
+"<span class=\"dashicons dashicons-yes\"></span> The current Wordpress version "
+"stability tag is "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version_stability.php:88
+#: include/admin-interfaces/security-scan/scan_item_wp_version_stability.php:91
+msgid ""
+"<span class=\"dashicons dashicons-no\"></span>  The current Wordpress version "
+"stability tag is "
+msgstr ""
+
+#: include/admin-interfaces/security-scan/scan_item_wp_version_stability.php:91
+msgid ". This is critical and require urgent WordPress update."
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:44
+msgid ""
+"Any existing options values will be overwritten, are you sure you want to "
+"continue?"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:60 include/wph.class.php:532
+msgid "Settings saved"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:60 include/wph.class.php:532
+msgid "Remember, site cache clear is required."
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:147
+msgid "Setup"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:157
+msgid "Sample Setup deployed !"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:160
+msgid ""
+"A basic plugin set-up has been deployed, to get you started. A site cache clear "
+"is required to ensure the updates are reflected on the front side"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:161
+msgid ""
+"Check with the front side to ensure everything is working. Further adjustments "
+"to other options is recommended"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:198
+msgid "Getting Started"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:201
+msgid "plugin helps to hide your WordPress, theme, and plugins"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:201
+msgid ""
+"This improves the site security as hackers' boots can't exploit the "
+"vulnerabilities of your site, as not being aware of the user code"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:201
+msgid "Daily, more vulnerabilities are found"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:201
+msgid "but using WP Hide & Security Enhancer you will be perfectly safe"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:206 include/functions.class.php:2354
+#: include/functions.class.php:2406
+#: modules/components/security-check_headers.php:27
+msgid "Recovery"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:213
+msgid "Basic functionality"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:216
+msgid ""
+"The basic principle of the plugin is to change default assets URLs, remove or "
+"change specific HTML elements, and disable unused services. This makes "
+"WordPress unrecognizable. The process isn't automated, so it needs to be done "
+"manually while getting feedback on the front side to ensure everything is still "
+"functional. No file and directory are being changed anywhere, everything is "
+"processed on the fly using output buffering and filters"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:218
+msgid ""
+"A default directory structure for WordPress appears like this on outputted HTML"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:220
+msgid ""
+"So the most important first step, is to change the default /wp-content/ and /wp-"
+"includes/ to something else. This can be done at"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:220 include/functions.class.php:2452
+msgid "and"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:221
+msgid "Further adjustments to"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:221
+msgid "can be applied"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:223
+msgid ""
+"At this point, for all simple sites, the WordPress CMS is already hidden. If "
+"using complex themes and plugins, further plugin options adjustments are "
+"necessarily or PRO might be required ( for example"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:223
+msgid "hiding Elementor"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:225
+msgid ""
+"Take the time to understand each option, there are in-line additional help also "
+"external description to each of the features. If need additional assistance, "
+"use the support forum or contact us. Full description of each option can be "
+"found at"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:225
+msgid "Documentation"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:231
+msgid "Sample setup"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:234
+msgid ""
+"This creates a simple setup to get you started. The procedure activates some of "
+"the basic plugin options.  All options will be reset and any existing values "
+"will be overwritten, so use with caution.  After the procedure, for all basic "
+"sites, the WordPress CMS will be already hidden, otherwise further options "
+"adjustments will be necessary"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:236
+msgid "Run Sample Setup"
+msgstr ""
+
+#: include/admin-interfaces/setup.class.php:247
+msgid "Demo Video"
+msgstr ""
+
+#: include/class.environment.php:143
+msgid ""
+"<b>WP Hide</b> - Unable to create environment static file. The system returned "
+"the following error: "
+msgstr ""
+
+#: include/class.environment.php:158 include/class.environment.php:174
+msgid ""
+"Some of plugin options will not work correctly so where turned off: <b>Remove "
+"description header from Style file</b>, <b>Child - Remove description header "
+"from Style file</b>"
+msgstr ""
+
+#: include/class.environment.php:169
+msgid "Unable to create environment data at "
+msgstr ""
+
+#: include/class.environment.php:169
+msgid "Is file writable"
+msgstr ""
+
+#: include/class.environment.php:169
+msgid "Check with folder/file permission or contact server administrator."
+msgstr ""
+
+#: include/functions.class.php:282 include/functions.class.php:283
+#: include/functions.class.php:284 include/functions.class.php:285
+#: include/functions.class.php:286
+msgid "is a system reserved."
+msgstr ""
+
+#: include/functions.class.php:296
+msgid "is similar to domain name."
+msgstr ""
+
+#: include/functions.class.php:310 include/functions.class.php:332
+#: include/functions.class.php:351 include/functions.class.php:360
+#: modules/components/security-check_headers.php:241
+msgid "Value"
+msgstr ""
+
+#: include/functions.class.php:310 include/functions.class.php:332
+#: include/functions.class.php:351 include/functions.class.php:360
+msgid "set for"
+msgstr ""
+
+#: include/functions.class.php:310
+msgid "already in use for another option."
+msgstr ""
+
+#: include/functions.class.php:332
+msgid "use the same base slug "
+msgstr ""
+
+#: include/functions.class.php:332
+msgid "used for another option."
+msgstr ""
+
+#: include/functions.class.php:467
+msgid ""
+"W3 Total Cache Plugin is active, make sure you clear the cache for new changes "
+"to apply"
+msgstr ""
+
+#: include/functions.class.php:471
+msgid ""
+"WP Super Cache Plugin is active, make sure you clear the cache for new changes "
+"to apply"
+msgstr ""
+
+#: include/functions.class.php:476
+msgid ""
+"WP Fastest Cache Plugin is active, make sure you clear the cache for new "
+"changes to apply"
+msgstr ""
+
+#: include/functions.class.php:916
+msgid ""
+"Copy the following link to a safe place. You can use it later to reset all "
+"plugin options if something goes wrong or lost the new login URL."
+msgstr ""
+
+#: include/functions.class.php:1016 include/functions.class.php:1246
+msgid "Make a fix or manually check the "
+msgstr ""
+
+#: include/functions.class.php:1016 include/functions.class.php:1082
+#: include/functions.class.php:1083 include/functions.class.php:1135
+#: include/functions.class.php:1198 include/functions.class.php:1246
+#: include/functions.class.php:1312 include/functions.class.php:1313
+#: include/functions.class.php:1330
+msgid "Test URL"
+msgstr ""
+
+#: include/functions.class.php:1016 include/functions.class.php:1246
+msgid ""
+"if the result is a JSON response (contains a name and description), the "
+"rewrites are working correctly on your site and you can"
+msgstr ""
+
+#: include/functions.class.php:1016 include/functions.class.php:1083
+#: include/functions.class.php:1246 include/functions.class.php:1313
+msgid "this notification"
+msgstr ""
+
+#: include/functions.class.php:1017 include/functions.class.php:1084
+#: include/functions.class.php:1247 include/functions.class.php:1314
+msgid "Sample result, the appearance can be different from a browser to another:"
+msgstr ""
+
+#: include/functions.class.php:1018 include/functions.class.php:1085
+#: include/functions.class.php:1248 include/functions.class.php:1315
+msgid "The Ignore action will be available until the next plugin options update."
+msgstr ""
+
+#: include/functions.class.php:1019 include/functions.class.php:1249
+msgid ""
+"If the Test URL is not functional, the plugin will fail to provide specific "
+"features. Check your Hosting provider for more details regarding rewrites and "
+"how to activate on your account."
+msgstr ""
+
+#: include/functions.class.php:1025 include/functions.class.php:1141
+#: include/functions.class.php:1255
+msgid "The wp_remote_get() returns invalid Response Code"
+msgstr ""
+
+#: include/functions.class.php:1039 include/functions.class.php:1155
+#: include/functions.class.php:1269
+msgid ""
+"The .htaccess file does not appears to exists on the server. To fix, go to "
+"Settings > Permalinks and save once."
+msgstr ""
+
+#: include/functions.class.php:1044 include/functions.class.php:1160
+#: include/functions.class.php:1274
+msgid "The test rewrite does not exist."
+msgstr ""
+
+#: include/functions.class.php:1044 include/functions.class.php:1160
+#: include/functions.class.php:1274
+msgid ""
+"To fix go to Settings > Permalinks and save once, the core will attempt to "
+"update the required rewrites. If the problem persists, check with your host "
+"support on the correct .htaccess file write permission."
+msgstr ""
+
+#: include/functions.class.php:1055
+msgid ""
+"The wp_remote_get() returns a Not Found page, the web.config file does not "
+"appears to exists on the server. To fix, go to Settings > Permalinks and save "
+"once."
+msgstr ""
+
+#: include/functions.class.php:1058
+msgid ""
+"The wp_remote_get() returns a Not Found page, the test rewrite does not exist. "
+"To fix, go to Settings > Permalinks and save once. This can occour if you "
+"updated from an old plugin version. "
+msgstr ""
+
+#: include/functions.class.php:1062
+msgid ""
+"The wp_remote_get() returns a Not Found page, probably the Rewrites are not "
+"active on your server!"
+msgstr ""
+
+#: include/functions.class.php:1082 include/functions.class.php:1312
+msgid ""
+"A custom rewrite line has been inserted into your rewrite file for testing. The "
+msgstr ""
+
+#: include/functions.class.php:1082 include/functions.class.php:1312
+msgid ""
+"expected to return a JSON response (contains a name and description) The server "
+"instead replied a"
+msgstr ""
+
+#: include/functions.class.php:1082 include/functions.class.php:1312
+msgid "error with the message"
+msgstr ""
+
+#: include/functions.class.php:1083 include/functions.class.php:1313
+msgid ""
+"In certain environments ( e.g. Cloudflare) the plugin may not be allowed to "
+"check the test rewrite automatically. If checking manually the "
+msgstr ""
+
+#: include/functions.class.php:1083 include/functions.class.php:1313
+msgid ""
+"if the result is a valid JSON response (contains a name and description), you "
+"can"
+msgstr ""
+
+#: include/functions.class.php:1086 include/functions.class.php:1316
+msgid ""
+"If manually checking the Test URL fails too, you need to get in touch with your "
+"server support for a fix. The rewrite engine is either disabled for your "
+"account or their internal set-up does not allow such rewrites. "
+msgstr ""
+
+#: include/functions.class.php:1098 include/functions.class.php:1210
+#: include/functions.class.php:1329
+msgid ""
+"The wp_remote_get() returns an invalid JSON data, probably the server blocks "
+"custom rewrites."
+msgstr ""
+
+#: include/functions.class.php:1135 include/functions.class.php:1198
+#: include/functions.class.php:1330
+msgid "Make a fix and manually check the "
+msgstr ""
+
+#: include/functions.class.php:1171 include/functions.class.php:1285
+msgid ""
+"The wp_remote_get() returns a <b>Not Found</b> page, the web.config file does "
+"not appears to exists on the server. To fix, go to Settings > Permalinks and "
+"save once."
+msgstr ""
+
+#: include/functions.class.php:1174 include/functions.class.php:1288
+msgid ""
+"The wp_remote_get() returns a <b>Not Found</b> page, the test rewrite does not "
+"exist. To fix, go to Settings > Permalinks and save once. This can occour if "
+"you updated from an old plugin version. "
+msgstr ""
+
+#: include/functions.class.php:1178 include/functions.class.php:1292
+msgid ""
+"The wp_remote_get() returns a <b>Not Found</b> page, probably the Rewrites are "
+"not active on your server!"
+msgstr ""
+
+#: include/functions.class.php:2221
+#: modules/components/admin-new_wp_login_php.php:110
+msgid "Hello"
+msgstr ""
+
+#: include/functions.class.php:2222
+msgid ""
+"This is a system automated message to inform that you can always use a recovery "
+"link if something go wrong"
+msgstr ""
+
+#: include/functions.class.php:2223
+msgid "Please keep this URL to a safe place."
+msgstr ""
+
+#: include/functions.class.php:2355
+msgid "The plugin options have been reset successfully."
+msgstr ""
+
+#: include/functions.class.php:2362
+msgid ""
+"Ensure the .htaccess file does not contain any WP-Hide rewrite lines. The "
+"plugin already attempts to clear the lines, if the operation fails, they are "
+"required to be removed manually. "
+msgstr ""
+
+#: include/functions.class.php:2369
+msgid ""
+"Ensure the web.config file does not contain any WP-Hide rewrite lines. The "
+"plugin already attempts to clear the lines, if the operation fails, they are "
+"required to be removed manually. "
+msgstr ""
+
+#: include/functions.class.php:2376 include/functions.class.php:2463
+msgid "Continue to your Site"
+msgstr ""
+
+#: include/functions.class.php:2413
+msgid "Headers Recovery"
+msgstr ""
+
+#: include/functions.class.php:2414
+msgid "The plugin Headers options have been disabled successfully."
+msgstr ""
+
+#: include/functions.class.php:2421
+msgid ""
+"Ensure the .htaccess file does not contain any rewrite Header lines. The plugin "
+"already attempted to clear the data. If the operation fails, manual removal is "
+"required."
+msgstr ""
+
+#: include/functions.class.php:2428
+msgid ""
+"Ensure the web.config file does not contain any rewrite Header lines. The "
+"plugin already attempted to clear the data. If the operation fails, manual "
+"removal is required."
+msgstr ""
+
+#: include/functions.class.php:2439
+msgid ""
+"Your site use WPEngine! You need to get in touch with live support and ask to "
+"remove the custom Nginx Header rewrite code from your account."
+msgstr ""
+
+#: include/functions.class.php:2445
+msgid ""
+"Your site use Kinsta! You need to get in touch with live support and ask to "
+"remove the custom Nginx Header rewrite code from your account."
+msgstr ""
+
+#: include/functions.class.php:2452
+msgid "Check with your Nginx config file located usually at"
+msgstr ""
+
+#: include/functions.class.php:2452
+msgid "and remove any Header rewrite rules within"
+msgstr ""
+
+#: include/functions.class.php:2453
+msgid "After the configuration file update"
+msgstr ""
+
+#: include/functions.class.php:2453
+msgid "Test"
+msgstr ""
+
+#: include/functions.class.php:2453
+msgid "the new data using "
+msgstr ""
+
+#: include/functions.class.php:2453
+msgid "If successfully compiled, restart the Nginx service."
+msgstr ""
+
+#: include/functions.class.php:2736
+#, php-format
+msgid "The %1$s plugin header is deprecated. Use %2$s instead."
+msgstr ""
+
+#: include/functions.class.php:2821
+#, php-format
+msgid "By %s."
+msgstr ""
+
+#: include/functions.class.php:3278
+msgid ""
+"Help us to maintain this plugin by sending improvements, suggestions and "
+"reporting any issues at "
+msgstr ""
+
+#: include/functions.class.php:3280
+msgid "Did you know there is a"
+msgstr ""
+
+#: include/functions.class.php:3280
+msgid "version of this plug-in?"
+msgstr ""
+
+#: include/functions.class.php:3282
+msgid ""
+"Did you find this plugin useful? Please support our work by submitting a "
+"review, spread the word about the code, or write an article about the plugin in "
+"your blog with a link to development site"
+msgstr ""
+
+#: include/widgets.class.php:56
+msgid "Run a fist scan to determine the current protection level of your website."
+msgstr ""
+
+#: include/wph.class.php:369
+msgid ""
+"Are you sure to reset the current page settings? All options will be changed to "
+"default. An Save is still required for the page."
+msgstr ""
+
+#: include/wph.class.php:370
+msgid ""
+"Are you sure to reset all settings? All options will be removed. Manual removal "
+"of rewrite lines is required if no access from PHP."
+msgstr ""
+
+#: include/wph.class.php:371
+msgid ""
+"This creates a sample setup for Headers. That will overwrite any Headers "
+"settings previously created through the plugin options. Are you sure?"
+msgstr ""
+
+#: include/wph.class.php:498
+msgid "All Settings where restored to default"
+msgstr ""
+
+#: include/wph.class.php:506
+msgid "Headers Sample Setup deployed successfully."
+msgstr ""
+
+#: include/wph.class.php:574
+msgid "Cache cleared"
+msgstr ""
+
+#: modules/components/admin-admin_url.php:18
+msgid "Create a new admin url instead default /wp-admin and /login."
+msgstr ""
+
+#: modules/components/admin-admin_url.php:22
+#: modules/components/admin-admin_url.php:44
+#: modules/components/admin-new_wp_login_php.php:22
+#: modules/components/admin-new_wp_login_php.php:51
+#: modules/components/cdn-setup.php:20 modules/components/general-admin-bar.php:50
+#: modules/components/general-emulate.php:20
+#: modules/components/general-feed.php:20
+#: modules/components/general-headers.php:21
+#: modules/components/general-headers.php:46
+#: modules/components/general-headers.php:69
+#: modules/components/general-headers.php:92
+#: modules/components/general-html.php:25 modules/components/general-html.php:47
+#: modules/components/general-html.php:80 modules/components/general-html.php:103
+#: modules/components/general-html.php:126 modules/components/general-html.php:149
+#: modules/components/general-html.php:172 modules/components/general-meta.php:21
+#: modules/components/general-meta.php:45 modules/components/general-meta.php:85
+#: modules/components/general-meta.php:107 modules/components/general-meta.php:129
+#: modules/components/general-meta.php:154 modules/components/general-meta.php:181
+#: modules/components/general-meta.php:207 modules/components/general-meta.php:231
+#: modules/components/general-meta.php:255
+#: modules/components/general-oembed.php:20
+#: modules/components/general-robots-txt.php:20
+#: modules/components/general-scripts.php:20
+#: modules/components/general-styles.php:20
+#: modules/components/general-styles.php:43
+#: modules/components/general-user-interactions.php:28
+#: modules/components/general-user-interactions.php:51
+#: modules/components/general-user-interactions.php:74
+#: modules/components/general-user-interactions.php:96
+#: modules/components/general-user-interactions.php:118
+#: modules/components/general-user-interactions.php:141
+#: modules/components/general-user-interactions.php:164
+#: modules/components/general-user-interactions.php:186
+#: modules/components/general-wpemoji.php:20
+#: modules/components/general-wpemoji.php:42
+#: modules/components/rewrite-author.php:21
+#: modules/components/rewrite-author.php:42
+#: modules/components/rewrite-comments.php:21
+#: modules/components/rewrite-comments.php:43
+#: modules/components/rewrite-json-rest.php:21
+#: modules/components/rewrite-json-rest.php:45
+#: modules/components/rewrite-json-rest.php:77
+#: modules/components/rewrite-json-rest.php:114
+#: modules/components/rewrite-json-rest.php:154
+#: modules/components/rewrite-json-rest.php:178
+#: modules/components/rewrite-json-rest.php:201
+#: modules/components/rewrite-new_include_path.php:21
+#: modules/components/rewrite-new_include_path.php:41
+#: modules/components/rewrite-new_plugin_path.php:21
+#: modules/components/rewrite-new_plugin_path.php:40
+#: modules/components/rewrite-new_plugin_path.php:92
+#: modules/components/rewrite-new_theme_path.php:31
+#: modules/components/rewrite-new_theme_path.php:53
+#: modules/components/rewrite-new_theme_path.php:77
+#: modules/components/rewrite-new_theme_path.php:123
+#: modules/components/rewrite-new_theme_path.php:144
+#: modules/components/rewrite-new_theme_path.php:168
+#: modules/components/rewrite-new_upload_path.php:21
+#: modules/components/rewrite-new_upload_path.php:40
+#: modules/components/rewrite-new_xml-rpc-path.php:21
+#: modules/components/rewrite-new_xml-rpc-path.php:43
+#: modules/components/rewrite-new_xml-rpc-path.php:73
+#: modules/components/rewrite-new_xml-rpc-path.php:102
+#: modules/components/rewrite-root-files.php:23
+#: modules/components/rewrite-root-files.php:45
+#: modules/components/rewrite-root-files.php:67
+#: modules/components/rewrite-root-files.php:102
+#: modules/components/rewrite-root-files.php:131
+#: modules/components/rewrite-root-files.php:154
+#: modules/components/rewrite-root-files.php:177
+#: modules/components/rewrite-search.php:21
+#: modules/components/rewrite-search.php:42
+#: modules/components/rewrite-slash.php:20
+#: modules/components/rewrite-wp_content_path.php:20
+#: modules/components/rewrite-wp_content_path.php:42
+#: modules/components/security-add_headers.php:21
+#: modules/components/security-add_headers.php:46
+#: modules/components/security-add_headers.php:69
+#: modules/components/security-header-cross-origin-embedder-policy.php:23
+#: modules/components/security-header-cross-origin-opener-policy.php:23
+#: modules/components/security-header-cross-origin-resource-policy.php:23
+#: modules/components/security-header-referrer-policy.php:23
+#: modules/components/security-header-x-content-type-options.php:23
+#: modules/components/security-header-x-download-options.php:23
+#: modules/components/security-header-x-frame-options.php:23
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:23
+#: modules/components/security-header-x-xss-protection.php:23
+msgid "Help"
+msgstr ""
+
+#: modules/components/admin-admin_url.php:23
+msgid ""
+"Despite the flexibility of WordPress framework, there are few ways to configure "
+"the admin login url customization for making a bit safer against unauthorized "
+"access and brute force attempts. All methods are not provided out of the box "
+"through WordPress core but require custom code to make it happen."
+msgstr ""
+
+#: modules/components/admin-admin_url.php:24
+msgid ""
+"This feature provide an easy way to change the default /wp-admin/ to a "
+"different slug."
+msgstr ""
+
+#: modules/components/admin-admin_url.php:25
+msgid ""
+"Once changed, the new url will be used to access all Dashboard sections, from "
+"Posts and Pages section to Plugins, Appearance and Settings."
+msgstr ""
+
+#: modules/components/admin-admin_url.php:38
+#: modules/components/admin-admin_url.php:44
+msgid "Block default Admin Url"
+msgstr ""
+
+#: modules/components/admin-admin_url.php:40
+msgid "Block default admin url and files from being accesible."
+msgstr ""
+
+#: modules/components/admin-admin_url.php:45
+msgid ""
+"If set to Yes, the old admin url will be blocked and a default theme 404 error "
+"page will be returned."
+msgstr ""
+
+#: modules/components/admin-admin_url.php:46
+msgid ""
+"Ensure the New Admin Url option works correctly on your server before activate "
+"this."
+msgstr ""
+
+#: modules/components/admin-admin_url.php:53
+#: modules/components/admin-new_wp_login_php.php:59
+#: modules/components/rewrite-json-rest.php:54
+#: modules/components/rewrite-json-rest.php:87
+#: modules/components/rewrite-json-rest.php:124
+#: modules/components/rewrite-new_include_path.php:48
+#: modules/components/rewrite-new_plugin_path.php:47
+#: modules/components/rewrite-new_theme_path.php:85
+#: modules/components/rewrite-new_theme_path.php:176
+#: modules/components/rewrite-new_upload_path.php:47
+#: modules/components/rewrite-new_xml-rpc-path.php:51
+#: modules/components/rewrite-new_xml-rpc-path.php:80
+#: modules/components/rewrite-new_xml-rpc-path.php:109
+#: modules/components/rewrite-root-files.php:110
+#: modules/components/rewrite-wp_content_path.php:49
+msgid "This is an advanced option !"
+msgstr ""
+
+#: modules/components/admin-admin_url.php:53
+msgid ""
+"This can break the layour of dashboard admin if server not supporting the "
+"feature. Ensure `New Admin Url` option works fine before activate this.<br />If "
+"not working, use the recovery link to revert."
+msgstr ""
+
+#: modules/components/admin-admin_url.php:59
+#: modules/components/admin-new_wp_login_php.php:65
+#: modules/components/general-admin-bar.php:57
+#: modules/components/general-emulate.php:35
+#: modules/components/general-feed.php:31
+#: modules/components/general-headers.php:30
+#: modules/components/general-headers.php:54
+#: modules/components/general-headers.php:77
+#: modules/components/general-headers.php:99
+#: modules/components/general-html.php:32 modules/components/general-html.php:61
+#: modules/components/general-html.php:88 modules/components/general-html.php:111
+#: modules/components/general-html.php:134 modules/components/general-html.php:157
+#: modules/components/general-html.php:180 modules/components/general-meta.php:30
+#: modules/components/general-meta.php:54 modules/components/general-meta.php:70
+#: modules/components/general-meta.php:92 modules/components/general-meta.php:114
+#: modules/components/general-meta.php:138 modules/components/general-meta.php:163
+#: modules/components/general-meta.php:190 modules/components/general-meta.php:216
+#: modules/components/general-meta.php:240 modules/components/general-meta.php:264
+#: modules/components/general-oembed.php:26
+#: modules/components/general-robots-txt.php:30
+#: modules/components/general-scripts.php:32
+#: modules/components/general-styles.php:28
+#: modules/components/general-styles.php:50
+#: modules/components/general-user-interactions.php:36
+#: modules/components/general-user-interactions.php:59
+#: modules/components/general-user-interactions.php:81
+#: modules/components/general-user-interactions.php:103
+#: modules/components/general-user-interactions.php:126
+#: modules/components/general-user-interactions.php:149
+#: modules/components/general-user-interactions.php:171
+#: modules/components/general-user-interactions.php:193
+#: modules/components/general-wpemoji.php:27
+#: modules/components/general-wpemoji.php:50
+#: modules/components/rewrite-author.php:49
+#: modules/components/rewrite-comments.php:50
+#: modules/components/rewrite-json-rest.php:29
+#: modules/components/rewrite-json-rest.php:60
+#: modules/components/rewrite-json-rest.php:93
+#: modules/components/rewrite-json-rest.php:130
+#: modules/components/rewrite-json-rest.php:161
+#: modules/components/rewrite-json-rest.php:185
+#: modules/components/rewrite-json-rest.php:208
+#: modules/components/rewrite-new_include_path.php:54
+#: modules/components/rewrite-new_plugin_path.php:53
+#: modules/components/rewrite-new_theme_path.php:91
+#: modules/components/rewrite-new_theme_path.php:183
+#: modules/components/rewrite-new_upload_path.php:53
+#: modules/components/rewrite-new_xml-rpc-path.php:57
+#: modules/components/rewrite-new_xml-rpc-path.php:86
+#: modules/components/rewrite-new_xml-rpc-path.php:115
+#: modules/components/rewrite-root-files.php:30
+#: modules/components/rewrite-root-files.php:52
+#: modules/components/rewrite-root-files.php:75
+#: modules/components/rewrite-root-files.php:116
+#: modules/components/rewrite-root-files.php:138
+#: modules/components/rewrite-root-files.php:161
+#: modules/components/rewrite-root-files.php:184
+#: modules/components/rewrite-search.php:49
+#: modules/components/rewrite-slash.php:35
+#: modules/components/rewrite-wp_content_path.php:55
+#: modules/components/security-add_headers.php:30
+#: modules/components/security-add_headers.php:54
+#: modules/components/security-add_headers.php:76
+msgid "No"
+msgstr ""
+
+#: modules/components/admin-admin_url.php:60
+#: modules/components/admin-new_wp_login_php.php:66
+#: modules/components/general-admin-bar.php:58
+#: modules/components/general-feed.php:32
+#: modules/components/general-headers.php:31
+#: modules/components/general-headers.php:55
+#: modules/components/general-headers.php:78
+#: modules/components/general-headers.php:100
+#: modules/components/general-html.php:33 modules/components/general-html.php:89
+#: modules/components/general-html.php:112 modules/components/general-html.php:135
+#: modules/components/general-html.php:158 modules/components/general-html.php:181
+#: modules/components/general-meta.php:31 modules/components/general-meta.php:55
+#: modules/components/general-meta.php:71 modules/components/general-meta.php:93
+#: modules/components/general-meta.php:115 modules/components/general-meta.php:139
+#: modules/components/general-meta.php:164 modules/components/general-meta.php:191
+#: modules/components/general-meta.php:217 modules/components/general-meta.php:241
+#: modules/components/general-meta.php:265
+#: modules/components/general-oembed.php:27
+#: modules/components/general-robots-txt.php:31
+#: modules/components/general-scripts.php:33
+#: modules/components/general-styles.php:29
+#: modules/components/general-styles.php:51
+#: modules/components/general-user-interactions.php:37
+#: modules/components/general-user-interactions.php:60
+#: modules/components/general-user-interactions.php:82
+#: modules/components/general-user-interactions.php:104
+#: modules/components/general-user-interactions.php:127
+#: modules/components/general-user-interactions.php:150
+#: modules/components/general-user-interactions.php:172
+#: modules/components/general-user-interactions.php:194
+#: modules/components/general-wpemoji.php:28
+#: modules/components/general-wpemoji.php:51
+#: modules/components/rewrite-author.php:50
+#: modules/components/rewrite-comments.php:51
+#: modules/components/rewrite-json-rest.php:30
+#: modules/components/rewrite-json-rest.php:61
+#: modules/components/rewrite-json-rest.php:94
+#: modules/components/rewrite-json-rest.php:162
+#: modules/components/rewrite-json-rest.php:186
+#: modules/components/rewrite-json-rest.php:209
+#: modules/components/rewrite-new_include_path.php:55
+#: modules/components/rewrite-new_plugin_path.php:54
+#: modules/components/rewrite-new_theme_path.php:92
+#: modules/components/rewrite-new_theme_path.php:184
+#: modules/components/rewrite-new_upload_path.php:54
+#: modules/components/rewrite-new_xml-rpc-path.php:58
+#: modules/components/rewrite-new_xml-rpc-path.php:87
+#: modules/components/rewrite-new_xml-rpc-path.php:116
+#: modules/components/rewrite-root-files.php:31
+#: modules/components/rewrite-root-files.php:53
+#: modules/components/rewrite-root-files.php:76
+#: modules/components/rewrite-root-files.php:117
+#: modules/components/rewrite-root-files.php:139
+#: modules/components/rewrite-root-files.php:162
+#: modules/components/rewrite-root-files.php:185
+#: modules/components/rewrite-search.php:50
+#: modules/components/rewrite-slash.php:36
+#: modules/components/rewrite-wp_content_path.php:56
+#: modules/components/security-add_headers.php:31
+#: modules/components/security-add_headers.php:55
+#: modules/components/security-add_headers.php:77
+msgid "Yes"
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:18
+msgid ""
+"Map a new wp-login.php instead default. This also need to include <i>.php</i> "
+"extension."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:23
+msgid ""
+"There are a lot of security issues that come from having your login page open "
+"to the public. Most specifically, brute force attacks. Because of the ubiquity "
+"of WordPress, these kinds of attacks are becoming more and more common."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:24
+msgid ""
+"Map a new wp-login.php instead default prevent hackers boot to attempt to brute "
+"force a site login. Being known only by the site owner, the url itself becomes "
+"private."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:25
+msgid "Make sure you keep the new login url to a safe place, in case to forget."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:35
+msgid ""
+"Make sure your log-in url is not already modified by another plugin or theme. "
+"In such case, you should disable other code and take advantage of these "
+"features."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:47
+#: modules/components/admin-new_wp_login_php.php:51
+msgid "Block default wp-login.php"
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:48
+msgid "Block default wp-login.php file from being accesible."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:52
+msgid ""
+"If set to Yes, the old login url will be blocked and a default theme 404 error "
+"page will be returned."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:53
+msgid ""
+"Ensure the New wp-login.php option works correctly on your server before "
+"activate this."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:59
+msgid ""
+"This can break the login page if server not supporting the feature. Ensure `New "
+"wp-login.php` option works fine before activate this.<br />If not working, use "
+"the recovery link to revert."
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:111
+msgid ""
+"This is an automated message to inform that your login url has been changed at"
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:112
+msgid "The new login url is"
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:113
+msgid "Additionality you can use this to recover the default login / admin links "
+msgstr ""
+
+#: modules/components/admin-new_wp_login_php.php:114
+msgid "Please keep this url safe for recover, if forgot"
+msgstr ""
+
+#: modules/components/cdn-setup.php:16 modules/components/cdn-setup.php:20
+msgid "CDN Url"
+msgstr ""
+
+#: modules/components/cdn-setup.php:17
+msgid ""
+"Some CDN providers (like stackpath.com ) replace site assets with custom url, "
+"enter here such url. Otherwise this option should stay empty."
+msgstr ""
+
+#: modules/components/cdn-setup.php:21
+msgid ""
+"A Content Delivery Network - CDN - is a network of servers located around the "
+"globe in fundamental spots with fast access. It takes a while for a web page to "
+"load especially if the server is located far away from the user. So they are "
+"designed to host and deliver copies of your site's static and dynamic content "
+"such as images, CSS, JavaScript, audio and video streams."
+msgstr ""
+
+#: modules/components/cdn-setup.php:22
+msgid "Sample CDN url:"
+msgstr ""
+
+#: modules/components/cdn-setup.php:24
+msgid ""
+"Enter a CDN Url to allow the plugin to process assets provided through CDN "
+"service."
+msgstr ""
+
+#: modules/components/general-admin-bar.php:42
+#: modules/components/general-admin-bar.php:47
+msgid "Remove WordPress Admin Bar for "
+msgstr ""
+
+#: modules/components/general-admin-bar.php:42
+msgid "role"
+msgstr ""
+
+#: modules/components/general-admin-bar.php:46
+#: modules/components/general-admin-bar.php:50
+msgid "Remove Admin Bar for "
+msgstr ""
+
+#: modules/components/general-admin-bar.php:47
+msgid "role, which is being displayed by default on front side of your website."
+msgstr ""
+
+#: modules/components/general-admin-bar.php:50
+msgid "role."
+msgstr ""
+
+#: modules/components/general-emulate.php:17
+msgid ""
+"Use the option to output specific CMSs HTML traces to mislead any peculiar "
+"check."
+msgstr ""
+
+#: modules/components/general-emulate.php:21
+msgid ""
+"Using the option the system try to misguide the used WordPress by outputting "
+"the wrong traces, of the selected CMS."
+msgstr ""
+
+#: modules/components/general-emulate.php:22
+msgid ""
+"Misleading and making a false lead provides an extra security, as the attacker "
+"search and attempt to hack something which not exist."
+msgstr ""
+
+#: modules/components/general-emulate.php:23
+msgid "The plugin can emulate systems like:"
+msgstr ""
+
+#: modules/components/general-emulate.php:24
+msgid "- Drupal"
+msgstr ""
+
+#: modules/components/general-emulate.php:25
+msgid "- Ghost"
+msgstr ""
+
+#: modules/components/general-emulate.php:26
+msgid "- HubSpot"
+msgstr ""
+
+#: modules/components/general-emulate.php:27
+msgid "- Joomla"
+msgstr ""
+
+#: modules/components/general-emulate.php:28
+msgid "- TYPO3"
+msgstr ""
+
+#: modules/components/general-emulate.php:29
+msgid "- Wix"
+msgstr ""
+
+#: modules/components/general-emulate.php:36
+msgid "Drupal 8"
+msgstr ""
+
+#: modules/components/general-emulate.php:37
+msgid "Drupal 9"
+msgstr ""
+
+#: modules/components/general-emulate.php:38
+msgid "Ghost 4.15"
+msgstr ""
+
+#: modules/components/general-emulate.php:39
+msgid "Ghost 4.31"
+msgstr ""
+
+#: modules/components/general-emulate.php:40
+msgid "HubSpot"
+msgstr ""
+
+#: modules/components/general-emulate.php:41
+msgid "Joomla"
+msgstr ""
+
+#: modules/components/general-emulate.php:42
+msgid "TYPO3"
+msgstr ""
+
+#: modules/components/general-emulate.php:43
+msgid "Wix"
+msgstr ""
+
+#: modules/components/general-feed.php:16 modules/components/general-feed.php:20
+msgid "Remove feed|rdf|rss|rss2|atom links"
+msgstr ""
+
+#: modules/components/general-feed.php:17
+msgid ""
+"Remove feed|rdf|rss|rss2|atom links within head. Also block such content "
+"functionality."
+msgstr ""
+
+#: modules/components/general-feed.php:21
+msgid ""
+"A feed is a function of special software that allows feedreaders to access a "
+"site, automatically looking for new content and then posting the information "
+"about new content and updates to another site. This provides a way for users to "
+"keep up with the latest and hottest information posted on different blogging "
+"sites."
+msgstr ""
+
+#: modules/components/general-feed.php:22
+msgid ""
+"There are several different kinds of feeds, read by different feedreaders. Some "
+"feeds include RSS (alternately defined as 'Rich Site Summary' or 'Really Simple "
+"Syndication'), Atom or RDF files."
+msgstr ""
+
+#: modules/components/general-feed.php:23 modules/components/general-meta.php:131
+#: modules/components/general-meta.php:156 modules/components/general-meta.php:183
+#: modules/components/general-meta.php:209 modules/components/general-meta.php:233
+#: modules/components/general-meta.php:257
+#: modules/components/general-scripts.php:23
+msgid "Sample tag:"
+msgstr ""
+
+#: modules/components/general-feed.php:25
+msgid "Set this option to Yes also disable the feed service."
+msgstr ""
+
+#: modules/components/general-headers.php:18
+#: modules/components/security-add_headers.php:18
+msgid ""
+"Remove Link Header being set as default by WordPress which outputs the site "
+"JSON url."
+msgstr ""
+
+#: modules/components/general-headers.php:21
+#: modules/components/general-scripts.php:16
+#: modules/components/general-scripts.php:20
+#: modules/components/general-styles.php:16
+#: modules/components/general-styles.php:20
+#: modules/components/general-styles.php:43
+#: modules/components/security-add_headers.php:21
+msgid "Remove Version"
+msgstr ""
+
+#: modules/components/general-headers.php:22
+#: modules/components/security-add_headers.php:22
+msgid ""
+"HTTP header fields are components of the header section of a request and "
+"response messages in the Hypertext Transfer Protocol (HTTP). They define the "
+"operating parameters of an HTTP transaction."
+msgstr ""
+
+#: modules/components/general-headers.php:23
+#: modules/components/general-headers.php:47
+#: modules/components/general-headers.php:70
+#: modules/components/security-add_headers.php:23
+#: modules/components/security-add_headers.php:47
+msgid "Sample header:"
+msgstr ""
+
+#: modules/components/general-headers.php:42
+#: modules/components/general-headers.php:46
+#: modules/components/general-headers.php:69
+#: modules/components/security-add_headers.php:42
+#: modules/components/security-add_headers.php:46
+msgid "Remove X-Powered-By Header"
+msgstr ""
+
+#: modules/components/general-headers.php:43
+msgid "Remove X-Powered-By Header if set."
+msgstr ""
+
+#: modules/components/general-headers.php:65
+msgid "Remove Server Header"
+msgstr ""
+
+#: modules/components/general-headers.php:66
+msgid "Remove Server Header if set."
+msgstr ""
+
+#: modules/components/general-headers.php:88
+#: modules/components/general-headers.php:92
+#: modules/components/security-add_headers.php:65
+#: modules/components/security-add_headers.php:69
+msgid "Remove X-Pingback Header"
+msgstr ""
+
+#: modules/components/general-headers.php:89
+#: modules/components/security-add_headers.php:66
+msgid "Remove X-Pingback Header if being set."
+msgstr ""
+
+#: modules/components/general-headers.php:93
+#: modules/components/security-add_headers.php:70
+msgid ""
+"Pingback is one of four types of linkback methods for Web authors to request "
+"notification when somebody links to one of their documents. This enables "
+"authors to keep track of who is linking to, or referring to their articles. "
+"Pingback-enabled resources must either use an X-Pingback header or contain a "
+"element to the XML-RPC script."
+msgstr ""
+
+#: modules/components/general-html.php:22
+msgid "Remove comments from HTML source code."
+msgstr ""
+
+#: modules/components/general-html.php:43 modules/components/general-html.php:47
+msgid "Minify"
+msgstr ""
+
+#: modules/components/general-html.php:44
+msgid "Minify HTML, Inline Styles, Inline JavaScripts."
+msgstr ""
+
+#: modules/components/general-html.php:48
+msgid ""
+"When you minify HTML it removes the unnecessary characters and lines in the "
+"source code. Indentation, comments, empty lines, etc. are not required in HTML. "
+"They just make the file easier to read. Cutting out all this unnecessary stuff "
+"can shave down your file size considerably. When you minify HTML code on your "
+"website, the server will send a much smaller page to the client making your "
+"website load quicker."
+msgstr ""
+
+#: modules/components/general-html.php:49
+msgid "The Minify component include multiple options:"
+msgstr ""
+
+#: modules/components/general-html.php:54
+msgid "Minify JavaScript might produce errors for specific plugins."
+msgstr ""
+
+#: modules/components/general-html.php:62
+msgid "Html"
+msgstr ""
+
+#: modules/components/general-html.php:63
+msgid "Html & Css"
+msgstr ""
+
+#: modules/components/general-html.php:64
+msgid "Html & JavaScript"
+msgstr ""
+
+#: modules/components/general-html.php:65
+#: modules/components/rewrite-json-rest.php:132
+msgid "All"
+msgstr ""
+
+#: modules/components/general-html.php:76 modules/components/general-html.php:80
+msgid "Remove general classes from body tag"
+msgstr ""
+
+#: modules/components/general-html.php:77 modules/components/general-html.php:81
+msgid "Remove general classes from body tag."
+msgstr ""
+
+#: modules/components/general-html.php:82 modules/components/general-html.php:105
+#: modules/components/general-html.php:128 modules/components/general-html.php:151
+#: modules/components/general-html.php:174
+msgid ""
+"This can produce layout issues with certain themes, if something break this "
+"should be turned off."
+msgstr ""
+
+#: modules/components/general-html.php:99 modules/components/general-html.php:103
+msgid "Remove ID from Menu items"
+msgstr ""
+
+#: modules/components/general-html.php:100 modules/components/general-html.php:104
+msgid "Remove ID attribute from all menu items."
+msgstr ""
+
+#: modules/components/general-html.php:122 modules/components/general-html.php:126
+#: modules/components/general-html.php:145 modules/components/general-html.php:149
+msgid "Remove class from Menu items"
+msgstr ""
+
+#: modules/components/general-html.php:123
+msgid "Remove class attribute from all menu items."
+msgstr ""
+
+#: modules/components/general-html.php:127
+msgid ""
+"Remove class attribute from all menu items. Any classes which include a "
+"'current' prefix or contain 'has-children' will be preserved."
+msgstr ""
+
+#: modules/components/general-html.php:146 modules/components/general-html.php:150
+msgid "Remove general classes from post."
+msgstr ""
+
+#: modules/components/general-html.php:168 modules/components/general-html.php:172
+msgid "Remove general classes from images"
+msgstr ""
+
+#: modules/components/general-html.php:169 modules/components/general-html.php:173
+msgid "Remove general classes from media tags."
+msgstr ""
+
+#: modules/components/general-meta.php:23 modules/components/general-meta.php:47
+msgid "Tag example:"
+msgstr ""
+
+#: modules/components/general-meta.php:65
+msgid "Remove Shortlink Meta"
+msgstr ""
+
+#: modules/components/general-meta.php:66
+msgid "Remove shortlink tags within head."
+msgstr ""
+
+#: modules/components/general-meta.php:81 modules/components/general-meta.php:85
+msgid "Remove DNS Prefetch"
+msgstr ""
+
+#: modules/components/general-meta.php:82
+msgid "Remove DNS Prefetch meta generated tag."
+msgstr ""
+
+#: modules/components/general-meta.php:86
+msgid ""
+"DNS prefetching allows you to resolve domain names (perform a DNS lookup in the "
+"background) before a user clicks on a link, which in turn can help improve "
+"performance."
+msgstr ""
+
+#: modules/components/general-meta.php:103 modules/components/general-meta.php:107
+msgid "Remove Resource Hints"
+msgstr ""
+
+#: modules/components/general-meta.php:104
+msgid ""
+"Remove Resource Hints meta generated tags within head (eg dns-prefetch, "
+"preconnect)."
+msgstr ""
+
+#: modules/components/general-meta.php:108
+msgid ""
+"DNS prefetching and preconect allows you to resolve domain names before a user "
+"clicks on a link, which in turn can help and slightly improve performance."
+msgstr ""
+
+#: modules/components/general-meta.php:126
+msgid "Remove the wlwmanifest tag within head."
+msgstr ""
+
+#: modules/components/general-meta.php:130
+msgid ""
+"The above link is actually used by Windows Live Writer. If you don't te "
+"application, this is just unnecessary code."
+msgstr ""
+
+#: modules/components/general-meta.php:150 modules/components/general-meta.php:154
+#: modules/components/rewrite-json-rest.php:150
+msgid "Disable output the REST API link tag into page header"
+msgstr ""
+
+#: modules/components/general-meta.php:151
+#: modules/components/rewrite-json-rest.php:151
+msgid "By default a REST API link tag is being append to HTML."
+msgstr ""
+
+#: modules/components/general-meta.php:155
+msgid "This option disable the tag output with the JSON API url."
+msgstr ""
+
+#: modules/components/general-meta.php:177 modules/components/general-meta.php:181
+msgid "Remove rsd_link Meta"
+msgstr ""
+
+#: modules/components/general-meta.php:178
+msgid "Remove the rsd_link tag within head."
+msgstr ""
+
+#: modules/components/general-meta.php:182
+msgid ""
+"This helps to hide the link to the Really Simple Discovery service endpoint."
+msgstr ""
+
+#: modules/components/general-meta.php:203 modules/components/general-meta.php:207
+#: modules/components/general-meta.php:231 modules/components/general-meta.php:255
+msgid "Remove adjacent_posts_rel Meta"
+msgstr ""
+
+#: modules/components/general-meta.php:204
+msgid "Remove the adjacent_posts_rel tag within head."
+msgstr ""
+
+#: modules/components/general-meta.php:208
+msgid "This helps to hide the post adjacent tags."
+msgstr ""
+
+#: modules/components/general-meta.php:227
+msgid "Remove profile link"
+msgstr ""
+
+#: modules/components/general-meta.php:228
+msgid "Remove profile link meta tag within head."
+msgstr ""
+
+#: modules/components/general-meta.php:232
+msgid "This helps to hide the profile tags."
+msgstr ""
+
+#: modules/components/general-meta.php:251
+msgid "Remove canonical link"
+msgstr ""
+
+#: modules/components/general-meta.php:252
+msgid "Remove canonical link meta tag within head."
+msgstr ""
+
+#: modules/components/general-meta.php:256
+msgid ""
+"The rel=canonical element, often called the 'canonical link', is an HTML "
+"element that helps webmasters prevent duplicate content issues. It does this by "
+"specifying the 'canonical URL', the 'preferred' version of a web page - the "
+"original source, even."
+msgstr ""
+
+#: modules/components/general-oembed.php:16
+#: modules/components/general-oembed.php:20
+msgid "Remove Oembed"
+msgstr ""
+
+#: modules/components/general-oembed.php:17
+msgid "Remove Oembed tags from header."
+msgstr ""
+
+#: modules/components/general-oembed.php:21
+msgid ""
+"WordPress oEmbed recognizes URLs to a number of services, for example Youtube "
+"videos. When WordPress sees the URL it will connect to the external service "
+"(Youtube) and ask for the relevant HTML code to embed the video into the page "
+"or post."
+msgstr ""
+
+#: modules/components/general-robots-txt.php:16
+#: modules/components/general-robots-txt.php:20
+msgid "Change the default urls within Robots.txt"
+msgstr ""
+
+#: modules/components/general-robots-txt.php:17
+msgid ""
+"Change any default url which is being automatically generated by WordPress when "
+"called robots.txt."
+msgstr ""
+
+#: modules/components/general-robots-txt.php:21
+msgid ""
+"The robots.txt file plays a major role in search engine ranking. It blocks "
+"search engine bots and helps index and crawl important parts of your site."
+msgstr ""
+
+#: modules/components/general-robots-txt.php:22
+msgid ""
+"As default the robots.txt also includes an allow clause to admin URL and admin-"
+"ajax.php url. Once customized those areas, the new slugs might not want to be "
+"show to anyone. Turn this option to Yes removed any reference to new wp-admin "
+"and admin-ajax.php."
+msgstr ""
+
+#: modules/components/general-robots-txt.php:23
+msgid "Sample robots.txt url:"
+msgstr ""
+
+#: modules/components/general-scripts.php:17
+msgid "Remove version number from enqueued script files."
+msgstr ""
+
+#: modules/components/general-scripts.php:21
+msgid ""
+"This provide a method to remove the JavaScript version number which is being "
+"append at the end of every script file. Generally this is intended to be a "
+"plain information upon the JavaScript code version, however not being used "
+"within any functionality or code run."
+msgstr ""
+
+#: modules/components/general-scripts.php:22
+msgid ""
+"Keeping version number for scripts provide additional information to hackers "
+"which try to identify specific JavaScript code and version which know as being "
+"vulnerable."
+msgstr ""
+
+#: modules/components/general-scripts.php:25
+msgid "Once option set to Yes the tag becomes:"
+msgstr ""
+
+#: modules/components/general-styles.php:17
+msgid "Remove version number from enqueued style files."
+msgstr ""
+
+#: modules/components/general-styles.php:21
+msgid ""
+"This provide a method to remove the Style file version number which is being "
+"append at the end of every style tag. Generally this is intended to be a plain "
+"information upon the style code version, however not being used within any "
+"functionality or code run."
+msgstr ""
+
+#: modules/components/general-styles.php:22
+msgid ""
+"Keeping version number for styles provide additional information to hackers "
+"which try to identify specific code and version which know as being vulnerable."
+msgstr ""
+
+#: modules/components/general-styles.php:39
+msgid "Remove ID from link tags"
+msgstr ""
+
+#: modules/components/general-styles.php:40
+msgid "Remove ID attribute from all link tags which include a stylesheet."
+msgstr ""
+
+#: modules/components/general-styles.php:44
+msgid ""
+"This provide a method to remove the Style file ID attribute which generally has "
+"no usage."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:24
+msgid "Disable Mouse right click"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:25
+msgid "Disable mouse right click on your pages."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:28
+msgid "Disable right Mouse click"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:29
+msgid ""
+"Disable right mouse click on your pages can protect your site content from "
+"being copied."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:30
+msgid ""
+"Some plugins, mainly visual editors, use mouse right-click, if use such code "
+"this option should be set to No."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:47
+#: modules/components/general-user-interactions.php:51
+msgid "Disable Text Selection"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:48
+msgid "Disable Text Selection on your pages."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:52
+msgid "When the option is active, the text selection on pages is not possible."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:53
+msgid "This is useful when don't want the site texts to be copied."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:70
+#: modules/components/general-user-interactions.php:74
+msgid "Disable Copy / Paste"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:71
+msgid "Disable text copy and paste on your pages."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:75
+msgid "Through the option copy and paste browser functionality is disabled."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:92
+#: modules/components/general-user-interactions.php:96
+msgid "Disable Print"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:93
+msgid "Disable Print function on your pages."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:97
+msgid ""
+"When using the option, the browser Print dialogue is not available so a site "
+"print is disabled."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:114
+#: modules/components/general-user-interactions.php:118
+msgid "Disable Print Screen"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:115
+msgid "Disable Print Screen function on your pages."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:119
+msgid ""
+"The Print Screen function captures an image of the entire screen and copies it "
+"to the Clipboard in the computer's memory."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:120
+msgid "If the functionality is not required, the option helps to disable it."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:137
+#: modules/components/general-user-interactions.php:141
+msgid "Disable Developer Tools"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:138
+msgid "Disable the browser Developr Tools on your pages."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:142
+msgid ""
+"Every modern web browser includes a powerful tool called Developer Tools. "
+"Through the application, a user can inspect currently-loaded HTML, CSS and "
+"JavaScript."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:143
+msgid ""
+"To prevent the user from deeply checking into your site architecture, the "
+"browser Inspect can be disabled through this option. "
+msgstr ""
+
+#: modules/components/general-user-interactions.php:160
+#: modules/components/general-user-interactions.php:164
+msgid "Disable View Source"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:161
+msgid "Disable the browser view source on your pages."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:165
+msgid ""
+"The page source is an HTML set of tags code. An HTML tag is an element that, "
+"along with CSS and JavaScript, tells the Web browser what to do and how to "
+"display the text and images."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:182
+#: modules/components/general-user-interactions.php:186
+msgid "Disable Drag / Drop"
+msgstr ""
+
+#: modules/components/general-user-interactions.php:183
+msgid "Disable the browser drag and drop for images on your pages."
+msgstr ""
+
+#: modules/components/general-user-interactions.php:187
+msgid ""
+"The Drag and Drop operation describes the action o selecting an object or text "
+"on the page and moving it to a different area."
+msgstr ""
+
+#: modules/components/general-wpemoji.php:16
+#: modules/components/general-wpemoji.php:20
+#: modules/components/general-wpemoji.php:42
+msgid "Disable Emoji"
+msgstr ""
+
+#: modules/components/general-wpemoji.php:17
+msgid "Disable the Emoji icon library from being loaded."
+msgstr ""
+
+#: modules/components/general-wpemoji.php:21
+msgid ""
+"Not everyone use Emoji. Since WordPress load the dependencies as default, it "
+"decrease the overall site speed. Disabling this will remove any code and "
+"related resources from being loaded on front side."
+msgstr ""
+
+#: modules/components/general-wpemoji.php:38
+msgid "Disable TinyMCE Emoji"
+msgstr ""
+
+#: modules/components/general-wpemoji.php:39
+msgid "Disable the TinyMCE Emoji icons library from being loaded into TinyMC."
+msgstr ""
+
+#: modules/components/general-wpemoji.php:43
+msgid ""
+"Disable TinyMCE Emoji This is also loaded along the WordPress default TinyMCE "
+"editor, but it can be disabled through this option."
+msgstr ""
+
+#: modules/components/rewrite-author.php:17
+#: modules/components/rewrite-author.php:21
+msgid "New Author Path"
+msgstr ""
+
+#: modules/components/rewrite-author.php:18
+msgid "The default path is set to /author/"
+msgstr ""
+
+#: modules/components/rewrite-author.php:22
+msgid ""
+"An author URL display all posts associated to a particular author. The default "
+"URL format is:"
+msgstr ""
+
+#: modules/components/rewrite-author.php:24
+msgid "By using a value of 'contributor' this become:"
+msgstr ""
+
+#: modules/components/rewrite-author.php:38
+#: modules/components/rewrite-author.php:42
+#: modules/components/rewrite-search.php:38
+#: modules/components/rewrite-search.php:42
+msgid "Block default"
+msgstr ""
+
+#: modules/components/rewrite-author.php:39
+msgid "Block default /author/ when using custom one."
+msgstr ""
+
+#: modules/components/rewrite-author.php:39
+#: modules/components/rewrite-search.php:39
+msgid "Apply only if "
+msgstr ""
+
+#: modules/components/rewrite-author.php:39
+#: modules/components/rewrite-search.php:39
+msgid "is not empty."
+msgstr ""
+
+#: modules/components/rewrite-author.php:43
+msgid ""
+"After changing the default author, the old url is still accessible, this "
+"provide a way to block it.<br />The functionality apply only if <b>New Author "
+"Path</b> option is filled in."
+msgstr ""
+
+#: modules/components/rewrite-comments.php:18
+msgid "The default path is set to wp-comments-post.php"
+msgstr ""
+
+#: modules/components/rewrite-comments.php:22
+msgid "As default the form data is being sent and processed at:"
+msgstr ""
+
+#: modules/components/rewrite-comments.php:24
+msgid ""
+"This makes it easy to recognise as WordPress form. Boots always search for such "
+"file ( wp-comments-post.php ) and automatically submit spam messages."
+msgstr ""
+
+#: modules/components/rewrite-comments.php:25
+msgid "Though this option a new file slug can replace the default."
+msgstr ""
+
+#: modules/components/rewrite-comments.php:39
+#: modules/components/rewrite-comments.php:43
+msgid "Block wp-comments-post.php"
+msgstr ""
+
+#: modules/components/rewrite-comments.php:40
+msgid "Block default wp-comments-post.php."
+msgstr ""
+
+#: modules/components/rewrite-comments.php:44
+msgid ""
+"After changing the default wp-comments-post.php, the old url is still "
+"accessible, this provide a way to block the old.<br />The functionality apply "
+"only if <b>New wp-comments-post.php</b> option is filled in."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:18
+msgid ""
+"As default, when calling the REST API base route ( e.g. /wp-json/ ) the service "
+"outputs all available namespaces and routes."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:22
+msgid ""
+"When calling the site REST API base route ( e.g. /wp-json/ or ?rest_route=/ ) "
+"the service outputs all available namespaces and routes for current site. This "
+"can be a breach for the system, as outputs important information regarding "
+"certain used theme and plugins. "
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:23
+msgid ""
+"Recommended selection for this option is Yes, to ensure no inside data is being "
+"exposed. "
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:41
+#: modules/components/rewrite-json-rest.php:45
+msgid "Disable JSON REST V1 service"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:42
+#: modules/components/rewrite-json-rest.php:74
+msgid "An API service for WordPress which is active by default."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:46
+#: modules/components/rewrite-json-rest.php:78
+msgid ""
+"The WordPress REST API is an easy-to-use set of HTTP endpoints which allows "
+"access a site data in simple JSON format. That including users, posts, "
+"taxonomies and more. Retrieving or updating is as simple as sending a HTTP "
+"request."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:47
+#: modules/components/rewrite-json-rest.php:79
+msgid ""
+"A REST API can be consumed everywhere. On mobile applications, on front-end "
+"(web apps) or any other devices that have access on the net, practically "
+"everything can connect from anywhere to your site and interact though JSON REST "
+"API service."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:48
+msgid ""
+"V1 was the first development version of API, which currently is deprecated. To "
+"disable the usage of it, simply chose Yes."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:54
+msgid ""
+"This can break specific functionality. Some plugins might use this API. Once "
+"active test it thoroughly.<br />If not working, set to <b>No</b> to revert."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:73
+#: modules/components/rewrite-json-rest.php:77
+msgid "Disable JSON REST V2 service"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:80
+msgid ""
+"V2 is the current development version of API, which is included into WordPress "
+"as default. To disable the usage of it, simply chose Yes."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:81
+msgid ""
+"This might be required by specific plugins, including new WordPress editor "
+"Gutenberg."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:87
+#: modules/components/rewrite-json-rest.php:124
+msgid ""
+"This can break specific functionality. Some plugins like Gutenberg editor use "
+"this API. Once active test it thoroughly.<br />If not working, set to <b>No</b> "
+"to revert."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:110
+#: modules/components/rewrite-json-rest.php:114
+msgid "Block any JSON REST calls"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:111
+msgid "Any call for JSON REST API service will be blocked."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:115
+msgid "This blocks the JSON REST API service."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:116
+msgid ""
+"When selecting the <b>Non logged-in</b> the service is blocked for all non-"
+"authenticated users."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:117
+msgid "When selecting the <b>All</b> the service is blocked for everyone."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:118
+msgid ""
+"This might be required by specific plugins, including new WordPress editor "
+"Gutenberg. So if required to block the API, the <b>Non logged-in</b> is the "
+"appropriate option to use."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:131
+msgid "Non logged-in"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:154
+msgid "disable_json_rest_wphead_link"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:155
+msgid ""
+"As default the API url is being append into the front html head tag. Using this "
+"option, it will be replaced."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:174
+msgid "Disable JSON REST WP RSD endpoint from XML-RPC responses"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:175
+msgid "By default a WP RSD endpoint is being append to the XML respose."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:178
+msgid "disable_json_rest_xmlrpc_rsd"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:179
+msgid "Disable any RSD endpoint from a XML-RPC response."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:197
+msgid "Disable Sends a Link header for the REST API"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:198
+msgid "On template_redirect, disable Sends a Link header for the REST API."
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:201
+msgid "disable_json_rest_template_redirect"
+msgstr ""
+
+#: modules/components/rewrite-json-rest.php:202
+msgid "Disable Sends a Link header for the REST API, on template_redirect"
+msgstr ""
+
+#: modules/components/rewrite-new_include_path.php:17
+#: modules/components/rewrite-new_include_path.php:21
+#: modules/components/rewrite-new_include_path.php:41
+msgid "New Includes Path"
+msgstr ""
+
+#: modules/components/rewrite-new_include_path.php:18
+msgid "Change default /wp-includes/ path."
+msgstr ""
+
+#: modules/components/rewrite-new_include_path.php:24
+msgid "After filling in this option e.g. resources the links will change to this:"
+msgstr ""
+
+#: modules/components/rewrite-new_include_path.php:29
+msgid "e.g. my_includes"
+msgstr ""
+
+#: modules/components/rewrite-new_include_path.php:37
+msgid "Block wp-includes URL"
+msgstr ""
+
+#: modules/components/rewrite-new_include_path.php:38
+msgid ""
+"Block /wp-includes/ files from being accesible through default urls. <br /"
+">Apply only if <b>New Includes Path</b> is not empty."
+msgstr ""
+
+#: modules/components/rewrite-new_include_path.php:42
+msgid ""
+"This blocks the default wp-includes urls only for non loged-in users.<br />The "
+"functionality apply only if <b>New Includes Path</b> option is filled in."
+msgstr ""
+
+#: modules/components/rewrite-new_include_path.php:48
+#: modules/components/rewrite-new_plugin_path.php:47
+msgid ""
+"This can break the layout if server not supporting the feature. Ensure `New "
+"Includes Path` option works fine before activate this. Once active test it "
+"thoroughly.<br />If not working, set to <b>No</b> to revert."
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:18
+msgid "The default plugins path is set to"
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:22
+msgid ""
+"Use any alphanumeric symbols for this field which will be used as the new slug "
+"for the plugins folder. Presuming the `apps` slug is being used, all plugins "
+"urls become to something like this:"
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:36
+#: modules/components/rewrite-new_plugin_path.php:40
+msgid "Block plugins URL"
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:37
+msgid ""
+"Block default /wp-content/plugins/ files from being accesible through default "
+"urls."
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:41
+msgid ""
+"This blocks the default wp-content/plugins/ url.<br />The functionality apply "
+"only if <b>New Plugins Path</b> option is filled in."
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:88
+#: modules/components/rewrite-new_plugin_path.php:92
+msgid "New Path for"
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:88
+msgid "plugin"
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:89
+msgid "This setting if set, overwrites the"
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:89
+msgid "New Plugin Path"
+msgstr ""
+
+#: modules/components/rewrite-new_plugin_path.php:89
+msgid "value for this plugin."
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:28
+msgid "Change theme url, which as default the path is set to"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:32
+msgid ""
+"This option helps to change the theme url to a custom one. As default all theme "
+"assets ( styles, JavaScript etc ) are loaded using the theme url and appear on "
+"front side html source like this:"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:34
+msgid ""
+"When using this option, if filling with `template`, all urls on front side "
+"become as follow:"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:39
+#: modules/components/rewrite-new_theme_path.php:60
+#: modules/components/rewrite-new_theme_path.php:131
+#: modules/components/rewrite-new_theme_path.php:151
+msgid "Example"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:49
+#: modules/components/rewrite-new_theme_path.php:53
+#: modules/components/rewrite-new_theme_path.php:77
+#: modules/components/rewrite-new_theme_path.php:140
+#: modules/components/rewrite-new_theme_path.php:144
+#: modules/components/rewrite-new_theme_path.php:168
+msgid "New Style File Path"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:50
+msgid "Change default theme style file style.css, current path is set to"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:54
+msgid ""
+"This allow to change the default style.css filename to something else e.g. "
+"template-style.css. Per this example, on front side the main style link change "
+"from /style.css to /template-style.css"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:70
+#: modules/components/rewrite-new_theme_path.php:161
+msgid "Remove description header from Style file"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:73
+msgid "Strip out all meta data from style file."
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:78
+#: modules/components/rewrite-new_theme_path.php:169
+msgid ""
+"Strip out all meta data from style file as Theme Name, Theme URI, Author etc. "
+"Those are important informations for hackers to find out possible theme "
+"security breaches. A list of headers can e found at"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:78
+#: modules/components/rewrite-new_theme_path.php:169
+msgid "Theme Headers"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:79
+#: modules/components/rewrite-new_theme_path.php:170
+msgid ""
+"This feature may fail if style file url not available on html ( being "
+"concatenated )."
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:85
+msgid ""
+"This can break the layout if server not supporting the feature. Once active "
+"test it thoroughly.<br />If not working, set to No to revert."
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:95
+#: modules/components/rewrite-new_theme_path.php:187
+msgid ""
+"This functionality use caching! If active, cache clear is recommended on styles "
+"updates."
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:95
+#: modules/components/rewrite-new_theme_path.php:187
+msgid "Cache Clear"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:120
+msgid "Change child theme url, which as default the path is set to"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:124
+msgid ""
+"This option helps to change the child theme url to a custom one. As default all "
+"theme assets ( styles, JavaScript etc ) are loaded using the theme url and "
+"appear on front side html source like this:"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:126
+msgid ""
+"When using this option, if filling with `template-child`, all urls on front "
+"side become as follow:"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:141
+msgid "Change default child theme style file style.css, current path is set to"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:145
+msgid ""
+"This allow to change the default style.css filename to something else e.g. "
+"template-style.css. Per this example, on front side the main style link change "
+"from /style.css to /child-style.css"
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:164
+msgid "Strip out all meta data from child theme style file."
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:176
+msgid ""
+"This can break the layout if server not supporting the feature. Ensure all "
+"regular options works fine before activate this. Once active test it thoroughly."
+"<br />If not working, set to No to revert."
+msgstr ""
+
+#: modules/components/rewrite-new_theme_path.php:821
+msgid ""
+"When changing the Child Theme Path it is recommended to also change the Main "
+"Theme Path to avoid relative paths issues within style files and layout break."
+msgstr ""
+
+#: modules/components/rewrite-new_upload_path.php:17
+#: modules/components/rewrite-new_upload_path.php:21
+msgid "New Uploads Path"
+msgstr ""
+
+#: modules/components/rewrite-new_upload_path.php:18
+msgid "The default uploads path is set to"
+msgstr ""
+
+#: modules/components/rewrite-new_upload_path.php:22
+msgid ""
+"Use any alphanumeric symbols for this field which will be used as the new slug "
+"for the uploads folder. Using this option the default media folder can be "
+"mapped to another path. Filling with a slug like 'media' the links become like "
+"this:"
+msgstr ""
+
+#: modules/components/rewrite-new_upload_path.php:27
+msgid "e.g. media"
+msgstr ""
+
+#: modules/components/rewrite-new_upload_path.php:36
+#: modules/components/rewrite-new_upload_path.php:40
+msgid "Block default uploads URL"
+msgstr ""
+
+#: modules/components/rewrite-new_upload_path.php:37
+msgid ""
+"Block default /wp-content/uploads/ media folder from being accesible through "
+"default urls."
+msgstr ""
+
+#: modules/components/rewrite-new_upload_path.php:41
+msgid ""
+"This blocks the default wp-content/uploads/ url.<br />The functionality apply "
+"only if <b>New Plugins Path</b> option is filled in."
+msgstr ""
+
+#: modules/components/rewrite-new_upload_path.php:47
+msgid ""
+"This can break the layout if server not supporting the feature. Ensure `New "
+"Uploads Path` option works fine before activate this. Once active test it "
+"thoroughly.<br />If not working, set to <b>No</b> to revert."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:17
+#: modules/components/rewrite-new_xml-rpc-path.php:21
+msgid "New XML-RPC Path"
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:18
+msgid "The default XML-RPC path is set to xmlrpc.php."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:23
+msgid "As default the path to XML-RPC file is:"
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:25
+msgid ""
+"Through this option it can be changed to anything else. This ensure the "
+"protocol will not be called by anyone who don't know the actual path."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:30
+msgid "e.g. my-xml-rpc.php"
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:39
+#: modules/components/rewrite-new_xml-rpc-path.php:43
+msgid "Block default xmlrpc.php"
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:40
+msgid "Shut down XML-RPC service."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:44
+msgid ""
+"This blocks the default XML-RPC service. The functionality apply if <b>New XML-"
+"RPC Path</b> option is NOT filled in."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:45
+msgid ""
+"Keep in mind that some plugins like Jetpack use this API, so disabling might "
+"break specific functionality."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:51
+#: modules/components/rewrite-new_xml-rpc-path.php:109
+msgid ""
+"This can break specific functionality. Some plugins like Jetpack use this API. "
+"Once active test it thoroughly.<br />If not working, set to <b>No</b> to revert."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:69
+#: modules/components/rewrite-new_xml-rpc-path.php:73
+msgid "Disable XML-RPC authentication"
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:70
+msgid ""
+"Filter whether XML-RPC methods requiring authentication, such as for publishing "
+"purposes, are enabled."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:74
+msgid ""
+"As default it require authentication for the protocol to be used along with a "
+"remote application. Activating the option, no authentication will be required "
+"through a call. Recommended is to be set to No."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:80
+msgid ""
+"Once active test it thoroughly.<br />If not working, set to <b>No</b> to revert."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:98
+#: modules/components/rewrite-new_xml-rpc-path.php:102
+msgid "Remove pingback"
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:99
+msgid "Remove pingback link tag from theme."
+msgstr ""
+
+#: modules/components/rewrite-new_xml-rpc-path.php:103
+msgid ""
+"A pingback is one of four types of link-back methods for Web authors to request "
+"notification when somebody links to one of their documents. This enables "
+"authors to keep track of who is linking to, or referring to their articles "
+"Using this option this functionality can be removed."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:20
+msgid "Block access to license.txt root file"
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:42
+msgid "Block access to readme.html root file"
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:63
+#: modules/components/rewrite-root-files.php:67
+msgid "Block wp-activate.php"
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:64
+msgid "Block access to wp-activate.php file."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:68
+msgid ""
+"Block access to wp-activate.php file. Through this file new users confirms that "
+"the activation key that is received in the email after signs up for a new blog, "
+"matches the key for that user."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:69
+msgid "If anyone can register on your site, you should keep this no NO."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:88
+msgid ""
+"Unable to identify site domain IP, blocking wp-cron.php will stop the site "
+"internal WordPress cron functionality."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:92
+msgid "Site domain rezolved to IP"
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:92
+msgid ""
+"If blocked, all internal calls to cron will continue to run fine. All calls "
+"from a different IP are blocked, including direct calls."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:93
+msgid ""
+"On certain servers, different ip's can be used to call the cron internally. If "
+"the Cron service apepars to not trigger anymore, this option should be  "
+"disabled."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:98
+#: modules/components/rewrite-root-files.php:102
+msgid "Block wp-cron.php"
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:103
+msgid ""
+"The file wp-cron.php is the portion of WordPress that handles scheduled events "
+"within a WordPress site. If remote cron calls not being used this can be set to "
+"Yes.."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:110
+msgid ""
+"The Cron service is how WordPress handles scheduling time-based tasks in "
+"WordPress. If not working correctly, some core features such as checking for "
+"updates and publishing scheduled will fail."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:127
+#: modules/components/rewrite-root-files.php:131
+msgid "Block wp-signup.php"
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:128
+msgid "Block default wp-signup.php file."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:132
+msgid ""
+"The wp-signup.php allow for anyone to register to your site. If the "
+"registration functionality is turned off, is safe to block the  wp-signup.php."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:150
+#: modules/components/rewrite-root-files.php:154
+msgid "Block wp-register.php"
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:151
+msgid "Block default wp-register.php file."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:155
+msgid ""
+"This is a deprecated file but still present in many WordPress installs.  When "
+"called the user is redirected to /register page. Is safe to block the wp-"
+"register.php."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:173
+#: modules/components/rewrite-root-files.php:177
+msgid "Block other wp-*.php files"
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:174
+msgid "Block other wp-*.php files in the root."
+msgstr ""
+
+#: modules/components/rewrite-root-files.php:178
+msgid ""
+"Block other wp-*.php files. E.g. wp-blog-header.php, wp-config.php, wp-cron."
+"php. Those files are used internally, blocking those will not affect any "
+"functionality. Other root files (wp-activate.php, wp-login.php, wp-signup.php) "
+"are ignored, they can be controlled through own setting."
+msgstr ""
+
+#: modules/components/rewrite-search.php:17
+#: modules/components/rewrite-search.php:21
+msgid "New Search Path"
+msgstr ""
+
+#: modules/components/rewrite-search.php:18
+msgid "The default path is set to /search/"
+msgstr ""
+
+#: modules/components/rewrite-search.php:22
+msgid ""
+"The /search/ is the default slug used to display the results for the search "
+"page. The default URL format is:"
+msgstr ""
+
+#: modules/components/rewrite-search.php:24
+msgid "By using a value of 'find' this become:"
+msgstr ""
+
+#: modules/components/rewrite-search.php:39
+msgid "Block default /search/ when using custom one."
+msgstr ""
+
+#: modules/components/rewrite-search.php:43
+msgid ""
+"After changing the default author, the old url is still accessible, this "
+"provide a way to block it.<br />The functionality apply only if <b>New Search "
+"Path</b> option is filled in."
+msgstr ""
+
+#: modules/components/rewrite-slash.php:16 modules/components/rewrite-slash.php:20
+msgid "URL's add Slash"
+msgstr ""
+
+#: modules/components/rewrite-slash.php:17
+msgid "Add an end slash to all links which does not include one."
+msgstr ""
+
+#: modules/components/rewrite-slash.php:21
+msgid "As default the WordPress url's format include an ending slash. "
+msgstr ""
+
+#: modules/components/rewrite-slash.php:22
+msgid ""
+"There are situations when this slash is not being append. Turning on this "
+"option, all links will get a slash if not included as default. Disguise the "
+"existence of files and folders, since they will not be slashed as deafault, all "
+"receive an ending slashed."
+msgstr ""
+
+#: modules/components/rewrite-slash.php:23
+msgid "For example the following link:"
+msgstr ""
+
+#: modules/components/rewrite-slash.php:25
+msgid "will be redirected to:"
+msgstr ""
+
+#: modules/components/rewrite-slash.php:27
+msgid ""
+"On certain servers this can produce a small lag measured in milliseconds, for "
+"each url."
+msgstr ""
+
+#: modules/components/rewrite-slash.php:28
+msgid "If produce endless redirects, turn this option off."
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:16
+#: modules/components/rewrite-wp_content_path.php:20
+msgid "New Content Path"
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:17
+msgid "Change default /wp-content/"
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:17
+msgid "Your default wp-content path is set to"
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:23
+msgid "After filling in this option e.g. data the links become:"
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:28
+msgid "e.g. my_content"
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:38
+msgid "Block wp-content URL"
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:39
+msgid "Block default /wp-content/ path. Your default wp-content path is set to"
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:42
+msgid "New content Path"
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:43
+msgid ""
+"This blocks the default wp-content urls only for non loged-in users.<br />The "
+"functionality apply only if <b>New Content Path</b> option is filled in."
+msgstr ""
+
+#: modules/components/rewrite-wp_content_path.php:49
+msgid ""
+"This can break the layout if server not supporting the feature. Ensure New "
+"Includes Path options works fine before activate this. Once active test it "
+"thoroughly.<br />If not working, set to <b>No</b> to revert."
+msgstr ""
+
+#: modules/components/security-add_headers.php:43
+msgid "Remove X-Powered-By Header if being set."
+msgstr ""
+
+#: modules/components/security-check_headers.php:22
+msgid "Check Headers"
+msgstr ""
+
+#: modules/components/security-check_headers.php:25
+msgid ""
+"HTTP Response Headers are a powerful tool to Harden Your Website.<br />Misusing "
+"the headers, can easily break the site layout and functionality. Ensure you "
+"understand the proper usage for each option before configuring. Once the "
+"Headers setup completed, a thorough check for the front side is recommended."
+msgstr ""
+
+#: modules/components/security-check_headers.php:28
+msgid ""
+"Copy the following link to a safe place. You can use it to reset the header "
+"options if something goes wrong:"
+msgstr ""
+
+#: modules/components/security-check_headers.php:30
+msgid "Sample Setup"
+msgstr ""
+
+#: modules/components/security-check_headers.php:31
+msgid ""
+"Create a sample setup for Headers. That will overwrite any Headers settings "
+"previously created through the plugin options. The sample setup creates a basic "
+"Headers implementation that is commonly safe on any site. For better "
+"performances, further manual adjustments are necesarelly."
+msgstr ""
+
+#: modules/components/security-check_headers.php:31
+msgid "Create Sample Setup"
+msgstr ""
+
+#: modules/components/security-check_headers.php:33
+msgid ""
+"The Hypertext Transfer Protocol (HTTP) is based on a client-server "
+"architecture, in which the client ( typically a web browser application ) "
+"establishes a connection with the server through a destination URL and waits "
+"for a response."
+msgstr ""
+
+#: modules/components/security-check_headers.php:34
+msgid ""
+"The HTTP Headers allow the client and the server send additional pieces of "
+"information with the HTTP request or response."
+msgstr ""
+
+#: modules/components/security-check_headers.php:35
+msgid ""
+"The HTTP Headers are categorised by their purpose: Authentication, Caching, "
+"Client hints, Conditionals, Connection management, Content negotiation, "
+"Controls, Cookies, CORS, Downloads, Message body information, Proxies, "
+"Redirects, Request context, Response context, Range requests, <b>Security</b>, "
+"Server-sent events, Transfer coding, WebSockets, Other"
+msgstr ""
+
+#: modules/components/security-check_headers.php:36
+msgid "This area provides support for the <b>"
+msgstr ""
+
+#: modules/components/security-check_headers.php:36
+msgid ""
+" type. Those are the ones responsible for the security implementation for any "
+"page."
+msgstr ""
+
+#: modules/components/security-check_headers.php:62
+msgid "Allows a server to declare an embedder policy for a given document."
+msgstr ""
+
+#: modules/components/security-check_headers.php:68
+msgid "Prevents other domains from opening/controlling a window."
+msgstr ""
+
+#: modules/components/security-check_headers.php:74
+msgid ""
+"Prevents other domains from reading the response of the resources to which this "
+"header is applied."
+msgstr ""
+
+#: modules/components/security-check_headers.php:80
+msgid "Controls resources the user agent is allowed to load for a given page."
+msgstr ""
+
+#: modules/components/security-check_headers.php:86
+msgid ""
+"Allows web developers to experiment with policies by monitoring, but not "
+"enforcing, their effects. These violation reports consist of JSON documents "
+"sent via an HTTP POST request to the specified URI."
+msgstr ""
+
+#: modules/components/security-check_headers.php:92
+msgid ""
+"Provides a mechanism to allow and deny the use of browser features in its own "
+"frame, and in iframes that it embeds."
+msgstr ""
+
+#: modules/components/security-check_headers.php:98
+msgid ""
+"A policy that controls how much information is shared through the HTTP referrer "
+"header. Helps to protect user privacy."
+msgstr ""
+
+#: modules/components/security-check_headers.php:104
+msgid "Force communication using HTTPS instead of HTTP."
+msgstr ""
+
+#: modules/components/security-check_headers.php:110
+msgid ""
+"Disables MIME sniffing and forces browser to use the type given in Content-Type."
+msgstr ""
+
+#: modules/components/security-check_headers.php:116
+msgid ""
+"The X-Download-Options HTTP header indicates that the browser (Internet "
+"Explorer) should not display the option to \"Open\" a file that has been "
+"downloaded from an application, to prevent phishing attacks as the file "
+"otherwise would gain access to execute in the context of the application."
+msgstr ""
+
+#: modules/components/security-check_headers.php:122
+msgid ""
+"Indicates whether a browser should be allowed to render a page in a &#60;"
+"frame&#62;, &#60;iframe&#62;, &#60;embed&#62; or &#60;object&#62;"
+msgstr ""
+
+#: modules/components/security-check_headers.php:128
+msgid ""
+"Specifies if a cross-domain policy file (crossdomain.xml) is allowed. The file "
+"may define a policy to grant clients, such as Adobe's Flash Player (now "
+"obsolete), Adobe Acrobat, Microsoft Silverlight (now obsolete), or Apache Flex, "
+"permission to handle data across domains that would otherwise be restricted due "
+"to the Same-Origin Policy. See the Cross-domain Policy File Specification for "
+"more information."
+msgstr ""
+
+#: modules/components/security-check_headers.php:134
+msgid ""
+"Created for browsers equipped with XSS filters, this non-standard header was "
+"intended as a way to control the filtering functionality."
+msgstr ""
+
+#: modules/components/security-check_headers.php:151
+msgid "The current protection level is"
+msgstr ""
+
+#: modules/components/security-check_headers.php:163
+msgid "Check Current Headers"
+msgstr ""
+
+#: modules/components/security-check_headers.php:186
+msgid ""
+"<br />Unable to parse the site Headers. The wp_remote_head() returned an "
+"invalid Response, check with your host support for more details.  Unable to "
+"identify your site Headers."
+msgstr ""
+
+#: modules/components/security-check_headers.php:198
+msgid ""
+"<br />Invalid WP_HTTP_Requests_Response object. The wp_remote_head() returned "
+"an invalid Response, check with your host support for more details."
+msgstr ""
+
+#: modules/components/security-check_headers.php:207
+msgid ""
+"<br />Unable to parse the site Headers. The wp_remote_head() returns invalid "
+"Response Code, check with your host support for more details."
+msgstr ""
+
+#: modules/components/security-check_headers.php:217
+msgid ""
+"<br />Unable to parse the site Headers. The wp_remote_head() returns a 401 "
+"error code, the request could not be authenticated. Does the site use an httpd "
+"password?"
+msgstr ""
+
+#: modules/components/security-check_headers.php:224
+msgid ""
+"<br />Unable to parse the site Headers. The wp_remote_head() returns wrong "
+"Response Code"
+msgstr ""
+
+#: modules/components/security-check_headers.php:224
+msgid ", check with your host support for more details."
+msgstr ""
+
+#: modules/components/security-check_headers.php:240
+msgid "Header"
+msgstr ""
+
+#: modules/components/security-check_headers.php:311
+msgid "Warning! The following headers could not be found:"
+msgstr ""
+
+#: modules/components/security-check_headers.php:312
+msgid "Ensure the server mod_headers module is active."
+msgstr ""
+
+#: modules/components/security-check_headers.php:319
+msgid "Consider adding more security headers:"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-embedder-policy.php:20
+msgid "Cross-Origin-Embedder-Policy (COEP)"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-embedder-policy.php:23
+#: modules/components/security-header-cross-origin-opener-policy.php:23
+msgid "Cross-Origin-Embedder-Policy"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-embedder-policy.php:24
+msgid ""
+"The HTTP Cross-Origin-Embedder-Policy (COEP) response header prevents a "
+"document from loading any cross-origin resources that don't explicitly grant "
+"the document permission (using CORP or CORS)."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-embedder-policy.php:25
+#: modules/components/security-header-cross-origin-opener-policy.php:27
+#: modules/components/security-header-referrer-policy.php:25
+#: modules/components/security-header-x-content-type-options.php:27
+#: modules/components/security-header-x-frame-options.php:26
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:27
+#: modules/components/security-header-x-xss-protection.php:25
+msgid "Options:"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-embedder-policy.php:26
+msgid ""
+"This is the default value. Allows the document to fetch cross-origin resources "
+"without giving explicit permission through the CORS protocol or the Cross-"
+"Origin-Resource-Policy header."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-embedder-policy.php:27
+msgid ""
+"A document can only load resources from the same origin, or resources "
+"explicitly marked as loadable from another origin. If a cross origin resource "
+"supports CORS, the crossorigin attribute or the Cross-Origin-Resource-Policy "
+"header must be used to load it without being blocked by COEP."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-embedder-policy.php:67
+#: modules/components/security-header-cross-origin-opener-policy.php:74
+#: modules/components/security-header-cross-origin-resource-policy.php:67
+#: modules/components/security-header-referrer-policy.php:73
+#: modules/components/security-header-x-content-type-options.php:69
+#: modules/components/security-header-x-download-options.php:67
+#: modules/components/security-header-x-frame-options.php:71
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:75
+#: modules/components/security-header-x-xss-protection.php:70
+msgid "Enable Header"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-embedder-policy.php:78
+#: modules/components/security-header-cross-origin-opener-policy.php:85
+#: modules/components/security-header-cross-origin-resource-policy.php:78
+#: modules/components/security-header-referrer-policy.php:84
+#: modules/components/security-header-x-content-type-options.php:80
+#: modules/components/security-header-x-download-options.php:78
+#: modules/components/security-header-x-frame-options.php:82
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:86
+#: modules/components/security-header-x-xss-protection.php:81
+msgid "Header Options"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-opener-policy.php:20
+msgid "Cross-Origin-Embedder-Policy (COOP)"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-opener-policy.php:24
+msgid ""
+"The HTTP Cross-Origin-Opener-Policy (COOP) response header allows you to ensure "
+"a top-level document does not share a browsing context group with cross-origin "
+"documents."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-opener-policy.php:25
+msgid ""
+"COOP will process-isolate your document and potential attackers can't access "
+"your global object if they were to open it in a popup, preventing a set of "
+"cross-origin attacks dubbed XS-Leaks."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-opener-policy.php:26
+msgid ""
+"If a cross-origin document with COOP is opened in a new window, the opening "
+"document will not have a reference to it, and the window.opener property of the "
+"new window will be null. This allows you to have more control over references "
+"to a window than rel=noopener, which only affects outgoing navigations."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-opener-policy.php:28
+msgid ""
+"This is the default value. Allows the document to be added to its opener's "
+"browsing context group unless the opener itself has a COOP of same-origin or "
+"same-origin-allow-popups."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-opener-policy.php:29
+msgid ""
+"Retains references to newly opened windows or tabs that either don't set COOP "
+"or that opt out of isolation by setting a COOP of unsafe-none."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-opener-policy.php:30
+msgid ""
+"Isolates the browsing context exclusively to same-origin documents. Cross-"
+"origin documents are not loaded in the same browsing context."
+msgstr ""
+
+#: modules/components/security-header-cross-origin-resource-policy.php:20
+msgid "Cross-Origin-Resource-Policy (CORP)"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-resource-policy.php:23
+msgid "Cross-Origin-Resource-Policy"
+msgstr ""
+
+#: modules/components/security-header-cross-origin-resource-policy.php:24
+msgid ""
+"The HTTP Content-Security-Policy response header allows web site administrators "
+"to control resources the user agent is allowed to load for a given page. With a "
+"few exceptions, policies mostly involve specifying server origins and script "
+"endpoints. This helps guard against cross-site scripting attacks (Cross-"
+"site_scripting). "
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:20
+#: modules/components/security-header-referrer-policy.php:23
+msgid "Referrer-Policy"
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:24
+msgid ""
+"The Referrer-Policy HTTP header determines the amount of referral information "
+"(sent through the Referer header) that should accompany requests. In addition "
+"to the HTTP header, this policy can also be set in HTML"
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:26
+msgid ""
+"The Referer header will be omitted: sent requests do not include any referrer "
+"information."
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:27
+msgid ""
+"Send the origin, path, and querystring in Referer when the protocol security "
+"level stays the same or improves (HTTP→HTTP, HTTP→HTTPS, HTTPS→HTTPS). Don't "
+"send the Referer header for requests to less secure destinations (HTTPS→HTTP, "
+"HTTPS→file)."
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:28
+msgid ""
+"Send only the origin in the Referer header. For example, a document at https://"
+"example.com/page.html will send the referrer https://example.com/."
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:29
+msgid ""
+"When performing a same-origin request to the same protocol level (HTTP→HTTP, "
+"HTTPS→HTTPS), send the origin, path, and query string. Send only the origin for "
+"cross origin requests and requests to less secure destinations (HTTPS→HTTP)."
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:30
+msgid ""
+"Send the origin, path, and query string for same-origin requests. Don't send "
+"the Referer header for cross-origin requests."
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:31
+msgid ""
+"Send only the origin when the protocol security level stays the same "
+"(HTTPS→HTTPS). Don't send the Referer header to less secure destinations "
+"(HTTPS→HTTP)."
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:32
+msgid ""
+"Send the origin, path, and querystring when performing a same-origin request. "
+"For cross-origin requests send the origin (only) when the protocol security "
+"level stays same (HTTPS→HTTPS). Don't send the Referer header to less secure "
+"destinations (HTTPS→HTTP)."
+msgstr ""
+
+#: modules/components/security-header-referrer-policy.php:33
+msgid ""
+"Send the origin, path, and query string when performing any request, regardless "
+"of security."
+msgstr ""
+
+#: modules/components/security-header-x-content-type-options.php:20
+#: modules/components/security-header-x-content-type-options.php:23
+msgid "X-Content-Type-Options"
+msgstr ""
+
+#: modules/components/security-header-x-content-type-options.php:24
+msgid ""
+"The X-Content-Type-Options response HTTP header is a marker used by the server "
+"to indicate that the MIME types advertised in the Content-Type headers should "
+"be followed and not be changed. The header allows you to avoid MIME type "
+"sniffing by saying that the MIME types are deliberately configured."
+msgstr ""
+
+#: modules/components/security-header-x-content-type-options.php:25
+msgid ""
+"This header was introduced by Microsoft in IE 8 as a way for webmasters to "
+"block content sniffing that was happening and could transform non-executable "
+"MIME types into executable MIME types. Since then, other browsers have "
+"introduced it, even if their MIME sniffing algorithms were less aggressive."
+msgstr ""
+
+#: modules/components/security-header-x-content-type-options.php:26
+msgid ""
+"Starting with Firefox 72, top-level documents also avoid MIME sniffing (if "
+"Content-type is provided). This can cause HTML web pages to be downloaded "
+"instead of being rendered when they are served with a MIME type other than text/"
+"html. Make sure to set both headers correctly."
+msgstr ""
+
+#: modules/components/security-header-x-content-type-options.php:28
+msgid ""
+"Blocks a request if the request destination is of type style and the MIME type "
+"is not text/css, or of type script and the MIME type is not a JavaScript MIME "
+"type."
+msgstr ""
+
+#: modules/components/security-header-x-download-options.php:20
+#: modules/components/security-header-x-download-options.php:23
+msgid "X-Download-Options"
+msgstr ""
+
+#: modules/components/security-header-x-download-options.php:24
+msgid ""
+"The X-Download-Options is specific to IE 8, and is related to how IE 8 handles "
+"downloaded HTML files. Turns out if you download an HTML file from a web page "
+"and chooses to \"Open\" it in IE, it will execute in the context of the web "
+"site. That means that any scripts in that file will also execute with the "
+"origin of the web site."
+msgstr ""
+
+#: modules/components/security-header-x-frame-options.php:20
+msgid "X-Frame-Options (XFO)"
+msgstr ""
+
+#: modules/components/security-header-x-frame-options.php:23
+msgid "X-Frame-Options"
+msgstr ""
+
+#: modules/components/security-header-x-frame-options.php:24
+msgid ""
+"The X-Frame-Options HTTP response header can be used to indicate whether or not "
+"a browser should be allowed to render a page in a &#60;frame&#62;, &#60;"
+"iframe&#62;, &#60;embed&#62; or &#60;object&#62;. Sites can use this to avoid "
+"click-jacking attacks, by ensuring that their content is not embedded into "
+"other sites."
+msgstr ""
+
+#: modules/components/security-header-x-frame-options.php:25
+msgid ""
+"The added security is provided only if the user accessing the document is using "
+"a browser that supports X-Frame-Options."
+msgstr ""
+
+#: modules/components/security-header-x-frame-options.php:27
+msgid ""
+"The page cannot be displayed in a frame, regardless of the site attempting to "
+"do so."
+msgstr ""
+
+#: modules/components/security-header-x-frame-options.php:28
+msgid ""
+"The page can only be displayed in a frame on the same origin as the page "
+"itself. The spec leaves it up to browser vendors to decide whether this option "
+"applies to the top level, the parent, or the whole chain, although it is argued "
+"that the option is not very useful unless all ancestors are also in the same "
+"origin."
+msgstr ""
+
+#: modules/components/security-header-x-frame-options.php:29
+msgid ""
+"If you specify DENY, not only will the browser attempt to load the page in a "
+"frame fail when loaded from other sites, attempts to do so will fail when "
+"loaded from the same site. On the other hand, if you specify SAMEORIGIN, you "
+"can still use the page in a frame as long as the site including it in a frame "
+"is the same as the one serving the page."
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:20
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:23
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:24
+msgid ""
+"A cross-domain policy file is an XML document that grants a web client, such as "
+"Adobe Flash Player or Adobe Acrobat (though not necessarily limited to these), "
+"permission to handle data across domains."
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:25
+msgid ""
+"When clients request content hosted on a particular source domain and that "
+"content makes requests directed towards a domain other than its own, the remote "
+"domain needs to host a cross-domain policy file that grants access to the "
+"source domain, allowing the client to continue the transaction."
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:26
+msgid ""
+"Normally a meta-policy is declared in the master policy file, but for those who "
+"can’t write to the root directory, they can also declare a meta-policy using "
+"the X-Permitted-Cross-Domain-Policies HTTP response header."
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:28
+msgid ""
+"No policy files are allowed anywhere on the target server, including this "
+"master policy file."
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:29
+msgid "Only this master policy file is allowed."
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:30
+msgid ""
+"[HTTP/HTTPS only] Only policy files served with Content-Type: text/x-cross-"
+"domain-policy are allowed."
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:31
+msgid ""
+"[FTP only] Only policy files whose file names are crossdomain.xml (i.e. URLs "
+"ending in /crossdomain.xml) are allowed."
+msgstr ""
+
+#: modules/components/security-header-x-permitted-cross-domain-policies.php:32
+msgid "All policy files on this target domain are allowed."
+msgstr ""
+
+#: modules/components/security-header-x-xss-protection.php:20
+#: modules/components/security-header-x-xss-protection.php:23
+msgid "X-XSS-Protection"
+msgstr ""
+
+#: modules/components/security-header-x-xss-protection.php:24
+msgid ""
+"The HTTP X-XSS-Protection response header is a feature of Internet Explorer, "
+"Chrome and Safari that stops pages from loading when they detect reflected "
+"cross-site scripting (XSS) attacks. These protections are largely unnecessary "
+"in modern browsers when sites implement a strong Content-Security-Policy that "
+"disables the use of inline JavaScript ('unsafe-inline')."
+msgstr ""
+
+#: modules/components/security-header-x-xss-protection.php:26
+msgid "Disables XSS filtering."
+msgstr ""
+
+#: modules/components/security-header-x-xss-protection.php:27
+msgid ""
+"Enables XSS filtering (usually default in browsers). If a cross-site scripting "
+"attack is detected, the browser will sanitize the page (remove the unsafe "
+"parts)."
+msgstr ""
+
+#: modules/components/security-header-x-xss-protection.php:28
+msgid ""
+"Enables XSS filtering. Rather than sanitizing the page, the browser will "
+"prevent rendering of the page if an attack is detected."
+msgstr ""
+
+#: modules/components/security-header-x-xss-protection.php:29
+msgid ""
+"Chromium only. Enables XSS filtering. If a cross-site scripting attack is "
+"detected, the browser will sanitize the page and report the violation. This "
+"uses the functionality of the CSP report-uri directive to send a report."
+msgstr ""
+
+#: modules/module-admin.php:45
+msgid "<span class=\"wph-info\">Hide&rarr;</span> Admin"
+msgstr ""
+
+#: modules/module-admin.php:57
+msgid "WP Hide & Security Enhancer - Admin"
+msgstr ""
+
+#: modules/module-cdn.php:43
+msgid "<span class=\"wph-info\">Settings&rarr;</span> CDN"
+msgstr ""
+
+#: modules/module-cdn.php:55
+msgid "WP Hide & Security Enhancer - CDN"
+msgstr ""
+
+#: modules/module-general.php:75
+msgid "<span class=\"wph-info\">Hide&rarr;</span> General / Html"
+msgstr ""
+
+#: modules/module-general.php:87
+msgid "WP Hide & Security Enhancer - General / Html"
+msgstr ""
+
+#: modules/module-rewrite.php:78
+msgid "<span class=\"wph-info\">Hide&rarr;</span> Rewrite / URLs"
+msgstr ""
+
+#: modules/module-rewrite.php:89
+msgid "WP Hide & Security Enhancer"
+msgstr ""
+
+#: modules/module-rewrite.php:89
+msgid "Rewrites"
+msgstr ""
+
+#: modules/module-security_headers.php:69
+msgid "<span class=\"wph-info\">Security&rarr;</span> Headers"
+msgstr ""
+
+#: modules/module-security_headers.php:81
+msgid "WP Hide & Security Enhancer - Security Headers"
+msgstr ""

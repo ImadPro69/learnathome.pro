@@ -1,0 +1,9 @@
+#scan_overview p.hint {display: none}
+#scan_overview .wph_graph > div {text-align: center}
+#scan_overview #wph-graph {background-color: #FFF; max-width: 100%;box-sizing: border-box;overflow: hidden;}
+#scan_overview #wph-graph .wph-graph-text{ background-color: #FFF }
+#wph-scan-score table td.passed {background-color: #fbfbfb;}
+#scan_overview p.actions {display: none}
+#scan_overview .wph_results p {padding: 0px}
+#scan_overview.header {border: none}
+#wph-scan-score {padding: 0px}

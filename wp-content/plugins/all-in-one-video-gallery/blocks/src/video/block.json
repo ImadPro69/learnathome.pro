@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "aiovg/video",
+	"version": "3.6.1",
+	"title": "AIOVG - Video Player",
+	"category": "all-in-one-video-gallery",
+	"keywords": [ "video", "player", "all-in-one-video-gallery", "aiovg" ],
+	"icon": "format-video",
+	"description": "Display a video player.",
+	"textdomain": "all-in-one-video-gallery",
+	"editorScript": "file:./index.js"
+}

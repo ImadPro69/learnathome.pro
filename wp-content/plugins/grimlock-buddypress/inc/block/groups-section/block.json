@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "grimlock-buddypress/groups-section",
+  "title": "Grimlock BuddyPress Groups Section",
+  "icon": "groups",
+  "category": "widgets",
+  "description": "Display a stylized section showcasing your BuddyPress groups",
+  "keywords": [ "grimlock", "query", "section", "groups" ],
+  "version": "1.0.0",
+  "textdomain": "grimlock-buddypress",
+  "supports": {
+    "anchor": true,
+    "align": [ "wide", "full" ],
+    "customClassName": true,
+    "color": {
+      "background": false,
+      "text": false,
+      "gradients": true
+    },
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  }
+}

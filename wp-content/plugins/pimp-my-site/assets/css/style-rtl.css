@@ -1,0 +1,298 @@
+:root {
+  --pimp-sticker-zindex: 9999;
+}
+
+body {
+  position: relative;
+}
+
+.pimp-my-site-sticker-board {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: var(--pimp-sticker-zindex);
+  pointer-events: none;
+}
+
+.pimp-my-site-sticker-board img {
+  max-width: 100%;
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.pimp-my-site-sticker-board.pimp-my-site-sticker-board--fixed {
+  position: fixed;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-left-sticker-wrapper,
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-right-sticker-wrapper,
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-left-sticker-wrapper,
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-right-sticker-wrapper {
+  position: absolute;
+  display: flex;
+  width: auto;
+  max-width: clamp(20px, 9vw, 280px);
+  height: auto;
+  max-height: clamp(20px, 9vw, 280px);
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-left-sticker-wrapper {
+  top: 0;
+  right: 0;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-left-sticker-wrapper img {
+  transform: translate3d(0, 0, 0) scaleY(-1);
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-right-sticker-wrapper {
+  top: 0;
+  left: 0;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-right-sticker-wrapper img {
+  transform: translate3d(0, 0, 0) scale(-1);
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-left-sticker-wrapper {
+  bottom: 0;
+  right: 0;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-right-sticker-wrapper {
+  bottom: 0;
+  left: 0;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-right-sticker-wrapper img {
+  transform: translate3d(0, 0, 0) scaleX(-1);
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-sticker-wrapper,
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-sticker-wrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-sticker-wrapper img,
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-sticker-wrapper img {
+  width: auto;
+  height: auto;
+  max-width: 25vw;
+  max-height: 4.5vw;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-sticker-wrapper {
+  top: 0;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-sticker-wrapper img {
+  transform: translate3d(0, 0, 0) scaleY(-1);
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-sticker-wrapper {
+  bottom: 0;
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-sticker-wrapper img[src*="thanksgiving"][src*="decoration-10"],
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-sticker-wrapper img[src*="thanksgiving"][src*="decoration-10"] {
+  min-height: clamp(50px, 10vw, 140px);
+}
+
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__top-sticker-wrapper img[src*="thanksgiving"][src*="decoration-11"],
+.pimp-my-site-sticker-board .pimp-my-site-sticker-board__bottom-sticker-wrapper img[src*="thanksgiving"][src*="decoration-11"] {
+  min-height: clamp(50px, 10vw, 140px);
+}
+
+.pimp-my-site-sticker-board [class*="pimp-my-site-sticker-board"] img[src*="thanksgiving"][src*="decoration-7"] {
+  max-height: clamp(50px, 10vw, 90px);
+}
+
+.pimp-my-site-sticker-board [class*="pimp-my-site-sticker-board__top"] img[src*="valentine"][src*="decoration-4"],
+.pimp-my-site-sticker-board [class*="pimp-my-site-sticker-board__top"] img[src*="valentine"][src*="decoration-5"] {
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+@-webkit-keyframes pmsStickerEntrance {
+  from {
+    transform: translate3d(0, 0, 0) scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pmsStickerEntrance {
+  from {
+    transform: translate3d(0, 0, 0) scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+}
+
+.pimp-my-site-animation-gift-penguin {
+  position: absolute;
+  left: 4vw;
+  bottom: -10px;
+  z-index: 2;
+  display: flex;
+}
+
+.pimp-my-site-animation-gift-penguin svg {
+  max-height: clamp(80px, 20vw, 200px);
+  width: auto;
+  transform: translateY(15%);
+  overflow: visible;
+}
+
+.pimp-my-site-animation-gift-penguin svg #penguin,
+.pimp-my-site-animation-gift-penguin svg #gift_top,
+.pimp-my-site-animation-gift-penguin svg #gift_bottom {
+  transition: .25s ease-in-out;
+  will-change: transform;
+}
+
+.pimp-my-site-animation-gift-penguin svg:hover #penguin {
+  transform: translate3d(0, -45%, 0);
+}
+
+.pimp-my-site-animation-gift-penguin svg:hover #gift_top {
+  transform: translate3d(0, -45%, 0) rotate(-5deg);
+}
+
+img[src*="pimp-my.site"][src*="christmas1.gif"],
+img[src*="partycles"][src*="christmas1.gif"] {
+  cursor: url("../images/cursors/christmas/cursor-4.svg"), url("../images/cursors/christmas/cursor-4.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="christmas2.gif"],
+img[src*="partycles"][src*="christmas2.gif"] {
+  cursor: url("../images/cursors/christmas/cursor-2.svg"), url("../images/cursors/christmas/cursor-2.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="christmas3.gif"],
+img[src*="partycles"][src*="christmas3.gif"] {
+  cursor: url("../images/cursors/christmas/cursor-3.svg"), url("../images/cursors/christmas/cursor-3.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="christmas4.gif"],
+img[src*="partycles"][src*="christmas4.gif"] {
+  cursor: url("../images/cursors/christmas/cursor-4.svg"), url("../images/cursors/christmas/cursor-4.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="christmas5.gif"],
+img[src*="partycles"][src*="christmas5.gif"] {
+  cursor: url("../images/cursors/christmas/cursor-6.svg"), url("../images/cursors/christmas/cursor-6.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="christmas6.gif"],
+img[src*="partycles"][src*="christmas6.gif"] {
+  cursor: url("../images/cursors/christmas/cursor-1.svg"), url("../images/cursors/christmas/cursor-1.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="christmas7.gif"],
+img[src*="partycles"][src*="christmas7.gif"] {
+  cursor: url("../images/cursors/christmas/cursor-3.svg"), url("../images/cursors/christmas/cursor-3.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="christmas8.gif"],
+img[src*="partycles"][src*="christmas8.gif"] {
+  cursor: url("../images/cursors/christmas/cursor-2.svg"), url("../images/cursors/christmas/cursor-2.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="halloween1.gif"],
+img[src*="partycles"][src*="halloween1.gif"] {
+  cursor: url("../images/cursors/halloween/cursor-2.svg"), url("../images/cursors/halloween/cursor-2.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="halloween2.gif"],
+img[src*="partycles"][src*="halloween2.gif"] {
+  cursor: url("../images/cursors/halloween/cursor-1.svg"), url("../images/cursors/halloween/cursor-1.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="halloween3.gif"], img[src*="pimp-my.site"][src*="halloween4.gif"],
+img[src*="partycles"][src*="halloween3.gif"],
+img[src*="partycles"][src*="halloween4.gif"] {
+  cursor: url("../images/cursors/halloween/cursor-5.svg"), url("../images/cursors/halloween/cursor-5.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="halloween5.gif"],
+img[src*="partycles"][src*="halloween5.gif"] {
+  cursor: url("../images/cursors/halloween/cursor-6.svg"), url("../images/cursors/halloween/cursor-6.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="halloween6.gif"],
+img[src*="partycles"][src*="halloween6.gif"] {
+  cursor: url("../images/cursors/halloween/cursor-4.svg"), url("../images/cursors/halloween/cursor-4.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="halloween7.gif"],
+img[src*="partycles"][src*="halloween7.gif"] {
+  cursor: url("../images/cursors/halloween/cursor-3.svg"), url("../images/cursors/halloween/cursor-3.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="thanksgiving1.gif"],
+img[src*="partycles"][src*="thanksgiving1.gif"] {
+  cursor: url("../images/cursors/thanksgiving/cursor-4.svg"), url("../images/cursors/thanksgiving/cursor-4.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="thanksgiving2.gif"],
+img[src*="partycles"][src*="thanksgiving2.gif"] {
+  cursor: url("../images/cursors/thanksgiving/cursor-2.svg"), url("../images/cursors/thanksgiving/cursor-2.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="thanksgiving3.gif"],
+img[src*="partycles"][src*="thanksgiving3.gif"] {
+  cursor: url("../images/cursors/thanksgiving/cursor-1.svg"), url("../images/cursors/thanksgiving/cursor-1.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="thanksgiving4.gif"],
+img[src*="partycles"][src*="thanksgiving4.gif"] {
+  cursor: url("../images/cursors/thanksgiving/cursor-3.svg"), url("../images/cursors/thanksgiving/cursor-3.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="Valentines-Day-1.gif"],
+img[src*="partycles"][src*="Valentines-Day-1.gif"] {
+  cursor: url("../images/cursors/valentine/cursor-6.svg"), url("../images/cursors/valentine/cursor-6.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="Valentines-Day-2.gif"],
+img[src*="partycles"][src*="Valentines-Day-2.gif"] {
+  cursor: url("../images/cursors/valentine/cursor-3.svg"), url("../images/cursors/valentine/cursor-3.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="Valentines-Day-3.gif"],
+img[src*="partycles"][src*="Valentines-Day-3.gif"] {
+  cursor: url("../images/cursors/valentine/cursor-2.svg"), url("../images/cursors/valentine/cursor-2.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="Valentines-Day-4.gif"],
+img[src*="partycles"][src*="Valentines-Day-4.gif"] {
+  cursor: url("../images/cursors/valentine/cursor-5.svg"), url("../images/cursors/valentine/cursor-5.png"), auto;
+}
+
+img[src*="pimp-my.site"][src*="Valentines-Day-5.gif"],
+img[src*="partycles"][src*="Valentines-Day-5.gif"] {
+  cursor: url("../images/cursors/valentine/cursor-1.svg"), url("../images/cursors/valentine/cursor-1.png"), auto;
+}
+
+div.ff-container .ff-overlay {
+  background-size: 40% !important;
+}
+

@@ -1,0 +1,42 @@
+#security-scan #scan_overview .spinner {float: none}
+#security-scan #scan_overview .working {display: none; vertical-align: middle;}
+#security-scan #scan_overview .working span.progress, #security-scan #scan_overview .working span.total_items {font-weight: bold}
+#security-scan #scan_overview .new-items {color: #f04d46 }
+#security-scan .item.processing {opacity: 0.3; pointer-events: none;-webkit-user-select: none; /* Safari */  -ms-user-select: none; /* IE 10 and IE 11 */  user-select: none; /* Standard syntax */;transition: opacity 0.5s linear;    -webkit-transition: opacity 0.5s linear;      -moz-transition: opacity 0.5s linear;   }
+#wph-site-scan-button {padding: 10px}
+#security-scan .wph_input .row.cell.label {background-color: #FFF}
+#security-scan .wph_input.issue_found {border-left: 4px solid #d63638;}
+#security-scan .wph_input.unknown {border-left: 4px solid #E7D1A9;}
+#security-scan .description code {padding: 0px}
+#security-scan .dashicons-no {color: #d63638}
+#security-scan .dashicons-yes {color: #229d51}
+#security-scan .wph_input .row.cell.label .description {line-height: inherit;}
+#security-scan .wph_input .row.cell.label .description span {line-height: inherit;}
+#security-scan .wph_input .row.cell.label .description .error { color: #d63638}
+#security-scan .outdated_plugin {clear: both; width: 50%; display: inline-block;}
+#security-scan .outdated_plugin .icon {max-height: 40px; max-width: 40px; float: left; margin-right: 10px}
+#security-scan .important {color: #333; }
+#security-scan .item .actions {text-align: right}
+#security-scan .item .actions .restore {display: none}
+#security-scan .item .actions .wph-pro { background-color: #f04d46; border-color: transparent; font-weight: bold}
+#security-scan .item .actions .wph-pro:hover {background-color: #c83e38}
+#security-scan #hidden-items {padding-top: 40px}
+#security-scan #hidden-items > div {opacity: 0.3; transition: opacity 0.2s linear;    -webkit-transition: opacity 0.2s linear;      -moz-transition: opacity 0.2s linear; }
+#security-scan #hidden-items > div:hover {opacity: 1}
+#security-scan #hidden-items .actions .restore {display: inline-block}
+#security-scan #hidden-items .actions .ignore {display: none}
+#wph-scan-score {padding: 0px 0 30px 0}
+#wph-scan-score table { width: 100%; border-collapse: collapse;}
+#wph-scan-score table td {text-align: center; border-bottom: 1px dotted #bbb; padding-bottom: 30px; padding-top: 20px}
+#wph-scan-score table td.failed { background-color: #f0f0f1;}
+#wph-scan-score table  h4 {font-weight: normal;font-size: 14px;margin-bottom: 10px;}
+#wph-scan-score table  h5 {font-size: 32px; margin: 0px; font-weight: normal;}
+#wph-scan-score table  .failed h4 {color:#f04d46}
+#wph-scan-score table td.passed {}
+#security-scan .wph_results {background-color: #f9f9f9; padding: 0; box-sizing: border-box; overflow: hidden; position:relative; border-left: 1px solid #f1f1f1; flex-grow: 1;}
+#security-scan .wph_results p {padding-left: 20px}
+#scan_overview .last_scan {font-size: 12px; color: #999; padding-top: 20px}
+#scan_overview.header {margin-bottom: 10px;overflow: hidden;position: relative;
+min-width: 255px;
+border: 1px solid #e5e5e5;box-shadow: 0 1px 1px rgba(0,0,0,.04);
+background: #fff;}

@@ -1,0 +1,1302 @@
+# Translation of Geo Targeting in Polish
+# This file is distributed under the same license as the Geo Targeting package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Geo Targeting\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2022-09-26 11:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: modules/geo/admin/views/setting-download.php:7
+msgid "Geo Database found."
+msgstr "Znaleziono bazę danych geolokalizacyjnych."
+
+#: modules/geo/admin/views/setting-maxmind-license-key.php:3
+msgid "Manual"
+msgstr "Ręcznie"
+
+#: modules/geo/admin/admin.php:531
+msgid "Could not access filesystem"
+msgstr "Brak dostępu do plików systemowych"
+
+#: modules/geo/admin/admin.php:414
+msgid "The upload dir is not available"
+msgstr "Katalog nie jest dostępny"
+
+#: modules/geo/admin/admin.php:274
+#: modules/geo/admin/views/setting-download.php:4
+msgid "Geo Database not found."
+msgstr "Baza danych geolokalizacyjnych nieznaleziona."
+
+#: modules/geo/admin/admin.php:174 modules/geo/admin/admin.php:274
+msgid "Please read the %1$sinstallation instructions%2$s."
+msgstr ""
+
+#: modules/geo/admin/admin.php:174
+msgid "The MaxMind license key is missing."
+msgstr ""
+
+#: modules/geo/admin/admin.php:127
+msgid "MaxMind Database"
+msgstr ""
+
+#: modules/geo/admin/admin.php:123
+msgid "MaxMind license key"
+msgstr ""
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: modules/geo/classes/api.php:127
+msgid "Oceania"
+msgstr "Oceania"
+
+#: modules/geo/admin/admin.php:394
+msgid "Your location"
+msgstr "Twoja lokalizacja"
+
+#: modules/geo/admin/admin.php:389
+msgid "Enter the name of the city, click the search button and pick one of the results to set the coordinates of the center."
+msgstr "Wpisz nazwę miasta, kliknij przycisk wyszukiwania i wybierz jeden z wyników, aby ustawić współrzędne centrum."
+
+#: modules/geo/admin/admin.php:388
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: modules/geo/admin/admin.php:387
+msgid "Search"
+msgstr "Szukaj"
+
+#: modules/geo/admin/admin.php:379
+msgid "Distance to center"
+msgstr "Odległość do centrum"
+
+#: modules/geo/admin/admin.php:374
+msgid "Longitude"
+msgstr "Długość geograficzna"
+
+#: modules/geo/admin/admin.php:373
+msgid "Latitude"
+msgstr "Szerokość"
+
+#: modules/geo/admin/admin.php:372
+msgid "get coordinates"
+msgstr "pobierz współrzędne"
+
+#: modules/geo/admin/admin.php:371
+msgid "from"
+msgstr "z"
+
+#: modules/geo/admin/admin.php:367
+msgid "Distance"
+msgstr "Odległość"
+
+#: modules/geo/admin/admin.php:365
+msgid "Distance is greater than"
+msgstr "Odległość jest większa niż"
+
+#: modules/geo/admin/admin.php:364
+msgid "Distance is less than or equal to"
+msgstr "Odległość jest mniejsza lub równa"
+
+#: modules/geo/admin/admin.php:355
+msgid "This option can’t be used if your site is using sucuri.net."
+msgstr "Ta opcja nie może być używana, jeśli witryna używa sucuri.net."
+
+#: modules/geo/admin/admin.php:317
+msgid "by radius"
+msgstr "według promienia"
+
+#: modules/geo/admin/admin.php:313
+msgid "by specific location"
+msgstr "według określonej lokalizacji"
+
+#: modules/geo/admin/admin.php:289
+msgid "Coordinates"
+msgstr "Współrzędne"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/geo-targeting/"
+msgstr "https://wpadvancedads.com/add-ons/geo-targeting/"
+
+#. Description of the plugin
+msgid "Display ads based on the geo location of the visitor."
+msgstr "Wyświetlaj reklamy na podstawie lokalizacji geograficznej odwiedzającego."
+
+#. Name of the plugin
+msgid "Advanced Ads – Geo Targeting"
+msgstr "Advanced Ads – Geo Targeting"
+
+#: modules/geo/admin/views/setting-locale.php:6
+msgid "Choose the language of the state/region or city entered. If the language is not available in the geo location database, it will check against the English version."
+msgstr "Wybierz język wprowadzonego stanu / regionu lub miasta. Jeśli język nie jest dostępny w bazie danych lokalizacji geograficznej, sprawdza się w wersji angielskiej."
+
+#: modules/geo/admin/views/setting-download.php:61
+msgid "The databases are updated on the first Tuesday (midnight, GMT) of each month."
+msgstr "Bazy danych są aktualizowane w pierwszy wtorek każdego miesiąca (o północy GMT)."
+
+#: modules/geo/admin/views/setting-download.php:60
+msgid "Next possible update on %s."
+msgstr "Następna możliwa aktualizacja: %s"
+
+#: modules/geo/admin/admin.php:492
+msgid "Database update failed"
+msgstr "Błąd aktualizacji bazy danych"
+
+#: modules/geo/admin/views/setting-download.php:15
+msgid "Update geo location database"
+msgstr "Zaktualizuj bazę danych lokalizacji geograficznej"
+
+#: modules/geo/admin/views/setting-download.php:5
+msgid "In order to use Geo Targeting, please download the geo location database by clicking on the button below."
+msgstr "Aby korzystać z kierowania geograficznego, pobierz bazę danych lokalizacji geograficznej, klikając przycisk poniżej."
+
+#: modules/geo/admin/views/setting-download.php:9
+msgid "Last update: %s"
+msgstr "Ostatnia aktualizacja: %s"
+
+#: modules/geo/public/public.php:228
+msgid "Address not found: %s"
+msgstr "Nie znaleziono adresu: %s"
+
+#: modules/geo/public/public.php:223
+msgid "Geo Database not found"
+msgstr "Nie znaleziono bazy danych geograficznych"
+
+#: modules/geo/classes/plugin.php:151
+msgid "Sucuri Header (country only)"
+msgstr "Sucuri Header (tylko kraj)"
+
+#: modules/geo/classes/plugin.php:145
+msgid "MaxMind database (default)"
+msgstr "Baza danych MaxMind (domyślnie)"
+
+#: modules/geo/classes/plugin.php:112
+msgid "Display ads based on geo location."
+msgstr "Wyświetlaj reklamy na podstawie lokalizacji geograficznej."
+
+#: modules/geo/classes/plugin.php:111
+msgid "geo location"
+msgstr "geo-lokalizacja"
+
+#: modules/geo/classes/api.php:378
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: modules/geo/classes/api.php:377
+msgid "Zambia"
+msgstr "Zambia"
+
+#: modules/geo/classes/api.php:376
+msgid "Yemen"
+msgstr "Jemen"
+
+#: modules/geo/classes/api.php:375
+msgid "Western Samoa"
+msgstr "Samoa Zachodnie "
+
+#: modules/geo/classes/api.php:374
+msgid "Western Sahara"
+msgstr "Sahara Zachodnia"
+
+#: modules/geo/classes/api.php:373
+msgid "Wallis and Futuna Islands"
+msgstr "Wyspy Wallis i Futuna"
+
+#: modules/geo/classes/api.php:372
+msgid "Virgin Islands (USA)"
+msgstr "Wyspy Dziewicze (USA)"
+
+#: modules/geo/classes/api.php:371
+msgid "Virgin Islands (British)"
+msgstr "Wyspy Dziewicze (brytyjskie)"
+
+#: modules/geo/classes/api.php:370
+msgid "Vietnam"
+msgstr "Wietnam"
+
+#: modules/geo/classes/api.php:369
+msgid "Venezuela"
+msgstr "Wenezuela"
+
+#: modules/geo/classes/api.php:368
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: modules/geo/classes/api.php:367
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: modules/geo/classes/api.php:366
+msgid "US Minor Outlying Islands"
+msgstr "Dalekie Wyspy Mniejsze USA"
+
+#: modules/geo/classes/api.php:365
+msgid "Uruguay"
+msgstr "Urugwaj"
+
+#: modules/geo/classes/api.php:364
+msgid "United Arab Emirates"
+msgstr "Zjednoczone Emiraty Arabskie"
+
+#: modules/geo/classes/api.php:363
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: modules/geo/classes/api.php:362
+msgid "Uganda"
+msgstr "Uganda"
+
+#: modules/geo/classes/api.php:361
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: modules/geo/classes/api.php:360
+msgid "Turks and Caicos Islands"
+msgstr "Wyspy Turks i Caicos"
+
+#: modules/geo/classes/api.php:359
+msgid "Turkmenistan"
+msgstr "Turkmenia"
+
+#: modules/geo/classes/api.php:358
+msgid "Turkey"
+msgstr "Turcja"
+
+#: modules/geo/classes/api.php:357
+msgid "Tunisia"
+msgstr "Tunezja"
+
+#: modules/geo/classes/api.php:356
+msgid "Trinidad and Tobago"
+msgstr "Trynidad i Tobago"
+
+#: modules/geo/classes/api.php:355
+msgid "Tonga"
+msgstr "Tonga"
+
+#: modules/geo/classes/api.php:354
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: modules/geo/classes/api.php:353
+msgid "Togo"
+msgstr "Togo"
+
+#: modules/geo/classes/api.php:352
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: modules/geo/classes/api.php:351
+msgid "Thailand"
+msgstr "Tajlandia"
+
+#: modules/geo/classes/api.php:350
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: modules/geo/classes/api.php:349
+msgid "Tajikistan"
+msgstr "Tadżykistan"
+
+#: modules/geo/classes/api.php:348
+msgid "Taiwan"
+msgstr "Tajwan"
+
+#: modules/geo/classes/api.php:347
+msgid "Syrian Arab Republic"
+msgstr "Republika Syryjsko-Arabska"
+
+#: modules/geo/classes/api.php:346
+msgid "Switzerland"
+msgstr "Szwajcaria"
+
+#: modules/geo/classes/api.php:345
+msgid "Sweden"
+msgstr "Szwecja"
+
+#: modules/geo/classes/api.php:344
+msgid "Swaziland"
+msgstr "Suazi"
+
+#: modules/geo/classes/api.php:343
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Wyspy Svalbard i Jan Mayen"
+
+#: modules/geo/classes/api.php:342
+msgid "Suriname"
+msgstr "Surinam"
+
+#: modules/geo/classes/api.php:341
+msgid "Sudan"
+msgstr "Sudan"
+
+#: modules/geo/classes/api.php:340
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: modules/geo/classes/api.php:339
+msgid "Spain"
+msgstr "Hiszpania"
+
+#: modules/geo/classes/api.php:338
+msgid "South Sudan"
+msgstr "Sudan Południowy "
+
+#: modules/geo/classes/api.php:337
+msgid "South Korea"
+msgstr "Korea Południowa"
+
+#: modules/geo/classes/api.php:336
+msgid "South Georgia"
+msgstr "Georgia Południowa"
+
+#: modules/geo/classes/api.php:335
+msgid "South Africa"
+msgstr "Południowa Afryka"
+
+#: modules/geo/classes/api.php:334
+msgid "Somalia"
+msgstr "Somalia"
+
+#: modules/geo/classes/api.php:333
+msgid "Solomon Islands"
+msgstr "Wyspy Salomona"
+
+#: modules/geo/classes/api.php:332
+msgid "Slovenia"
+msgstr "Słowenia"
+
+#: modules/geo/classes/api.php:331
+msgid "Slovak Republic"
+msgstr "Słowacja"
+
+#: modules/geo/classes/api.php:330
+msgid "Singapore"
+msgstr "Singapur"
+
+#: modules/geo/classes/api.php:329
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: modules/geo/classes/api.php:328
+msgid "Seychelles"
+msgstr "Seszele"
+
+#: modules/geo/classes/api.php:327
+msgid "Serbia"
+msgstr "Serbia"
+
+#: modules/geo/classes/api.php:326
+msgid "Senegal"
+msgstr "Senegal"
+
+#: modules/geo/classes/api.php:325
+msgid "Saudi Arabia"
+msgstr "Arabia Saudyjska"
+
+#: modules/geo/classes/api.php:324
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "Wyspy Świętego Tomasza i Książęca"
+
+#: modules/geo/classes/api.php:323
+msgid "San Marino"
+msgstr "San Marino"
+
+#: modules/geo/classes/api.php:322
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent i Grenadyny"
+
+#: modules/geo/classes/api.php:321
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre i Miquelon"
+
+#: modules/geo/classes/api.php:320
+msgid "Saint Martin (Dutch)"
+msgstr "Saint Martin (holenderski)"
+
+#: modules/geo/classes/api.php:319
+msgid "Saint Martin (French)"
+msgstr "Saint Martin (frrancuski)"
+
+#: modules/geo/classes/api.php:318
+msgid "Saint Lucia"
+msgstr "Święta Lucia"
+
+#: modules/geo/classes/api.php:317
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts i Nevis"
+
+#: modules/geo/classes/api.php:316
+msgid "Saint Helena"
+msgstr "Święta Helena"
+
+#: modules/geo/classes/api.php:315
+msgid "Saint Barth&eacute;lemy"
+msgstr "Święty Barthelemy"
+
+#: modules/geo/classes/api.php:314
+msgid "Rwanda"
+msgstr "Ruanda "
+
+#: modules/geo/classes/api.php:313
+msgid "Russian Federation"
+msgstr "Rosja"
+
+#: modules/geo/classes/api.php:312
+msgid "Romania"
+msgstr "Rumunia"
+
+#: modules/geo/classes/api.php:311
+msgid "Reunion Island"
+msgstr "Wyspa Reunion"
+
+#: modules/geo/classes/api.php:310
+msgid "Republic of Kosovo"
+msgstr "Republika Kosowa"
+
+#: modules/geo/classes/api.php:309
+msgid "Qatar"
+msgstr "Katar"
+
+#: modules/geo/classes/api.php:308
+msgid "Puerto Rico"
+msgstr "Portoryko"
+
+#: modules/geo/classes/api.php:307
+msgid "Portugal"
+msgstr "Portugalia"
+
+#: modules/geo/classes/api.php:306
+msgid "Poland"
+msgstr "Polska"
+
+#: modules/geo/classes/api.php:305
+msgid "Pitcairn Island"
+msgstr "Wyspa Pitcairn"
+
+#: modules/geo/classes/api.php:304
+msgid "Phillipines"
+msgstr "Filipiny"
+
+#: modules/geo/classes/api.php:303
+msgid "Peru"
+msgstr "Peru"
+
+#: modules/geo/classes/api.php:302
+msgid "Paraguay"
+msgstr "Paragwaj"
+
+#: modules/geo/classes/api.php:301
+msgid "Papua New Guinea"
+msgstr "Papua Nowa Gwinea"
+
+#: modules/geo/classes/api.php:300
+msgid "Panama"
+msgstr "Panama"
+
+#: modules/geo/classes/api.php:299
+msgid "Palestinian Territories"
+msgstr "Terytorium Palestyny"
+
+#: modules/geo/classes/api.php:298
+msgid "Palau"
+msgstr "Palau"
+
+#: modules/geo/classes/api.php:297
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: modules/geo/classes/api.php:296
+msgid "Oman"
+msgstr "Oman"
+
+#: modules/geo/classes/api.php:295
+msgid "Norway"
+msgstr "Norwegia"
+
+#: modules/geo/classes/api.php:294
+msgid "Northern Mariana Islands"
+msgstr "Mariany Północne"
+
+#: modules/geo/classes/api.php:293
+msgid "North Korea"
+msgstr "Korea Północna"
+
+#: modules/geo/classes/api.php:292
+msgid "Norfolk Island"
+msgstr "Wyspa Norfolk"
+
+#: modules/geo/classes/api.php:291
+msgid "Niue"
+msgstr "Niue"
+
+#: modules/geo/classes/api.php:290
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: modules/geo/classes/api.php:289
+msgid "Niger"
+msgstr "Nigier"
+
+#: modules/geo/classes/api.php:288
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+#: modules/geo/classes/api.php:287
+msgid "New Zealand"
+msgstr "Nowa Zelandia"
+
+#: modules/geo/classes/api.php:286
+msgid "New Caledonia"
+msgstr "Nowa Kaledonia"
+
+#: modules/geo/classes/api.php:285
+msgid "Netherlands Antilles"
+msgstr "Antyle Holenderskie"
+
+#: modules/geo/classes/api.php:284
+msgid "Netherlands"
+msgstr "Holandia"
+
+#: modules/geo/classes/api.php:283
+msgid "Nepal"
+msgstr "Nepal"
+
+#: modules/geo/classes/api.php:282
+msgid "Nauru"
+msgstr "Nauru"
+
+#: modules/geo/classes/api.php:281
+msgid "Namibia"
+msgstr "Namibia"
+
+#: modules/geo/classes/api.php:280
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: modules/geo/classes/api.php:279
+msgid "Mozambique"
+msgstr "Mozambik"
+
+#: modules/geo/classes/api.php:278
+msgid "Morocco"
+msgstr "Maroko"
+
+#: modules/geo/classes/api.php:277
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: modules/geo/classes/api.php:276
+msgid "Montenegro"
+msgstr "Czarnogóra"
+
+#: modules/geo/classes/api.php:275
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: modules/geo/classes/api.php:274
+msgid "Monaco"
+msgstr "Monako"
+
+#: modules/geo/classes/api.php:273
+msgid "Moldova, Republic of"
+msgstr "Mołdwia"
+
+#: modules/geo/classes/api.php:272
+msgid "Micronesia"
+msgstr "Mikronezja"
+
+#: modules/geo/classes/api.php:271
+msgid "Mexico"
+msgstr "Meksyk"
+
+#: modules/geo/classes/api.php:270
+msgid "Mayotte"
+msgstr "Majotta"
+
+#: modules/geo/classes/api.php:269
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: modules/geo/classes/api.php:268
+msgid "Mauritania"
+msgstr "Mauretania"
+
+#: modules/geo/classes/api.php:267
+msgid "Martinique"
+msgstr "Martynika"
+
+#: modules/geo/classes/api.php:266
+msgid "Marshall Islands"
+msgstr "Wyspy Marshalla"
+
+#: modules/geo/classes/api.php:265
+msgid "Malta"
+msgstr "Malta"
+
+#: modules/geo/classes/api.php:264
+msgid "Mali"
+msgstr "Mali"
+
+#: modules/geo/classes/api.php:263
+msgid "Maldives"
+msgstr "Malediwy"
+
+#: modules/geo/classes/api.php:262
+msgid "Malaysia"
+msgstr "Malezja"
+
+#: modules/geo/classes/api.php:261
+msgid "Malawi"
+msgstr "Malawi"
+
+#: modules/geo/classes/api.php:260
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: modules/geo/classes/api.php:259
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: modules/geo/classes/api.php:258
+msgid "Macau"
+msgstr "Makau"
+
+#: modules/geo/classes/api.php:257
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+#: modules/geo/classes/api.php:256
+msgid "Lithuania"
+msgstr "Litwa"
+
+#: modules/geo/classes/api.php:255
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: modules/geo/classes/api.php:254
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libijska Arabska Dżamahirija"
+
+#: modules/geo/classes/api.php:253
+msgid "Liberia"
+msgstr "Liberia"
+
+#: modules/geo/classes/api.php:252
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: modules/geo/classes/api.php:251
+msgid "Lebanon"
+msgstr "Liban"
+
+#: modules/geo/classes/api.php:250
+msgid "Latvia"
+msgstr "Łotwa"
+
+#: modules/geo/classes/api.php:249
+msgid "Lao People's Democratic Republic"
+msgstr "Laotańska Republika Ludowo-Demokratyczna"
+
+#: modules/geo/classes/api.php:248
+msgid "Kyrgyzstan"
+msgstr "Kirgistan"
+
+#: modules/geo/classes/api.php:247
+msgid "Kuwait"
+msgstr "Kuwejt"
+
+#: modules/geo/classes/api.php:246
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: modules/geo/classes/api.php:245
+msgid "Kenya"
+msgstr "Kenia"
+
+#: modules/geo/classes/api.php:244
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+#: modules/geo/classes/api.php:243
+msgid "Jordan"
+msgstr "Jordania"
+
+#: modules/geo/classes/api.php:242
+msgid "Jersey"
+msgstr "Jersey"
+
+#: modules/geo/classes/api.php:241
+msgid "Japan"
+msgstr "Japonia"
+
+#: modules/geo/classes/api.php:240
+msgid "Jamaica"
+msgstr "Jamajka"
+
+#: modules/geo/classes/api.php:239
+msgid "Italy"
+msgstr "Włochy"
+
+#: modules/geo/classes/api.php:238
+msgid "Israel"
+msgstr "Izrael"
+
+#: modules/geo/classes/api.php:237
+msgid "Isle of Man"
+msgstr "Wyspa Man"
+
+#: modules/geo/classes/api.php:236
+msgid "Ireland"
+msgstr "Irlandia"
+
+#: modules/geo/classes/api.php:235
+msgid "Iraq"
+msgstr "Irak"
+
+#: modules/geo/classes/api.php:234
+msgid "Iran"
+msgstr "Iran"
+
+#: modules/geo/classes/api.php:233
+msgid "Indonesia"
+msgstr "Indonezja"
+
+#: modules/geo/classes/api.php:232
+msgid "India"
+msgstr "Indie"
+
+#: modules/geo/classes/api.php:231
+msgid "Iceland"
+msgstr "Islandia"
+
+#: modules/geo/classes/api.php:230
+msgid "Hungary"
+msgstr "Węgry"
+
+#: modules/geo/classes/api.php:229
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: modules/geo/classes/api.php:228
+msgid "Honduras"
+msgstr "Honduras"
+
+#: modules/geo/classes/api.php:227
+msgid "Holy See (City Vatican State)"
+msgstr "Stolica Apostolska (Państwo Watykańskie)"
+
+#: modules/geo/classes/api.php:226
+msgid "Heard and McDonald Islands"
+msgstr "Wyspy Heard i McDonald"
+
+#: modules/geo/classes/api.php:225
+msgid "Haiti"
+msgstr "Haiti"
+
+#: modules/geo/classes/api.php:224
+msgid "Guyana"
+msgstr "Gujana"
+
+#: modules/geo/classes/api.php:223
+msgid "Guinea-Bissau"
+msgstr "Gwinea Bissau"
+
+#: modules/geo/classes/api.php:222
+msgid "Guinea"
+msgstr "Gwinea"
+
+#: modules/geo/classes/api.php:221
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: modules/geo/classes/api.php:220
+msgid "Guatemala"
+msgstr "Gwatemala"
+
+#: modules/geo/classes/api.php:219
+msgid "Guam"
+msgstr "Guam"
+
+#: modules/geo/classes/api.php:218
+msgid "Guadeloupe"
+msgstr "Gwadelupa"
+
+#: modules/geo/classes/api.php:217
+msgid "Grenada"
+msgstr "Grenada"
+
+#: modules/geo/classes/api.php:216
+msgid "Greenland"
+msgstr "Grenlandia"
+
+#: modules/geo/classes/api.php:215
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: modules/geo/classes/api.php:214
+msgid "Ghana"
+msgstr "Ghana"
+
+#: modules/geo/classes/api.php:213
+msgid "Greece"
+msgstr "Grecja"
+
+#: modules/geo/classes/api.php:211
+msgid "Georgia"
+msgstr "Gruzja"
+
+#: modules/geo/classes/api.php:210
+msgid "Gambia"
+msgstr "Gambia"
+
+#: modules/geo/classes/api.php:209
+msgid "Gabon"
+msgstr "Gabon"
+
+#: modules/geo/classes/api.php:208
+msgid "French Southern Territories"
+msgstr "Francuskie Terytoria Południowe"
+
+#: modules/geo/classes/api.php:207
+msgid "French Polynesia"
+msgstr "Polinezja Francuska"
+
+#: modules/geo/classes/api.php:206
+msgid "French Guiana"
+msgstr "Gujana Francuska"
+
+#: modules/geo/classes/api.php:205
+msgid "France"
+msgstr "Francja"
+
+#: modules/geo/classes/api.php:204
+msgid "Finland"
+msgstr "Finlandia"
+
+#: modules/geo/classes/api.php:203
+msgid "Fiji"
+msgstr "Fidżi"
+
+#: modules/geo/classes/api.php:202
+msgid "Faroe Islands"
+msgstr "Wyspy Owcze"
+
+#: modules/geo/classes/api.php:201
+msgid "Falkland Islands"
+msgstr "Falklandy"
+
+#: modules/geo/classes/api.php:200
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+#: modules/geo/classes/api.php:199
+msgid "Estonia"
+msgstr "Estonia"
+
+#: modules/geo/classes/api.php:198
+msgid "Eritrea"
+msgstr "Erytrea"
+
+#: modules/geo/classes/api.php:197
+msgid "El Salvador"
+msgstr "Salwador"
+
+#: modules/geo/classes/api.php:196
+msgid "Equatorial Guinea"
+msgstr "Gwinea Równikowa"
+
+#: modules/geo/classes/api.php:195
+msgid "Egypt"
+msgstr "Egipt"
+
+#: modules/geo/classes/api.php:194
+msgid "Ecuador"
+msgstr "Ekwador"
+
+#: modules/geo/classes/api.php:193
+msgid "East Timor"
+msgstr "Wschodni Timor"
+
+#: modules/geo/classes/api.php:192
+msgid "Dominican Republic"
+msgstr "Republika Dominikany"
+
+#: modules/geo/classes/api.php:191
+msgid "Dominica"
+msgstr "Dominikana"
+
+#: modules/geo/classes/api.php:190
+msgid "Djibouti"
+msgstr "Dżibuti"
+
+#: modules/geo/classes/api.php:189
+msgid "Denmark"
+msgstr "Dania"
+
+#: modules/geo/classes/api.php:188
+msgid "Czech Republic"
+msgstr "Czechy"
+
+#: modules/geo/classes/api.php:187
+msgid "Cyprus"
+msgstr "Cypr"
+
+#: modules/geo/classes/api.php:186
+msgid "Cura&Ccedil;ao"
+msgstr "Cura&Ccedil;ao"
+
+#: modules/geo/classes/api.php:185
+msgid "Cuba"
+msgstr "Kuba"
+
+#: modules/geo/classes/api.php:184
+msgid "Croatia/Hrvatska"
+msgstr "Chorwacja / Hrvatska"
+
+#: modules/geo/classes/api.php:183
+msgid "Cote d'Ivoire"
+msgstr "Wybrzeże Kości Słoniowej"
+
+#: modules/geo/classes/api.php:182
+msgid "Costa Rica"
+msgstr "Kostaryka"
+
+#: modules/geo/classes/api.php:181
+msgid "Cook Islands"
+msgstr "Wyspy Cooka"
+
+#: modules/geo/classes/api.php:180
+msgid "Congo, Republic of"
+msgstr "Republika Kongo"
+
+#: modules/geo/classes/api.php:179
+msgid "Congo, Democratic People's Republic"
+msgstr "Kongo, Demokratyczna Republika Ludowa"
+
+#: modules/geo/classes/api.php:178
+msgid "Comoros"
+msgstr "Komory"
+
+#: modules/geo/classes/api.php:177
+msgid "Colombia"
+msgstr "Kolumbia"
+
+#: modules/geo/classes/api.php:176
+msgid "Cocos Islands"
+msgstr "Wyspy Kokosowe"
+
+#: modules/geo/classes/api.php:175
+msgid "Christmas Island"
+msgstr "Wyspa Bożego Narodzenia"
+
+#: modules/geo/classes/api.php:174
+msgid "China"
+msgstr "Chiny"
+
+#: modules/geo/classes/api.php:173
+msgid "Chile"
+msgstr "Chile"
+
+#: modules/geo/classes/api.php:172
+msgid "Chad"
+msgstr "Czad"
+
+#: modules/geo/classes/api.php:171
+msgid "Central African Republic"
+msgstr "Republika Środkowoafrykańska"
+
+#: modules/geo/classes/api.php:170
+msgid "Cayman Islands"
+msgstr "Kajmany"
+
+#: modules/geo/classes/api.php:169
+msgid "Cape Verde"
+msgstr "Wyspy Zielonego Przylądka"
+
+#: modules/geo/classes/api.php:168
+msgid "Canada"
+msgstr "Kanada"
+
+#: modules/geo/classes/api.php:167
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: modules/geo/classes/api.php:166
+msgid "Cambodia"
+msgstr "Kambodża"
+
+#: modules/geo/classes/api.php:165
+msgid "Burundi"
+msgstr "Burundi"
+
+#: modules/geo/classes/api.php:164
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: modules/geo/classes/api.php:163
+msgid "Bulgaria"
+msgstr "Bułgaria"
+
+#: modules/geo/classes/api.php:162
+msgid "Brunei Darrussalam"
+msgstr "Brunei Darrussalam"
+
+#: modules/geo/classes/api.php:161
+msgid "British Indian Ocean Territory"
+msgstr "Brytyjskie Terytorium Oceanu Indyjskiego"
+
+#: modules/geo/classes/api.php:160
+msgid "Brazil"
+msgstr "Brazylia"
+
+#: modules/geo/classes/api.php:159
+msgid "Bouvet Island"
+msgstr "Wyspa Bouvet"
+
+#: modules/geo/classes/api.php:158
+msgid "Botswana"
+msgstr "Botswana"
+
+#: modules/geo/classes/api.php:157
+msgid "Bosnia and Herzegovina"
+msgstr "Bośnia i Hercegowina"
+
+#: modules/geo/classes/api.php:156
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius i Saba"
+
+#: modules/geo/classes/api.php:155
+msgid "Bolivia"
+msgstr "Boliwia"
+
+#: modules/geo/classes/api.php:154
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: modules/geo/classes/api.php:153
+msgid "Bermuda"
+msgstr "Bermudy"
+
+#: modules/geo/classes/api.php:152
+msgid "Benin"
+msgstr "Benin"
+
+#: modules/geo/classes/api.php:151
+msgid "Belize"
+msgstr "Belize"
+
+#: modules/geo/classes/api.php:150
+msgid "Belgium"
+msgstr "Belgia"
+
+#: modules/geo/classes/api.php:149
+msgid "Belarus"
+msgstr "Białoruś"
+
+#: modules/geo/classes/api.php:148
+msgid "Barbados"
+msgstr "Barbados"
+
+#: modules/geo/classes/api.php:147
+msgid "Bangladesh"
+msgstr "Bangladesz"
+
+#: modules/geo/classes/api.php:146
+msgid "Bahrain"
+msgstr "Bahrajn"
+
+#: modules/geo/classes/api.php:145
+msgid "Bahamas"
+msgstr "Bahamy"
+
+#: modules/geo/classes/api.php:144
+msgid "Azerbaijan"
+msgstr "Azerbejdżan"
+
+#: modules/geo/classes/api.php:143
+msgid "Austria"
+msgstr "Austria"
+
+#: modules/geo/classes/api.php:141
+msgid "Aruba"
+msgstr "Aruba"
+
+#: modules/geo/classes/api.php:140
+msgid "Armenia"
+msgstr "Armenia"
+
+#: modules/geo/classes/api.php:139
+msgid "Argentina"
+msgstr "Argentyna"
+
+#: modules/geo/classes/api.php:138
+msgid "Antigua and Barbuda"
+msgstr "Antigua i Barbuda"
+
+#: modules/geo/classes/api.php:137
+msgid "Antarctica"
+msgstr "Antarktyda"
+
+#: modules/geo/classes/api.php:136
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: modules/geo/classes/api.php:135
+msgid "Angola"
+msgstr "Angola"
+
+#: modules/geo/classes/api.php:134
+msgid "Andorra"
+msgstr "Andora"
+
+#: modules/geo/classes/api.php:133
+msgid "American Samoa"
+msgstr "Samoa Amerykańskie"
+
+#: modules/geo/classes/api.php:132
+msgid "Algeria"
+msgstr "Algieria"
+
+#: modules/geo/classes/api.php:131
+msgid "Albania"
+msgstr "Albania"
+
+#: modules/geo/classes/api.php:130
+msgid "&#197;land Islands"
+msgstr "Wyspy Alandzkie"
+
+#: modules/geo/classes/api.php:129
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: modules/geo/classes/api.php:142
+msgid "Australia"
+msgstr "Australia"
+
+#: modules/geo/classes/api.php:126
+msgid "Asia"
+msgstr "Azja"
+
+#: modules/geo/classes/api.php:125
+msgid "Africa"
+msgstr "Afryka"
+
+#: modules/geo/classes/api.php:124
+msgid "Europe"
+msgstr "Europa"
+
+#: modules/geo/classes/api.php:123
+msgid "South America"
+msgstr "Ameryka Południowa"
+
+#: modules/geo/classes/api.php:122
+msgid "North America"
+msgstr "Ameryka Północna"
+
+#: modules/geo/classes/api.php:120 modules/geo/classes/api.php:212
+msgid "Germany"
+msgstr "Niemcy"
+
+#: modules/geo/classes/api.php:119
+msgid "European Union"
+msgstr "Unia Europejska"
+
+#: modules/geo/classes/api.php:118
+msgid "United Kingdom"
+msgstr "Wielka Brytania"
+
+#: modules/geo/classes/api.php:117
+msgid "United States"
+msgstr "USA"
+
+#: modules/geo/admin/admin.php:543
+msgid "Could not open database for writing %s"
+msgstr "Nie można otworzyć bazy danych do zapisu  %s"
+
+#: modules/geo/admin/admin.php:518
+msgid "Could not open downloaded database for reading: %s"
+msgstr "Nie można otworzyć pobranej bazy danych do odczytu: %s"
+
+#: modules/geo/admin/admin.php:497
+msgid "Error downloading database from: %s - %s"
+msgstr "Błąd pobierania bazy danych z: %s - %s"
+
+#: modules/geo/admin/admin.php:475
+msgid "Database updated successfully!"
+msgstr "Aktualizacja bazy danych powiodła się!"
+
+#: modules/geo/admin/admin.php:346 modules/geo/admin/admin.php:386
+msgid "City"
+msgstr "Miasto."
+
+#: modules/geo/admin/admin.php:344
+msgid "State/Region"
+msgstr "Stan/Region"
+
+#: modules/geo/admin/admin.php:343 modules/geo/admin/admin.php:345
+msgid "or"
+msgstr "lub"
+
+#: modules/geo/admin/admin.php:325
+msgid "is not"
+msgstr "nie jest"
+
+#: modules/geo/admin/admin.php:324
+msgid "is"
+msgstr "jest"
+
+#: modules/geo/admin/admin.php:282
+msgid "Your IP address format is incorrect"
+msgstr "Niepoprawny format twojego adresu IP"
+
+#: modules/geo/admin/admin.php:278
+msgid "Maybe you are working on a local or secured environment."
+msgstr "Może pracujesz w środowisku lokalnym lub zabezpieczonym."
+
+#: modules/geo/admin/admin.php:264 modules/geo/public/public.php:212
+#: modules/geo/public/public.php:369
+msgid "(unknown region)"
+msgstr "(nieznnay region)"
+
+#: modules/geo/admin/admin.php:255 modules/geo/public/public.php:206
+#: modules/geo/public/public.php:365
+msgid "(unknown city)"
+msgstr "(nieznane miasto)"
+
+#: modules/geo/admin/admin.php:138
+msgid "Language of names"
+msgstr "Język nazw"
+
+#: modules/geo/admin/admin.php:132
+msgid "Method"
+msgstr "Metoda"
+
+#: modules/geo/admin/admin.php:113 modules/geo/admin/admin.php:118
+msgid "Geo Targeting"
+msgstr "Geo-Targetowanie"
+
+#: modules/geo/admin/admin.php:77
+msgid "<strong>Advanced Ads – Geo Targeting</strong> is an extension for the free Advanced Ads plugin."
+msgstr "<strong>Advanced Ads – Geo Targeting</strong>jest rozszerzeniem do bezpłatnej wtyczki Advanced Ads."
+
+#: modules/geo/admin/admin.php:74
+msgid "Install Now"
+msgstr "Instaluj teraz"
+
+#: modules/geo/admin/admin.php:72
+msgid "Activate Now"
+msgstr "Włącz teraz"

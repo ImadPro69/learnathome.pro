@@ -1,0 +1,328 @@
+/**
+ *
+ * Allows admins to specify verified accounts. Adds a badge to verified members.
+ */
+:root {
+  --bp-verified-members-tooltip-color: #fff;
+  --bp-verified-members-tooltip-background-color: rgba(0,0,0,0.75);
+  --bp-verified-members-tooltip-border-radius: 3px;
+  --bp-verified-members-tooltip-padding: 5px 8px;
+  --bp-verified-members-tooltip-padding-x: 12px;
+  --bp-verified-members-tooltip-padding-y: 3px;
+  --bp-verified-members-tooltip-font-family: inherit;
+  --bp-verified-members-tooltip-font-weight: 400;
+  --bp-verified-members-tooltip-font-size: .8rem;
+  --bp-verified-members-tooltip-max-width: 200px;
+  --bp-verified-members-tooltip-box-shadow: none;
+  --bp-verified-members-tooltip-arrow-size: 6px;
+  --bp-verified-members-verified-badge-shape: url("../images/mask-circle.svg");
+  --bp-verified-members-unverified-badge-shape: url("../images/mask-circle.svg");
+}
+
+.bp-verified-badge,
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name-item > a:after,
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .item-title > a:after,
+.bp-verified-member:not(.bp-verified-member-badge-loaded) > .author > a:after,
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name > a:after,
+.bp-unverified-badge,
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name-item > a:after,
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .item-title > a:after,
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) > .author > a:after,
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name > a:after {
+  display: inline-block;
+  position: relative;
+  top: -.05em;
+  margin-left: .2em;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.activity .bp-verified-badge, .activity
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name-item > a:after, .activity
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .item-title > a:after, .activity
+.bp-verified-member:not(.bp-verified-member-badge-loaded) > .author > a:after, .activity
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name > a:after, .activity
+.bp-unverified-badge, .activity
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name-item > a:after, .activity
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .item-title > a:after, .activity
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) > .author > a:after, .activity
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name > a:after {
+  margin-right: .2em;
+}
+
+.widget img:not(.emoji) ~ .bp-verified-badge, .widget img:not(.emoji) ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name-item > a:after, .widget img:not(.emoji) ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .item-title > a:after, .widget img:not(.emoji) ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) > .author > a:after, .widget img:not(.emoji) ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name > a:after, .widget img:not(.emoji) ~
+.bp-unverified-badge, .widget img:not(.emoji) ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name-item > a:after, .widget img:not(.emoji) ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .item-title > a:after, .widget img:not(.emoji) ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) > .author > a:after, .widget img:not(.emoji) ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name > a:after {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  top: auto;
+  margin: 0 !important;
+  display: none;
+}
+
+.widget.widget_bp_core_recently_active_widget img ~ .bp-verified-badge,
+.widget.widget_bp_core_whos_online_widget img ~ .bp-verified-badge, .widget.widget_bp_core_recently_active_widget img ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name-item > a:after,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name-item > a:after, .widget.widget_bp_core_recently_active_widget img ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .item-title > a:after,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .item-title > a:after, .widget.widget_bp_core_recently_active_widget img ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) > .author > a:after,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) > .author > a:after, .widget.widget_bp_core_recently_active_widget img ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name > a:after,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name > a:after, .widget.widget_bp_core_recently_active_widget img ~
+.bp-unverified-badge,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-unverified-badge, .widget.widget_bp_core_recently_active_widget img ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name-item > a:after,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name-item > a:after, .widget.widget_bp_core_recently_active_widget img ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .item-title > a:after,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .item-title > a:after, .widget.widget_bp_core_recently_active_widget img ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) > .author > a:after,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) > .author > a:after, .widget.widget_bp_core_recently_active_widget img ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name > a:after,
+.widget.widget_bp_core_whos_online_widget img ~
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name > a:after {
+  display: inline-block;
+}
+
+.bp-verified-badge,
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name-item > a:after,
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .item-title > a:after,
+.bp-verified-member:not(.bp-verified-member-badge-loaded) > .author > a:after,
+.bp-verified-member:not(.bp-verified-member-badge-loaded) .member-name > a:after {
+  background: #1DA1F2 url("../images/verified-check.svg") no-repeat center center;
+  -webkit-mask: var(--bp-verified-members-verified-badge-shape);
+          mask: var(--bp-verified-members-verified-badge-shape);
+}
+
+.bp-unverified-badge,
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name-item > a:after,
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .item-title > a:after,
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) > .author > a:after,
+.bp-unverified-member:not(.bp-unverified-member-badge-loaded) .member-name > a:after {
+  background: #1DA1F2 url("../images/unverified-warning.svg") no-repeat center center;
+  -webkit-mask: var(--bp-verified-members-unverified-badge-shape);
+          mask: var(--bp-verified-members-unverified-badge-shape);
+}
+
+#item-header-content .bp-verified-badge,
+#item-header-content .bp-unverified-badge,
+#profile-header .bp-verified-badge,
+#profile-header .bp-unverified-badge {
+  width: 24px;
+  height: 24px;
+  background-size: 12px;
+  margin-left: .3em;
+}
+
+.bp-verified-member .item-title > a,
+.bp-verified-member .member-name > a,
+.bp-verified-member > .author > a,
+.bp-verified-member .member-name-item > a,
+.bp-unverified-member .item-title > a,
+.bp-unverified-member .member-name > a,
+.bp-unverified-member > .author > a,
+.bp-unverified-member .member-name-item > a {
+  display: inline-block;
+}
+
+.bp-verified-member .item-title > a:after,
+.bp-verified-member .member-name > a:after,
+.bp-verified-member > .author > a:after,
+.bp-verified-member .member-name-item > a:after,
+.bp-unverified-member .item-title > a:after,
+.bp-unverified-member .member-name > a:after,
+.bp-unverified-member > .author > a:after,
+.bp-unverified-member .member-name-item > a:after {
+  content: '';
+}
+
+.bp-verified-member .item-title > a ~ span.bp-verified-badge,
+.bp-verified-member .item-title > a ~ span.bp-unverified-badge,
+.bp-verified-member .member-name > a ~ span.bp-verified-badge,
+.bp-verified-member .member-name > a ~ span.bp-unverified-badge,
+.bp-verified-member > .author > a ~ span.bp-verified-badge,
+.bp-verified-member > .author > a ~ span.bp-unverified-badge,
+.bp-verified-member .member-name-item > a ~ span.bp-verified-badge,
+.bp-verified-member .member-name-item > a ~ span.bp-unverified-badge,
+.bp-unverified-member .item-title > a ~ span.bp-verified-badge,
+.bp-unverified-member .item-title > a ~ span.bp-unverified-badge,
+.bp-unverified-member .member-name > a ~ span.bp-verified-badge,
+.bp-unverified-member .member-name > a ~ span.bp-unverified-badge,
+.bp-unverified-member > .author > a ~ span.bp-verified-badge,
+.bp-unverified-member > .author > a ~ span.bp-unverified-badge,
+.bp-unverified-member .member-name-item > a ~ span.bp-verified-badge,
+.bp-unverified-member .member-name-item > a ~ span.bp-unverified-badge {
+  display: none !important;
+}
+
+.bp-verified-badge-tooltip,
+.bp-unverified-badge-tooltip {
+  color: var(--bp-verified-members-tooltip-color);
+  background-color: var(--bp-verified-members-tooltip-background-color);
+  padding: var(--bp-verified-members-tooltip-padding-y) var(--bp-verified-members-tooltip-padding-x);
+  border-radius: var(--bp-verified-members-tooltip-border-radius);
+  font-family: var(--bp-verified-members-tooltip-font-family);
+  font-weight: var(--bp-verified-members-tooltip-font-weight);
+  font-size: var(--bp-verified-members-tooltip-font-size);
+  max-width: var(--bp-verified-members-tooltip-max-width);
+  box-shadow: var(--bp-verified-members-tooltip-box-shadow);
+  border: none;
+  font-style: normal;
+  display: block;
+  transition: .2s ease-in-out;
+  position: absolute;
+  z-index: 1070;
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  white-space: normal;
+  line-break: auto;
+  word-wrap: break-word;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.bp-verified-badge-tooltip[style*="hidden"],
+.bp-unverified-badge-tooltip[style*="hidden"] {
+  opacity: 0;
+}
+
+.bp-verified-badge-tooltip .bp-verified-badge-tooltip-arrow,
+.bp-verified-badge-tooltip .bp-unverified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip .bp-verified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip .bp-unverified-badge-tooltip-arrow {
+  position: absolute;
+  content: '';
+  border-color: transparent;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  left: calc(50% - var(--bp-verified-members-tooltip-arrow-size));
+}
+
+.bp-verified-badge-tooltip[x-placement="top"] .bp-verified-badge-tooltip-arrow,
+.bp-verified-badge-tooltip[x-placement="top"] .bp-unverified-badge-tooltip-arrow, .bp-verified-badge-tooltip[data-popper-placement="top"] .bp-verified-badge-tooltip-arrow,
+.bp-verified-badge-tooltip[data-popper-placement="top"] .bp-unverified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip[x-placement="top"] .bp-verified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip[x-placement="top"] .bp-unverified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip[data-popper-placement="top"] .bp-verified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip[data-popper-placement="top"] .bp-unverified-badge-tooltip-arrow {
+  top: calc(100% - 1px);
+  border-width: var(--bp-verified-members-tooltip-arrow-size) var(--bp-verified-members-tooltip-arrow-size) 0;
+  border-top-color: var(--bp-verified-members-tooltip-background-color);
+}
+
+.bp-verified-badge-tooltip[x-placement="bottom"] .bp-verified-badge-tooltip-arrow,
+.bp-verified-badge-tooltip[x-placement="bottom"] .bp-unverified-badge-tooltip-arrow, .bp-verified-badge-tooltip[data-popper-placement="bottom"] .bp-verified-badge-tooltip-arrow,
+.bp-verified-badge-tooltip[data-popper-placement="bottom"] .bp-unverified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip[x-placement="bottom"] .bp-verified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip[x-placement="bottom"] .bp-unverified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip[data-popper-placement="bottom"] .bp-verified-badge-tooltip-arrow,
+.bp-unverified-badge-tooltip[data-popper-placement="bottom"] .bp-unverified-badge-tooltip-arrow {
+  bottom: calc(100% - 1px);
+  border-width: 0 var(--bp-verified-members-tooltip-arrow-size) var(--bp-verified-members-tooltip-arrow-size) var(--bp-verified-members-tooltip-arrow-size);
+  border-bottom-color: var(--bp-verified-members-tooltip-background-color);
+}
+
+.wp-list-table .column-bp-verified-member {
+  text-align: center;
+}
+
+.dashicons.bp-verified-member-spin {
+  -webkit-animation: bp-verified-member-spin 1s infinite;
+          animation: bp-verified-member-spin 1s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes bp-verified-member-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bp-verified-member-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bp-verified-member-toggle.bp-verified-by-role, .bp-verified-member-toggle.bp-verified-by-member-type {
+  cursor: not-allowed;
+}
+
+.bp-verified-member-toggle.bp-verified-by-role .bp-verified-badge, .bp-verified-member-toggle.bp-verified-by-member-type .bp-verified-badge {
+  opacity: .5;
+}
+
+.bp-verified-member-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.bp-verified-member-request-button {
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+  display: inline-block;
+  margin: 0;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bp-verified-member-request-button.bp-verified-member-verification-pending {
+  opacity: .7;
+  cursor: not-allowed;
+}
+
+.bp-verified-member-request-button .bp-verified-badge {
+  width: 20px !important;
+  height: 20px !important;
+  background-size: inherit !important;
+}
+
+.bp-verified-member-new-requests-notice p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bp-verified-member-new-requests-notice .notice-dismiss {
+  top: 5px;
+}
+

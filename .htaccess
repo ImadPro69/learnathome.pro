@@ -1,0 +1,90 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase / 
+#WriteCheckString:1716527309_42873
+RewriteRule ^rewrite_test_1716527309_42873/? /wp-content/plugins/wp-hide-security-enhancer/include/rewrite-confirm.php [L,QSA]
+RewriteRule ^rewrite_test_static_file_1716527309_42873/? /wp-content/plugins/wp-hide-security-enhancer/composer.json [L,QSA]
+
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+RewriteRule ^template/(.+) /wp-content/themes/cera/$1 [L,QSA]
+
+RewriteRule ^attachments/(.+) "/wp-content/plugins/buddypress-docs/$1" [L,QSA]
+RewriteRule ^apps/(.+) /wp-content/plugins/$1 [L,QSA]
+
+RewriteRule ^includes/(.+) /wp-includes/$1 [L,QSA]
+
+RewriteRule ^media/(.+) /wp-content/uploads/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-activate.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-signup.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-register.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} !wp-activate.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-cron.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-signup.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-register.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-comments-post.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-login.php [NC]
+RewriteRule ^wp-([a-z-])+.php /index.php?wph-throw-404 [L]
+
+RewriteRule ^comments-post.php /wp-comments-post.php [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-comments-post.php /index.php?wph-throw-404 [L]
+
+RewriteRule ^content/(.+) /wp-content/$1 [L,QSA]
+
+RewriteRule ^login(.*) /wp-login.php$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-login.php /index.php?wph-throw-404 [L]
+
+RewriteCond %{REQUEST_URI} /my-homie$
+RewriteRule ^(.*)$ /my-homie/ [R=301,L]
+RewriteRule ^my-homie/(.*) /wp-admin/$1 [L,QSA]
+</IfModule> 
+<IfModule mod_headers.c>
+        Header set Cross-Origin-Embedder-Policy "unsafe-none"
+        Header set Cross-Origin-Opener-Policy "unsafe-none"
+        Header set Cross-Origin-Resource-Policy "cross-origin"
+        Header set Referrer-Policy "strict-origin-when-cross-origin"
+        Header set X-Download-Options "noopen"
+        Header set X-Frame-Options "SAMEORIGIN"
+        Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+# END WP Hide & Security Enhancer
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+# Wordfence WAF
+<IfModule LiteSpeed>
+php_value auto_prepend_file '/home/u442300711/domains/learnathome.pro/public_html/wordfence-waf.php'
+</IfModule>
+<IfModule lsapi_module>
+php_value auto_prepend_file '/home/u442300711/domains/learnathome.pro/public_html/wordfence-waf.php'
+</IfModule>
+
+# END Wordfence WAF

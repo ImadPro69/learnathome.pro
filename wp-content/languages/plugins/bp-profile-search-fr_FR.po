@@ -1,0 +1,603 @@
+# Translation of Plugins - BP Profile Search - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - BP Profile Search - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-20 09:39:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - BP Profile Search - Stable (latest release)\n"
+
+#: bps-request.php:283
+msgid "this field is required, please select at least an option"
+msgstr "ce champ est obligatoire, veuillez sélectionner au moins une option"
+
+#: bps-request.php:276
+msgid "this field is required, please select an option"
+msgstr "ce champ est obligatoire, veuillez sélectionner une option"
+
+#: bps-request.php:270
+msgid "please enter a distance"
+msgstr "veuillez saisir une distance"
+
+#: bps-request.php:268
+msgid "this field is required, please enter a distance and select a location"
+msgstr "ce champ est nécessaire, veuillez saisir une distance et sélectionner un emplacement"
+
+#: bps-request.php:263
+msgid "this field is required, please enter at least a date"
+msgstr "ce champ est obligatoire, veuillez saisir au moins une date"
+
+#: bps-request.php:258
+msgid "this field is required, please enter a date"
+msgstr "ce champ est obligatoire, veuillez saisir une date"
+
+#: bps-request.php:253
+msgid "this field is required, please enter at least a value"
+msgstr "ce champ est obligatoire, veuillez saisir au moins une valeur"
+
+#: bps-request.php:247
+msgid "this field is required, please enter a value"
+msgstr "ce champ est obligatoire, veuillez saisir une valeur"
+
+#: bps-request.php:237
+msgid "this field is required, please enter a value or a search expression"
+msgstr "ce champ est obligatoire, veuillez saisir une valeur ou une expression de recherche"
+
+#: bps-template.php:59
+msgid "unsupported template located in: %1$s"
+msgstr "modèle non pris en charge situé dans : %1$s"
+
+#: bps-help.php:57
+msgid "GET: the form data are visible in the URL and it’s possible to bookmark the search results"
+msgstr "GET : les données du formulaire sont visibles dans l’URL et il est possible de mettre en marque-page les résultats de recherche"
+
+#: bps-help.php:49
+msgid "Choose whether to display this form in its target directory."
+msgstr "Choisissez si vous souhaitez afficher ce formulaire dans son répertoire cible."
+
+#: bps-help.php:46
+msgid "You can create a member directory using the shortcode %1$s. To learn more, see the %2$s page."
+msgstr "Vous pouvez créer un répertoire des membres en utilisant le code court %1$s. Pour en savoir plus, voyez la page %2$s."
+
+#: bps-help.php:44
+msgid "One of the member directories built with this plugin"
+msgstr "L’un des répertoires des membres construit avec cette extension"
+
+#: bps-help.php:40
+msgid "Select the member directory that will be filtered using this search form. You can choose:"
+msgstr "Sélectionnez le répertoire des membres qui sera filtré en utilisant ce formulaire de recherche. Vous pouvez choisir :"
+
+#: bps-help.php:11
+msgid "In its target directory, using the option %s"
+msgstr "Dans le répertoire cible, utilisez l’option %s"
+
+#: bps-help.php:9
+msgid "After you build your search form, you can display it:"
+msgstr "Après avoir créé votre formulaire de recherche, vous pouvez l’afficher :"
+
+#: bps-admin.php:123 bps-help.php:11 bps-help.php:48
+msgid "Add Form to Directory"
+msgstr "Ajouter le formulaire au répertoire"
+
+#: bps-admin.php:110 bps-help.php:39
+msgid "Target Directory"
+msgstr "Répertoire cible"
+
+#: bps-admin.php:48 bps-admin.php:65
+msgid "drag and drop to reorder fields"
+msgstr "glissez-déposez pour réorganiser les champs"
+
+#: bps-external.php:23
+msgid "Groups"
+msgstr "Groupes"
+
+#: bps-external.php:21 bps-external.php:24
+msgid "User groups"
+msgstr "Groupes d’utilisateurs"
+
+#: templates/members/bps-details.php:53
+msgid "%1$s: %2$s (distance %3$d miles)"
+msgstr "%1$s : %2$s (distance %3$d miles)"
+
+#: templates/members/bps-details.php:51
+msgid "%1$s: %2$s (distance %3$d km)"
+msgstr "%1$s : %2$s (distance %3$d km)"
+
+#. translators: %1$s label, %2$d age
+#: templates/members/bps-details.php:33
+msgid "%1$s: %2$d year"
+msgid_plural "%1$s: %2$d years"
+msgstr[0] "%1$s : %2$d année"
+msgstr[1] "%1$s : %2$d années"
+
+#: bps-template.php:56
+msgid "custom template located in: %1$s"
+msgstr "modèle personnalisé situé dans : %1$s"
+
+#: bps-template.php:60
+msgid "more information..."
+msgstr "plus d’informations…"
+
+#: bps-start.php:243
+msgid "Form draft updated."
+msgstr "Brouillon de formulaire mis à jour."
+
+#: bps-fields.php:292 bps-request.php:239
+msgid "AND expression not allowed here, use only OR"
+msgstr "Expression AND non autorisée ici, utilisez seulement OR"
+
+#: bps-fields.php:290 bps-request.php:241
+msgid "mixed expression not allowed, use only AND or only OR"
+msgstr "expression mixte non autorisée, utilisez seulement AND ou seulement OU"
+
+#: bps-fields.php:98 bps-fields.php:103
+msgid "is within"
+msgstr "est dans"
+
+#: bps-admin.php:135
+msgid "Need help? Use the Help tab above the screen title."
+msgstr "Besoin d’aide ? Utilisez l’onglet Aide au dessus du titre de l’écran."
+
+#: templates/members/bps-form-default.php:30
+msgid "Collapsible Form"
+msgstr "Formulaire rétractable"
+
+#: templates/members/bps-form-default.php:23
+msgid "jQuery UI Theme"
+msgstr "Thème jQuery UI"
+
+#: bps-template.php:136
+msgid "no jQuery UI"
+msgstr "aucune interface utilisateur jQuery"
+
+#: bps-template.php:38
+msgid "template not found"
+msgstr "modèle non trouvé"
+
+#: bps-xprofile.php:276
+msgid "Any profile field"
+msgstr "N’importe quel champ de profil"
+
+#: bps-template.php:44
+msgid "built-in template"
+msgstr "modèle intégré"
+
+#: bps-external.php:356
+msgid "User taxonomies"
+msgstr "Taxonomies d’utilisateurs"
+
+#: bps-form.php:66
+msgid "%1$s error: Form ID \"%2$d\" is empty or nonexistent."
+msgstr "%1$s erreur : l’ID du formulaire « %2$d » est vide ou n’existe pas."
+
+#: bps-form.php:65
+msgid "%1$s error: Template \"%2$s\" not found."
+msgstr "Erreur %1$s : le modèle « %2$s » est introuvable."
+
+#: bps-external.php:211
+msgid "Usermeta data"
+msgstr "Métadonnées de l’utilisateur"
+
+#: bps-help.php:72
+msgid "You can then add the form fields, specify the form settings and select the form template."
+msgstr "Vous pouvez ensuite ajouter les champs de formulaire, spécifiez les réglages de formulaire et sélectionnez le modèle de formulaire."
+
+#: bps-help.php:71
+msgid "To create a form, use the button %s."
+msgstr "Pour créer un formulaire, utilisez le bouton %s."
+
+#: bps-help.php:69
+msgid "Create a form"
+msgstr "Créer un formulaire"
+
+#: bps-help.php:33
+msgid "Specify the template options, if any"
+msgstr "Spécifiez les options de modèle, le cas échéant"
+
+#: bps-help.php:32
+msgid "Select the form template"
+msgstr "Sélectionnez le modèle de formulaire"
+
+#: bps-help.php:30
+msgid "Select how to display your search form."
+msgstr "Sélectionnez comment afficher votre formulaire de recherche."
+
+#: bps-help.php:15
+msgid "(*) Replace %s with the actual ID of your form."
+msgstr "(*) Replacez %s par l’ID actuel de votre formulaire."
+
+#: bps-help.php:7
+msgid "Display a Form"
+msgstr "Afficher un formulaire"
+
+#: bps-admin.php:7 bps-help.php:36
+msgid "Form Settings"
+msgstr "Réglages du formulaire"
+
+#: bps-help.php:67
+msgid "This selection applies to all your forms at once."
+msgstr "Cette sélection s’applique à tous vos formulaires à la fois."
+
+#: bps-help.php:65
+msgid "If disabled, a search is cleared when the user hits the <em>Clear</em> button, or navigates away from the target directory"
+msgstr "Si cette option est désactivée, la recherche est effacée lorsque l’utilisateur clique sur le bouton <em>Effacer</em> ou quitte le répertoire cible"
+
+#: bps-help.php:64
+msgid "If enabled, a search is cleared when the user hits the <em>Clear</em> button"
+msgstr "Si activé, la recherche est effacée lorsque l’utilisateur clique sur le bouton <em>Effacer</em>"
+
+#: bps-help.php:62
+msgid "Enable or disable the <em>persistent search</em> feature."
+msgstr "Activer ou désactiver la fonctionnalité <em>recherche persistante</em>."
+
+#: bps-external.php:104
+msgid "Users data"
+msgstr "Données utilisateurs"
+
+#: bps-admin.php:9 bps-help.php:60
+msgid "Persistent Search"
+msgstr "Recherche persistante"
+
+#: templates/members/bps-form-default.php:196
+msgid "get current location"
+msgstr "obtenir l’emplacement actuel"
+
+#. translators: %1$s label, %2$s value
+#: templates/members/bps-details.php:28 templates/members/bps-details.php:39
+#: templates/members/bps-details.php:44
+msgid "%1$s: %2$s"
+msgstr "%1$s : %2$s"
+
+#: templates/members/bps-form-default.php:195
+msgid "Start typing, then select a location"
+msgstr "Commencez à écrire, puis sélectionnez un emplacement"
+
+#: templates/members/bps-form-default.php:194
+msgid "miles"
+msgstr "miles"
+
+#: templates/members/bps-form-default.php:193
+msgid "km"
+msgstr "km"
+
+#: templates/members/bps-form-default.php:192
+msgid "of"
+msgstr "de"
+
+#: bps-fields.php:73
+msgid "distance"
+msgstr "distance"
+
+#: templates/members/bps-filters.php:66
+msgid "is within: %1$s miles of %2$s"
+msgstr "est dans un rayon de %1$s km autour de %2$s"
+
+#: templates/members/bps-filters.php:63
+msgid "is within: %1$s km of %2$s"
+msgstr "dans un rayon de %1$s km autour de %2$s"
+
+#: bps-fields.php:74
+msgid "is one of"
+msgstr "fait partie de"
+
+#: bps-help.php:78
+msgid "Troubleshooting"
+msgstr "Dépannage"
+
+#: bps-help.php:77
+msgid "Search Modes"
+msgstr "Modes de recherche"
+
+#: bps-help.php:24
+msgid "To remove a field from the form, click <em>Remove</em> on the right"
+msgstr "Pour supprimer un champ du formulaire, cliquez sur <em>Supprimer</em>"
+
+#: bps-help.php:22
+msgid "Select the field search mode from the <em>Search Mode</em> drop-down list"
+msgstr "Sélectionnez le mode de recherche du champ dans la liste déroulante <em>Mode de recherche</em>"
+
+#: bps-fields.php:76 bps-fields.php:101
+msgid "match all"
+msgstr "correspond à tous"
+
+#: bps-fields.php:75 bps-fields.php:100
+msgid "match any"
+msgstr "correspond à n’importe lequel"
+
+#: bps-fields.php:72
+msgid "age range"
+msgstr "tranche d’âge"
+
+#: bps-admin.php:77
+msgid "select a field"
+msgstr "sélectionnez un champ"
+
+#: bps-admin.php:54 bps-admin.php:67
+msgid "Remove"
+msgstr "Retirer"
+
+#: bps-admin.php:22
+msgid "Search Mode"
+msgstr "Mode de recherche"
+
+#: bps-external.php:363
+msgid "Select the member type"
+msgstr "Sélectionnez le type de membre"
+
+#: bps-external.php:362
+msgid "Member type"
+msgstr "Type de membre"
+
+#: bps-xprofile.php:277
+msgid "Search every profile field"
+msgstr "Rechercher dans chaque champ de profil"
+
+#: bps-xprofile.php:274
+msgid "Any field"
+msgstr "N’importe quel champ"
+
+#: bps-fields.php:70 bps-fields.php:95
+msgid "is like"
+msgstr "est comme"
+
+#: bps-fields.php:69
+msgid "is"
+msgstr "est"
+
+#: bps-fields.php:68 bps-fields.php:93
+msgid "contains"
+msgstr "contient"
+
+#. Author of the plugin
+#: bps-main.php
+msgid "Andrea Tarantini"
+msgstr "Andrea Tarantini"
+
+#. Plugin Name of the plugin
+#: bps-main.php
+msgid "BP Profile Search"
+msgstr "BP Profile Search"
+
+#: bps-template.php:221
+msgid "Search"
+msgstr "Rechercher"
+
+#: bps-template.php:220 bps-template.php:258
+msgid "Clear"
+msgstr "Effacer"
+
+#: bps-start.php:257
+msgid "%s form restored from the Trash."
+msgid_plural "%s forms restored from the Trash."
+msgstr[0] "Formulaire %s restauré à partir de la corbeille."
+msgstr[1] "Formulaires %s restaurés à partir de la corbeille."
+
+#: bps-start.php:256
+msgid "%s form moved to the Trash."
+msgid_plural "%s forms moved to the Trash."
+msgstr[0] "Formulaire %s déplacé dans la corbeille."
+msgstr[1] "Formulaires %s déplacés dans la corbeille."
+
+#: bps-start.php:255
+msgid "%s form permanently deleted."
+msgid_plural "%s forms permanently deleted."
+msgstr[0] "formulaire %s définitivement supprimé."
+msgstr[1] "formulaires %s définitivement supprimés."
+
+#: bps-start.php:239
+msgid "Form created."
+msgstr "Formulaire créé."
+
+#: bps-start.php:234
+msgid "Form updated."
+msgstr "Formulaire mis à jour."
+
+#: bps-admin.php:132
+msgid "GET"
+msgstr "GET"
+
+#: bps-admin.php:131
+msgid "POST"
+msgstr "POST"
+
+#: bps-admin.php:129 bps-help.php:52
+msgid "Form Method"
+msgstr "Méthode du formulaire"
+
+#: bps-admin.php:8 bps-admin.php:145 bps-help.php:28
+msgid "Form Template"
+msgstr "Modèle de formulaire"
+
+#: bps-admin.php:126 bps-admin.php:210
+#: templates/members/bps-form-default.php:33
+msgid "No"
+msgstr "Non"
+
+#: bps-admin.php:125 bps-admin.php:209
+#: templates/members/bps-form-default.php:32
+msgid "Yes"
+msgstr "Oui"
+
+#: bps-start.php:193
+msgid "Delete Permanently"
+msgstr "Supprimer Définitivement"
+
+#: bps-start.php:192
+msgid "Restore"
+msgstr "Restaurer"
+
+#: bps-start.php:191
+msgid "Move to Trash"
+msgstr "Déplacer dans la corbeille"
+
+#: bps-start.php:167
+msgid "undefined"
+msgstr "indéfini"
+
+#: bps-start.php:150
+msgid "Shortcode"
+msgstr "Code court"
+
+#: bps-start.php:149
+msgid "Widget"
+msgstr "Widget"
+
+#: bps-start.php:147
+msgid "Directory"
+msgstr "Répertoire"
+
+#: bps-start.php:145
+msgid "Fields"
+msgstr "Champs"
+
+#: bps-start.php:144
+msgid "Form"
+msgstr "Formulaire"
+
+#: bps-start.php:101
+msgid "No forms found in Trash."
+msgstr "Aucun formulaire n’a été trouvé dans la Corbeille."
+
+#: bps-start.php:100
+msgid "No forms found."
+msgstr "Aucun formulaire n’a été trouvé."
+
+#: bps-start.php:99
+msgid "Edit Form"
+msgstr "Modifier le formulaire"
+
+#: bps-start.php:98
+msgid "Add New Form"
+msgstr "Ajouter un nouveau formulaire"
+
+#: bps-help.php:71 bps-start.php:97
+msgid "Add New"
+msgstr "Ajouter"
+
+#: bps-start.php:95
+msgid "Profile Search Form"
+msgstr "Formulaire de recherche de profil"
+
+#: bps-start.php:94
+msgid "Profile Search Forms"
+msgstr "Formulaires de recherche de profil"
+
+#: bps-start.php:52
+msgid "Settings"
+msgstr "Réglages"
+
+#: bps-start.php:177 bps-start.php:183
+msgid "unused"
+msgstr "inutilisé"
+
+#: bps-admin.php:31
+msgid "Add Field"
+msgstr "Ajouter un champ"
+
+#: bps-fields.php:71
+msgid "range"
+msgstr "intervalle"
+
+#: bps-admin.php:21
+msgid "Description"
+msgstr "Description"
+
+#: bps-admin.php:20
+msgid "Label"
+msgstr "Libellé"
+
+#: bps-admin.php:19
+msgid "Field"
+msgstr "Champ"
+
+#: bps-help.php:80
+msgid "Support Forum"
+msgstr "Forum de support"
+
+#: bps-help.php:79
+msgid "Incompatible plugins"
+msgstr "Extensions incompatibles"
+
+#: bps-help.php:76
+msgid "Documentation"
+msgstr "Documentation"
+
+#: bps-help.php:75
+msgid "For more information:"
+msgstr "Pour plus d’informations :"
+
+#: bps-help.php:43
+msgid "The BuddyPress Members directory"
+msgstr "La page du répertoire des membres BuddyPress"
+
+#: bps-help.php:56
+msgid "POST: the form data are not visible in the URL and it’s not possible to bookmark the search results"
+msgstr "POST : les données du formulaire ne sont pas visibles dans l’URL et il n’est pas possible de mettre en marque-page les résultats de recherche"
+
+#: bps-help.php:53
+msgid "Select your form’s <em>method</em> attribute."
+msgstr "Sélectionnez l’attribut de <em>méthode</em> de votre formulaire."
+
+#: bps-help.php:25
+msgid "To leave a field description blank, enter a single dash (-) character"
+msgstr "Pour laisser une description de champ vide, saisissez un tiret (-)"
+
+#: bps-help.php:23
+msgid "To reorder the fields in the form, drag them up or down by the handle on the left"
+msgstr "Pour réorganiser les champs du formulaire, faites les glisser vers le haut ou le bas à l’aide de la poignée sur la gauche"
+
+#: bps-help.php:21
+msgid "Customize the field label and description, or leave them empty to use the default"
+msgstr "Personnalisez l’étiquette et la description du champ, ou laissez-les vides pour utiliser les valeurs par défaut"
+
+#: bps-help.php:19
+msgid "Select the profile fields to show in your search form."
+msgstr "Sélectionnez les champs de profil à afficher dans votre formulaire de recherche."
+
+#: bps-admin.php:6 bps-help.php:17
+msgid "Form Fields"
+msgstr "Champs de formulaire"
+
+#: bps-help.php:13
+msgid "In a post or page, using the shortcode: %s (*)"
+msgstr "Dans un article ou une page, en utilisant le code court : %s (*)"
+
+#: bps-help.php:12
+msgid "In a sidebar or widget area, using the widget %s"
+msgstr "Dans une colonne latérale ou une zone de widget, à l’aide du widget %s"
+
+#: bps-start.php:148
+msgid "Add to Directory"
+msgstr "Ajouter au répertoire"
+
+#: bps-start.php:146
+msgid "Template"
+msgstr "Modèle"
+
+#: bps-widget.php:67
+msgid "You have not created any form yet."
+msgstr "Vous n’avez pas encore créé de formulaire."
+
+#: bps-start.php:181 bps-widget.php:57
+msgid "(no title)"
+msgstr "(sans titre)"
+
+#: bps-widget.php:48
+msgid "Form:"
+msgstr "Formulaire :"
+
+#: bps-widget.php:44
+msgid "Title:"
+msgstr "Titre :"
+
+#: bps-help.php:12 bps-start.php:96 bps-widget.php:14
+msgid "Profile Search"
+msgstr "Recherche de profil"
+
+#: bps-widget.php:13
+msgid "A Profile Search form."
+msgstr "Un formulaire de recherche de profil."

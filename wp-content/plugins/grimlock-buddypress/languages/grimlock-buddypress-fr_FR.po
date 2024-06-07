@@ -1,0 +1,1986 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Grimlock for BuddyPress\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2022-07-15 16:48+0200\n"
+"PO-Revision-Date: 2022-07-15 16:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n:1,2;esc_html__;esc_html_e;esc_html_x;"
+"esc_attr__;esc_attr_e;esc_attr_x;_ex;_nx:1,2;_n_noop:1,2;_nx_noop:1,2;"
+"translate_nooped_plural\n"
+"X-Poedit-Basepath: ..\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: libs\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+"X-Poedit-SearchPathExcluded-4: assets\n"
+
+#: grimlock-buddypress.php:41
+#, php-format
+msgid ""
+"%1$sGrimlock for BuddyPress%2$s requires %1$sGrimlock %3$s%2$s to continue "
+"running properly. Please %4$supdate Grimlock.%5$s"
+msgstr ""
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:48
+#: inc/widget/class-grimlock-buddypress-groups-section-widget.php:27
+msgid "Grimlock BuddyPress Groups Section"
+msgstr "Grimlock BuddyPress Groups Section"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:54
+msgid "query"
+msgstr ""
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:54
+msgid "section"
+msgstr ""
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:54
+msgid "groups"
+msgstr ""
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:70
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:65
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:54
+#: inc/customizer/class-grimlock-buddypress-activities-customizer.php:85
+#: inc/customizer/class-grimlock-buddypress-group-customizer.php:73
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:101
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:96
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:46
+msgid "General"
+msgstr "Général"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:71
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:47
+msgid "Query"
+msgstr "Requête"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:72
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:125
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:75
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:62
+#: inc/customizer/class-grimlock-buddypress-activities-customizer.php:96
+#: inc/customizer/class-grimlock-buddypress-group-customizer.php:80
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:114
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:172
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:108
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:48
+msgid "Layout"
+msgstr "Mise en page"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:73
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:89
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:76
+#: inc/customizer/class-grimlock-buddypress-activities-customizer.php:105
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:125
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:185
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:115
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:49
+msgid "Style"
+msgstr "Style"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:87
+msgid "Max groups to show"
+msgstr "Nombre de groupes à afficher"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:103
+msgid "Default groups to show"
+msgstr "Groupes par défaut"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:105
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:91
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:85
+#: templates/blogs/index.php:71 templates/members/blogs.php:35
+#: templates/members/single/blogs.php:35
+msgid "Newest"
+msgstr "Récent"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:106
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:93
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:86
+#: templates/groups/single/cover-image-header.php:69
+#: templates/members/single/groups/invites.php:79
+msgid "Active"
+msgstr "Actif"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:107
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:95
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:87
+msgid "Popular"
+msgstr "Populaire"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:108
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:97
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:873
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:88
+#: templates/blogs/index.php:72 templates/groups/index.php:74
+#: templates/members/blogs.php:36 templates/members/index.php:79
+#: templates/members/single/blogs.php:36
+#: templates/members/single/friends.php:45
+#: templates/members/single/groups.php:35
+msgid "Alphabetical"
+msgstr "Alphabétique"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:146
+msgid "Alignment"
+msgstr ""
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:166
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:27
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:101
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:152
+msgid "Groups"
+msgstr "Groupes"
+
+#: inc/block/class-grimlock-buddypress-groups-section-block.php:168
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:154
+msgid "More groups"
+msgstr "Plus de groupes"
+
+#: inc/bp-maps-for-members/class-grimlock-buddypress-bp-maps-for-members.php:43
+msgid "BP Members Map Filters"
+msgstr ""
+
+#: inc/bp-maps-for-members/class-grimlock-buddypress-bp-maps-for-members.php:44
+msgid "The filters area for the members map"
+msgstr ""
+
+#: inc/bp-verified-member/customizer/class-grimlock-buddypress-bp-verified-member-customizer.php:30
+msgid "Verified Member"
+msgstr ""
+
+#: inc/bp-verified-member/customizer/class-grimlock-buddypress-bp-verified-member-customizer.php:85
+msgid "Verified badge color"
+msgstr ""
+
+#: inc/bp-verified-member/customizer/class-grimlock-buddypress-bp-verified-member-customizer.php:110
+msgid "Unverified badge color"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:28
+msgid "Docs Directory"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:129
+msgid "Display"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:176
+msgid "Title"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:177
+msgid ""
+"You can change the header title of the docs directory by editing it in "
+"BuddyPress Docs settings in the admin."
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:200
+msgid "Description"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:224
+msgid "Header image"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:313
+msgid ""
+", <a href=\"#archive_bp_doc_custom_header_padding_y\" rel=\"tc-control"
+"\">Docs Page</a>"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:332
+msgid ""
+", <a href=\"#archive_bp_doc_custom_header_layout\" rel=\"tc-control\">Docs "
+"Page</a>"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:351
+msgid ""
+", <a href=\"#archive_bp_doc_custom_header_container_layout\" rel=\"tc-control"
+"\">Docs Page</a>"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:28
+msgid "Single Doc"
+msgstr ""
+
+#: inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:109
+#: inc/customizer/class-grimlock-buddypress-activities-customizer.php:62
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:72
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:92
+msgid "Header Display"
+msgstr ""
+
+#: inc/buddypress-media/grimlock-buddypress-buddypress-media-template-functions.php:38
+msgid "Add new media"
+msgstr ""
+
+#: inc/buddypress-media/grimlock-buddypress-buddypress-media-template-functions.php:40
+msgid "View all media"
+msgstr ""
+
+#: inc/charitable/class-grimlock-buddypress-charitable.php:26
+#: inc/charitable/class-grimlock-buddypress-charitable.php:49
+msgid "Donations"
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:117
+msgid "Logged In Users"
+msgstr "Utilisateurs connectés"
+
+#: inc/class-grimlock-buddypress.php:118
+msgid "Logged Out Users"
+msgstr "Utilisateurs déconnectés"
+
+#: inc/class-grimlock-buddypress.php:171
+msgid "BuddyPress Left Sidebar"
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:172
+msgid "The left hand area for BuddyPress pages."
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:181
+#: inc/customizer/class-grimlock-buddypress-customizer.php:367
+msgid "BuddyPress"
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:182 inc/class-grimlock-buddypress.php:194
+msgid "The right hand area for BuddyPress pages."
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:193
+msgid "BuddyPress Right Sidebar"
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:238
+msgid "Menu"
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:239
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:127
+msgid "You have no new notification"
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:321
+msgid "Biographical Info"
+msgstr ""
+
+#: inc/class-grimlock-buddypress.php:325
+msgid "Synchronize this field with the author biography"
+msgstr ""
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:114
+#, php-format
+msgid "created %s"
+msgstr ""
+
+#. translators: %s: Group last active
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:118
+#: templates/members/single/groups/invites.php:81
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:133
+msgid "There are no groups to display."
+msgstr "Il n’y a pas de groupes à afficher."
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:139
+msgid ""
+"You must activate \"User Groups component\" in the BuddyPress settings page"
+msgstr ""
+"Vous devez activer « User Groups composent » dans la page de réglages de "
+"BuddyPress"
+
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:85
+#: templates/members/single/friends.php:70
+msgid "Friends"
+msgstr ""
+
+#. translators: %s: Friends slug
+#. translators: %s: Groups slug
+#. translators: %s: Notifications slug
+#. translators: %s: Messages slug
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:88
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:104
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:120
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:145
+#, php-format
+msgid "My %s"
+msgstr ""
+
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:117
+#: templates/members/single/cover-image-header.php:66
+msgid "Notifications"
+msgstr ""
+
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:142
+#: templates/members/single/cover-image-header.php:79
+msgid "Messages"
+msgstr ""
+
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:155
+#: templates/members/single/cover-image-header.php:88
+msgid "Settings"
+msgstr ""
+
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:180
+msgid "avatar"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-activities-customizer.php:27
+msgid "Activity Stream"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:27
+msgid "Global"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:97
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:202
+msgid "Display Navbar Friends Icon"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:225
+msgid "Display Navbar Groups Icon"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:248
+msgid "Display Navbar Notifications Icon"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:270
+msgid "Display Navbar Notifications List"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:300
+msgid "Display Navbar Messages Icon"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:323
+msgid "Display Navbar Settings Icon"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-customizer.php:346
+msgid "Enable Tooltips for Navbar Icons"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-group-customizer.php:29
+msgid "Group Page"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-group-customizer.php:118
+msgid "Default Group Cover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-group-customizer.php:139
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:385
+msgid "Sidebars"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:27
+msgid "Groups Directory"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:158
+msgid "Display groups actions text"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:159
+msgid ""
+"If this field is checked, BuddyPress action buttons for group lists will "
+"have a text in addition to the icon."
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:181
+msgid "Display group types"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:219
+msgid "Groups per Page"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:220
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:835
+msgid "Insert 0 to remove the page limit."
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:247
+msgid "Display groups counts"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-groups-customizer.php:268
+msgid "Groups Layout"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:27
+msgid "Members Directory"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:154
+msgid "Directory"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:230
+msgid "Display member types"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:252
+msgid "Display members actions text"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:253
+msgid ""
+"If this field is checked, BuddyPress action buttons for members lists will "
+"have a text in addition to the icon."
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:275
+msgid "Display last activity"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:296
+msgid "Members Layout"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:356
+msgid "Members Displayed Profile Fields"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:380
+msgid "Enable range slider for age range fields in members search form"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:402
+msgid "Display field labels in members search form"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:423
+msgid "Friend Icons"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:452
+msgid "Follow Icons"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:503
+msgid "Actions Buttons Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:552
+msgid "Friend Buttons Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:582
+msgid "Follow Buttons Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:631
+msgid "Message Buttons Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:680
+msgid "Success Buttons Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:730
+msgid "Delete Buttons Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:788
+msgid "Miscellaneous Buttons Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:834
+msgid "Members per Page"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:861
+msgid "Default order"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:867
+msgid "Last active"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:868
+msgid "Newest registered"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:892
+msgid "Hide myself"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:893
+msgid "Hide the logged in user from the members directory."
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:915
+msgid "Display members counts"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:936
+msgid "Displayed Name in Members Cards"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:941
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:295
+msgid "Full Name"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:942
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:296
+#: templates/members/register.php:75
+msgid "Username"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-members-customizer.php:943
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:297
+msgid "Full Name + Username"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:29
+msgid "Profile"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:149
+msgid "Profile Header Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:202
+msgid "Profile Header Text Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:248
+msgid "Default Member Avatar"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:269
+msgid "Default Profile Cover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:290
+msgid "Displayed Name on Profile"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:317
+msgid "Replace Last Activity by Author Bio in Profile Header"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:339
+msgid "Display secondary nav text on mobile"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:340
+msgid "When unchecked, only icons will be displayed on mobile."
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:359
+msgid "Mobile navigation default state"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:365
+msgid "Open"
+msgstr ""
+
+#: inc/customizer/class-grimlock-buddypress-profile-customizer.php:366
+msgid "Closed"
+msgstr ""
+
+#: inc/favorites/class-grimlock-buddypress-favorites.php:34
+#, php-format
+msgid "%1$s Favorite Post"
+msgid_plural "%1$s Favorite Posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/favorites/class-grimlock-buddypress-favorites.php:44
+#: inc/favorites/class-grimlock-buddypress-favorites.php:72
+msgid "Favorites"
+msgstr ""
+
+#: inc/grimlock-buddypress-template-functions.php:96
+msgid "Online"
+msgstr ""
+
+#: inc/grimlock-buddypress-template-functions.php:111
+#: inc/grimlock-buddypress-template-functions.php:129
+msgid "More"
+msgstr ""
+
+#: inc/grimlock-buddypress-template-functions.php:245
+#: templates/groups/single/activity.php:23 templates/groups/single/admin.php:13
+msgid "Group secondary navigation"
+msgstr ""
+
+#: inc/grimlock-buddypress-template-functions.php:258
+#: templates/groups/single/admin/manage-members.php:189
+msgid "Members"
+msgstr ""
+
+#: inc/grimlock-buddypress-template-functions.php:302
+msgid "Private Message"
+msgstr "Message privé"
+
+#: inc/widget/class-grimlock-buddypress-groups-section-widget.php:29
+msgid "A flexible component that showcase BuddyPress groups."
+msgstr "Un composant flexible pour afficher les groupes de BuddyPress."
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:64
+msgid "Max groups to show:"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:82
+msgid "Default groups to show:"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:106
+msgid "Layout:"
+msgstr "Mise en page:"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:129
+msgid "Alignment:"
+msgstr "Alignement:"
+
+#: inc/youzify/customizer/class-grimlock-buddypress-youzify-customizer.php:67
+msgid ""
+"Heads Up ! We have detected that you are using Youzify. Please note that "
+"this Customizer panel doesn't modify the Youzify login form, it will only "
+"modify the default WordPress login."
+msgstr ""
+
+#: templates/activity/activity-loop.php:33
+msgid "Load More"
+msgstr ""
+
+#: templates/activity/activity-loop.php:47
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#. translators: %1$s: User profile link, %2$s: User name, %3$s: Activity permalink, %4%s: ISO8601 timestamp, %5$s: Activity relative timestamp
+#: templates/activity/comment.php:46
+#, php-format
+msgid ""
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\" data-livestamp=\"%4$s\">%5$s</span></a>"
+msgstr ""
+
+#: templates/activity/comment.php:64
+msgid "Reply"
+msgstr ""
+
+#: templates/activity/comment.php:70
+#: templates/members/single/messages/messages-loop.php:123
+#: templates/members/single/messages/single.php:46
+msgid "Delete"
+msgstr ""
+
+#: templates/activity/entry.php:52
+msgid "View Conversation"
+msgstr ""
+
+#. translators: %s: Comment count
+#: templates/activity/entry.php:60
+#, php-format
+msgid "Comment %s"
+msgstr ""
+
+#: templates/activity/entry.php:64
+msgid "More actions"
+msgstr ""
+
+#: templates/activity/entry.php:72
+msgid "Favorite"
+msgstr ""
+
+#: templates/activity/entry.php:76
+msgid "Remove Favorite"
+msgstr ""
+
+#. translators: Accessibility text
+#: templates/activity/entry.php:107
+msgid "Comment"
+msgstr ""
+
+#: templates/activity/entry.php:111
+msgid "Post"
+msgstr ""
+
+#: templates/activity/entry.php:111
+msgid "Cancel"
+msgstr ""
+
+#: templates/activity/index.php:36
+msgid "Sitewide activities navigation"
+msgstr ""
+
+#. translators: %s: Total member count
+#: templates/activity/index.php:44 templates/members/index.php:50
+#, php-format
+msgid "All Members %s"
+msgstr ""
+
+#. translators: %s: Total friend count
+#: templates/activity/index.php:60 templates/members/index.php:59
+#, php-format
+msgid "My Friends %s"
+msgstr ""
+
+#. translators: %s: Total user group count
+#: templates/activity/index.php:78 templates/groups/index.php:54
+#, php-format
+msgid "My Groups %s"
+msgstr ""
+
+#. translators: %s: Total user favorite count
+#: templates/activity/index.php:94
+#, php-format
+msgid "My Favorites %s"
+msgstr ""
+
+#: templates/activity/index.php:107
+msgid "Mentions"
+msgstr ""
+
+#. translators: %s: Total user mention count
+#: templates/activity/index.php:110
+#, php-format
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/activity/index.php:132 templates/groups/single/activity.php:31
+#: templates/members/single/activity.php:37
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: templates/activity/index.php:156 templates/groups/single/activity.php:47
+msgid "RSS Feed"
+msgstr ""
+
+#: templates/activity/index.php:156 templates/groups/single/activity.php:47
+msgid "RSS"
+msgstr ""
+
+#. translators: %s: User name
+#: templates/activity/post-form.php:36
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#. translators: 1: The group name, 2: The user name
+#: templates/activity/post-form.php:40
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: templates/activity/post-form.php:51
+#: templates/members/single/profile/profile-wp.php:35
+msgid "My Profile"
+msgstr ""
+
+#: templates/activity/post-form.php:73
+msgid "Post Update"
+msgstr ""
+
+#: templates/blogs/blogs-loop.php:72
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: templates/blogs/index.php:24
+msgid "Site Directory"
+msgstr ""
+
+#: templates/blogs/index.php:24
+msgid "Create a Site"
+msgstr ""
+
+#. translators: %s: Total blog count
+#: templates/blogs/index.php:44
+#, php-format
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#. translators: %s: Total user blog count
+#: templates/blogs/index.php:53
+#, php-format
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: templates/blogs/index.php:70 templates/groups/index.php:71
+#: templates/members/blogs.php:34 templates/members/index.php:75
+#: templates/members/single/blogs.php:34 templates/members/single/forums.php:25
+#: templates/members/single/friends.php:43
+#: templates/members/single/groups.php:32
+msgid "Last Active"
+msgstr ""
+
+#: templates/bp-group-admins.php:19
+#: templates/groups/single/cover-image-header.php:104
+msgid "Admins"
+msgstr ""
+
+#: templates/bp-group-admins.php:19
+#: templates/groups/single/cover-image-header.php:104
+msgid "Mods"
+msgstr ""
+
+#: templates/bp-group-admins.php:19
+#: templates/members/bps-form-directory.php:230
+#: templates/members/bps-form-home.php:204
+msgid "of"
+msgstr ""
+
+#: templates/bp-group-admins.php:28
+msgid "Group Admins"
+msgstr ""
+
+#: templates/bp-group-admins.php:39
+msgid "Group Mods"
+msgstr ""
+
+#: templates/common/search/dir-search-form.php:23
+msgid "Search"
+msgstr ""
+
+#: templates/docs/docs-header.php:14
+msgid "This Doc is in the Trash"
+msgstr ""
+
+#: templates/docs/docs-header.php:14
+msgid "Trash"
+msgstr ""
+
+#: templates/docs/docs-header.php:23
+#: templates/members/single/messages/messages-loop.php:118
+msgid "Read"
+msgstr ""
+
+#: templates/docs/docs-header.php:28
+msgid "Edit"
+msgstr ""
+
+#: templates/docs/docs-header.php:38
+msgid "New Doc"
+msgstr ""
+
+#: templates/docs/tabs-legacy.php:1 templates/groups/create.php:29
+#: templates/members/single/activity.php:24
+#: templates/members/single/forums.php:14
+#: templates/members/single/groups.php:14
+#: templates/members/single/invitations.php:12
+#: templates/members/single/messages.php:14
+#: templates/members/single/notifications.php:14
+#: templates/members/single/plugins.php:18
+#: templates/members/single/profile.php:14
+#: templates/members/single/settings.php:13
+msgid "Member secondary navigation"
+msgstr ""
+
+#: templates/docs/tabs-legacy.php:4
+msgid "All Docs"
+msgstr ""
+
+#: templates/docs/tabs-legacy.php:7
+#, php-format
+msgid "%s's Docs"
+msgstr ""
+
+#: templates/docs/tabs-legacy.php:9
+msgid "Started By Me"
+msgstr ""
+
+#: templates/docs/tabs-legacy.php:10
+msgid "Edited By Me"
+msgstr ""
+
+#: templates/docs/tabs-legacy.php:13
+msgid "My Groups"
+msgstr ""
+
+#: templates/groups/create.php:20
+msgid "Create a Group"
+msgstr ""
+
+#: templates/groups/create.php:52
+msgid "Group Details"
+msgstr ""
+
+#: templates/groups/create.php:56
+#: templates/groups/single/admin/edit-details.php:25
+msgid "Group Name (required)"
+msgstr ""
+
+#: templates/groups/create.php:59
+#: templates/groups/single/admin/edit-details.php:28
+msgid "Group Description (required)"
+msgstr ""
+
+#: templates/groups/create.php:72
+msgid "Group Settings"
+msgstr ""
+
+#: templates/groups/create.php:78
+#: templates/groups/single/admin/group-settings.php:27
+msgid "Privacy Options"
+msgstr ""
+
+#: templates/groups/create.php:84
+#: templates/groups/single/admin/group-settings.php:31
+msgid "This is a public group"
+msgstr ""
+
+#: templates/groups/create.php:88
+#: templates/groups/single/admin/group-settings.php:34
+msgid "Any site member can join this group."
+msgstr ""
+
+#: templates/groups/create.php:89 templates/groups/create.php:100
+#: templates/groups/single/admin/group-settings.php:35
+#: templates/groups/single/admin/group-settings.php:43
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: templates/groups/create.php:90
+#: templates/groups/single/admin/group-settings.php:36
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: templates/groups/create.php:95
+#: templates/groups/single/admin/group-settings.php:39
+msgid "This is a private group"
+msgstr ""
+
+#: templates/groups/create.php:99
+#: templates/groups/single/admin/group-settings.php:42
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: templates/groups/create.php:101 templates/groups/create.php:112
+#: templates/groups/single/admin/group-settings.php:44
+#: templates/groups/single/admin/group-settings.php:52
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: templates/groups/create.php:106
+#: templates/groups/single/admin/group-settings.php:47
+msgid "This is a hidden group"
+msgstr ""
+
+#: templates/groups/create.php:110
+#: templates/groups/single/admin/group-settings.php:50
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: templates/groups/create.php:111
+#: templates/groups/single/admin/group-settings.php:51
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: templates/groups/create.php:124
+#: templates/groups/single/admin/group-settings.php:70
+msgid "Group Types"
+msgstr ""
+
+#: templates/groups/create.php:126
+#: templates/groups/single/admin/group-settings.php:72
+msgid "Select the types this group should be a part of."
+msgstr ""
+
+#. translators: %s: Group description
+#. translators: %s: Group type description
+#: templates/groups/create.php:141
+#: templates/groups/single/admin/group-settings.php:88
+#, php-format
+msgid "&ndash; %s"
+msgstr ""
+
+#: templates/groups/create.php:160
+#: templates/groups/single/admin/group-settings.php:109
+msgid "Group Invitations"
+msgstr ""
+
+#: templates/groups/create.php:162
+#: templates/groups/single/admin/group-settings.php:111
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: templates/groups/create.php:168
+#: templates/groups/single/admin/group-settings.php:115
+msgid "All group members"
+msgstr ""
+
+#: templates/groups/create.php:173
+#: templates/groups/single/admin/group-settings.php:117
+msgid "Group admins and mods only"
+msgstr ""
+
+#: templates/groups/create.php:178
+#: templates/groups/single/admin/group-settings.php:119
+msgid "Group admins only"
+msgstr ""
+
+#. translators: Accessibility text
+#: templates/groups/create.php:205
+#: templates/groups/single/admin/group-avatar.php:13
+msgid "Group Avatar"
+msgstr ""
+
+#: templates/groups/create.php:223
+#: templates/groups/single/admin/group-avatar.php:17
+msgid ""
+"Upload an image to use as a profile photo for this group. The image will be "
+"shown on the main group page, and in search results."
+msgstr ""
+
+#. translators: Accessibility text
+#: templates/groups/create.php:226
+#: templates/groups/single/admin/group-avatar.php:22
+#: templates/members/single/profile/change-avatar.php:33
+msgid "Select an image"
+msgstr ""
+
+#: templates/groups/create.php:229
+#: templates/groups/single/admin/group-avatar.php:25
+#: templates/members/single/profile/change-avatar.php:36
+msgid "Upload Image"
+msgstr ""
+
+#: templates/groups/create.php:232
+msgid ""
+"To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: templates/groups/create.php:249
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#: templates/groups/create.php:251
+#: templates/groups/single/admin/group-avatar.php:62
+#: templates/members/single/profile/change-avatar.php:51
+msgid "Profile photo to crop"
+msgstr ""
+
+#: templates/groups/create.php:254
+#: templates/groups/single/admin/group-avatar.php:65
+#: templates/members/single/profile/change-avatar.php:54
+msgid "Profile photo preview"
+msgstr ""
+
+#: templates/groups/create.php:257
+#: templates/groups/single/admin/group-avatar.php:68
+#: templates/members/single/profile/change-avatar.php:57
+msgid "Crop Image"
+msgstr ""
+
+#: templates/groups/create.php:278
+#: templates/groups/single/admin/group-cover-image.php:14
+msgid "Cover Image"
+msgstr ""
+
+#: templates/groups/create.php:285
+#: templates/groups/single/admin/group-cover-image.php:25
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#: templates/groups/create.php:299
+msgid "Group Invites"
+msgstr ""
+
+#: templates/groups/create.php:323 templates/groups/single/invite-anyone.php:66
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: templates/groups/create.php:359 templates/groups/single/invite-anyone.php:89
+#: templates/groups/single/invites-loop.php:69
+msgid "Remove Invite"
+msgstr ""
+
+#: templates/groups/create.php:384
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: templates/groups/create.php:406
+msgid "Back to Previous Step"
+msgstr ""
+
+#: templates/groups/create.php:413
+msgid "Next Step"
+msgstr ""
+
+#: templates/groups/create.php:420
+msgid "Create Group and Continue"
+msgstr ""
+
+#: templates/groups/create.php:427
+msgid "Finish"
+msgstr ""
+
+#. translators: %s: Last group active
+#: templates/groups/groups-loop.php:90
+#, php-format
+msgid "Active %s"
+msgstr ""
+
+#: templates/groups/groups-loop.php:123
+msgid "There were no groups found."
+msgstr ""
+
+#: templates/groups/index.php:39
+msgid "Groups directory main navigation"
+msgstr ""
+
+#. translators: %s: Total group count
+#: templates/groups/index.php:45
+#, php-format
+msgid "All Groups %s"
+msgstr ""
+
+#: templates/groups/index.php:68 templates/members/blogs.php:29
+#: templates/members/single/blogs.php:29 templates/members/single/forums.php:23
+#: templates/members/single/friends.php:38
+#: templates/members/single/groups.php:29
+msgid "Order By:"
+msgstr ""
+
+#: templates/groups/index.php:72 templates/members/single/groups.php:33
+msgid "Most Members"
+msgstr ""
+
+#: templates/groups/index.php:73 templates/members/single/groups.php:34
+msgid "Newly Created"
+msgstr ""
+
+#: templates/groups/index.php:85
+msgid "Groups directory"
+msgstr ""
+
+#: templates/groups/single/activity.php:27
+#: templates/members/single/activity.php:33
+msgid "Show:"
+msgstr ""
+
+#: templates/groups/single/admin/delete-group.php:14
+#: templates/groups/single/admin/delete-group.php:27
+msgid "Delete Group"
+msgstr ""
+
+#: templates/groups/single/admin/delete-group.php:19
+msgid ""
+"WARNING: Deleting this group will completely remove ALL content associated "
+"with it. There is no way back. Please be careful with this option."
+msgstr ""
+
+#: templates/groups/single/admin/delete-group.php:22
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: templates/groups/single/admin/edit-details.php:14
+msgid "Manage Group Details"
+msgstr ""
+
+#: templates/groups/single/admin/edit-details.php:42
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: templates/groups/single/admin/edit-details.php:55
+#: templates/groups/single/admin/group-settings.php:135
+#: templates/members/single/profile/edit.php:95
+msgid "Save Changes"
+msgstr ""
+
+#: templates/groups/single/admin/group-avatar.php:31
+msgid ""
+"If you'd like to remove the existing group profile photo but not upload a "
+"new one, please use the delete group profile photo button."
+msgstr ""
+
+#: templates/groups/single/admin/group-avatar.php:40
+msgid "Delete Group Profile Photo"
+msgstr ""
+
+#: templates/groups/single/admin/group-avatar.php:60
+msgid "Crop Profile Photo"
+msgstr ""
+
+#: templates/groups/single/admin/group-settings.php:14
+msgid "Manage Group Settings"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:14
+msgid "Manage Members"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:22
+msgid "Administrators"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:62
+#: templates/groups/single/admin/manage-members.php:147
+msgid "Demote to Member"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:97
+msgid "No group administrators were found."
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:105
+msgid "Moderators"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:144
+#: templates/groups/single/admin/manage-members.php:244
+msgid "Promote to Admin"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:181
+msgid "No group moderators were found."
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:226
+msgid "- banned -"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:234
+msgid "Remove Ban"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:238
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:241
+msgid "Promote to Mod"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:248
+msgid "Remove from group"
+msgstr ""
+
+#: templates/groups/single/admin/manage-members.php:282
+msgid "No group members were found."
+msgstr ""
+
+#: templates/groups/single/admin/membership-requests.php:14
+msgid "Manage Membership Requests"
+msgstr ""
+
+#: templates/groups/single/cover-image-header.php:20
+#: templates/members/single/cover-image-header.php:21
+msgid "Edit Cover Image"
+msgstr ""
+
+#: templates/groups/single/cover-image-header.php:104
+msgid "View"
+msgstr ""
+
+#: templates/groups/single/home.php:29
+msgid "Group primary navigation"
+msgstr ""
+
+#: templates/groups/single/invite-anyone.php:16
+msgid ""
+"Want to invite someone to the group who is not yet a member of the site?"
+msgstr ""
+
+#: templates/groups/single/invite-anyone.php:16
+msgid "Send invitations by email."
+msgstr ""
+
+#: templates/groups/single/invite-anyone.php:30
+msgid "Search for members to invite:"
+msgstr ""
+
+#: templates/groups/single/invite-anyone.php:42
+msgid "Select members from the directory:"
+msgstr ""
+
+#: templates/groups/single/invite-anyone.php:53
+#: templates/groups/single/send-invites.php:32
+msgid "Send Invites"
+msgstr ""
+
+#: templates/groups/single/invites-loop.php:87
+msgid "Select friends to invite."
+msgstr ""
+
+#: templates/groups/single/members.php:91
+msgid "No members were found."
+msgstr ""
+
+#: templates/groups/single/request-membership.php:21
+msgid "Group membership request form"
+msgstr ""
+
+#. translators:  %s =group name
+#: templates/groups/single/request-membership.php:28
+#, php-format
+msgid "You are requesting to become a member of the group \"%s\"."
+msgstr ""
+
+#: templates/groups/single/request-membership.php:36
+msgid "Comments (optional)"
+msgstr ""
+
+#: templates/groups/single/request-membership.php:47
+msgid "Send Request"
+msgstr ""
+
+#: templates/groups/single/requests-loop.php:49
+#: templates/members/single/friends/requests.php:52
+#: templates/members/single/groups/invites.php:88
+msgid "Accept"
+msgstr ""
+
+#: templates/groups/single/requests-loop.php:59
+#: templates/members/single/friends/requests.php:53
+#: templates/members/single/groups/invites.php:91
+msgid "Reject"
+msgstr ""
+
+#: templates/groups/single/requests-loop.php:85
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: templates/groups/single/send-invites.php:16
+#: templates/groups/single/send-invites.php:47
+msgid "Group invitations can only be extended to friends."
+msgstr ""
+
+#: templates/groups/single/send-invites.php:22
+msgid "Send invites"
+msgstr ""
+
+#: templates/groups/single/send-invites.php:48
+msgid ""
+"Once you've made some friendships, you'll be able to invite those members to "
+"this group."
+msgstr ""
+
+#: templates/groups/single/send-invites.php:56
+msgid "All of your friends already belong to this group."
+msgstr ""
+
+#: templates/mediapress/default/buddypress/directory/index.php:34
+#, php-format
+msgid "All Galleries <span>%s</span>"
+msgstr ""
+
+#: templates/mediapress/default/buddypress/directory/index.php:50
+msgid "All Galleries"
+msgstr ""
+
+#: templates/members/activate.php:38
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: templates/members/activate.php:53
+#, php-format
+msgid ""
+"Your account was activated successfully! You can now <a href=\"%s\">log in</"
+"a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: templates/members/activate.php:62 templates/members/register.php:25
+msgid "Log In"
+msgstr ""
+
+#: templates/members/activate.php:68
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: templates/members/activate.php:72
+msgid "Activation Key:"
+msgstr ""
+
+#: templates/members/activate.php:76
+msgid "Activate"
+msgstr ""
+
+#: templates/members/bps-filters.php:20 templates/members/bps-filters.php:21
+msgid "Reset Filters"
+msgstr ""
+
+#: templates/members/bps-filters.php:38
+msgid "min"
+msgstr ""
+
+#: templates/members/bps-filters.php:39
+msgid "max"
+msgstr ""
+
+#: templates/members/bps-filters.php:73
+#, php-format
+msgid "is within: %1$s km of %2$s"
+msgstr ""
+
+#: templates/members/bps-filters.php:76
+#, php-format
+msgid "is within: %1$s miles of %2$s"
+msgstr ""
+
+#: templates/members/bps-form-directory.php:174
+#: templates/members/bps-form-home.php:148
+msgid "from"
+msgstr ""
+
+#: templates/members/bps-form-directory.php:183
+#: templates/members/bps-form-home.php:157
+msgid "to"
+msgstr ""
+
+#: templates/members/bps-form-directory.php:231
+#: templates/members/bps-form-home.php:205
+msgid "km"
+msgstr ""
+
+#: templates/members/bps-form-directory.php:232
+#: templates/members/bps-form-home.php:206
+msgid "miles"
+msgstr ""
+
+#: templates/members/bps-form-directory.php:233
+#: templates/members/bps-form-home.php:207
+msgid "Select a location"
+msgstr ""
+
+#: templates/members/bps-form-directory.php:234
+#: templates/members/bps-form-home.php:208
+msgid "Get current location"
+msgstr ""
+
+#: templates/members/bps-form-directory.php:321
+#: templates/members/bps-form-home.php:296
+msgid "Clear"
+msgstr ""
+
+#: templates/members/bps-form-directory.php:363
+#: templates/members/bps-form-home.php:340
+#: templates/members/members-map-filters.php:112
+msgid "Submit"
+msgstr ""
+
+#: templates/members/index-swap.php:28
+msgid "One Member"
+msgstr ""
+
+#: templates/members/index.php:43
+msgid "Members directory main navigation"
+msgstr ""
+
+#: templates/members/index.php:76 templates/members/single/friends.php:44
+msgid "Newest Registered"
+msgstr ""
+
+#: templates/members/index.php:92
+msgid "Members directory"
+msgstr ""
+
+#: templates/members/members-loop-map.php:94
+#: templates/members/members-loop-swap.php:46
+#: templates/members/members-loop.php:102
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: templates/members/members-map-filters.php:31
+msgid "Member Types"
+msgstr ""
+
+#: templates/members/members-map-filters.php:64
+msgid "Search From: "
+msgstr ""
+
+#: templates/members/members-map-filters.php:66
+msgid "Type - then Select..."
+msgstr ""
+
+#: templates/members/members-map-filters.php:74
+msgid "Miles: "
+msgstr ""
+
+#: templates/members/members-map-filters.php:78
+msgid "Kilometers: "
+msgstr ""
+
+#: templates/members/members-map-filters.php:114
+msgid "Reset"
+msgstr ""
+
+#: templates/members/members-map.php:28
+msgid ""
+"You have not set a Location Field for use with this Map. Please go to wp-"
+"admin > Settings > BP Maps for Members, select a Location field and Save "
+"Settings."
+msgstr ""
+
+#: templates/members/members-map.php:30
+msgid ""
+"A Location Field has not been set for use with this Map. Please contact the "
+"Site Administrator."
+msgstr ""
+
+#: templates/members/members-map.php:150
+msgid "View directory"
+msgstr ""
+
+#: templates/members/members-map.php:156
+msgid "Show filters"
+msgstr ""
+
+#: templates/members/members-map.php:159
+msgid "Hide filters"
+msgstr ""
+
+#: templates/members/members-map.php:198
+msgid "View all members"
+msgstr ""
+
+#: templates/members/members-map.php:209
+msgid "Show map"
+msgstr ""
+
+#: templates/members/members-map.php:210
+msgid "Hide map"
+msgstr ""
+
+#: templates/members/members-map.php:594
+msgid "No Members with valid locations were found."
+msgstr ""
+
+#: templates/members/register.php:22
+msgid "Register"
+msgstr ""
+
+#: templates/members/register.php:45
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: templates/members/register.php:61
+msgid ""
+"Registering for this site is easy. Just fill in the fields below, and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: templates/members/register.php:72
+msgid "Account Details"
+msgstr ""
+
+#: templates/members/register.php:75 templates/members/register.php:79
+#: templates/members/register.php:83 templates/members/register.php:88
+#: templates/members/register.php:185 templates/members/register.php:195
+msgid "(required)"
+msgstr ""
+
+#: templates/members/register.php:79
+msgid "Email Address"
+msgstr ""
+
+#: templates/members/register.php:83
+msgid "Choose a Password"
+msgstr ""
+
+#: templates/members/register.php:88
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/members/register.php:105
+msgid "Profile Details"
+msgstr ""
+
+#. translators: %s: Profile field visibility level
+#. translators: %s: Profile visibility level label
+#. translators: %s: Profile field visibility level label
+#: templates/members/register.php:129 templates/members/register.php:143
+#: templates/members/single/profile/edit.php:58
+#: templates/members/single/profile/edit.php:79
+#, php-format
+msgid "This field can be seen by: %s"
+msgstr ""
+
+#: templates/members/register.php:130
+#: templates/members/single/profile/edit.php:62
+msgid "Change"
+msgstr ""
+
+#: templates/members/register.php:135
+#: templates/members/single/profile/edit.php:67
+msgid "Who can see this field?"
+msgstr ""
+
+#: templates/members/register.php:138
+#: templates/members/single/profile/edit.php:72
+msgid "Close"
+msgstr ""
+
+#: templates/members/register.php:178
+msgid "Blog Details"
+msgstr ""
+
+#: templates/members/register.php:181
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: templates/members/register.php:185
+msgid "Blog URL"
+msgstr ""
+
+#: templates/members/register.php:195
+msgid "Site Title"
+msgstr ""
+
+#: templates/members/register.php:200
+msgid ""
+"Privacy: I would like my site to appear in search engines, and in public "
+"listings around this network."
+msgstr ""
+
+#: templates/members/register.php:204
+msgid "Yes"
+msgstr ""
+
+#: templates/members/register.php:208
+msgid "No"
+msgstr ""
+
+#: templates/members/register.php:234
+msgid "Submit Request"
+msgstr ""
+
+#: templates/members/register.php:236
+msgid "Complete Sign Up"
+msgstr ""
+
+#: templates/members/register.php:264
+msgid ""
+"You have successfully submitted your membership request! Our site moderators "
+"will review your submission and send you an activation email if your request "
+"is approved."
+msgstr ""
+
+#: templates/members/register.php:266
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: templates/members/register.php:268
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+
+#: templates/members/single/cover-image-header.php:158
+msgid "You must login to see the percentage match"
+msgstr ""
+
+#: templates/members/single/cover-image-header.php:159
+msgid "Match"
+msgstr ""
+
+#: templates/members/single/forums.php:26
+msgid "Most Posts"
+msgstr ""
+
+#: templates/members/single/forums.php:27
+msgid "Unreplied"
+msgstr ""
+
+#: templates/members/single/friends.php:66
+msgid "My friends"
+msgstr ""
+
+#: templates/members/single/friends/requests.php:17
+msgid "Friendship requests"
+msgstr ""
+
+#: templates/members/single/friends/requests.php:80
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#. translators: Accessibility text
+#: templates/members/single/groups.php:65
+msgid "My groups"
+msgstr ""
+
+#. translators: Accessibility text
+#: templates/members/single/groups.php:75
+msgid "Member's groups"
+msgstr ""
+
+#: templates/members/single/groups/invites.php:17
+msgid "Group invitations"
+msgstr ""
+
+#: templates/members/single/groups/invites.php:108
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: templates/members/single/home.php:23 templates/rtmedia/main.php:49
+msgid "Member primary navigation"
+msgstr ""
+
+#: templates/members/single/invitations/invitations-loop.php:20
+#: templates/members/single/messages/messages-loop.php:42
+#: templates/members/single/notifications/notifications-loop.php:24
+msgid "Select all"
+msgstr ""
+
+#: templates/members/single/invitations/invitations-loop.php:24
+msgid "Invitee"
+msgstr ""
+
+#: templates/members/single/invitations/invitations-loop.php:24
+msgid "Message"
+msgstr ""
+
+#: templates/members/single/invitations/invitations-loop.php:25
+msgid "Date Modified"
+msgstr ""
+
+#: templates/members/single/invitations/invitations-loop.php:26
+#: templates/members/single/invitations/invitations-loop.php:47
+msgid "Accepted"
+msgstr ""
+
+#: templates/members/single/invitations/invitations-loop.php:27
+#: templates/members/single/messages/messages-loop.php:59
+#: templates/members/single/notifications/notifications-loop.php:30
+msgid "Actions"
+msgstr ""
+
+#: templates/members/single/invitations/invitations-loop.php:40
+msgid "Select this invitation"
+msgstr ""
+
+#: templates/members/single/member-single-map.php:308
+msgid "A map cannot be created for this Member. The geocode does not exist."
+msgstr ""
+
+#: templates/members/single/messages.php:39
+msgid "Messages inbox"
+msgstr ""
+
+#: templates/members/single/messages.php:41
+msgid "Sent Messages"
+msgstr ""
+
+#: templates/members/single/messages.php:65
+msgid "Sitewide Notices"
+msgstr ""
+
+#. translators: Accessibility text
+#: templates/members/single/messages/messages-loop.php:23
+msgid "Starred messages"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:47
+msgid "From"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:48
+msgid "Subject"
+msgstr ""
+
+#. translators: Accessibility text
+#: templates/members/single/messages/messages-loop.php:55
+msgid "Star"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:72
+msgid "Select this message"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:81
+msgid "From:"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:90
+msgid "To:"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:99
+msgid "View Message"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:118
+msgid "Mark as read"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:120
+msgid "Mark as unread"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:120
+msgid "Unread"
+msgstr ""
+
+#: templates/members/single/messages/messages-loop.php:166
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: templates/members/single/messages/notices-loop.php:38
+msgid "Sent:"
+msgstr ""
+
+#: templates/members/single/messages/notices-loop.php:44
+msgid "Delete Message"
+msgstr ""
+
+#: templates/members/single/messages/notices-loop.php:56
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: templates/members/single/messages/single.php:29
+msgid "You are alone in this conversation."
+msgstr ""
+
+#. translators: %s: Thread recipients count
+#: templates/members/single/messages/single.php:33
+#, php-format
+msgid "Conversation between %s recipients."
+msgstr ""
+
+#. translators: %s: Thread recipients list
+#: templates/members/single/messages/single.php:37
+#, php-format
+msgid "Conversation between %s."
+msgstr ""
+
+#: templates/members/single/messages/single.php:49
+msgid "Exit Conversation"
+msgstr ""
+
+#: templates/members/single/messages/single.php:80
+msgid "Send a Reply"
+msgstr ""
+
+#: templates/members/single/messages/single.php:90
+msgid "Reply to Message"
+msgstr ""
+
+#: templates/members/single/messages/single.php:98
+msgid "Send Reply"
+msgstr ""
+
+#: templates/members/single/notifications/notifications-loop.php:28
+msgid "Notification"
+msgstr ""
+
+#: templates/members/single/notifications/notifications-loop.php:29
+msgid "Date Received"
+msgstr ""
+
+#: templates/members/single/notifications/notifications-loop.php:44
+msgid "Select this notification"
+msgstr ""
+
+#: templates/members/single/profile/change-avatar.php:14
+msgid "Change Profile Photo"
+msgstr ""
+
+#: templates/members/single/profile/change-avatar.php:21
+msgid ""
+"Your profile photo will be used on your profile and throughout the site."
+msgstr ""
+
+#: templates/members/single/profile/change-avatar.php:29
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: templates/members/single/profile/change-avatar.php:41
+msgid ""
+"If you'd like to delete your current profile photo but not upload a new one, "
+"please use the delete profile photo button."
+msgstr ""
+
+#: templates/members/single/profile/change-avatar.php:42
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#: templates/members/single/profile/change-avatar.php:49
+msgid "Crop Your New Profile Photo"
+msgstr ""
+
+#: templates/members/single/profile/change-avatar.php:75
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. To "
+"change your profile photo, please create an account with <a href=\"https://"
+"gravatar.com\">Gravatar</a> using the same email address as you used to "
+"register with this site."
+msgstr ""
+
+#: templates/members/single/profile/change-cover-image.php:14
+msgid "Change Cover Image"
+msgstr ""
+
+#: templates/members/single/profile/change-cover-image.php:18
+msgid "Your Cover Image will be used to customize the header of your profile."
+msgstr ""
+
+#: templates/members/single/profile/edit.php:26
+msgid "Profile field groups"
+msgstr ""
+
+#. translators: %s: Profile group name
+#: templates/members/single/profile/edit.php:39
+#, php-format
+msgid "Editing \"%s\" Profile Group"
+msgstr "Modification des champs du groupe : %s"
+
+#. translators: %s: User full name
+#: templates/members/single/profile/profile-wp.php:38
+#, php-format
+msgid "%s's Profile"
+msgstr "Profil de %s"
+
+#: templates/members/single/profile/profile-wp.php:47
+msgid "Name"
+msgstr "Nom"
+
+#: templates/members/single/profile/profile-wp.php:56
+msgid "About Me"
+msgstr "A propos"
+
+#: templates/members/single/profile/profile-wp.php:65
+msgid "Website"
+msgstr "Site Web"
+
+#: templates/members/single/profile/profile-wp.php:74
+msgid "Jabber"
+msgstr ""
+
+#: templates/members/single/profile/profile-wp.php:83
+msgid "AOL Messenger"
+msgstr ""
+
+#: templates/members/single/profile/profile-wp.php:92
+msgid "Yahoo Messenger"
+msgstr ""

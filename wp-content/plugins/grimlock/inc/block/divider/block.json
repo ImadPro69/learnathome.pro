@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "grimlock/divider",
+  "title": "Grimlock Divider",
+  "icon": "editor-insertmore",
+  "category": "design",
+  "description": "Display a stylized divider to separate your content beautifully",
+  "keywords": [ "grimlock", "divider", "separator", "spacer" ],
+  "version": "1.0.0",
+  "textdomain": "grimlock",
+  "supports": {
+    "anchor": true,
+    "align": [ "wide", "full" ],
+    "customClassName": true,
+    "color": {
+      "background": false,
+      "text": false,
+      "gradients": true
+    },
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  }
+}

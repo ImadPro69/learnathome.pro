@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger AI Assistant\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 08:58+0000\n"
+"PO-Revision-Date: 2024-03-27 23:37+0000\n"
+"Last-Translator: Julia\n"
+"Language-Team: Українська\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.4.3\n"
+"X-Domain: hostinger-ai-assistant"
+
+#: includes/class-hostinger-ai-assistant-errors.php:10
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Не вдалося виконати дію. Повторіть спробу або зверніться до служби підтримки."
+" Просимо вибачення."
+
+#: admin/class-hostinger-ai-assistant-translations.php:43
+msgid "AI Assistant"
+msgstr "AI Assistant"
+
+#: admin/class-hostinger-ai-assistant-translations.php:49
+msgid "AI may produce inaccurate information"
+msgstr "ШІ може надавати неточну інформацію"
+
+#: admin/class-hostinger-ai-assistant-translations.php:34
+msgid "AI-generated image"
+msgstr "Зображення, створене ШІ"
+
+#: includes/class-hostinger-ai-assistant-errors.php:13
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"Сталася непередбачувана помилка. Спробуйте ще раз або зверніться до служби "
+"підтримки."
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:223
+msgid "Are you sure you want to replace your existing content with a new one ?"
+msgstr "Ви впевнені, що бажаєте замінити наявний контент новим?"
+
+#: admin/class-hostinger-ai-assistant-translations.php:50
+msgid "Ask AI"
+msgstr "Запитайте ШІ"
+
+#: admin/class-hostinger-ai-assistant-notices.php:28
+#: admin/class-hostinger-ai-assistant-notices.php:50
+msgid "Attention:"
+msgstr "Увага:"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:118
+msgid "Balances depth and readability, engaging audiences and driving leads."
+msgstr ""
+"Баланс між глибиною і читабельністю, зацікавлення аудиторії та залучення "
+"потенційних клієнтів."
+
+#: admin/class-hostinger-ai-assistant-translations.php:44
+msgid "Beta"
+msgstr "Бета"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:184
+msgid "Brewing content with magic"
+msgstr "Створення контенту за допомогою ШІ"
+
+#: admin/class-hostinger-ai-assistant-translations.php:64
+#: admin/partials/hostinger-ai-assistant-tab-view.php:230
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:201
+msgid "characters"
+msgstr "символи"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:131
+msgid "Choose the length of generated content"
+msgstr "Виберіть довжину згенерованого вмісту"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:72
+msgid "Choose the type of content that will be generated"
+msgstr "Виберіть тип контенту, який буде створено"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:93
+msgid "Choose your desired emotional impact on readers"
+msgstr "Виберіть бажаний емоційний вплив на читачів"
+
+#: admin/class-hostinger-ai-assistant-translations.php:62
+msgid "Clear chat"
+msgstr "Очистити чат"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:226
+msgid ""
+"Clicking <b>Generate new content</b> will permanently delete your existing "
+"content and generate a new one on your recent inputs."
+msgstr ""
+"Якщо натиснути <b>Створити новий контент</b>, наявний вміст буде видалено "
+"назавжди та замінено новим."
+
+#: admin/class-hostinger-ai-assistant-translations.php:47
+msgid "Close"
+msgstr "Закрити"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:100
+msgid "Content length"
+msgstr "Довжина контенту"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:141
+msgid "Content main idea"
+msgstr "Основна ідея контенту"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:49
+msgid "Content Type"
+msgstr "Тип контенту"
+
+#: admin/class-hostinger-ai-assistant-buttons.php:26
+#: admin/class-hostinger-ai-assistant-menus.php:24
+#: admin/class-hostinger-ai-assistant-menus.php:25
+#: admin/class-hostinger-ai-assistant-translations.php:33
+msgid "Create Post with AI"
+msgstr "Створіть публікацію за допомогою ШІ"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:22
+msgid "Create Your Content with AI"
+msgstr "Створіть контент за допомогою ШІ"
+
+#: admin/class-hostinger-ai-assistant-notices.php:38
+msgid "Deactivate and delete the Hostinger AI Assistant plugin."
+msgstr "Деактивуйте та видаліть плагін AI Assistant Hostinger."
+
+#: admin/partials/hostinger-ai-assistant-seo-meta-view.php:40
+msgid "Description"
+msgstr "Опис"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:208
+msgid "Edit as a draft"
+msgstr "Редагувати як чернетку"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:33
+msgid "Effortless and time-saving"
+msgstr "Економте час і зусилля"
+
+#: admin/class-hostinger-ai-assistant-translations.php:30
+#: admin/partials/hostinger-ai-assistant-tab-view.php:154
+msgid "Enter at least 10 characters"
+msgstr "Введіть щонайменше 10 символів"
+
+#: admin/class-hostinger-ai-assistant-translations.php:29
+#| msgid "Example: website development, wordpress tutorial, ..."
+msgid "Example: website development, WordPress tutorial, ..."
+msgstr "Приклад: розробка сайтів, посібник з WordPress..."
+
+#: admin/class-hostinger-ai-assistant-translations.php:56
+msgid "Excellent"
+msgstr "Чудово"
+
+#: admin/class-hostinger-ai-assistant-translations.php:24
+#: admin/partials/hostinger-ai-assistant-tab-view.php:85
+msgid "Formal"
+msgstr "Офіційний"
+
+#: admin/class-hostinger-ai-assistant-translations.php:26
+#: admin/partials/hostinger-ai-assistant-tab-view.php:87
+msgid "Friendly"
+msgstr "Зручний"
+
+#: admin/class-hostinger-ai-assistant-notices.php:39
+msgid ""
+"From your Hostinger member area (hPanel) reinstall the Hostinger AI "
+"Assistant plugin."
+msgstr ""
+"Перевстановіть плагін AI Assistant Hostinger у панелі управління Hostinger "
+"(hPanel)."
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:174
+msgid "Generate content"
+msgstr "Створити контент"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:233
+msgid "Generate new content"
+msgstr "Створити новий контент"
+
+#: admin/class-hostinger-ai-assistant-translations.php:42
+msgid ""
+"Hi, I'm your personal AI Assistant. You can ask me any questions you have "
+"regarding WordPress. I'm still learning, so sometimes can make mistakes. "
+"What questions do you have?"
+msgstr ""
+"Привіт, я твій особистий помічник зі штучним інтелектом. Ви можете поставити "
+"мені будь-які питання щодо WordPress. Я ще вчуся, тому іноді можу робити "
+"помилки. Які питання у вас є?"
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#. Plugin Name of the plugin
+msgid "Hostinger AI Assistant"
+msgstr "AI Assistant Hostinger "
+
+#. Description of the plugin
+msgid "Hostinger AI Assistant plugin."
+msgstr "Плагін AI Assistant Hostinger."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.com"
+
+#: admin/class-hostinger-ai-assistant-notices.php:34
+msgid ""
+"If it is deactivated, click on the \"Activate\" button below the plugin's "
+"name."
+msgstr "Якщо плагін вимкнено, натисніть кнопку \"Активувати\" під його назвою."
+
+#: admin/class-hostinger-ai-assistant-notices.php:36
+msgid ""
+"If the main Hostinger plugin is not listed in the Plugins section, follow "
+"these steps instead:"
+msgstr ""
+"Якщо основного плагіна Hostinger немає в розділі \"Плагіни\", виконайте такі "
+"дії:"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:161
+msgid ""
+"If you skip this part, AI will automatically generate keyword suggestions "
+"after you generate the content"
+msgstr ""
+"Якщо ви пропустите цю частину, ШІ автоматично згенерує ключові слова після "
+"того, як ви створите контент"
+
+#: admin/class-hostinger-ai-assistant-translations.php:37
+msgid "Insert this image inside content"
+msgstr "Додайте це зображення до контенту"
+
+#: admin/partials/hostinger-ai-assistant-seo-meta-view.php:9
+msgid "Keywords"
+msgstr "Ключові слова"
+
+#: admin/class-hostinger-ai-assistant-translations.php:45
+msgid "Leave feedback"
+msgstr "Залишити відгук"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:143
+msgid ""
+"Let us know more about your content idea. For example: Article about how to "
+"use WordPress to dive into website development including tutorials how to "
+"use it in a simple way..."
+msgstr ""
+"Опишіть свій контент. Наприклад: Стаття про те, як легко створити сайт "
+"WordPress..."
+
+#: admin/class-hostinger-ai-assistant-translations.php:31
+msgid ""
+"Let us now more about your post idea. Share more details for better results"
+msgstr ""
+"Розкажіть детальніше про вашу ідею для публікації. Надайте більше інформації "
+"задля кращих результатів"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:122
+msgid "Long"
+msgstr "Довгий"
+
+#: admin/class-hostinger-ai-assistant-notices.php:33
+msgid "Look for the Hostinger plugin in the list of installed plugins."
+msgstr "Знайдіть плагін Hostinger у списку встановлених плагінів."
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:116
+#, fuzzy
+msgid "Medium"
+msgstr "Середній"
+
+#: admin/partials/hostinger-ai-assistant-seo-meta-view.php:29
+msgid "Meta description"
+msgstr "Метаопис"
+
+#: admin/partials/hostinger-ai-assistant-seo-meta-view.php:30
+#, fuzzy
+msgid ""
+"Meta descriptions offer concise page summaries in search results, aiding "
+"user understanding before clicking."
+msgstr ""
+"Метаописи пропонують стислий опис сторінки в результатах пошуку, що "
+"допомагає користувачеві зрозуміти її ще до того, як він натисне на неї."
+
+#: admin/class-hostinger-ai-assistant-notices.php:32
+#, fuzzy
+#| msgid "Navigate to the \"Plugins\" section in the left-hand menu."
+msgid "Navigate to the Plugins section in the left-hand menu."
+msgstr "Перейдіть до розділу «Плагіни» в меню зліва."
+
+#: admin/class-hostinger-ai-assistant-translations.php:23
+#: admin/partials/hostinger-ai-assistant-tab-view.php:84
+msgid "Neutral"
+msgstr "Нейтральний"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:158
+msgid "Optional"
+msgstr "Необов'язково"
+
+#: admin/class-hostinger-ai-assistant-translations.php:63
+#, fuzzy
+msgid ""
+"Please note that all chat messages will be permanently deleted. This action "
+"cannot be undone. Proceeding will result in the removal of all messages from "
+"this chat session."
+msgstr ""
+"Зверніть увагу, що всі повідомлення чату будуть безповоротно видалені. Ця "
+"дія не може бути скасована. Виконання цієї дії призведе до видалення всіх "
+"повідомлень з цього сеансу чату."
+
+#: admin/class-hostinger-ai-assistant-translations.php:55
+#, fuzzy
+msgid "Poor"
+msgstr "Бідолаха"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:165
+msgid "Press Enter key to finalize a keyword"
+msgstr ""
+"Натисніть \"Ввести ключові слова\", щоб завершити введення ключових слів"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:214
+msgid "Publish"
+msgstr "Опублікувати"
+
+#: admin/class-hostinger-ai-assistant-translations.php:53
+#, fuzzy
+msgid "Rate your experience"
+msgstr "Оцініть свій досвід"
+
+#: admin/class-hostinger-ai-assistant-translations.php:46
+#, fuzzy
+msgid "Restart chatbot"
+msgstr "Перезапустити чат-бота"
+
+#: admin/class-hostinger-ai-assistant-translations.php:58
+#, fuzzy
+msgid "Send"
+msgstr "Надіслати"
+
+#: admin/partials/hostinger-ai-assistant-seo-meta-view.php:10
+#, fuzzy
+msgid ""
+"SEO keywords improve web content visibility on search engines like Google by "
+"being relevant and naturally placed"
+msgstr ""
+"Ключові слова SEO покращують видимість веб-контенту в пошукових системах, "
+"таких як Google, завдяки своїй релевантності та природному розташуванню"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:37
+msgid "SEO-friendly content"
+msgstr "SEO-friendly контент"
+
+#: admin/class-hostinger-ai-assistant-translations.php:36
+#, fuzzy
+msgid "Set featured Image as thumbnail"
+msgstr "Встановити зображення як мініатюру"
+
+#: admin/class-hostinger-ai-assistant-translations.php:54
+#, fuzzy
+msgid "Share Your Experience"
+msgstr "Поділіться своїм досвідом"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:104
+#: admin/partials/hostinger-ai-assistant-tab-view.php:110
+msgid "Short"
+msgstr "Короткий"
+
+#: admin/class-hostinger-ai-assistant-translations.php:68
+#, fuzzy
+msgid "Sorry, the AI Chatbot is currently unavailable. Please try again later."
+msgstr "На жаль, чат-бот зараз недоступний. Будь ласка, спробуйте пізніше."
+
+#: admin/class-hostinger-ai-assistant-translations.php:59
+#, fuzzy
+msgid "Thank you for your feedback"
+msgstr "Дякуємо за ваш відгук"
+
+#: admin/class-hostinger-ai-assistant-notices.php:28
+msgid ""
+"The Hostinger AI Assistant plugin requires the main Hostinger plugin to work "
+"properly."
+msgstr ""
+"Для належної роботи плагіна AI Assistant Hostinger потрібен основний плагін "
+"Hostinger."
+
+#: admin/class-hostinger-ai-assistant-notices.php:40
+msgid "The main Hostinger plugin will be installed along with it."
+msgstr "Разом з ним буде встановлено основний плагін Hostinger."
+
+#: admin/partials/hostinger-ai-assistant-seo-meta-view.php:20
+msgid ""
+"These keywords can help your article and website rank higher in search "
+"engines. You can input up to 5 keywords."
+msgstr ""
+"Ці ключові слова допоможуть вашій статті та сайту піднятися вище в пошукових "
+"системах. Ви можете ввести до 5 ключових слів."
+
+#: admin/class-hostinger-ai-assistant-notices.php:30
+msgid "To activate the main Hostinger plugin, follow these steps: "
+msgstr "Щоб активувати основний плагін Hostinger, виконайте такі дії:"
+
+#: admin/class-hostinger-ai-assistant-notices.php:50
+msgid ""
+"To unlock the exclusive features of <b>Hostinger AI Assistant</b>, you must "
+"possess a unique API token, which is exclusively provided to Hostinger "
+"clients"
+msgstr ""
+"Щоб розблокувати ексклюзивні функції <b>AI Assistant Hostinger </b>, у вас "
+"має бути унікальний ключ API, який надається виключно клієнтам Hostinger"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:79
+msgid "Tone of voice"
+msgstr "Стиль "
+
+#: admin/class-hostinger-ai-assistant-translations.php:21
+#, fuzzy
+msgid "tones selected"
+msgstr "вибрані тони"
+
+#: admin/class-hostinger-ai-assistant-translations.php:25
+#: admin/partials/hostinger-ai-assistant-tab-view.php:86
+msgid "Trustworthy"
+msgstr "Надійний"
+
+#: includes/class-hostinger-ai-assistant-errors.php:27
+msgid "Unknown error code."
+msgstr "Невідомий код помилки."
+
+#: includes/content/class-hostinger-ai-assistant-content-generation.php:193
+msgid "Unsplash"
+msgstr "Unsplash"
+
+#: admin/class-hostinger-ai-assistant-translations.php:35
+#, fuzzy
+msgid "Use this image as:"
+msgstr "Використовуйте це зображення як:"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:112
+msgid "Usually used for video, infographics, or product descriptions"
+msgstr "Зазвичай використовується для відео, інфографіки або опису товару"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:124
+msgid "Usually used to make high-ranked articles that will generate more leads"
+msgstr ""
+"Зазвичай використовується для створення статей з високим рейтингом, які "
+"залучать більше потенційних клієнтів"
+
+#: includes/class-hostinger-ai-assistant-errors.php:16
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later."
+msgstr ""
+"Перепрошуємо за тимчасові незручності. Під час генерації контенту ШІ виникла "
+"помилка сервера. Повторіть спробу пізніше."
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:158
+msgid "What are the focus keywords of your content?"
+msgstr "Які основні ключові слова вашого контенту?"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:42
+msgid "What do you want to make today?"
+msgstr "Що ви хочете зробити сьогодні?"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:136
+msgid "What is your content about?"
+msgstr "Про що ваш контент?"
+
+#: admin/class-hostinger-ai-assistant-translations.php:27
+#: admin/partials/hostinger-ai-assistant-tab-view.php:88
+msgid "Witty"
+msgstr "Дотепний"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:199
+msgid "words"
+msgstr "слова"
+
+#: admin/class-hostinger-ai-assistant-translations.php:57
+#, fuzzy
+msgid "Write your feedback"
+msgstr "Напишіть свій відгук"
+
+#: admin/partials/hostinger-ai-assistant-tab-view.php:29
+msgid "Write your main topic"
+msgstr "Напишіть основну тему"
+
+#: admin/class-hostinger-ai-assistant-translations.php:48
+#, fuzzy
+msgid "Write your question"
+msgstr "Напишіть своє запитання"
+
+#: admin/class-hostinger-ai-assistant-translations.php:32
+msgid "You're good to go, but you can share more details for better results"
+msgstr ""
+"Усе готово, але ви можете поділитися детальнішою інформацією, щоб отримати "
+"кращі результати"

@@ -1,0 +1,829 @@
+/**
+ * Login Styles
+ *
+ * Extend login styles for a better user experience.
+ * This stylesheet follow the basic principles of CSS Guidilines http://cssguidelin.es/
+ */
+/**
+ *
+ * SETTINGS
+ * Variables............Variables and config.
+ *
+ * TOOLS
+ * Mixins...............Mixins.
+ *
+ * COMPONENTS
+ * Widgets..............Widget styles.
+ *
+ */
+/*------------------------------------*\
+     #SETTINGS
+ \*------------------------------------*/
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+body.login {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.login:after {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.login:before {
+  content: '';
+  display: block;
+  width: 100%;
+  right: 0;
+  top: 0;
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  background: inherit;
+}
+
+a,
+.button,
+.btn,
+input[type="submit"] {
+  transition: all .2s ease-in-out;
+}
+
+.wp-core-ui .button-group.button-large .button,
+.wp-core-ui .button.button-large {
+  height: auto;
+}
+
+.wp-core-ui .button-secondary {
+  color: inherit !important;
+}
+
+#login {
+  margin: 55px auto 15px auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 400px;
+  position: relative;
+  padding: 15px 15px 0 15px !important;
+  overflow: hidden;
+  z-index: 2;
+}
+
+@media screen and (min-width: 500px) {
+  #login {
+    margin: 6% auto 40px auto !important;
+    padding: 30px 30px 0 30px !important;
+  }
+}
+
+#login a:focus {
+  box-shadow: none !important;
+}
+
+#login .button {
+  box-shadow: none !important;
+  text-shadow: none !important;
+  outline: 0 !important;
+}
+
+#login a.button:not(.button-primary) {
+  background: none !important;
+  border: 2px solid currentColor !important;
+  color: inherit !important;
+}
+
+#login a.button:not(.button-primary):hover {
+  opacity: .7;
+}
+
+#login input[type="checkbox"],
+#login input[type="radio"] {
+  box-shadow: none !important;
+}
+
+#login input[type="checkbox"],
+#login input[type="radio"] {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+}
+
+#login input[type="radio"]:checked:before,
+#login input[type="checkbox"]:checked:before {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "\f147";
+  float: right;
+  vertical-align: middle;
+  font: normal 21px/1 dashicons;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 0;
+}
+
+#login:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#login #login_error,
+#login .message,
+#login .success,
+#login h1.admin-email__heading {
+  box-shadow: none;
+  padding: 15px;
+  border: 0 !important;
+  margin-bottom: 1.5rem;
+  line-height: 1.5em;
+  font-size: .95em;
+}
+
+#login #login_error a,
+#login .message a,
+#login .success a,
+#login h1.admin-email__heading a {
+  color: inherit !important;
+}
+
+#login #login_error a:hover, #login #login_error a:active, #login #login_error a:focus,
+#login .message a:hover,
+#login .message a:active,
+#login .message a:focus,
+#login .success a:hover,
+#login .success a:active,
+#login .success a:focus,
+#login h1.admin-email__heading a:hover,
+#login h1.admin-email__heading a:active,
+#login h1.admin-email__heading a:focus {
+  color: inherit !important;
+  opacity: .55;
+}
+
+#login .message {
+  word-break: break-word;
+  color: inherit;
+}
+
+#login .success {
+  color: #fff;
+  background-color: #46b450;
+}
+
+#login #login_error {
+  color: #fff;
+  background-color: #dc3232;
+}
+
+#login h1.admin-email__heading {
+  margin: 0;
+  color: inherit;
+}
+
+body.login.grimlock-login--classic #login {
+  background: none !important;
+}
+
+body.login.grimlock-login--classic #login:after {
+  box-shadow: none !important;
+  height: calc( 100% - (( var(--grimlock-login-custom-logo-size) / 2) + ( 30px * 2 )));
+  bottom: 0;
+  top: auto;
+}
+
+.login {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.login * {
+  box-sizing: border-box;
+}
+
+.login label,
+.login form .forgetmenot label {
+  font-size: .95em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.login #login > h1 {
+  padding: 0;
+  margin: -15px -15px 15px -15px !important;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background: var(--grimlock-login-custom-logo-background-color);
+}
+
+@media screen and (min-width: 500px) {
+  .login #login > h1 {
+    margin: -30px -30px 30px -30px !important;
+  }
+}
+
+.login #login > h1 a {
+  width: 100%;
+  height: calc( ( var(--grimlock-login-custom-logo-size) / 2) + ( 30px * 2 ));
+  background-position: center;
+  background-size: auto;
+  margin-bottom: 0;
+  display: block;
+  padding: 15px;
+  background-image: none !important;
+}
+
+.login #login > h1 a:before, .login #login > h1 a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.login #login > h1 a:before {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  top: 30px;
+  right: calc(50% - ( var(--grimlock-login-custom-logo-size) / 2 ));
+  width: var(--grimlock-login-custom-logo-size);
+  height: calc(var(--grimlock-login-custom-logo-size) / 2);
+  z-index: 3;
+  background-image: var(--grimlock-login-custom-logo);
+}
+
+.login #login > h1 a:after {
+  background-color: inherit;
+}
+
+.login form {
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.login form > div {
+  margin-top: 10px;
+}
+
+.login form .input,
+.login form input[type="text"] {
+  margin-top: 7px;
+  height: 45px;
+  padding: 8px 15px;
+  box-shadow: none;
+}
+
+.login form p.submit {
+  width: 100%;
+  order: 100;
+  margin-top: 1rem !important;
+}
+
+.login form p.submit #wp-submit {
+  width: 100%;
+  outline: 0 !important;
+}
+
+.login form .forgetmenot {
+  float: none;
+  margin-bottom: 15px !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.login #nav {
+  margin: 15px -15px 0 -15px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+  color: transparent;
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  flex-direction: row;
+}
+
+@media screen and (min-width: 500px) {
+  .login #nav {
+    margin: 30px -30px 0 -30px;
+  }
+}
+
+.login #nav a {
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 6px;
+}
+
+.login #nav a:hover, .login #nav a:focus, .login #nav a:active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.login #backtoblog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: none !important;
+}
+
+@media screen and (min-width: 500px) {
+  .login #backtoblog {
+    width: auto;
+  }
+}
+
+.login #backtoblog a {
+  display: block;
+  padding: 1rem;
+}
+
+.login #backtoblog a, .login #backtoblog a:hover, .login #backtoblog a:focus, .login #backtoblog a:active {
+  color: inherit !important;
+}
+
+.login #backtoblog:not(:hover):not(:focus):not(:active) a {
+  opacity: .5;
+}
+
+.login .privacy-policy-page-link {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  z-index: 99;
+  display: flex;
+  font-size: 0;
+}
+
+.login .privacy-policy-page-link a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: inherit !important;
+  font-size: 0.8rem;
+}
+
+.login .privacy-policy-page-link a:hover {
+  opacity: .7;
+}
+
+.login #reg_passmail {
+  font-style: italic;
+  font-size: .9em;
+}
+
+.login .wp-social-login-provider-list {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.login #nsl-custom-login-form-main {
+  width: 100%;
+  float: right;
+}
+
+.login #nsl-custom-login-form-main .nsl-container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.login .jetpack-sso-wrap .jetpack-sso.button {
+  height: auto;
+}
+
+.login .admin-email__actions-primary {
+  display: flex;
+  gap: 15px;
+}
+
+.login .admin-email__actions-primary .button {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.login .admin-email__actions-primary a.button {
+  border-color: transparent;
+}
+
+.login .admin-email__actions-secondary {
+  text-align: center;
+  padding: 1.5rem .25rem;
+}
+
+.login .wp-pwd {
+  margin-top: 7px !important;
+}
+
+.login .wp-pwd > input {
+  margin-top: 0 !important;
+  padding-left: 60px !important;
+}
+
+.login .wp-pwd .button.wp-hide-pw {
+  height: 45px !important;
+  width: 50px !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .wp-pwd .button.wp-hide-pw, .login .wp-pwd .button.wp-hide-pw:hover, .login .wp-pwd .button.wp-hide-pw:active, .login .wp-pwd .button.wp-hide-pw:focus {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.login .wp-pwd .button.wp-hide-pw:hover {
+  opacity: .7;
+}
+
+.login .wp-pwd .button.wp-hide-pw .dashicons {
+  top: -0.5px;
+  font-size: 0 !important;
+  color: inherit;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: currentColor;
+}
+
+.login .wp-pwd .button.wp-hide-pw .dashicons.dashicons-visibility {
+  -webkit-mask-image: url("data:image/svg+xml,%0A%3Csvg width='24px' height='18px' viewBox='0 0 24 18' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M12,0 C15.3798024,0 18.3386923,1.63249094 20.8545372,4.31605887 C21.7188737,5.23801779 22.4694995,6.22244509 23.1056644,7.20747457 C23.4900327,7.80262558 23.7538591,8.27165021 23.8944272,8.5527864 C24.0351909,8.8343139 24.0351909,9.1656861 23.8944272,9.4472136 C23.7538591,9.72834979 23.4900327,10.1973744 23.1056644,10.7925254 C22.4694995,11.7775549 21.7188737,12.7619822 20.8545372,13.6839411 C18.3386923,16.3675091 15.3798024,18 12,18 C8.62019756,18 5.66130774,16.3675091 3.1454628,13.6839411 C2.28112631,12.7619822 1.5305005,11.7775549 0.894335622,10.7925254 C0.50996726,10.1973744 0.246140906,9.72834979 0.105572809,9.4472136 C-0.0351909363,9.1656861 -0.0351909363,8.8343139 0.105572809,8.5527864 C0.246140906,8.27165021 0.50996726,7.80262558 0.894335622,7.20747457 C1.5305005,6.22244509 2.28112631,5.23801779 3.1454628,4.31605887 C5.66130774,1.63249094 8.62019756,0 12,0 Z M12,2 C9.25480244,2 6.77619226,3.36750906 4.6045372,5.68394113 C3.82824869,6.51198221 3.149187,7.40255491 2.57441438,8.29252543 C2.3738833,8.60302516 2.2012275,8.89032441 2.05712241,9.14651124 L2.141,9 L2.17054393,9.05133884 C2.24971305,9.18696311 2.33597763,9.32987099 2.42925324,9.47907349 L2.57441438,9.70747457 C3.149187,10.5974451 3.82824869,11.4880178 4.6045372,12.3160589 C6.77619226,14.6324909 9.25480244,16 12,16 C14.7451976,16 17.2238077,14.6324909 19.3954628,12.3160589 C20.1717513,11.4880178 20.850813,10.5974451 21.4255856,9.70747457 C21.6261167,9.39697484 21.7987725,9.10967559 21.9428776,8.85348876 L21.858,9 L21.8294561,8.94866116 C21.750287,8.81303689 21.6640224,8.67012901 21.5707468,8.52092651 L21.4255856,8.29252543 C20.850813,7.40255491 20.1717513,6.51198221 19.3954628,5.68394113 C17.2238077,3.36750906 14.7451976,2 12,2 Z M12,5 C14.209139,5 16,6.790861 16,9 C16,11.209139 14.209139,13 12,13 C9.790861,13 8,11.209139 8,9 C8,6.790861 9.790861,5 12,5 Z M12,7 C10.8954305,7 10,7.8954305 10,9 C10,10.1045695 10.8954305,11 12,11 C13.1045695,11 14,10.1045695 14,9 C14,7.8954305 13.1045695,7 12,7 Z' id='eye' fill='%23000000' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+          mask-image: url("data:image/svg+xml,%0A%3Csvg width='24px' height='18px' viewBox='0 0 24 18' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M12,0 C15.3798024,0 18.3386923,1.63249094 20.8545372,4.31605887 C21.7188737,5.23801779 22.4694995,6.22244509 23.1056644,7.20747457 C23.4900327,7.80262558 23.7538591,8.27165021 23.8944272,8.5527864 C24.0351909,8.8343139 24.0351909,9.1656861 23.8944272,9.4472136 C23.7538591,9.72834979 23.4900327,10.1973744 23.1056644,10.7925254 C22.4694995,11.7775549 21.7188737,12.7619822 20.8545372,13.6839411 C18.3386923,16.3675091 15.3798024,18 12,18 C8.62019756,18 5.66130774,16.3675091 3.1454628,13.6839411 C2.28112631,12.7619822 1.5305005,11.7775549 0.894335622,10.7925254 C0.50996726,10.1973744 0.246140906,9.72834979 0.105572809,9.4472136 C-0.0351909363,9.1656861 -0.0351909363,8.8343139 0.105572809,8.5527864 C0.246140906,8.27165021 0.50996726,7.80262558 0.894335622,7.20747457 C1.5305005,6.22244509 2.28112631,5.23801779 3.1454628,4.31605887 C5.66130774,1.63249094 8.62019756,0 12,0 Z M12,2 C9.25480244,2 6.77619226,3.36750906 4.6045372,5.68394113 C3.82824869,6.51198221 3.149187,7.40255491 2.57441438,8.29252543 C2.3738833,8.60302516 2.2012275,8.89032441 2.05712241,9.14651124 L2.141,9 L2.17054393,9.05133884 C2.24971305,9.18696311 2.33597763,9.32987099 2.42925324,9.47907349 L2.57441438,9.70747457 C3.149187,10.5974451 3.82824869,11.4880178 4.6045372,12.3160589 C6.77619226,14.6324909 9.25480244,16 12,16 C14.7451976,16 17.2238077,14.6324909 19.3954628,12.3160589 C20.1717513,11.4880178 20.850813,10.5974451 21.4255856,9.70747457 C21.6261167,9.39697484 21.7987725,9.10967559 21.9428776,8.85348876 L21.858,9 L21.8294561,8.94866116 C21.750287,8.81303689 21.6640224,8.67012901 21.5707468,8.52092651 L21.4255856,8.29252543 C20.850813,7.40255491 20.1717513,6.51198221 19.3954628,5.68394113 C17.2238077,3.36750906 14.7451976,2 12,2 Z M12,5 C14.209139,5 16,6.790861 16,9 C16,11.209139 14.209139,13 12,13 C9.790861,13 8,11.209139 8,9 C8,6.790861 9.790861,5 12,5 Z M12,7 C10.8954305,7 10,7.8954305 10,9 C10,10.1045695 10.8954305,11 12,11 C13.1045695,11 14,10.1045695 14,9 C14,7.8954305 13.1045695,7 12,7 Z' id='eye' fill='%23000000' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.login .wp-pwd .button.wp-hide-pw .dashicons.dashicons-hidden {
+  -webkit-mask-image: url("data:image/svg+xml,%0A%3Csvg width='24.0000002px' height='24px' viewBox='0 0 24.0000002 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M1.70710687,0.292893219 L23.7071069,22.2928932 C24.0976312,22.6834175 24.0976312,23.3165825 23.7071069,23.7071068 C23.3165826,24.0976311 22.6834176,24.0976311 22.2928933,23.7071068 L17.8253489,19.2407516 C16.0954292,20.3537292 14.0824628,20.9660698 12,21 C8.62019764,21 5.66130782,19.3675091 3.14546288,16.6839411 C2.2811264,15.7619822 1.53050058,14.7775549 0.894335709,13.7925254 C0.509967347,13.1973744 0.246140993,12.7283498 0.105572895,12.4472136 C-0.0397387123,12.1565904 -0.0347894326,11.8134847 0.118844417,11.5271737 C1.25026907,9.41865882 2.75946613,7.5399487 4.56806457,5.98304415 L0.292893305,1.70710678 C-0.0976309865,1.31658249 -0.0976309865,0.683417511 0.292893305,0.292893219 C0.683417597,-0.0976310729 1.31658258,-0.0976310729 1.70710687,0.292893219 Z M2.37576529,11.6109166 L2.14300009,12.0029504 L2.17054402,12.0513388 C2.24971314,12.1869631 2.33597772,12.329871 2.42925333,12.4790735 L2.57441446,12.7074746 C3.14918709,13.5974451 3.82824878,14.4880178 4.60453729,15.3160589 C6.77619235,17.6324909 9.25480253,19 11.9836528,19.0001336 C13.5316631,18.9748244 15.0407186,18.5539338 16.370569,17.7861007 L14.0489794,15.4645626 C13.1338507,16.0378644 12.010311,16.2249577 10.9354036,15.9504452 C9.518159,15.5885058 8.41149432,14.4818411 8.04955491,13.0645965 C7.77504242,11.989689 7.9621357,10.8661494 8.53543751,9.95102065 L5.98657597,7.4017521 C4.56611638,8.60350221 3.34714634,10.0245959 2.37576529,11.6109166 Z M12.0000001,2.99994779 C15.3798033,2.99994779 18.3386934,4.63247103 20.8545384,7.31604743 C21.7188747,8.23800914 22.4695005,9.2224394 23.1056652,10.2074718 C23.4900335,10.8026246 23.7538598,11.2716506 23.8944278,11.5527875 C24.0394856,11.8429039 24.0348202,12.1853551 23.8819131,12.4714122 C23.2420807,13.6684038 22.4790255,14.7953232 21.6051563,15.8338447 C21.2495707,16.2564288 20.6187395,16.3107418 20.1961554,15.9551562 C19.7735713,15.5995706 19.7192583,14.9687395 20.0748439,14.5461553 C20.6350164,13.8804365 21.14445,13.1742423 21.5990862,12.4335664 L21.8570001,11.9979504 L21.8294555,11.9486582 C21.7502863,11.8130335 21.6640217,11.6701251 21.5707461,11.5209221 L21.4255849,11.2925203 C20.8508122,10.4025468 20.1717504,9.51197119 19.3954618,8.68392739 C17.2238068,6.36748805 14.7451968,4.99997482 11.9976858,4.99997214 C11.3682227,4.99851536 10.7407528,5.07023183 10.1279133,5.21368145 C9.59016389,5.33955444 9.05219163,5.00566263 8.92631864,4.46791322 C8.80044564,3.9301638 9.13433745,3.39219155 9.67208687,3.26631855 C10.4358591,3.08753956 11.2178513,2.99816199 12.0000001,2.99994779 Z M9.98736093,12.5697148 C10.1683306,13.2783371 10.721663,13.8316695 11.4302853,14.0126392 C11.8090558,14.1093705 12.1999034,14.0914684 12.5578418,13.9721284 L10.0278716,11.4421582 C9.90853171,11.8000966 9.89062958,12.1909443 9.98736093,12.5697148 Z' id='eye-off' fill='%23000000' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+          mask-image: url("data:image/svg+xml,%0A%3Csvg width='24.0000002px' height='24px' viewBox='0 0 24.0000002 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M1.70710687,0.292893219 L23.7071069,22.2928932 C24.0976312,22.6834175 24.0976312,23.3165825 23.7071069,23.7071068 C23.3165826,24.0976311 22.6834176,24.0976311 22.2928933,23.7071068 L17.8253489,19.2407516 C16.0954292,20.3537292 14.0824628,20.9660698 12,21 C8.62019764,21 5.66130782,19.3675091 3.14546288,16.6839411 C2.2811264,15.7619822 1.53050058,14.7775549 0.894335709,13.7925254 C0.509967347,13.1973744 0.246140993,12.7283498 0.105572895,12.4472136 C-0.0397387123,12.1565904 -0.0347894326,11.8134847 0.118844417,11.5271737 C1.25026907,9.41865882 2.75946613,7.5399487 4.56806457,5.98304415 L0.292893305,1.70710678 C-0.0976309865,1.31658249 -0.0976309865,0.683417511 0.292893305,0.292893219 C0.683417597,-0.0976310729 1.31658258,-0.0976310729 1.70710687,0.292893219 Z M2.37576529,11.6109166 L2.14300009,12.0029504 L2.17054402,12.0513388 C2.24971314,12.1869631 2.33597772,12.329871 2.42925333,12.4790735 L2.57441446,12.7074746 C3.14918709,13.5974451 3.82824878,14.4880178 4.60453729,15.3160589 C6.77619235,17.6324909 9.25480253,19 11.9836528,19.0001336 C13.5316631,18.9748244 15.0407186,18.5539338 16.370569,17.7861007 L14.0489794,15.4645626 C13.1338507,16.0378644 12.010311,16.2249577 10.9354036,15.9504452 C9.518159,15.5885058 8.41149432,14.4818411 8.04955491,13.0645965 C7.77504242,11.989689 7.9621357,10.8661494 8.53543751,9.95102065 L5.98657597,7.4017521 C4.56611638,8.60350221 3.34714634,10.0245959 2.37576529,11.6109166 Z M12.0000001,2.99994779 C15.3798033,2.99994779 18.3386934,4.63247103 20.8545384,7.31604743 C21.7188747,8.23800914 22.4695005,9.2224394 23.1056652,10.2074718 C23.4900335,10.8026246 23.7538598,11.2716506 23.8944278,11.5527875 C24.0394856,11.8429039 24.0348202,12.1853551 23.8819131,12.4714122 C23.2420807,13.6684038 22.4790255,14.7953232 21.6051563,15.8338447 C21.2495707,16.2564288 20.6187395,16.3107418 20.1961554,15.9551562 C19.7735713,15.5995706 19.7192583,14.9687395 20.0748439,14.5461553 C20.6350164,13.8804365 21.14445,13.1742423 21.5990862,12.4335664 L21.8570001,11.9979504 L21.8294555,11.9486582 C21.7502863,11.8130335 21.6640217,11.6701251 21.5707461,11.5209221 L21.4255849,11.2925203 C20.8508122,10.4025468 20.1717504,9.51197119 19.3954618,8.68392739 C17.2238068,6.36748805 14.7451968,4.99997482 11.9976858,4.99997214 C11.3682227,4.99851536 10.7407528,5.07023183 10.1279133,5.21368145 C9.59016389,5.33955444 9.05219163,5.00566263 8.92631864,4.46791322 C8.80044564,3.9301638 9.13433745,3.39219155 9.67208687,3.26631855 C10.4358591,3.08753956 11.2178513,2.99816199 12.0000001,2.99994779 Z M9.98736093,12.5697148 C10.1683306,13.2783371 10.721663,13.8316695 11.4302853,14.0126392 C11.8090558,14.1093705 12.1999034,14.0914684 12.5578418,13.9721284 L10.0278716,11.4421582 C9.90853171,11.8000966 9.89062958,12.1909443 9.98736093,12.5697148 Z' id='eye-off' fill='%23000000' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.login .wp-pwd input#user_pass[style*="data:image/png;base64"] + .wp-hide-pw {
+  left: 30px;
+}
+
+.login div:empty,
+.login p:empty {
+  display: none !important;
+}
+
+body.grimlock-login--fullscreen-left,
+body.grimlock-login--fullscreen-right {
+  background-size: 0 !important;
+}
+
+body.grimlock-login--fullscreen-left:before,
+body.grimlock-login--fullscreen-right:before {
+  content: '';
+  background: inherit;
+  background-size: cover !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: auto;
+  z-index: -2;
+  height: 100%;
+  pointer-events: none;
+  width: 100% !important;
+  max-width: 100% !important;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left:before,
+  body.grimlock-login--fullscreen-right:before {
+    width: 30% !important;
+    z-index: 99;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body.grimlock-login--fullscreen-left:before,
+  body.grimlock-login--fullscreen-right:before {
+    width: 58% !important;
+  }
+}
+
+body.grimlock-login--fullscreen-left:after,
+body.grimlock-login--fullscreen-right:after {
+  opacity: 1;
+}
+
+body.grimlock-login--fullscreen-left #login,
+body.grimlock-login--fullscreen-right #login {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  margin: 0 !important;
+  height: 100vh;
+  transform: none;
+  border-radius: 0 !important;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  padding: calc( var(--grimlock-login-custom-logo-size) + 30px) 30px 30px 30px !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+body.grimlock-login--fullscreen-left #login::-webkit-scrollbar,
+body.grimlock-login--fullscreen-right #login::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+body.grimlock-login--fullscreen-left #login::-webkit-scrollbar-track,
+body.grimlock-login--fullscreen-right #login::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: transparent;
+}
+
+body.grimlock-login--fullscreen-left #login::-webkit-scrollbar-thumb,
+body.grimlock-login--fullscreen-right #login::-webkit-scrollbar-thumb {
+  outline: 0;
+}
+
+body.grimlock-login--fullscreen-left #login::-webkit-scrollbar-thumb,
+body.grimlock-login--fullscreen-right #login::-webkit-scrollbar-thumb {
+  background-color: var(--grimlock-color-faded);
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left #login,
+  body.grimlock-login--fullscreen-right #login {
+    padding: calc( var(--grimlock-login-custom-logo-size) + 3vw) 6vw 30px 6vw !important;
+  }
+}
+
+body.grimlock-login--fullscreen-left #login > h1,
+body.grimlock-login--fullscreen-right #login > h1 {
+  margin: 0 !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  border-radius: 0 !important;
+}
+
+body.grimlock-login--fullscreen-left #login > h1 a:before,
+body.grimlock-login--fullscreen-right #login > h1 a:before {
+  right: 30px;
+  width: var(--grimlock-login-custom-logo-size);
+  height: calc( var(--grimlock-login-custom-logo-size) / 2);
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  background-position: right center;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left #login > h1 a:before,
+  body.grimlock-login--fullscreen-right #login > h1 a:before {
+    right: 6vw;
+  }
+}
+
+body.grimlock-login--fullscreen-left #login > *:not(h1),
+body.grimlock-login--fullscreen-right #login > *:not(h1) {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left #login > *:not(h1),
+  body.grimlock-login--fullscreen-right #login > *:not(h1) {
+    max-width: 425px;
+  }
+}
+
+body.grimlock-login--fullscreen-left #login #nav,
+body.grimlock-login--fullscreen-right #login #nav {
+  margin: 30px 0 0 0;
+  border: 0;
+}
+
+body.grimlock-login--fullscreen-left #login,
+body.grimlock-login--fullscreen-left #login > h1,
+body.grimlock-login--fullscreen-right #login,
+body.grimlock-login--fullscreen-right #login > h1 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left #login,
+  body.grimlock-login--fullscreen-left #login > h1,
+  body.grimlock-login--fullscreen-right #login,
+  body.grimlock-login--fullscreen-right #login > h1 {
+    width: 70% !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body.grimlock-login--fullscreen-left #login,
+  body.grimlock-login--fullscreen-left #login > h1,
+  body.grimlock-login--fullscreen-right #login,
+  body.grimlock-login--fullscreen-right #login > h1 {
+    width: 42% !important;
+  }
+}
+
+body.grimlock-login--fullscreen-left #backtoblog,
+body.grimlock-login--fullscreen-right #backtoblog {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  padding: 0;
+  margin: 0;
+  display: none !important;
+}
+
+body.grimlock-login--fullscreen-left #backtoblog a,
+body.grimlock-login--fullscreen-right #backtoblog a {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 500px;
+  border: 2px solid currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0 !important;
+  overflow: hidden;
+  line-height: 0;
+  padding: 0;
+}
+
+body.grimlock-login--fullscreen-left #backtoblog a:before,
+body.grimlock-login--fullscreen-right #backtoblog a:before {
+  content: "\f171";
+  font: normal 16px/1 dashicons;
+}
+
+body.grimlock-login--fullscreen-left .language-switcher,
+body.grimlock-login--fullscreen-right .language-switcher {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 99999;
+}
+
+body.grimlock-login--fullscreen-right:before {
+  left: auto;
+  right: 0;
+}
+
+body.grimlock-login--fullscreen-right #login,
+body.grimlock-login--fullscreen-right #login > h1 {
+  right: auto;
+  left: 0;
+}
+
+body.grimlock-login--fullscreen-right .language-switcher {
+  left: auto;
+  right: 10px;
+}
+
+.login .language-switcher {
+  width: 100% !important;
+  max-width: 400px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: inherit;
+}
+
+.login .language-switcher #language-switcher {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .language-switcher #language-switcher select {
+  width: 100%;
+  height: 40px;
+}
+
+.login .language-switcher #language-switcher label {
+  color: inherit;
+}
+
+.login .language-switcher #language-switcher .button {
+  font-size: .8em;
+  padding: .2em 1.2em;
+  height: 40px;
+  background: none !important;
+  color: inherit !important;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.login .language-switcher #language-switcher .button:hover {
+  opacity: .7;
+}
+
+.login .language-switcher #language-switcher [for="language-switcher-locales"] {
+  margin: 0 0 0 0.5rem;
+}
+
+.login #wfls-prompt-overlay {
+  margin: 0 !important;
+  padding: 0;
+  align-items: normal;
+}
+
+.login a.wfls-2fa-code-help.wfls-tooltip-trigger {
+  pointer-events: none;
+}
+
+.login a.wfls-2fa-code-help.wfls-tooltip-trigger:after {
+  content: attr(title);
+  display: block;
+  font-size: .85em;
+  margin-top: 5px;
+  pointer-events: none;
+}
+
+.login label[for="wfls-token"] {
+  pointer-events: none;
+}
+
+.login .submit {
+  margin: 0 !important;
+}
+
+.login .submit input[type="submit"] {
+  float: none;
+  width: 100%;
+}
+
+.login .button + .button {
+  margin-top: 10px;
+}
+
+body input#rememberme:focus, body #login button:focus {
+  box-shadow: none !important;
+}
+
+.mfp-wrap.mfp-wrap {
+  background: rgba(0, 0, 0, 0.45);
+}
+

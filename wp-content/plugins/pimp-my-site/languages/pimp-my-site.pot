@@ -1,0 +1,362 @@
+# Copyright (C) 2023 pimp-my-site
+# This file is distributed under the same license as the pimp-my-site package.
+msgid ""
+msgstr ""
+"Project-Id-Version: pimp-my-site\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../admin/settings/class-pimp-my-site-settings.php:66
+msgid "Christmas 1"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:111
+msgid "Christmas 2"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:161
+msgid "Christmas 3"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:203
+msgid "Christmas 4"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:249
+msgid "Christmas 5"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:288
+msgid "Christmas 6"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:330
+msgid "Christmas 7"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:369
+msgid "Christmas 8"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:413, ../admin/settings/class-pimp-my-site-settings.php:1784
+msgid "Halloween"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:416
+msgid "Halloween 1"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:463
+msgid "Halloween 2"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:507
+msgid "Halloween 3"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:554
+msgid "Halloween 4"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:601
+msgid "Halloween 5"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:648
+msgid "Halloween 6"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:691
+msgid "Halloween 7"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:732, ../admin/settings/class-pimp-my-site-settings.php:1785
+msgid "Thanksgiving"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:735
+msgid "Thanksgiving 1"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:784
+msgid "Thanksgiving 2"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:832
+msgid "Thanksgiving 3"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:879
+msgid "Thanksgiving 4"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:920
+msgid "Valentine's Day"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:923
+msgid "Valentine's Day 1"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:972
+msgid "Valentine's Day 2"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1021
+msgid "Valentine's Day 3"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1068
+msgid "Valentine's Day 4"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1115
+msgid "Valentine's Day 5"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1171
+msgid "General"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1174
+msgid "Enable effects"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1179
+msgid "Enable effects on mobile"
+msgstr ""
+
+#. translators: %1$s = preset name
+#: ../admin/settings/class-pimp-my-site-settings.php:1187
+msgid "%1$s Preset Options"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1187
+msgid "Preset Options"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1191
+msgid "Stickers"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1194
+msgid "Top Left Corner"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1195, ../admin/settings/class-pimp-my-site-settings.php:1209, ../admin/settings/class-pimp-my-site-settings.php:1224, ../admin/settings/class-pimp-my-site-settings.php:1238, ../admin/settings/class-pimp-my-site-settings.php:1252, ../admin/settings/class-pimp-my-site-settings.php:1266
+msgid "Choose Sticker"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1208
+msgid "Top Right Corner"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1223
+msgid "Bottom Left Corner"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1237
+msgid "Bottom Right Corner"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1251
+msgid "Top of page"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1265
+msgid "Bottom of page"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1280
+msgid "Cursor"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1283
+msgid "Replace cursor"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1284
+msgid "Choose Cursor"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1292
+msgid "Scrollbar"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1295
+msgid "Enable Scrollbar Customization"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1300
+msgid "Scrollbar handle color"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1305
+msgid "Scrollbar track color"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1312
+msgid "Particles"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1315
+msgid "Enable Particle Effects"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1320
+msgid "Particles Shape"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1360
+msgid "Particles Color"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1361
+msgid "Add multiple colors to make each particle a random color from this set"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1366
+msgid "Particles Opacity"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1367
+msgid "Opacity goes from 0 (transparent) to 100 (opaque)."
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1374
+msgid "Particles Size"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1381
+msgid "Particles Direction"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1382
+msgid "Direction goes from 0 to 360 degrees. 0 is pointing right and the values go clockwise."
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1389
+msgid "Particles Speed"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1396
+msgid "Particles Lifetime"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1397
+msgid "Particles lifetime in seconds. 0 means they never disappear unless they move outside the screen."
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1404
+msgid "Particles Density"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1405
+msgid "Changes the amount of particles on screen."
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1783
+msgid "Christmas"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1786
+msgid "Valentine's day"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1859
+msgid "Choose an option"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1861, ../admin/settings/class-pimp-my-site-settings.php:2257
+msgid "Close modal"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1872, ../admin/settings/class-pimp-my-site-settings.php:2267
+msgid "All"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:1930
+msgid "Add a color"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2003
+msgid "Min"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2008
+msgid "Max"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2013
+msgid "Value"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2062
+msgid "The selected preset has been applied!"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2095
+msgid "Settings"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2105
+msgid "Pimp my Site Settings"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2106, ../admin/settings/class-pimp-my-site-settings.php:2198
+msgid "Pimp my Site"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2188
+msgid ""
+"Are you sure you want to apply this preset? \n"
+"This will override your current settings."
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2215
+msgid "Presets"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2236
+msgid "Choose one of our handmade presets to apply to your website."
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2224
+msgid "Customized"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2243, ../admin/settings/class-pimp-my-site-settings.php:2255
+msgid "Choose your preset"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2241
+msgid "Choose another preset"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2292
+msgid "Selected"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2324
+msgid "Customize Preset"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2358
+msgid "Like Pimp my Site?"
+msgstr ""
+
+#: ../admin/settings/class-pimp-my-site-settings.php:2359
+msgid "Check out our premium, 100% compatible themes!"
+msgstr ""
+
+#: ../inc/class-pimp-my-site.php:139, ../inc/class-pimp-my-site.php:145, ../inc/class-pimp-my-site.php:151, ../inc/class-pimp-my-site.php:157, ../inc/class-pimp-my-site.php:163, ../inc/class-pimp-my-site.php:169
+msgid "Decoration sticker"
+msgstr ""

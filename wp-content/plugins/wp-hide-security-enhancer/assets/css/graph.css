@@ -1,0 +1,11 @@
+
+#wph-graph { position: relative; background-color: #fdfcf7; padding: 20px; display: inline-block;}
+.wph-graph-container{ 	width:400px;	height:200px;	position: relative;	overflow: hidden;	text-align: center; }
+.wph-graph-bg{	z-index: 1;	position: absolute;	background-color: rgba(79, 39, 10, 0.2);	width: 400px;	height: 200px;	top: 0%;	border-radius:250px 250px 0px 0px ;}
+.wph-graph-text{	z-index: 3;	position: absolute;	width: 250px;	height: 125px;	top: 75px;	margin-left: 75px;	margin-right: auto;	border-radius:250px 250px 0px 0px ;    background-color: #fdfcf7;}
+.wph-graph-progress{	z-index: 2;	position: absolute;	background-color: #229d51;	width: 400px;	height: 200px;	top: 200px;	margin-left: auto;	margin-right: auto;	border-radius:0px 0px 200px 200px ;    transform-origin:center top;	transition: all 1.3s ease-in-out;    transform:rotate(0);}
+.wph-graph-data{	z-index: 4;color: #000;font-size: 1.5em;line-height: 25px;position: absolute;width: 400px;height: 50px;top: 130px;margin-left: auto;margin-right: auto;transition: all 1s ease-out;font-size: 24px;}
+
+#security-scan #wph-graph{ background-color: transparent;}
+#security-scan #wph-graph .wph-graph-progress{   transition: all 2s ease-in-out; }
+#security-scan .wph-graph-text { background-color: #F9F9F9; }

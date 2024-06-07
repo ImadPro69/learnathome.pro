@@ -1,0 +1,692 @@
+@charset "UTF-8";
+/**
+ * BP Better Messages
+ *
+ * BP Better Messages – is a fully featured replacement for standard BuddyPress Messages and can run without BuddyPress as well.
+ * https://wordpress.org/plugins/bp-better-messages/
+ */
+/*------------------------------------*\
+    #SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+    #STYLES
+\*------------------------------------*/
+:root {
+  --main-bm-color: var(--grimlock-archive-post-title-color);
+  --main-bm-bg-color: var(--grimlock-archive-post-background-color);
+}
+
+/* Colors */
+.bp-messages-wrap,
+html body .bp-messages-wrap.bp-messages-mobile,
+.bp-better-messages-mini .chats .chat,
+.bpbm-preview-message {
+  color: var(--main-bm-color);
+  background-color: var(--main-bm-bg-color);
+}
+
+.bp-messages-wrap {
+  border-color: var(--grimlock-color-faded);
+  border-radius: clamp(0px, var(--grimlock-archive-post-border-radius), 10px);
+}
+
+.bp-messages-wrap .reply,
+.bp-messages-wrap .list .messages-stack:hover,
+.bp-messages-wrap .threads-list .thread:hover > *,
+.bp-messages-wrap .list .messages-stack .content .messages-list > li,
+.bp-messages-wrap .chat-footer,
+.bp-messages-wrap .chat-tabs,
+.bp-messages-wrap .chat-header {
+  background-color: var(--grimlock-color-faded);
+}
+
+.bp-better-messages-list .tabs,
+.bp-better-messages-mini .chats .chat .head {
+  background: var(--grimlock-button-primary-background-color);
+  color: var(--grimlock-button-primary-color);
+  border-color: var(--grimlock-button-primary-background-color);
+  box-shadow: none;
+  border-radius: clamp(0px, var(--grimlock-archive-post-border-radius), 10px) clamp(0px, var(--grimlock-archive-post-border-radius), 10px) 0 0;
+}
+
+.bp-better-messages-mini .chats .chat .head.blink {
+  background: var(--grimlock-button-primary-hover-background-color);
+  color: var(--grimlock-button-primary-hover-color);
+}
+
+[style*="color: rgb(61, 165, 18)"],
+[style*="color:rgb(61, 165, 18)"],
+[style*="color: #3da512"],
+[style*="color:#3da512"],
+[style*="color:green"],
+[style*="color: green"],
+.bp-messages-wrap .chat-footer .bpbm-user-me .bpbm-status .current-status i[style*="green"],
+.bp-messages-wrap .chat-footer .bpbm-user-me .bpbm-status .current-status i[style*="green"]:before {
+  color: var(--grimlock-color-success) !important;
+}
+
+.bp-better-messages-list .tabs > div:hover,
+.bp-better-messages-list .tabs > div.active,
+.bp-messages-wrap .chat-tabs > div.active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bp-messages-wrap .scroller .bpbm-scroll-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border: none;
+}
+
+.bp-better-messages-mini .chats .chat .head .controls > div,
+.bp-messages-wrap.bpbm-template-modern .list .messages-stack .content .messages-list > li .message-content,
+.bp-messages-wrap.bpbm-template-modern .list .messages-stack.incoming .content .messages-list > li .message-content {
+  color: inherit;
+  background-color: var(--grimlock-color-faded);
+  border-radius: clamp(0px, var(--grimlock-archive-post-border-radius), 10px);
+}
+
+/* Border-color */
+.bp-messages-wrap .threads-list .thread > *,
+.bp-messages-wrap .chat-footer,
+.bp-messages-wrap .reply,
+.bpbm-preview-message,
+.bp-messages-wrap .bp-messages-side-threads,
+.bp-messages-wrap .chat-tabs.chat-tabs-border-bottom > div,
+.bp-messages-wrap .chat-header {
+  border-color: var(--grimlock-color-faded);
+}
+
+.bp-better-messages-mini .chats .chat .head .controls > span, .bp-better-messages-mini .chats .chat .head .controls > a {
+  color: inherit;
+}
+
+.bp-messages-wrap.bp-messages-wrap-main {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.bp-emojionearea {
+  border: 1px solid var(--grimlock-color-faded) !important;
+}
+
+.bp-emojionearea.focused,
+.bmselectize-input.input-active, .bmselectize-input.focus {
+  box-shadow: none !important;
+}
+
+.bbpm-avatar::before {
+  border-color: var(--main-bm-bg-color);
+}
+
+.bp-messages-wrap .threads-list .thread.unread {
+  background: var(--grimlock-color-faded);
+}
+
+.bp-better-messages-mini .chats .chat .head .unread-count, .bp-better-messages-list .tabs > div[data-tab=messages] .unread-count {
+  background: var(--grimlock-button-primary-color);
+  color: var(--grimlock-button-primary-background-color);
+  font-weight: 600;
+}
+
+/* Shadows */
+.bp-better-messages-list,
+.bp-better-messages-mini .chats .chat {
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+}
+
+/* Transitions */
+.bp-better-messages-list .tabs,
+.bp-better-messages-list .tabs > div {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Online state */
+.bbpm-avatar::before {
+  width: 25%;
+  height: 25%;
+}
+
+/* Dropdown */
+.bp-messages-wrap .expandingButtons .bpbm-dropdown-menu,
+.bpbm-context-menu-list,
+.bmselectize-dropdown,
+.bp-messages-wrap .chat-footer .bpbm-user-me .bpbm-user-me-popup {
+  color: var(--main-bm-color) !important;
+  background-color: var(--main-bm-bg-color) !important;
+  border-radius: var(--grimlock-archive-post-border-radius) !important;
+  border-color: var(--grimlock-archive-post-border-color) !important;
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color) !important;
+}
+
+.bp-messages-wrap .expandingButtons .bpbm-dropdown-menu *,
+.bpbm-context-menu-list *,
+.bmselectize-dropdown *,
+.bp-messages-wrap .chat-footer .bpbm-user-me .bpbm-user-me-popup * {
+  color: inherit !important;
+  background: none !important;
+}
+
+.bp-messages-wrap .chat-footer .bpbm-user-me .bpbm-user-me-popup .bpbm-user-me-popup-list .bpbm-user-me-popup-list-item + .bpbm-user-me-popup-list-hr {
+  border-color: var(--grimlock-color-faded);
+}
+
+/* Call floating wrapper */
+.bp-messages-wrap .bpbm-chat-content.bpbm-call-view .bp-messages-call-wrap {
+  background: var(--grimlock-archive-post-background-color);
+}
+
+.bp-messages-group-call-controls-v2 {
+  background: var(--grimlock-archive-post-background-color);
+  border-color: var(--grimlock-archive-post-border-color);
+}
+
+.bp-messages-wrap .bpbm-chat-content .bpbm-chat-main .bpbm-pinned-message .bpbm-group-call-in-progress {
+  background-color: var(--grimlock-background-color);
+  color: inherit;
+}
+
+.bp-messages-wrap .bpbm-chat-content .bpbm-chat-main .bpbm-pinned-message .bpbm-group-call-in-progress .bpbm-group-call-in-progress-join button {
+  border: none !important;
+  background-color: var(--grimlock-button-primary-background-color) !important;
+  color: var(--grimlock-button-primary-color) !important;
+  padding: 7px 15px !important;
+}
+
+.bp-messages-wrap .bp-messages-group-audio-call-container .bp-messages-group-call-audios-grid > .bp-messages-group-call-input-audio .bp-messages-group-call-input-audio-inner {
+  box-shadow: none;
+}
+
+.bp-messages-wrap .bm-connection-control .bm-connection-quality.bm-state-connected {
+  background-color: var(--grimlock-color-success);
+}
+
+/* Message bubbles */
+.bp-messages-wrap.bpbm-template-modern .list .messages-stack.incoming .content .messages-list > li .message-content,
+.bp-messages-wrap.bpbm-template-modern .list .messages-stack .content .messages-list > li .message-content {
+  color: inherit;
+}
+
+.bp-messages-wrap.bpbm-template-modern .list .messages-stack .content .messages-list > li.selected .message-content {
+  color: var(--main-bm-color);
+  background-color: var(--main-bm-bg-color);
+}
+
+.bp-messages-wrap.bpbm-template-modern .list .messages-stack {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.bp-messages-wrap .chat-tabs.chat-tabs-border-bottom > div:hover,
+.bp-messages-wrap .chat-tabs.chat-tabs-border-bottom > div.active {
+  border-color: var(--grimlock-button-primary-background-color);
+  background-color: transparent;
+  color: var(--grimlock-button-primary-background-color);
+}
+
+.bp-messages-wrap.bp-better-messages-list {
+  border: 1px solid var(--grimlock-color-faded) !important;
+}
+
+.bp-messages-wrap .chat-tabs {
+  background: none;
+}
+
+/* Loading */
+.bp-messages-group-list .group .loading,
+.bp-messages-user-list .user .loading,
+.bp-messages-wrap .threads-list .thread .loading {
+  background-color: var(--grimlock-archive-post-background-color);
+}
+
+.bp-messages-group-list .group .loading > div,
+.bp-messages-user-list .user .loading > div,
+.bp-messages-wrap .threads-list .thread .loading > div {
+  color: inherit;
+}
+
+/* Message wrap inner */
+.bp-messages-wrap .empty,
+.bp-messages-group-list {
+  background: none;
+  color: inherit;
+}
+
+.bp-messages-wrap .thread-not-selected .empty .bpbm-empty-link a {
+  font-family: var(--grimlock-button-font-family);
+  display: inline-block;
+  font-weight: var(--grimlock-button-font-weight);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: var(--grimlock-button-border-width) solid transparent;
+  padding: var(--grimlock-button-padding-y) var(--grimlock-button-padding-x);
+  font-size: var(--grimlock-button-font-size);
+  line-height: var(--grimlock-button-line-height);
+  border-radius: var(--grimlock-button-border-radius);
+  transition: all 0.2s ease-in-out;
+  text-transform: var(--grimlock-button-text-transform);
+  letter-spacing: var(--grimlock-button-letter-spacing);
+  text-decoration: none;
+  color: var(--grimlock-button-primary-color);
+  background-color: var(--grimlock-button-primary-background-color);
+  border-color: var(--grimlock-button-primary-border-color);
+}
+
+.bp-messages-wrap .thread-not-selected .empty .bpbm-empty-link a:hover, .bp-messages-wrap .thread-not-selected .empty .bpbm-empty-link a:active, .bp-messages-wrap .thread-not-selected .empty .bpbm-empty-link a:focus {
+  color: var(--grimlock-button-primary-hover-color);
+  background-color: var(--grimlock-button-primary-hover-background-color);
+  border-color: var(--grimlock-button-primary-hover-border-color);
+}
+
+.bp-messages-wrap .add-user-panel .buttons button {
+  background-color: var(--grimlock-color-faded);
+  border-color: var(--grimlock-color-faded);
+}
+
+.bp-messages-wrap .add-user-panel .buttons button[type="submit"] {
+  background-color: var(--grimlock-button-primary-background-color);
+  color: var(--grimlock-button-primary-color);
+}
+
+.bp-messages-wrap .bpbm-user-options .bpbm-user-option-description {
+  color: inherit;
+  opacity: .5;
+}
+
+.bp-messages-wrap .threads-list .thread .deleted {
+  background: var(--grimlock-archive-post-background-color) !important;
+  font-style: italic;
+  opacity: .9;
+}
+
+.bp-messages-wrap .threads-list .thread .deleted:hover {
+  opacity: 1;
+}
+
+div.bp-messages-wrap div.bulk-message .progress {
+  background-color: var(--grimlock-color-faded);
+  border-radius: clamp(0px, var(--grimlock-archive-post-border-radius), 10px);
+  border-color: var(--grimlock-color-faded);
+}
+
+div.bp-messages-wrap .bulk-message .box {
+  background-color: var(--grimlock-color-faded);
+  border-radius: clamp(0px, var(--grimlock-archive-post-border-radius), 10px);
+  border-color: var(--grimlock-color-faded);
+}
+
+.bp-messages-wrap .chat-header .bpbm-search form input[type=text] {
+  height: 28px !important;
+  min-height: 28px !important;
+  background-color: var(--grimlock-color-faded);
+  color: var(--grimlock-control-color);
+  border-color: var(--grimlock-control-border-color);
+  box-shadow: none !important;
+}
+
+.bp-messages-wrap .bpbm-search-results .bpbm-search-results-section .bpbm-search-results-header,
+.bp-messages-wrap .bpbm-user-options .bpbm-user-blacklist .bpbm-user-blacklist-empty {
+  background-color: var(--grimlock-color-faded);
+  border-color: var(--grimlock-color-faded);
+}
+
+.bp-messages-user-list {
+  background: none;
+}
+
+.bpbm-checkbox + label {
+  cursor: pointer;
+}
+
+.bp-messages-user-list .user .actions > a,
+.bp-messages-group-list .group .actions > a {
+  color: inherit;
+}
+
+.bp-messages-user-list .user .actions > a:not(:hover),
+.bp-messages-group-list .group .actions > a:not(:hover) {
+  opacity: .65;
+}
+
+.bp-messages-wrap .list .empty-thread i,
+.bp-messages-wrap .list .empty-thread span {
+  color: inherit;
+  opacity: .6;
+}
+
+/* Forms */
+.bp-messages-wrap .new-message form > div input,
+.bp-messages-wrap .new-message form > div textarea,
+.bmselectize-input, .bmselectize-control.single .bmselectize-input.input-active {
+  background: var(--grimlock-control-background-color) !important;
+  border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color) !important;
+}
+
+/* Icons */
+div.bp-messages-wrap .fas.fa-plus:before {
+  font-family: var(--grimlock-icon-plus-font-family) !important;
+  content: var(--grimlock-icon-plus);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.bp-messages-wrap .fas.fa-search:before {
+  font-family: var(--grimlock-icon-search-font-family) !important;
+  content: var(--grimlock-icon-search);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.bp-messages-wrap .fas.fa-star:before {
+  font-family: var(--grimlock-icon-star-font-family) !important;
+  content: var(--grimlock-icon-star);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.bp-messages-wrap .fas.fa-times:before {
+  font-family: var(--grimlock-icon-times-font-family) !important;
+  content: var(--grimlock-icon-times);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.bp-messages-wrap .fas.fa-cog:before {
+  font-family: var(--grimlock-icon-cog-font-family) !important;
+  content: var(--grimlock-icon-cog);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.bp-messages-wrap .far.fa-edit:before {
+  font-family: var(--grimlock-icon-edit-font-family) !important;
+  content: var(--grimlock-icon-edit);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.bp-messages-wrap .fas.fa-users:before {
+  font-family: var(--grimlock-icon-users-font-family) !important;
+  content: var(--grimlock-icon-users);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.bp-messages-wrap .fas.fa-envelope:before,
+div.bp-messages-wrap .fas.fa-comments:before {
+  font-family: var(--grimlock-icon-chat-font-family) !important;
+  content: var(--grimlock-icon-chat);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.bp-messages-wrap .fas.fa-user-friends:before {
+  font-family: var(--grimlock-icon-my-friends-font-family) !important;
+  content: var(--grimlock-icon-my-friends);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bp-messages-wrap .chat-header a {
+  color: inherit;
+}
+
+.open-group .fas.fa-home:before {
+  font-family: var(--grimlock-icon-arrow-right-font-family) !important;
+  content: var(--grimlock-icon-arrow-right);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-tab="bpbm-groups"] .fas.fa-users:before {
+  font-family: var(--grimlock-icon-my-groups-font-family) !important;
+  content: var(--grimlock-icon-my-groups);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+.bpbm-os-theme-dark > .bpbm-os-scrollbar > .bpbm-os-scrollbar-track, .bpbm-os-theme-light > .bpbm-os-scrollbar > .bpbm-os-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bpbm-os-theme-dark > .bpbm-os-scrollbar > .bpbm-os-scrollbar-track > .bpbm-os-scrollbar-handle {
+  background: var(--grimlock-text-color);
+}
+
+/* Modal */
+.uppy-Dashboard--modal .uppy-Dashboard-overlay {
+  background-color: var(--grimlock-modal-overlay-background-color);
+}
+
+.uppy-Dashboard--modal .uppy-Dashboard-inner {
+  background-color: var(--grimlock-archive-post-background-color);
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  padding: 1.5rem;
+  color: var(--grimlock-archive-post-color);
+}
+
+.uppy-Dashboard-dropFilesTitle,
+.uppy-Dashboard--modal .uppy-Dashboard-close {
+  color: inherit;
+}
+
+.uppy-Dashboard.drag .uppy-Dashboard-innerWrap {
+  background-color: var(--grimlock-color-faded);
+  border-radius: var(--grimlock-archive-post-border-radius);
+}
+
+.uppy-DashboardTabs {
+  background-color: var(--grimlock-color-faded);
+  border-color: var(--grimlock-color-faded);
+}
+
+.uppy-Dashboard-bgIcon .UppyIcon {
+  stroke: currentColor;
+}
+
+.uppy-DashboardItem {
+  background: var(--grimlock-color-faded);
+}
+
+.uppy-Dashboard-browse {
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+.uppy-StatusBar-progress {
+  background-color: var(--grimlock-button-primary-background-color);
+  color: var(--grimlock-button-primary-color);
+}
+
+.uppy-StatusBar.is-complete .uppy-StatusBar-progress {
+  background-color: var(--grimlock-color-success) !important;
+}
+
+.uppy-DashboardTabs-title {
+  color: inherit;
+}
+
+.bpbm-send-files,
+.new-message button[type=submit] {
+  font-family: var(--grimlock-button-font-family);
+  display: inline-block;
+  font-weight: var(--grimlock-button-font-weight);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: var(--grimlock-button-border-width) solid transparent;
+  padding: var(--grimlock-button-padding-y) var(--grimlock-button-padding-x);
+  font-size: var(--grimlock-button-font-size);
+  line-height: var(--grimlock-button-line-height);
+  border-radius: var(--grimlock-button-border-radius);
+  transition: all 0.2s ease-in-out;
+  text-transform: var(--grimlock-button-text-transform);
+  letter-spacing: var(--grimlock-button-letter-spacing);
+  text-decoration: none;
+  color: var(--grimlock-button-primary-color);
+  background-color: var(--grimlock-button-primary-background-color);
+  border-color: var(--grimlock-button-primary-border-color);
+  margin-bottom: 1rem;
+  height: auto;
+}
+
+.bpbm-send-files:hover, .bpbm-send-files:active, .bpbm-send-files:focus,
+.new-message button[type=submit]:hover,
+.new-message button[type=submit]:active,
+.new-message button[type=submit]:focus {
+  color: var(--grimlock-button-primary-hover-color);
+  background-color: var(--grimlock-button-primary-hover-background-color);
+  border-color: var(--grimlock-button-primary-hover-border-color);
+}
+
+/* Mobile */
+@media screen and (max-width: 800px) {
+  .btn-back-to-top {
+    display: none !important;
+  }
+}
+
+div#bp-better-messages-mini-mobile-open {
+  bottom: 15px;
+  left: 15px;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 800px) {
+  div#bp-better-messages-mini-mobile-open {
+    background-color: var(--grimlock-button-primary-background-color);
+    color: var(--grimlock-button-primary-color);
+    border-color: var(--grimlock-button-primary-border-color);
+    border-radius: var(--grimlock-button-border-radius);
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  div#bp-better-messages-mini-mobile-open:hover {
+    background-color: var(--grimlock-button-primary-hover-background-color);
+    color: var(--grimlock-button-primary-hover-color);
+    border-color: var(--grimlock-button-primary-hover-border-color);
+  }
+}
+
+div#bp-better-messages-mini-mobile-open i:before {
+  font-family: var(--grimlock-icon-chat-font-family) !important;
+  content: var(--grimlock-icon-chat);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bp-messages-wrap.mobile-ready:not(.bp-messages-mobile) .bp-messages-mobile-tap {
+  color: inherit;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#bp-better-messages-mini-mobile-container, #bp-better-messages-mobile-view-container {
+  background: var(--grimlock-archive-post-background-color);
+}
+
+.bp-messages-wrap .chat-tabs.bpbm-mobile-only.chat-tabs-border-top > div {
+  border-color: var(--grimlock-color-faded);
+}
+
+.bp-messages-wrap .chat-tabs.bpbm-mobile-only.chat-tabs-border-top > div.active {
+  border-color: currentColor;
+}
+
+div.bp-messages-wrap.bp-messages-mobile .reply .send button[type="submit"] {
+  background: var(--grimlock-button-primary-background-color) !important;
+  color: var(--grimlock-button-primary-color) !important;
+  margin-top: 1rem;
+}
+
+.bp-messages-wrap img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+#yz-bp .bp-messages-wrap .avatar,
+#buddypress .bp-messages-wrap .avatar {
+  border-radius: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+body.error404 .bp-messages-wrap {
+  display: none !important;
+}
+
+[data-bpbmtippy-root] {
+  z-index: 9999999 !important;
+}
+
+.bpbmuc {
+  background: var(--grimlock-button-primary-background-color);
+  color: var(--grimlock-button-primary-color);
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+

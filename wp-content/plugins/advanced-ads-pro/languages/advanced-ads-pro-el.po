@@ -1,0 +1,2522 @@
+# Translation of Advanced Ads Pro in Greek
+# This file is distributed under the same license as the Advanced Ads Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-01 12:17:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: el_GR\n"
+"Project-Id-Version: Advanced Ads Pro\n"
+
+#: modules/geo/classes/admin.php:339
+msgid "miles (mi)"
+msgstr "μίλια (mi)"
+
+#: modules/geo/classes/admin.php:627
+msgid "There was an error connecting to the search service."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη σύνδεση με την υπηρεσία αναζήτησης."
+
+#: modules/geo/classes/admin.php:626
+msgid "Your search did not return any results."
+msgstr "Η αναζήτησή σας δεν επέστρεψε κανένα αποτέλεσμα."
+
+#. 1: A link to the geo location service.
+#: modules/geo/classes/admin.php:629
+msgid "You can search for the geo coordinates manually at %1$s."
+msgstr "Μπορείτε να αναζητήσετε τις γεωγραφικές συντεταγμένες με μη αυτόματο τρόπο στο %1$s."
+
+#. 1: The number of search results.
+#: modules/geo/classes/admin.php:625
+msgid "Found %1$d results. Please pick the one, you want to use."
+msgstr "Βρέθηκαν %1$d αποτελέσματα. Επιλέξτε αυτό που θέλετε να χρησιμοποιήσετε."
+
+#: modules/geo/classes/admin.php:338
+msgid "kilometers (km)"
+msgstr "χιλιόμετρα (χλμ)"
+
+#. 1 is the opening link to the plugins page, 2 the closing link
+#: modules/geo/classes/Advanced_Ads_Geo_Version_Check.php:51
+msgid "The geo-targeting visitor condition moved into Advanced Ads Pro. You can remove Geo Targeting %1$shere%2$s."
+msgstr "Η συνθήκη γεωγραφικής στόχευσης επισκέπτη μεταφέρθηκε στο Advanced Ads Pro. Μπορείτε να καταργήσετε τη γεωγραφική στόχευση %1$sεδώ%2$s."
+
+#: modules/geo/classes/api.php:385
+msgid "Zimbabwe"
+msgstr "Ζιμπάμπουε"
+
+#: modules/geo/classes/api.php:384
+msgid "Zambia"
+msgstr "Ζάμπια"
+
+#: modules/geo/classes/admin.php:366
+msgid "Your location"
+msgstr "Η τοποθεσία σου"
+
+#: modules/geo/classes/admin.php:233
+msgid "Your IP address format is incorrect"
+msgstr "Η μορφή της διεύθυνσης IP σας είναι εσφαλμένη"
+
+#. %s is an URL.
+#: modules/cache-busting/admin-ui.class.php:179
+msgid "You need a placement to deliver this group using cache busting. <a href=\"%s\" target=\"_blank\">Create a placement now.</a>"
+msgstr "Χρειάζεστε μια τοποθέτηση για να παραδώσετε αυτήν την ομάδα χρησιμοποιώντας την κατάρρευση της προσωρινής μνήμης. <a href=\"%s\" target=\"_blank\">Δημιουργήστε μια τοποθέτηση τώρα.</a>"
+
+#: modules/geo/classes/api.php:383
+msgid "Yemen"
+msgstr "Υεμένη"
+
+#: modules/geo/classes/api.php:382
+msgid "Western Samoa"
+msgstr "Δυτική Σαμόα"
+
+#: modules/geo/classes/api.php:381
+msgid "Western Sahara"
+msgstr "Δυτική Σαχάρα"
+
+#: modules/geo/classes/api.php:380
+msgid "Wallis and Futuna Islands"
+msgstr "Νήσοι Wallis και Futuna"
+
+#: modules/geo/classes/api.php:379
+msgid "Virgin Islands (USA)"
+msgstr "Παρθένοι Νήσοι (ΗΠΑ)"
+
+#: modules/geo/classes/api.php:378
+msgid "Virgin Islands (British)"
+msgstr "Παρθένοι Νήσοι (Βρετανία)"
+
+#: modules/geo/classes/api.php:377
+msgid "Vietnam"
+msgstr "Βιετνάμ"
+
+#: modules/geo/classes/api.php:376
+msgid "Venezuela"
+msgstr "Βενεζουέλα"
+
+#: modules/geo/classes/api.php:375
+msgid "Vanuatu"
+msgstr "Βανουάτου"
+
+#: modules/geo/classes/api.php:374
+msgid "Uzbekistan"
+msgstr "Ουζμπεκιστάν"
+
+#: modules/geo/classes/api.php:373
+msgid "US Minor Outlying Islands"
+msgstr "Μικρά Απομακρυσμένα Νησιά των ΗΠΑ"
+
+#: modules/geo/classes/api.php:372
+msgid "Uruguay"
+msgstr "Ουρουγουάη"
+
+#: modules/geo/admin/views/setting-download.php:18
+msgid "Update geo location databases"
+msgstr "Ενημέρωση βάσεων δεδομένων γεωγραφικών τοποθεσιών"
+
+#: modules/geo/classes/api.php:124
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες"
+
+#: modules/geo/classes/api.php:125
+msgid "United Kingdom"
+msgstr "Ηνωμένο Βασίλειο"
+
+#: modules/geo/classes/api.php:371
+msgid "United Arab Emirates"
+msgstr "Ηνωμένα Αραβικά Εμιράτα"
+
+#: modules/geo/classes/api.php:370
+msgid "Ukraine"
+msgstr "Ουκρανία"
+
+#: modules/geo/classes/api.php:369
+msgid "Uganda"
+msgstr "Ουγκάντα"
+
+#: modules/geo/classes/api.php:368
+msgid "Tuvalu"
+msgstr "Τουβαλού"
+
+#: modules/geo/classes/api.php:367
+msgid "Turks and Caicos Islands"
+msgstr "Νήσοι Τερκς και Κάικος"
+
+#: modules/geo/classes/api.php:366
+msgid "Turkmenistan"
+msgstr "Τουρκμενιστάν"
+
+#: modules/geo/classes/api.php:365
+msgid "Turkey"
+msgstr "Τουρκία"
+
+#: modules/geo/classes/api.php:364
+msgid "Tunisia"
+msgstr "Τυνησία"
+
+#: modules/geo/classes/api.php:363
+msgid "Trinidad and Tobago"
+msgstr "Τρινιντάντ και Τομπάγκο"
+
+#: modules/geo/classes/api.php:362
+msgid "Tonga"
+msgstr "Τόνγκα"
+
+#: modules/geo/classes/api.php:361
+msgid "Tokelau"
+msgstr "Τοκελάου"
+
+#: modules/geo/classes/api.php:360
+msgid "Togo"
+msgstr "Τόγκο"
+
+#: modules/geo/classes/api.php:359
+msgid "Timor-Leste"
+msgstr "Ανατολικό Τιμόρ"
+
+#: modules/geo/classes/admin.php:323
+msgid "This option can’t be used if your site is using sucuri.net."
+msgstr "Αυτή η επιλογή δεν μπορεί να χρησιμοποιηθεί εάν ο ιστότοπός σας χρησιμοποιεί sucuri.net."
+
+#: modules/geo/classes/admin.php:386
+msgid "The upload dir is not available"
+msgstr "Ο κατάλογος μεταφόρτωσης δεν είναι διαθέσιμος"
+
+#: modules/geo/classes/admin.php:132
+msgid "The MaxMind license key is missing."
+msgstr "Το κλειδί άδειας χρήσης MaxMind λείπει."
+
+#: modules/geo/admin/views/setting-download.php:66
+msgid "The databases are updated on the first Tuesday (midnight, GMT) of each month."
+msgstr "Οι βάσεις δεδομένων ενημερώνονται την πρώτη Τρίτη (μεσάνυχτα, GMT) κάθε μήνα."
+
+#: modules/geo/classes/api.php:358
+msgid "Thailand"
+msgstr "Ταϊλάνδη"
+
+#: modules/geo/classes/api.php:357
+msgid "Tanzania"
+msgstr "Τανζανία"
+
+#: modules/geo/classes/api.php:356
+msgid "Tajikistan"
+msgstr "Τατζικιστάν"
+
+#: modules/geo/classes/api.php:355
+msgid "Taiwan"
+msgstr "Ταϊβάν"
+
+#: modules/geo/classes/api.php:354
+msgid "Syrian Arab Republic"
+msgstr "Αραβική Δημοκρατία της Συρίας"
+
+#: modules/geo/classes/api.php:353
+msgid "Switzerland"
+msgstr "Ελβετία"
+
+#: modules/geo/classes/api.php:352
+msgid "Sweden"
+msgstr "Σουηδία"
+
+#: modules/geo/classes/api.php:351
+msgid "Swaziland"
+msgstr "Σουαζιλάνδη"
+
+#: modules/geo/classes/api.php:350
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Νησιά Σβάλμπαρντ και Γιαν Μάγιεν"
+
+#: modules/geo/classes/api.php:349
+msgid "Suriname"
+msgstr "Σουρινάμ"
+
+#: modules/geo/classes/api.php:348
+msgid "Sudan"
+msgstr "Σουδάν"
+
+#: modules/geo/classes/plugin.php:122
+msgid "Sucuri Header (country only)"
+msgstr "Κεφαλίδα Sucuri (μόνο για χώρα)"
+
+#: modules/geo/classes/admin.php:306
+msgid "State/Region"
+msgstr "Πολιτεία/Περιοχή"
+
+#: modules/geo/classes/api.php:347
+msgid "Sri Lanka"
+msgstr "Σρι Λάνκα"
+
+#: modules/geo/classes/api.php:346
+msgid "Spain"
+msgstr "Ισπανία"
+
+#: modules/geo/classes/api.php:345
+msgid "South Sudan"
+msgstr "Νότιο Σουδάν"
+
+#: modules/geo/classes/api.php:344
+msgid "South Korea"
+msgstr "Νότια Κορέα"
+
+#: modules/geo/classes/api.php:343
+msgid "South Georgia"
+msgstr "Νότια Γεωργία"
+
+#: modules/geo/classes/api.php:130
+msgid "South America"
+msgstr "Νότια Αμερική"
+
+#: modules/geo/classes/api.php:342
+msgid "South Africa"
+msgstr "Νότια Αφρική"
+
+#: modules/geo/classes/api.php:341
+msgid "Somalia"
+msgstr "Σομαλία"
+
+#: modules/geo/classes/api.php:340
+msgid "Solomon Islands"
+msgstr "Νησιά του Σολομώντα"
+
+#: modules/geo/classes/api.php:339
+msgid "Slovenia"
+msgstr "Σλοβενία"
+
+#: modules/geo/classes/api.php:338
+msgid "Slovak Republic"
+msgstr "Δημοκρατία της Σλοβακίας"
+
+#: modules/geo/classes/api.php:337
+msgid "Singapore"
+msgstr "Σιγκαπούρη"
+
+#: modules/geo/classes/api.php:336
+msgid "Sierra Leone"
+msgstr "Σιέρρα Λεόνε"
+
+#: modules/geo/classes/api.php:335
+msgid "Seychelles"
+msgstr "Σεϋχέλλες"
+
+#: modules/geo/classes/api.php:334
+msgid "Serbia"
+msgstr "Σερβία"
+
+#: modules/geo/classes/api.php:333
+msgid "Senegal"
+msgstr "Σενεγάλη"
+
+#: modules/geo/classes/admin.php:359
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: modules/geo/classes/api.php:332
+msgid "Saudi Arabia"
+msgstr "Σαουδική Αραβία"
+
+#: modules/geo/classes/api.php:330
+msgid "San Marino"
+msgstr "Σαν Μαρίνο"
+
+#: modules/geo/classes/api.php:329
+msgid "Saint Vincent and the Grenadines"
+msgstr "Άγιος Βικέντιος και Γρεναδίνες"
+
+#: modules/geo/classes/api.php:328
+msgid "Saint Pierre and Miquelon"
+msgstr "Σεν Πιέρ και Μικελόν"
+
+#: modules/geo/classes/api.php:326
+msgid "Saint Martin (French)"
+msgstr "Άγιος Μαρτίνος (Γάλλος)"
+
+#: modules/geo/classes/api.php:327
+msgid "Saint Martin (Dutch)"
+msgstr "Άγιος Μαρτίνος (Ολλανδός)"
+
+#: modules/geo/classes/api.php:325
+msgid "Saint Lucia"
+msgstr "Αγία Λουκία"
+
+#: modules/geo/classes/api.php:324
+msgid "Saint Kitts and Nevis"
+msgstr "Άγιος Κιττς και Νέβις"
+
+#: modules/geo/classes/api.php:323
+msgid "Saint Helena"
+msgstr "Αγία Ελένη"
+
+#: modules/geo/classes/api.php:322
+msgid "Saint Barth&eacute;lemy"
+msgstr "Άγιος Barth&eacute;lemy"
+
+#: modules/geo/classes/api.php:331
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+
+#: modules/geo/classes/api.php:321
+msgid "Rwanda"
+msgstr "Ρουάντα"
+
+#: modules/geo/classes/api.php:320
+msgid "Russian Federation"
+msgstr "Ρωσική Ομοσπονδία"
+
+#: modules/geo/classes/api.php:319
+msgid "Romania"
+msgstr "Ρουμανία"
+
+#: modules/geo/classes/api.php:318
+msgid "Reunion Island"
+msgstr "Νησί Ρεϋνιόν"
+
+#: modules/geo/classes/api.php:317
+msgid "Republic of Kosovo"
+msgstr "Δημοκρατία του Κοσόβου"
+
+#: modules/geo/classes/api.php:316
+msgid "Qatar"
+msgstr "Κατάρ"
+
+#: modules/geo/classes/api.php:315
+msgid "Puerto Rico"
+msgstr "Πουέρτο Ρίκο"
+
+#: modules/geo/classes/api.php:314
+msgid "Portugal"
+msgstr "Πορτογαλία"
+
+#: modules/geo/classes/api.php:313
+msgid "Poland"
+msgstr "Πολωνία"
+
+#: modules/geo/classes/admin.php:132 modules/geo/classes/admin.php:226
+msgid "Please read the %1$sinstallation instructions%2$s."
+msgstr "Διαβάστε τις %1$sοδηγίες εγκατάστασης%2$s."
+
+#: modules/geo/classes/api.php:312
+msgid "Pitcairn Island"
+msgstr "Νησί Πίτκερν"
+
+#: modules/geo/classes/api.php:311
+msgid "Phillipines"
+msgstr "Φιλιππίνες"
+
+#: modules/geo/classes/api.php:310
+msgid "Peru"
+msgstr "Περού"
+
+#: modules/geo/classes/api.php:309
+msgid "Paraguay"
+msgstr "Παραγουάη"
+
+#: modules/geo/classes/api.php:308
+msgid "Papua New Guinea"
+msgstr "Παπούα Νέα Γουινέα"
+
+#: modules/geo/classes/api.php:307
+msgid "Panama"
+msgstr "Παναμάς"
+
+#: modules/geo/classes/api.php:306
+msgid "Palestinian Territories"
+msgstr "Παλαιστινιακά Εδάφη"
+
+#: modules/geo/classes/api.php:305
+msgid "Palau"
+msgstr "Παλάου"
+
+#: modules/geo/classes/api.php:304
+msgid "Pakistan"
+msgstr "Πακιστάν"
+
+#: modules/geo/classes/admin.php:305 modules/geo/classes/admin.php:307
+msgid "or"
+msgstr "ή"
+
+#: modules/geo/classes/api.php:303
+msgid "Oman"
+msgstr "Ομάν"
+
+#: modules/geo/classes/api.php:134
+msgid "Oceania"
+msgstr "Ωκεανία"
+
+#: modules/geo/classes/api.php:302
+msgid "Norway"
+msgstr "Νορβηγία"
+
+#: modules/geo/classes/api.php:301
+msgid "Northern Mariana Islands"
+msgstr "Βόρεια Νησιά Μαριάνα"
+
+#: modules/geo/classes/api.php:300
+msgid "North Korea"
+msgstr "Βόρεια Κορέα"
+
+#: modules/geo/classes/api.php:129
+msgid "North America"
+msgstr "Βόρεια Αμερική"
+
+#: modules/geo/classes/api.php:299
+msgid "Norfolk Island"
+msgstr "Νησί Νόρφολκ"
+
+#: modules/geo/classes/api.php:298
+msgid "Niue"
+msgstr "Niue"
+
+#: modules/geo/classes/api.php:297
+msgid "Nigeria"
+msgstr "Νιγηρία"
+
+#: modules/geo/classes/api.php:296
+msgid "Niger"
+msgstr "Νίγηρας"
+
+#: modules/geo/classes/api.php:295
+msgid "Nicaragua"
+msgstr "Νικαράγουα"
+
+#: modules/geo/admin/views/setting-download.php:65
+msgid "Next possible update on %s."
+msgstr "Επόμενη πιθανή ενημέρωση στο %s."
+
+#: modules/geo/classes/api.php:294
+msgid "New Zealand"
+msgstr "Νέα Ζηλανδία"
+
+#: modules/geo/classes/api.php:293
+msgid "New Caledonia"
+msgstr "Νέα Καληδονία"
+
+#: modules/geo/classes/api.php:292
+msgid "Netherlands Antilles"
+msgstr "Ολλανδικές Αντίλλες"
+
+#: modules/geo/classes/api.php:291
+msgid "Netherlands"
+msgstr "Ολλανδία"
+
+#: modules/geo/classes/api.php:290
+msgid "Nepal"
+msgstr "Νεπάλ"
+
+#: modules/geo/classes/api.php:289
+msgid "Nauru"
+msgstr "Ναούρου"
+
+#: modules/geo/classes/api.php:288
+msgid "Namibia"
+msgstr "Ναμίμπια"
+
+#: modules/geo/classes/api.php:287
+msgid "Myanmar"
+msgstr "Μιανμάρ"
+
+#: modules/geo/classes/api.php:286
+msgid "Mozambique"
+msgstr "Μοζαμβίκη"
+
+#: modules/geo/classes/api.php:285
+msgid "Morocco"
+msgstr "Μαρόκο"
+
+#: modules/geo/classes/api.php:284
+msgid "Montserrat"
+msgstr "Μονσεράτ"
+
+#: modules/geo/classes/api.php:283
+msgid "Montenegro"
+msgstr "Μαυροβούνιο"
+
+#: modules/geo/classes/api.php:282
+msgid "Mongolia"
+msgstr "Μογγολία"
+
+#: modules/geo/classes/api.php:281
+msgid "Monaco"
+msgstr "Μονακό"
+
+#: modules/geo/classes/api.php:280
+msgid "Moldova, Republic of"
+msgstr "Μολδαβία, Δημοκρατία της"
+
+#: modules/geo/classes/api.php:279
+msgid "Micronesia"
+msgstr "Μικρονησία"
+
+#: modules/geo/classes/api.php:278
+msgid "Mexico"
+msgstr "Μεξικό"
+
+#: modules/geo/classes/admin.php:80
+msgid "Method"
+msgstr "Μέθοδος"
+
+#: modules/geo/classes/api.php:277
+msgid "Mayotte"
+msgstr "Μαγιότ"
+
+#: modules/geo/classes/admin.php:229
+msgid "Maybe you are working on a local or secured environment."
+msgstr "Ίσως εργάζεστε σε ένα τοπικό ή ασφαλές περιβάλλον."
+
+#: modules/geo/classes/admin.php:61
+msgid "MaxMind license key"
+msgstr "Κλειδί άδειας MaxMind"
+
+#: modules/geo/classes/plugin.php:116
+msgid "MaxMind database (default)"
+msgstr "Βάση δεδομένων MaxMind (προεπιλογή)"
+
+#: modules/geo/classes/admin.php:70
+msgid "MaxMind Database"
+msgstr "Βάση δεδομένων MaxMind"
+
+#: modules/geo/classes/api.php:276
+msgid "Mauritius"
+msgstr "Μαυρίκιος"
+
+#: modules/geo/classes/api.php:275
+msgid "Mauritania"
+msgstr "Μαυριτανία"
+
+#: modules/geo/classes/api.php:274
+msgid "Martinique"
+msgstr "Μαρτινίκα"
+
+#: modules/geo/classes/api.php:273
+msgid "Marshall Islands"
+msgstr "Νήσοι Μάρσαλ"
+
+#: modules/geo/classes/api.php:272
+msgid "Malta"
+msgstr "Μάλτα"
+
+#: modules/geo/classes/api.php:271
+msgid "Mali"
+msgstr "Μάλι"
+
+#: modules/geo/classes/api.php:270
+msgid "Maldives"
+msgstr "Μαλδίβες"
+
+#: modules/geo/classes/api.php:269
+msgid "Malaysia"
+msgstr "Μαλαισία"
+
+#: modules/geo/classes/api.php:268
+msgid "Malawi"
+msgstr "Μαλάουι"
+
+#: modules/geo/classes/api.php:267
+msgid "Madagascar"
+msgstr "Μαδαγασκάρη"
+
+#: modules/geo/classes/api.php:266
+msgid "Macedonia"
+msgstr "Βόρεια Μακεδονία"
+
+#: modules/geo/classes/api.php:265
+msgid "Macau"
+msgstr "Μακάο"
+
+#: modules/geo/classes/api.php:264
+msgid "Luxembourg"
+msgstr "Λουξεμβούργο"
+
+#: modules/geo/classes/admin.php:343
+msgid "Longitude"
+msgstr "Γεωγραφικό μήκος"
+
+#: modules/geo/classes/api.php:263
+msgid "Lithuania"
+msgstr "Λιθουανία"
+
+#: modules/geo/classes/api.php:262
+msgid "Liechtenstein"
+msgstr "Λιχτενστάιν"
+
+#: modules/geo/classes/api.php:261
+msgid "Libyan Arab Jamahiriya"
+msgstr "Λιβυκή Αραβική Τζαμαχίρια"
+
+#: modules/geo/classes/api.php:260
+msgid "Liberia"
+msgstr "Λιβερία"
+
+#: modules/geo/classes/api.php:259
+msgid "Lesotho"
+msgstr "Λεσότο"
+
+#: modules/geo/classes/api.php:258
+msgid "Lebanon"
+msgstr "Λίβανος"
+
+#: modules/geo/classes/api.php:257
+msgid "Latvia"
+msgstr "Λετονία"
+
+#: modules/geo/classes/admin.php:342
+msgid "Latitude"
+msgstr "Γεωγραφικό πλάτος"
+
+#: modules/geo/admin/views/setting-download.php:10
+msgid "Last update: %s"
+msgstr "Τελευταία ενημέρωση: %s"
+
+#: modules/geo/classes/api.php:256
+msgid "Lao People's Democratic Republic"
+msgstr "Λαϊκή Δημοκρατία του Λάος"
+
+#: modules/geo/classes/admin.php:90
+msgid "Language of names"
+msgstr "Γλώσσα ονομάτων"
+
+#: modules/geo/classes/api.php:255
+msgid "Kyrgyzstan"
+msgstr "Κιργιζιστάν"
+
+#: modules/geo/classes/api.php:254
+msgid "Kuwait"
+msgstr "Κουβέιτ"
+
+#: modules/geo/classes/api.php:253
+msgid "Kiribati"
+msgstr "Κιριμπάτι"
+
+#: modules/geo/classes/api.php:252
+msgid "Kenya"
+msgstr "Κένυα"
+
+#: modules/geo/classes/api.php:251
+msgid "Kazakhstan"
+msgstr "Καζακστάν"
+
+#: modules/geo/classes/api.php:250
+msgid "Jordan"
+msgstr "Ιορδανία"
+
+#: modules/geo/classes/api.php:249
+msgid "Jersey"
+msgstr "Τζέρσεϊ"
+
+#: modules/geo/classes/api.php:248
+msgid "Japan"
+msgstr "Ιαπωνία"
+
+#: modules/geo/classes/api.php:247
+msgid "Jamaica"
+msgstr "Τζαμάικα"
+
+#: modules/geo/classes/api.php:246
+msgid "Italy"
+msgstr "Ιταλία"
+
+#. %s is an URL.
+#: modules/cache-busting/admin-ui.class.php:200
+msgid "It seems that a caching plugin is activated. Your ads might not rotate properly, while cache busting is disabled for the placement your group is using. <a href=\"%s\" target=\"_blank\">Activate cache busting for this placement.</a>"
+msgstr "Φαίνεται ότι έχει ενεργοποιηθεί μια προσθήκη προσωρινής αποθήκευσης. Οι διαφημίσεις σας ενδέχεται να μην εναλλάσσονται σωστά, ενώ η κατάργηση της προσωρινής μνήμης είναι απενεργοποιημένη για την τοποθέτηση που χρησιμοποιεί η ομάδα σας. <a href=\"%s\" target=\"_blank\">Ενεργοποιήστε το busting cache για αυτήν την τοποθέτηση.</a>"
+
+#. %s is an URL.
+#: modules/cache-busting/admin-ui.class.php:156
+msgid "It seems that a caching plugin is activated. Your ads might not rotate properly while cache busting is disabled. <a href=\"%s\" target=\"_blank\">Activate cache busting.</a>"
+msgstr "Φαίνεται ότι έχει ενεργοποιηθεί μια προσθήκη προσωρινής αποθήκευσης. Οι διαφημίσεις σας ενδέχεται να μην εναλλάσσονται σωστά, ενώ η λειτουργία προσωρινής αποθήκευσης είναι απενεργοποιημένη. <a href=\"%s\" target=\"_blank\">Ενεργοποιήστε την εξάλειψη της προσωρινής μνήμης.</a>"
+
+#: modules/geo/classes/api.php:245
+msgid "Israel"
+msgstr "Ισραήλ"
+
+#: modules/geo/classes/api.php:244
+msgid "Isle of Man"
+msgstr "Νήσος του Μαν"
+
+#: modules/geo/classes/api.php:243
+msgid "Ireland"
+msgstr "Ιρλανδία"
+
+#: modules/geo/classes/api.php:242
+msgid "Iraq"
+msgstr "Ιράκ"
+
+#: modules/geo/classes/api.php:241
+msgid "Iran"
+msgstr "Ιράν"
+
+#: modules/geo/classes/api.php:240
+msgid "Indonesia"
+msgstr "Ινδονησία"
+
+#: modules/geo/classes/api.php:239
+msgid "India"
+msgstr "Ινδία"
+
+#: modules/geo/admin/views/setting-download.php:5
+msgid "In order to use Geo Targeting, please download the geo location databases by clicking on the button below."
+msgstr "Για να χρησιμοποιήσετε τη Γεωγραφική Στόχευση, πραγματοποιήστε λήψη των βάσεων δεδομένων γεωγραφικής τοποθεσίας κάνοντας κλικ στο παρακάτω κουμπί."
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:134
+msgid "Ignore global Click Fraud Protection"
+msgstr "Αγνοήστε την παγκόσμια προστασία απάτης κλικ"
+
+#: modules/geo/classes/api.php:238
+msgid "Iceland"
+msgstr "Ισλανδία"
+
+#: modules/geo/classes/api.php:237
+msgid "Hungary"
+msgstr "Ουγγαρία"
+
+#: modules/geo/classes/api.php:236
+msgid "Hong Kong"
+msgstr "Χονγκ Κονγκ"
+
+#: modules/geo/classes/api.php:235
+msgid "Honduras"
+msgstr "Ονδούρα"
+
+#: modules/geo/classes/api.php:234
+msgid "Holy See (City Vatican State)"
+msgstr "Αγία Έδρα (Πόλη του Βατικανού)"
+
+#: modules/geo/classes/api.php:233
+msgid "Heard and McDonald Islands"
+msgstr "Νήσοι Χερντ και Μακ Ντόναλντ"
+
+#: modules/geo/classes/api.php:232
+msgid "Haiti"
+msgstr "Αΐτη"
+
+#: modules/geo/classes/api.php:231
+msgid "Guyana"
+msgstr "Γουιάνα"
+
+#: modules/geo/classes/api.php:230
+msgid "Guinea-Bissau"
+msgstr "Γουινέα-Μπισάου"
+
+#: modules/geo/classes/api.php:229
+msgid "Guinea"
+msgstr "Γουινέα"
+
+#: modules/geo/classes/api.php:228
+msgid "Guernsey"
+msgstr "Γκέρνσεϊ"
+
+#: modules/geo/classes/api.php:227
+msgid "Guatemala"
+msgstr "Γουατεμάλα"
+
+#: modules/geo/classes/api.php:226
+msgid "Guam"
+msgstr "Γκουάμ"
+
+#: modules/geo/classes/api.php:225
+msgid "Guadeloupe"
+msgstr "Γουαδελούπη"
+
+#: modules/geo/classes/api.php:224
+msgid "Grenada"
+msgstr "Γρενάδα"
+
+#: modules/geo/classes/api.php:223
+msgid "Greenland"
+msgstr "Γροιλανδία"
+
+#: modules/geo/classes/api.php:220
+msgid "Greece"
+msgstr "Ελλάδα"
+
+#: modules/geo/classes/api.php:222
+msgid "Gibraltar"
+msgstr "Γιβραλτάρ"
+
+#: modules/geo/classes/api.php:221
+msgid "Ghana"
+msgstr "Γκάνα"
+
+#: modules/geo/classes/admin.php:341
+msgid "get coordinates"
+msgstr "λάβετε συντεταγμένες"
+
+#: modules/geo/classes/api.php:127 modules/geo/classes/api.php:219
+msgid "Germany"
+msgstr "Γερμανία"
+
+#: modules/geo/classes/api.php:218
+msgid "Georgia"
+msgstr "Γεωργία"
+
+#: modules/geo/classes/admin.php:53
+msgid "Geo Targeting"
+msgstr "Γεωγραφική στόχευση"
+
+#: modules/geo/classes/plugin.php:97
+msgid "geo location"
+msgstr "γεωγραφική τοποθεσία"
+
+#: modules/geo/classes/admin.php:226
+#: modules/geo/admin/views/setting-download.php:4
+msgid "Geo Databases not found."
+msgstr "Δεν βρέθηκαν βάσεις δεδομένων γεωγραφικών δεδομένων."
+
+#: modules/geo/classes/public.php:189
+msgid "Geo Databases not found"
+msgstr "Δεν βρέθηκαν βάσεις δεδομένων γεωγραφικών δεδομένων"
+
+#: modules/geo/classes/admin.php:126
+msgid "Geo Databases found."
+msgstr "Βρέθηκαν γεωγραφικές βάσεις δεδομένων."
+
+#: modules/geo/classes/api.php:217
+msgid "Gambia"
+msgstr "Γκάμπια"
+
+#: modules/geo/classes/api.php:216
+msgid "Gabon"
+msgstr "Γκαμπόν"
+
+#: modules/geo/classes/admin.php:340
+msgid "from"
+msgstr "από"
+
+#: modules/geo/classes/api.php:215
+msgid "French Southern Territories"
+msgstr "Γαλλικά Νότια Εδάφη"
+
+#: modules/geo/classes/api.php:214
+msgid "French Polynesia"
+msgstr "Γαλλική Πολυνησία"
+
+#: modules/geo/classes/api.php:213
+msgid "French Guiana"
+msgstr "Γαλλική Γουιάνα"
+
+#: modules/geo/classes/api.php:212
+msgid "France"
+msgstr "Γαλλία"
+
+#: modules/geo/classes/api.php:211
+msgid "Finland"
+msgstr "Φινλανδία"
+
+#: modules/geo/classes/api.php:210
+msgid "Fiji"
+msgstr "Φίτζι"
+
+#: modules/geo/classes/api.php:209
+msgid "Faroe Islands"
+msgstr "Νήσοι Φερόες"
+
+#: modules/geo/classes/api.php:208
+msgid "Falkland Islands"
+msgstr "Νησιά Φώκλαντ"
+
+#: modules/geo/classes/api.php:126
+msgid "European Union"
+msgstr "Ευρωπαϊκή Ένωση"
+
+#: modules/geo/classes/api.php:131
+msgid "Europe"
+msgstr "Ευρώπη"
+
+#: modules/geo/classes/api.php:207
+msgid "Ethiopia"
+msgstr "Αιθιοπία"
+
+#: modules/geo/classes/api.php:206
+msgid "Estonia"
+msgstr "Εσθονία"
+
+#: modules/geo/classes/admin.php:470
+msgid "Error downloading database from: %1$s - %2$s"
+msgstr "Σφάλμα κατά τη λήψη της βάσης δεδομένων από: %1$s - %2$s"
+
+#: modules/geo/classes/api.php:205
+msgid "Eritrea"
+msgstr "Ερυθραία"
+
+#: modules/geo/classes/api.php:203
+msgid "Equatorial Guinea"
+msgstr "Ισημερινή Γουινέα"
+
+#: modules/geo/classes/admin.php:361
+msgid "Enter the name of the city, click the search button and pick one of the results to set the coordinates of the center."
+msgstr "Εισαγάγετε το όνομα της πόλης, κάντε κλικ στο κουμπί αναζήτησης και επιλέξτε ένα από τα αποτελέσματα για να ορίσετε τις συντεταγμένες του κέντρου."
+
+#: modules/geo/classes/api.php:204
+msgid "El Salvador"
+msgstr "Ελ Σαλβαδόρ"
+
+#: modules/geo/classes/api.php:202
+msgid "Egypt"
+msgstr "Αίγυπτος"
+
+#: modules/geo/classes/api.php:201
+msgid "Ecuador"
+msgstr "Εκουαδόρ"
+
+#: modules/geo/classes/api.php:200
+msgid "East Timor"
+msgstr "Ανατολικό Τιμόρ"
+
+#: modules/geo/classes/api.php:199
+msgid "Dominican Republic"
+msgstr "Δομινικανή Δημοκρατία"
+
+#: modules/geo/classes/api.php:198
+msgid "Dominica"
+msgstr "Δομίνικα"
+
+#: modules/geo/classes/api.php:197
+msgid "Djibouti"
+msgstr "Τζιμπουτί"
+
+#: modules/geo/classes/admin.php:348
+msgid "Distance to center"
+msgstr "Απόσταση από το κέντρο"
+
+#: modules/geo/classes/admin.php:333
+msgid "Distance is less than or equal to"
+msgstr "Η απόσταση είναι μικρότερη ή ίση με"
+
+#: modules/geo/classes/admin.php:334
+msgid "Distance is greater than"
+msgstr "Η απόσταση είναι μεγαλύτερη από"
+
+#: modules/geo/classes/admin.php:336
+msgid "Distance"
+msgstr "Απόσταση"
+
+#: modules/geo/classes/plugin.php:98
+msgid "Display ads based on geo location."
+msgstr "Προβολή διαφημίσεων με βάση τη γεωγραφική τοποθεσία."
+
+#: modules/geo/classes/api.php:196
+msgid "Denmark"
+msgstr "Δανία"
+
+#: modules/geo/classes/admin.php:446
+msgid "Database updated successfully!"
+msgstr "Η βάση δεδομένων ενημερώθηκε με επιτυχία!"
+
+#: modules/geo/classes/admin.php:465
+msgid "Database update failed"
+msgstr "Η ενημέρωση της βάσης δεδομένων απέτυχε"
+
+#: modules/geo/classes/api.php:195
+msgid "Czech Republic"
+msgstr "Τσεχική Δημοκρατία"
+
+#: modules/geo/classes/api.php:194
+msgid "Cyprus"
+msgstr "Κύπρος"
+
+#: modules/geo/classes/api.php:193
+msgid "Cura&Ccedil;ao"
+msgstr "Cura&Ccedil;ao"
+
+#: modules/geo/classes/api.php:192
+msgid "Cuba"
+msgstr "Κούβα"
+
+#: modules/geo/classes/api.php:191
+msgid "Croatia/Hrvatska"
+msgstr "Κροατία/Χρβάτσκα"
+
+#: modules/geo/classes/admin.php:494
+msgid "Could not open downloaded database for reading: %s"
+msgstr "Δεν ήταν δυνατό το άνοιγμα της ληφθείσας βάσης δεδομένων για ανάγνωση: %s"
+
+#: modules/geo/classes/admin.php:518
+msgid "Could not open database for writing %s"
+msgstr "Δεν ήταν δυνατό το άνοιγμα της βάσης δεδομένων για εγγραφή %s"
+
+#: modules/geo/classes/admin.php:508
+msgid "Could not access filesystem"
+msgstr "Δεν ήταν δυνατή η πρόσβαση στο σύστημα αρχείων"
+
+#: modules/geo/classes/api.php:190
+msgid "Cote d'Ivoire"
+msgstr "Ακτή Ελεφαντοστού"
+
+#: modules/geo/classes/api.php:189
+msgid "Costa Rica"
+msgstr "Κόστα Ρίκα"
+
+#: modules/geo/classes/admin.php:240
+msgid "Coordinates"
+msgstr "Συντεταγμένες"
+
+#: modules/geo/classes/api.php:188
+msgid "Cook Islands"
+msgstr "Νησιά Κουκ"
+
+#: modules/geo/classes/api.php:187
+msgid "Congo, Republic of"
+msgstr "Κονγκό, Δημοκρατία του"
+
+#: modules/geo/classes/api.php:186
+msgid "Congo, Democratic People's Republic"
+msgstr "Κονγκό, Λαϊκή Δημοκρατία"
+
+#: modules/geo/classes/api.php:185
+msgid "Comoros"
+msgstr "Κομόρες"
+
+#: modules/geo/classes/api.php:184
+msgid "Colombia"
+msgstr "Κολομβία"
+
+#: modules/geo/classes/api.php:183
+msgid "Cocos Islands"
+msgstr "Νησιά Κόκος"
+
+#: modules/geo/classes/admin.php:308 modules/geo/classes/admin.php:358
+msgid "City"
+msgstr "Πόλη"
+
+#: modules/geo/classes/api.php:182
+msgid "Christmas Island"
+msgstr "Νησί των Χριστουγέννων"
+
+#: modules/geo/admin/views/setting-locale.php:15
+msgid "Choose the language of the state/region or city entered. If the language is not available in the geo location database, it will check against the English version."
+msgstr "Επιλέξτε τη γλώσσα της πολιτείας/περιοχής ή της πόλης που καταχωρίσατε. Εάν η γλώσσα δεν είναι διαθέσιμη στη βάση δεδομένων γεωγραφικής τοποθεσίας, θα ελέγξει την αγγλική έκδοση."
+
+#: modules/geo/classes/api.php:181
+msgid "China"
+msgstr "Κίνα"
+
+#: modules/geo/classes/api.php:180
+msgid "Chile"
+msgstr "Χιλή"
+
+#: modules/geo/classes/api.php:179
+msgid "Chad"
+msgstr "Τσαντ"
+
+#: modules/geo/classes/api.php:178
+msgid "Central African Republic"
+msgstr "Δημοκρατία Κεντρικής Αφρικής"
+
+#: modules/geo/classes/api.php:177
+msgid "Cayman Islands"
+msgstr "Νησιά Κέιμαν"
+
+#: modules/geo/classes/api.php:176
+msgid "Cape Verde"
+msgstr "Πράσινο Ακρωτήριο"
+
+#: modules/geo/classes/admin.php:360
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: modules/geo/classes/api.php:175
+msgid "Canada"
+msgstr "Καναδάς"
+
+#: modules/geo/classes/api.php:174
+msgid "Cameroon"
+msgstr "Καμερούν"
+
+#: modules/geo/classes/api.php:173
+msgid "Cambodia"
+msgstr "Καμπότζη"
+
+#: modules/geo/classes/admin.php:264
+msgid "by specific location"
+msgstr "ανά συγκεκριμένη τοποθεσία"
+
+#: modules/geo/classes/admin.php:268
+msgid "by radius"
+msgstr "κατά ακτίνα"
+
+#: modules/geo/classes/api.php:172
+msgid "Burundi"
+msgstr "Μπουρούντι"
+
+#: modules/geo/classes/api.php:171
+msgid "Burkina Faso"
+msgstr "Μπουρκίνα Φάσο"
+
+#: modules/geo/classes/api.php:170
+msgid "Bulgaria"
+msgstr "Βουλγαρία"
+
+#: modules/geo/classes/api.php:169
+msgid "Brunei Darrussalam"
+msgstr "Μπρουνάι Νταρουσαλάμ"
+
+#: modules/geo/classes/api.php:168
+msgid "British Indian Ocean Territory"
+msgstr "Βρετανική επικράτεια Ινδικού Ωκεανού"
+
+#: modules/geo/classes/api.php:167
+msgid "Brazil"
+msgstr "Βραζιλία"
+
+#: modules/geo/classes/api.php:166
+msgid "Bouvet Island"
+msgstr "Νησί Μπουβέ"
+
+#: modules/geo/classes/api.php:165
+msgid "Botswana"
+msgstr "Μποτσουάνα"
+
+#: modules/geo/classes/api.php:164
+msgid "Bosnia and Herzegovina"
+msgstr "Βοσνία και Ερζεγοβίνη"
+
+#: modules/geo/classes/api.php:163
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Άγιος Ευστάτιος και Saba"
+
+#: modules/geo/classes/api.php:162
+msgid "Bolivia"
+msgstr "Βολιβία"
+
+#: modules/geo/classes/api.php:161
+msgid "Bhutan"
+msgstr "Μπουτάν"
+
+#: modules/geo/classes/api.php:160
+msgid "Bermuda"
+msgstr "Βερμούδα"
+
+#: modules/geo/classes/api.php:159
+msgid "Benin"
+msgstr "Μπενίν"
+
+#: modules/geo/classes/api.php:158
+msgid "Belize"
+msgstr "Μπελίζ"
+
+#: modules/geo/classes/api.php:157
+msgid "Belgium"
+msgstr "Βέλγιο"
+
+#: modules/geo/classes/api.php:156
+msgid "Belarus"
+msgstr "Λευκορωσία"
+
+#: modules/geo/classes/api.php:155
+msgid "Barbados"
+msgstr "Μπαρμπάντος"
+
+#: modules/geo/classes/api.php:154
+msgid "Bangladesh"
+msgstr "Μπαγκλαντές"
+
+#: modules/geo/classes/api.php:153
+msgid "Bahrain"
+msgstr "Μπαχρέιν"
+
+#: modules/geo/classes/api.php:152
+msgid "Bahamas"
+msgstr "Μπαχάμες"
+
+#: modules/geo/classes/api.php:151
+msgid "Azerbaijan"
+msgstr "Αζερμπαϊτζάν"
+
+#: modules/geo/classes/api.php:150
+msgid "Austria"
+msgstr "Αυστρία"
+
+#: modules/geo/classes/api.php:149
+msgid "Australia"
+msgstr "Αυστραλία"
+
+#: modules/geo/classes/api.php:133
+msgid "Asia"
+msgstr "Ασία"
+
+#: modules/geo/classes/api.php:148
+msgid "Aruba"
+msgstr "Αρούμπα"
+
+#: modules/geo/classes/api.php:147
+msgid "Armenia"
+msgstr "Αρμενία"
+
+#: modules/geo/classes/api.php:146
+msgid "Argentina"
+msgstr "Αργεντινή"
+
+#: modules/geo/classes/api.php:145
+msgid "Antigua and Barbuda"
+msgstr "Αντίγκουα και Μπαρμπούντα"
+
+#: modules/geo/classes/api.php:144
+msgid "Antarctica"
+msgstr "Ανταρκτική"
+
+#: modules/geo/classes/api.php:143
+msgid "Anguilla"
+msgstr "Ανγκουίλα"
+
+#: modules/geo/classes/api.php:142
+msgid "Angola"
+msgstr "Αγκόλα"
+
+#: modules/geo/classes/api.php:141
+msgid "Andorra"
+msgstr "Ανδόρα"
+
+#: modules/geo/classes/api.php:140
+msgid "American Samoa"
+msgstr "Αμερικάνικη Σαμόα"
+
+#: modules/geo/classes/api.php:139
+msgid "Algeria"
+msgstr "Αλγερία"
+
+#: modules/geo/classes/api.php:138
+msgid "Albania"
+msgstr "Αλβανία"
+
+#: modules/geo/classes/api.php:132
+msgid "Africa"
+msgstr "Αφρική"
+
+#: modules/geo/classes/api.php:136
+msgid "Afghanistan"
+msgstr "Αφγανιστάν"
+
+#: modules/geo/classes/public.php:193
+msgid "Address not found: %s"
+msgstr "Η διεύθυνση δεν βρέθηκε: %s"
+
+#: modules/group-refresh/views/settings_group_refresh.php:20
+msgid "Activate now"
+msgstr "Ενεργοποίηση τώρα"
+
+#: modules/geo/classes/admin.php:216 modules/geo/classes/public.php:178
+#: modules/geo/classes/public.php:333
+msgid "(unknown region)"
+msgstr "(άγνωστη περιοχή)"
+
+#: modules/geo/classes/admin.php:207 modules/geo/classes/public.php:172
+#: modules/geo/classes/public.php:329
+msgid "(unknown city)"
+msgstr "(άγνωστη πόλη)"
+
+#: modules/geo/classes/api.php:137
+msgid "&#197;land Islands"
+msgstr "&#197;land Νησιά"
+
+#: modules/lazy-load/admin.class.php:23 modules/lazy-load/admin.class.php:56
+msgid "Lazy Loading"
+msgstr "Lazy Loading"
+
+#: views/setting-placement-positioning.php:29
+msgid "This method also works on AMP pages and causes fewer conflicts with website optimization features. However, it can cause critical issues with a few other plugins that use a similar technique (i.e., output buffering). We recommend less technical users test it carefully."
+msgstr "Αυτή η μέθοδος λειτουργεί επίσης σε σελίδες AMP και προκαλεί λιγότερες διενέξεις με τις λειτουργίες βελτιστοποίησης ιστότοπου. Ωστόσο, μπορεί να προκαλέσει κρίσιμα ζητήματα με μερικές άλλες προσθήκες που χρησιμοποιούν παρόμοια τεχνική (δηλαδή αποθήκευση εξόδου στην προσωρινή μνήμη). Συνιστούμε λιγότερους τεχνικούς χρήστες να το δοκιμάσουν προσεκτικά."
+
+#: classes/advanced-ads-pro-admin.php:144
+msgid "Placement positioning"
+msgstr "Θέση τοποθέτησης"
+
+#. %s: Names of placement types
+#: views/setting-placement-positioning.php:13
+msgid "Choose when Advanced Ads will add the following placement types: %s"
+msgstr "Επιλέξτε πότε το Advanced Ads θα προσθέσει τους ακόλουθους τύπους τοποθέτησης: %s"
+
+#: views/setting-placement-positioning.php:24
+msgid "Before page load using PHP."
+msgstr "Πριν από τη φόρτωση της σελίδας με χρήση PHP."
+
+#: views/setting-placement-positioning.php:19
+msgid "After page load using JavaScript"
+msgstr "Μετά τη φόρτωση της σελίδας με χρήση JavaScript"
+
+#: modules/advanced-display-conditions/main.class.php:108
+msgid "post content"
+msgstr "περιεχόμενο ανάρτησης"
+
+#: modules/advanced-display-conditions/main.class.php:109
+msgid "Display ads based on words and phrases within the post or page content. Dynamically added text might not be considered."
+msgstr "Εμφάνιση διαφημίσεων με βάση λέξεις και φράσεις στο περιεχόμενο της ανάρτησης ή της σελίδας. Το κείμενο που προστέθηκε δυναμικά ενδέχεται να μην ληφθεί υπόψη."
+
+#: modules/gamipress/views/visitor-condition-rank.php:28
+msgid "Choose rank"
+msgstr "Επιλέξτε κατάταξη"
+
+#: modules/gamipress/views/visitor-condition-points.php:17
+msgid "Choose Points Type"
+msgstr "Επιλέξτε τύπο σημείων"
+
+#: modules/gamipress/views/visitor-condition-achievement.php:21
+msgid "Choose Achievement Type"
+msgstr "Επιλέξτε τύπο επιτεύγματος"
+
+#: modules/gamipress/admin.class.php:34
+msgid "Display ads based on GamiPress user achievement"
+msgstr "Προβολή διαφημίσεων με βάση τα επιτεύγματα χρηστών του GamiPress"
+
+#: modules/gamipress/admin.class.php:33
+msgid "GamiPress Achievement"
+msgstr "GamiPress Επίτευγμα"
+
+#: modules/gamipress/admin.class.php:28
+msgid "Display ads based on GamiPress user rank"
+msgstr "Προβολή διαφημίσεων με βάση την κατάταξη χρήστη του GamiPress"
+
+#: modules/gamipress/admin.class.php:27
+msgid "GamiPress Rank"
+msgstr "Κατάταξη GamiPress"
+
+#: modules/gamipress/admin.class.php:22
+msgid "Display ads based on GamiPress user points"
+msgstr "Προβολή διαφημίσεων με βάση τους πόντους χρήστη του GamiPress"
+
+#: modules/gamipress/admin.class.php:21
+msgid "GamiPress Points"
+msgstr "GamiPress Πόντοι"
+
+#: views/privacy-policy-content.php:10
+msgid "You can use the text below as a template for your own privacy policy."
+msgstr "Μπορείτε να χρησιμοποιήσετε το παρακάτω κείμενο ως πρότυπο για τη δική σας πολιτική απορρήτου."
+
+#: views/privacy-policy-content.php:13
+msgid "This website uses Advanced Ads Pro to place advertisements. The WordPress plugin may use multiple first-party cookies to ensure the correct integration of ads. These cookies store technical information but not IP addresses. Their use is linked to specific features and options when embedding ads."
+msgstr "Αυτός ο ιστότοπος χρησιμοποιεί το Advanced Ads Pro για την τοποθέτηση διαφημίσεων. Η προσθήκη WordPress μπορεί να χρησιμοποιεί πολλά cookie πρώτου κατασκευαστή για να διασφαλίσει τη σωστή ενσωμάτωση των διαφημίσεων. Αυτά τα cookies αποθηκεύουν τεχνικές πληροφορίες αλλά όχι διευθύνσεις IP. Η χρήση τους συνδέεται με συγκεκριμένες δυνατότητες και επιλογές κατά την ενσωμάτωση διαφημίσεων."
+
+#: views/privacy-policy-content.php:12
+msgid "Suggested Text:"
+msgstr "Προτεινόμενο κείμενο:"
+
+#. %1$s is an opening a tag, %2$s is the corresponding closing one
+#: views/privacy-policy-content.php:19
+msgid "Please, see the %1$sAdvanced Ads cookie information%2$s for more details."
+msgstr "Ανατρέξτε στις %1$sΠληροφορίες cookie για το Advanced Ads%2$s για περισσότερες λεπτομέρειες."
+
+#: views/privacy-policy-content.php:7
+msgid "Depending on the setup, Advanced Ads Pro and other add-ons use cookies to control which user sees which ad. They also help to reduce expensive server requests."
+msgstr "Ανάλογα με τη ρύθμιση, το Advanced Ads Pro και άλλα πρόσθετα χρησιμοποιούν cookie για να ελέγχουν ποιος χρήστης βλέπει ποια διαφήμιση. Βοηθούν επίσης στη μείωση των ακριβών αιτημάτων διακομιστή."
+
+#: classes/advanced-ads-pro-admin.php:551
+msgid "Select a Sidebar placement to enable cache-busting."
+msgstr "Επιλέξτε μια τοποθέτηση Sidebar για να ενεργοποιήσετε την εξάλειψη της προσωρινής μνήμης."
+
+#: modules/buddypress/views/position-option.php:49
+msgid "member timeline"
+msgstr "χρονοδιάγραμμα μέλους"
+
+#: classes/advanced-ads-pro-admin.php:553
+msgid "Learn more"
+msgstr "Μάθε περισσότερα"
+
+#: modules/buddypress/views/position-option.php:48
+msgid "group feed"
+msgstr "ομαδική τροφοδοσία"
+
+#: modules/buddypress/buddypress.class.php:303
+#: modules/buddypress/buddypress.class.php:304
+msgid "BuddyBoss group"
+msgstr "Ομάδα BuddyBoss"
+
+#: modules/buddypress/views/position-option.php:46
+msgid "any"
+msgstr "όποιος"
+
+#: modules/buddypress/views/position-option.php:47
+msgid "activity stream"
+msgstr "ροή δραστηριότητας"
+
+#: modules/cache-busting/admin-ui.class.php:57
+msgctxt "setting label"
+msgid "AJAX"
+msgstr "AJAX"
+
+#: modules/cache-busting/views/settings.php:38
+msgid "Force passive cache busting"
+msgstr "Force passive cache busting"
+
+#: modules/cache-busting/views/settings.php:48
+msgid "Fallback option"
+msgstr "Εναλλακτική επιλογή"
+
+#: modules/cache-busting/views/settings.php:17
+msgid "Default option"
+msgstr "Προεπιλεγμένη επιλογή"
+
+#: modules/cache-busting/views/settings.php:18
+msgid "Choose which method to use when cache busting for a placement is set to “auto”."
+msgstr "Επιλέξτε ποια μέθοδο θα χρησιμοποιήσετε όταν η κατάρρευση της προσωρινής μνήμης για μια τοποθέτηση έχει οριστεί σε \"αυτόματη\"."
+
+#: modules/buddypress/buddypress.class.php:119
+msgid "Display ads based on BuddyBoss profile fields"
+msgstr "Προβολή διαφημίσεων με βάση τα πεδία προφίλ BuddyBoss"
+
+#: modules/buddypress/buddypress.class.php:118
+msgid "BuddyBoss profile field"
+msgstr "Πεδίο προφίλ BuddyBoss"
+
+#: modules/buddypress/views/position-option.php:44
+msgid "Stream"
+msgstr "Μετάδοση"
+
+#: modules/buddypress/admin.class.php:42
+msgid "Display ads on BuddyBoss related pages."
+msgstr "Προβολή διαφημίσεων σε σελίδες που σχετίζονται με το BuddyBoss."
+
+#: modules/buddypress/admin.class.php:41
+msgid "BuddyBoss Content"
+msgstr "Περιεχόμενο BuddyBoss"
+
+#: modules/cache-busting/views/settings.php:42
+msgid "By default, cache busting only works through placements."
+msgstr "Από προεπιλογή, η εξάλειψη της προσωρινής μνήμης λειτουργεί μόνο μέσω τοποθετήσεων."
+
+#: modules/cache-busting/views/settings.php:77
+msgid "Update visitor profile"
+msgstr "Ενημέρωση προφίλ επισκέπτη"
+
+#: modules/advanced-visitor-conditions/main.class.php:418
+msgid "Set the operator to “match/does not match” and leave the value empty to check only the existence of the cookie."
+msgstr "Ρυθμίστε τον τελεστή σε \"ταιριάζει/δεν ταιριάζει\" και αφήστε την τιμή κενή για να ελέγξετε μόνο την ύπαρξη του cookie."
+
+#: modules/ad-server/views/placement-usage.php:10
+msgid "Direct URL"
+msgstr "Απευθείας διεύθυνση URL"
+
+#: modules/ad-server/views/placement-settings.php:11
+msgid "The name of the placement that appears in the URL and injection code."
+msgstr "Το όνομα της τοποθέτησης που εμφανίζεται στη διεύθυνση URL και τον κώδικα εισαγωγής."
+
+#: modules/ad-server/views/placement-settings.php:10
+msgid "Save the page to update the usage code below."
+msgstr "Αποθηκεύστε τη σελίδα για να ενημερώσετε τον παρακάτω κωδικό χρήσης."
+
+#: modules/ad-server/views/module-settings.php:30
+msgid "Prevent direct access to the placement URL."
+msgstr "Αποτρέψτε την άμεση πρόσβαση στη διεύθυνση URL τοποθέτησης."
+
+#: modules/ad-server/views/module-settings.php:24
+msgid "Please don’t enter subdirectories."
+msgstr "Μην εισάγετε υποκαταλόγους."
+
+#: modules/ad-server/views/module-settings.php:18
+msgid "Separate multiple values with a comma."
+msgstr "Διαχωρίστε πολλές τιμές με κόμμα."
+
+#: modules/ad-server/views/module-settings.php:18
+msgid "Top level domains on which the ads will be loaded."
+msgstr "Τομείς ανώτατου επιπέδου στους οποίους θα φορτωθούν οι διαφημίσεις."
+
+#: modules/ad-server/views/module-settings.php:13
+#: modules/ads-for-adblockers/views/settings.php:7
+#: modules/advanced-visitor-conditions/views/settings.php:6
+#: modules/cache-busting/views/settings.php:12
+#: modules/click-fraud-protection/views/settings.php:10
+#: modules/lazy-load/views/settings.php:8
+msgid "Activate module."
+msgstr "Ενεργοποίηση μονάδας."
+
+#: modules/ad-server/admin.class.php:133
+msgid "Usage"
+msgstr "Χρήση"
+
+#: modules/ad-server/admin.class.php:119
+msgid "Public string"
+msgstr "Δημόσιο string"
+
+#: modules/ad-server/admin.class.php:73
+msgid "Display ads on external websites."
+msgstr "Προβολή διαφημίσεων σε εξωτερικούς ιστότοπους."
+
+#: modules/ad-server/admin.class.php:43 modules/ad-server/admin.class.php:72
+msgid "Ad Server"
+msgstr "Διακομιστής διαφημίσεων"
+
+#. %1$s is the opening link tag, %2$s is closing link tag.
+#: classes/advanced-ads-pro-admin.php:472
+msgid "This feature is deprecated. Please find the removal schedule %1$shere%2$s"
+msgstr "Αυτή η δυνατότητα έχει καταργηθεί. Βρείτε το πρόγραμμα αφαίρεσης %1$sεδώ%2$s"
+
+#: modules/advanced-visitor-conditions/main.class.php:146
+msgid "Display ads based on the user’s capabilities."
+msgstr "Προβολή διαφημίσεων με βάση τις δυνατότητες του χρήστη."
+
+#: modules/advanced-visitor-conditions/main.class.php:138
+msgid "Display ads based on the user agent."
+msgstr "Προβολή διαφημίσεων με βάση τον παράγοντα χρήστη."
+
+#: modules/inject-content/admin.class.php:263
+msgid "Words between ads"
+msgstr "Λέξεις ανάμεσα στις διαφημίσεις"
+
+#: views/setting_words_between_ads.php:7
+msgid "Words are counted within paragraphs, headlines and any other element."
+msgstr "Οι λέξεις μετρώνται μέσα σε παραγράφους, τίτλους και οποιοδήποτε άλλο στοιχείο."
+
+#: views/setting_words_between_ads.php:4
+msgid "A minimum amount of words between automatically injected ads."
+msgstr "Ένας ελάχιστος αριθμός λέξεων μεταξύ των διαφημίσεων που εισάγονται αυτόματα."
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: modules/duplicate-ads/admin.class.php:139
+msgctxt "noun"
+msgid "copy"
+msgstr "αντιγραφή"
+
+#: modules/inject-content/admin.class.php:128
+msgid "Minimum length of content (in words) before automatically injected ads are allowed in them. Set to zero or leave empty to always display ads, regardless of how long the content is."
+msgstr "Ελάχιστη έκταση περιεχομένου (σε λέξεις) πριν από την αυτόματη εισαγωγή διαφημίσεων επιτρέπονται σε αυτά. Ορίστε στο μηδέν ή αφήστε το κενό για να εμφανίζονται πάντα διαφημίσεις, ανεξάρτητα από τη διάρκεια του περιεχομένου."
+
+#: modules/duplicate-ads/admin.class.php:86
+msgid "Duplicate"
+msgstr "Αντίγραφο"
+
+#: modules/duplicate-ads/admin.class.php:86
+msgid "Create a copy of this ad"
+msgstr "Δημιουργήστε ένα αντίγραφο αυτής της διαφήμισης"
+
+#: modules/inject-content/views/setting_post_meta_box.php:4
+msgid "Disable automatic ad injection into the content"
+msgstr "Απενεργοποιήστε την αυτόματη εισαγωγή διαφήμισης στο περιεχόμενο"
+
+#: modules/cache-busting/views/settings.php:89
+msgid "Update visitor profile when user logs in or out"
+msgstr "Ενημερώστε το προφίλ επισκέπτη όταν ο χρήστης συνδέεται ή αποσυνδέεται"
+
+#: modules/cache-busting/views/settings.php:79
+msgid "You might need to update the page cache if you are using one."
+msgstr "Ίσως χρειαστεί να ενημερώσετε την προσωρινή μνήμη σελίδας, εάν χρησιμοποιείτε μία."
+
+#: modules/cache-busting/views/settings.php:73
+msgid "Advanced Ads stores some user information in the user’s browser to limit the number of AJAX requests for cache busting. Manual"
+msgstr "Το Advanced Ads αποθηκεύει ορισμένες πληροφορίες χρήστη στο πρόγραμμα περιήγησης του χρήστη για να περιορίσει τον αριθμό των αιτημάτων AJAX για κατάρρευση της προσωρινής μνήμης. Εγχειρίδιο"
+
+#: modules/cache-busting/views/settings.php:70
+msgid "Visitor profile"
+msgstr "Προφίλ επισκέπτη"
+
+#: modules/advanced-display-conditions/main.class.php:36
+msgid "Display ads based on the current URL parameters (everything following %s), except values following #."
+msgstr "Προβολή διαφημίσεων με βάση τις τρέχουσες παραμέτρους διεύθυνσης URL (ό,τι ακολουθεί %s), εκτός από τις τιμές που ακολουθούν το #."
+
+#: classes/advanced-ads-pro-admin.php:152
+msgid "Disable ads for post types"
+msgstr "Απενεργοποιήστε τις διαφημίσεις για τύπους αναρτήσεων"
+
+#: modules/cache-busting/views/settings.php:81
+msgid "An error occurred"
+msgstr "Παρουσιάστηκε σφάλμα"
+
+#: modules/cache-busting/views/settings.php:78
+msgid "Updated"
+msgstr "Ενημερωμένο"
+
+#: modules/advanced-visitor-conditions/main.class.php:153
+msgid "Display ads based on the user’s roles. See <a href=\"%s\" target=\"_blank\">List of roles in WordPress</a>."
+msgstr "Προβολή διαφημίσεων με βάση τους ρόλους του χρήστη. Δείτε τη <a href=\"%s\" target=\"_blank\">Λίστα ρόλων στο WordPress</a>."
+
+#: modules/advanced-visitor-conditions/main.class.php:152
+msgid "user role"
+msgstr "ρόλος χρήστη"
+
+#. %s is a list of supported optimizer plugins
+#: views/setting_autoptimize.php:7
+msgid "Advanced Ads Pro disables optimizers ( %s ) for displaying ads per default. Enable this option to allow optimizers to change the ad code. Especially JavaScript ads might stop working then."
+msgstr "Το Advanced Ads Pro απενεργοποιεί τους βελτιστοποιητές ( %s ) για την προβολή διαφημίσεων από προεπιλογή. Ενεργοποιήστε αυτήν την επιλογή για να επιτρέψετε στους βελτιστοποιητές να αλλάξουν τον κώδικα διαφήμισης. Ειδικά οι διαφημίσεις JavaScript ενδέχεται να σταματήσουν να λειτουργούν τότε."
+
+#: classes/advanced-ads-pro-admin.php:135
+msgid "Allow optimizers to modify ad codes"
+msgstr "Να επιτρέπεται στους βελτιστοποιητές να τροποποιούν τους κώδικες διαφημίσεων"
+
+#: modules/lazy-load/views/settings.php:15
+msgid "Start loading the ads %s pixels before they are visible on the screen."
+msgstr "Ξεκινήστε τη φόρτωση των διαφημίσεων %s εικονοστοιχείων προτού να είναι ορατά στην οθόνη."
+
+#: modules/grids/admin.class.php:61
+msgid "Set to 0 to disable this feature."
+msgstr "Ορίστε στο 0 για να απενεργοποιήσετε αυτήν τη δυνατότητα."
+
+#: modules/grids/admin.class.php:60
+msgid "On browsers smaller than this, the columns show in full width below each other."
+msgstr "Σε προγράμματα περιήγησης μικρότερα από αυτό, οι στήλες εμφανίζονται σε πλήρες πλάτος η μία κάτω από την άλλη."
+
+#: modules/grids/admin.class.php:58
+msgid "Full width"
+msgstr "Πλήρες πλάτος"
+
+#. "profile fields" relates to BuddyPress profile fields
+#: modules/buddypress/views/xprofile-condition.php:48
+msgid "No profile fields found"
+msgstr "Δεν βρέθηκαν πεδία προφίλ"
+
+#: modules/buddypress/buddypress.class.php:106
+msgid "Display ads based on BuddyPress profile fields"
+msgstr "Εμφάνιση διαφημίσεων με βάση τα πεδία προφίλ BuddyPress"
+
+#: modules/buddypress/buddypress.class.php:105
+msgid "BuddyPress profile field"
+msgstr "Πεδίο προφίλ BuddyPress"
+
+#: views/setting_repeat.php:3 modules/buddypress/views/position-option.php:37
+msgid "repeat the position"
+msgstr "επαναλάβετε τη θέση"
+
+#: views/setting_custom_code.php:34
+msgid "Displayed after the ad content"
+msgstr "Εμφανίζεται μετά το περιεχόμενο της διαφήμισης"
+
+#: views/setting_custom_code.php:30
+msgid "place your own code below the ad"
+msgstr "τοποθετήστε τον δικό σας κώδικα κάτω από τη διαφήμιση"
+
+#: views/setting_custom_code.php:27
+msgid "custom code"
+msgstr "προσαρμοσμένος κώδικας"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/advanced-ads-pro/"
+msgstr "https://wpadvancedads.com/add-ons/advanced-ads-pro/"
+
+#. Description of the plugin
+msgid "Advanced features to boost your ad revenue."
+msgstr "Προηγμένες λειτουργίες για την ενίσχυση των εσόδων από διαφημίσεις."
+
+#. Name of the plugin
+msgid "Advanced Ads Pro"
+msgstr "Advanced Ads Pro"
+
+#: modules/weekdays/views/ad-submitbox-meta.php:4
+msgid "Set specific days"
+msgstr "Ορίστε συγκεκριμένες ημέρες"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:26
+msgctxt "order of expiry date fields 1: month, 2: day, 3: year, 4: hour, 5: minute"
+msgid "%1$s %2$s, %3$s @ %4$s %5$s"
+msgstr "%1$s %2$s, %3$s @ %4$s %5$s"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:22
+msgid "Minute"
+msgstr "Λεπτό"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:21
+msgid "Hour"
+msgstr "Ώρα"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:20
+msgid "Year"
+msgstr "Χρονιά"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:19
+msgid "Day"
+msgstr "Ημέρα"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:14
+msgctxt "1: month number (01, 02, etc.), 2: month abbreviation"
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:10
+msgid "Month"
+msgstr "Μήνας"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:4
+msgctxt "placement tests"
+msgid "Send email after"
+msgstr "Στείλτε email μετά"
+
+#: modules/placement-tests/views/setting_placement_test_weight.php:8
+msgid "Test weight"
+msgstr "Βάρος δοκιμής"
+
+#: modules/placement-tests/views/setting_placement_test_weight.php:6
+msgctxt "placement tests"
+msgid "Testing"
+msgstr "Δοκιμή"
+
+#: modules/placement-tests/views/placement_tests.php:56
+msgid "Due to technical restrictions, when testing AdSense units, the limit in the plugin settings does not work. Please disable it <a href=\"%s\">here</a>."
+msgstr "Λόγω τεχνικών περιορισμών, κατά τη δοκιμή ενοτήτων AdSense, το όριο στις ρυθμίσεις της προσθήκης δεν λειτουργεί. Απενεργοποιήστε το <a href=\"%s\">εδώ</a>."
+
+#: modules/placement-tests/views/placement_tests.php:52
+msgid "Save Tests"
+msgstr "Αποθήκευση δοκιμών"
+
+#: modules/placement-tests/views/placement_tests.php:44
+msgctxt "checkbox to remove placement test"
+msgid "delete"
+msgstr "διαγραφή"
+
+#: modules/placement-tests/views/placement_tests.php:38
+msgctxt "placement tests"
+msgid "empty"
+msgstr "άδειο"
+
+#: modules/placement-tests/views/placement_tests.php:10
+msgid "Placements"
+msgstr "Τοποθετήσεις"
+
+#: modules/placement-tests/views/placement_tests.php:9
+msgid "Expiry date"
+msgstr "Ημερομηνία λήξης"
+
+#: modules/placement-tests/views/placement_tests.php:8
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: modules/placement-tests/views/placement_tests.php:3
+msgid "Placement tests"
+msgstr "Δοκιμές τοποθέτησης"
+
+#: modules/lazy-load/views/setting_lazy_load.php:6
+#: modules/lazy-load/views/setting_lazy_load.php:8
+msgid "disabled"
+msgstr "απενεργοποιημένο"
+
+#: modules/lazy-load/views/setting_lazy_load.php:2
+#: modules/lazy-load/views/setting_lazy_load.php:4
+msgid "enabled"
+msgstr "ενεργοποιημένο"
+
+#: modules/group-refresh/views/settings_group_refresh.php:25
+msgid "Please use a placement to deliver this group using cache-busting."
+msgstr "Παρακαλώ χρησιμοποιήστε μια τοποθέτηση για να παραδώσετε αυτήν την ομάδα με χρήση κρυφής μνήμης."
+
+#: modules/group-refresh/views/settings_group_refresh.php:18
+msgid "Refresh ads on the same spot. Works when cache-busting is used."
+msgstr "Ανανεώστε τις διαφημίσεις στο ίδιο σημείο. Λειτουργεί όταν χρησιμοποιείται cache-busting."
+
+#: modules/group-refresh/views/settings_group_refresh.php:15
+msgid "milliseconds"
+msgstr "χιλιοστά του δευτερολέπτου"
+
+#: modules/group-refresh/views/settings_group_refresh.php:13
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: modules/grids/views/grid-option-size.php:9
+msgid "rows"
+msgstr "σειρές"
+
+#: modules/grids/views/grid-option-size.php:5
+msgid "columns"
+msgstr "στήλες"
+
+#: modules/click-fraud-protection/views/settings.php:23
+msgid "Period for which to hide the ad ( in days )"
+msgstr "Περίοδος απόκρυψης της διαφήμισης (σε ημέρες)"
+
+#: modules/click-fraud-protection/views/settings.php:20
+msgid "Period in which the click limit should be reached ( in hours )"
+msgstr "Περίοδος κατά την οποία πρέπει να επιτευχθεί το όριο κλικ (σε ώρες)"
+
+#: modules/click-fraud-protection/views/settings.php:17
+msgid "Allowed clicks on a single ad before it is removed"
+msgstr "Επιτρέπονται τα κλικ σε μία διαφήμιση πριν αφαιρεθεί"
+
+#: modules/advanced-visitor-conditions/main.class.php:138
+#: modules/advanced-visitor-conditions/main.class.php:146
+#: modules/ad-server/views/module-settings.php:15
+#: modules/ads-for-adblockers/views/settings.php:9
+#: modules/cache-busting/views/settings.php:14
+#: modules/click-fraud-protection/views/settings.php:12
+#: modules/lazy-load/views/settings.php:10
+#: modules/geo/admin/views/setting-maxmind-license-key.php:8
+msgid "Manual"
+msgstr "Εγχειρίδιο"
+
+#: modules/cache-busting/views/settings_check_ad.php:3
+msgid "The code of this ad might not work properly with activated cache-busting. <a href=\"%s\" target=\"_blank\">Manual</a>"
+msgstr "Ο κώδικας αυτής της διαφήμισης ενδέχεται να μην λειτουργεί σωστά με την ενεργοποίηση της προσωρινής αποθήκευσης. <a href=\"%s\" target=\"_blank\">Εγχειρίδιο</a>"
+
+#: modules/cache-busting/views/settings.php:44
+msgid "Enable passive cache busting for all ads and groups which are not delivered through a placement, if possible."
+msgstr "Ενεργοποιήστε την παθητική κατάργηση της προσωρινής μνήμης για όλες τις διαφημίσεις και τις ομάδες που δεν προβάλλονται μέσω μιας τοποθέτησης, αν είναι δυνατόν."
+
+#: modules/cache-busting/views/settings.php:62
+msgid "No cache busting"
+msgstr "Καμία κατάρρευση της κρυφής μνήμης"
+
+#: modules/cache-busting/views/settings.php:55
+msgid "Use AJAX"
+msgstr "Χρησιμοποιήστε AJAX"
+
+#: modules/cache-busting/views/settings.php:49
+msgid "Choose the fallback if “passive“ cache busting is not possible."
+msgstr "Επιλέξτε το εναλλακτικό εάν η \"παθητική\" κατάρρευση της κρυφής μνήμης δεν είναι δυνατή."
+
+#: modules/cache-busting/views/settings.php:31
+msgid "AJAX"
+msgstr "AJAX"
+
+#: modules/advanced-display-conditions/views/referrer-url-metabox.php:15
+#: modules/advanced-visitor-conditions/views/referrer-url-metabox.php:15
+msgid "url of the referrer"
+msgstr "url του παραπέμποντος"
+
+#: modules/advanced-display-conditions/views/referrer-url-metabox.php:5
+#: modules/advanced-visitor-conditions/views/referrer-url-metabox.php:5
+msgid "URL"
+msgstr "URL"
+
+#: modules/advanced-display-conditions/views/referrer-url-metabox.php:3
+#: modules/advanced-visitor-conditions/views/referrer-url-metabox.php:3
+msgid "Display ad depending on the external url the user comes from."
+msgstr "Προβολή διαφήμισης ανάλογα με το εξωτερικό url από το οποίο προέρχεται ο χρήστης."
+
+#: modules/advanced-display-conditions/views/referrer-url-metabox.php:1
+#: modules/advanced-visitor-conditions/views/referrer-url-metabox.php:1
+msgid "Display by referrer url"
+msgstr "Εμφάνιση ανά διεύθυνση url παραπομπής"
+
+#: modules/ads-for-adblockers/views/placement-item.php:21
+#: modules/lazy-load/views/setting_lazy_load.php:11
+msgid "Works only with cache-busting enabled"
+msgstr "Λειτουργεί μόνο με ενεργοποιημένη τη λειτουργία cache-busting"
+
+#: modules/weekdays/weekdays.class.php:149
+msgid "Never shows up"
+msgstr "Δεν εμφανίζεται ποτέ"
+
+#: modules/weekdays/weekdays.class.php:147
+msgid "Shows up on: %s"
+msgstr "Εμφανίζεται στις: %s"
+
+#: modules/weekdays/weekdays.class.php:85
+#: modules/weekdays/weekdays.class.php:100
+msgid "specific days"
+msgstr "συγκεκριμένες μέρες"
+
+#: modules/placement-tests/placement-tests.class.php:633
+msgid "Placement test <em>%s</em> created"
+msgstr "Η δοκιμή τοποθέτησης <em>%s</em> δημιουργήθηκε"
+
+#: modules/placement-tests/placement-tests.class.php:494
+msgctxt "placement tests"
+msgid "Placement page"
+msgstr "Σελίδα τοποθέτησης"
+
+#: modules/placement-tests/placement-tests.class.php:488
+#: modules/placement-tests/placement-tests.class.php:632
+#: modules/placement-tests/views/placement_tests.php:36
+msgctxt "placement tests"
+msgid " vs "
+msgstr "εναντίον"
+
+#: modules/placement-tests/placement-tests.class.php:459
+msgctxt "placement tests"
+msgid "Expired placement tests"
+msgstr "Ληγμένα τεστ τοποθέτησης"
+
+#: modules/placement-tests/placement-tests.class.php:92
+#: modules/placement-tests/placement-tests.class.php:93
+msgid "Save New Test"
+msgstr "Αποθήκευση νέας δοκιμής"
+
+#: modules/paid-memberships-pro/main.class.php:146
+msgid "Display ads only to users with a specific membership level set with PaidMembershipsPro."
+msgstr "Εμφάνιση διαφημίσεων μόνο σε χρήστες με συγκεκριμένο επίπεδο συνδρομής που έχει οριστεί με το PaidMembershipsPro."
+
+#: modules/paid-memberships-pro/main.class.php:145
+msgid "PMP user level"
+msgstr "επίπεδο χρήστη PMP"
+
+#: modules/paid-memberships-pro/main.class.php:127
+#: modules/paid-memberships-pro/main.class.php:241
+msgid "No membership levels set up yet."
+msgstr "Δεν έχουν ρυθμιστεί ακόμη επίπεδα μελών."
+
+#: modules/paid-memberships-pro/main.class.php:30
+msgid "Display ads only on pages that need a specific membership level set with PaidMembershipsPro."
+msgstr "Προβάλετε διαφημίσεις μόνο σε σελίδες που χρειάζονται ένα συγκεκριμένο επίπεδο συνδρομής που έχει οριστεί με το PaidMembershipsPro."
+
+#: modules/paid-memberships-pro/main.class.php:29
+msgid "PMP page level"
+msgstr "Επίπεδο σελίδας PMP"
+
+#: modules/inject-content/inject-content.class.php:100
+msgid "Display the ad between posts on post lists, e.g. home, archives, search etc."
+msgstr "Εμφάνιση της διαφήμισης μεταξύ αναρτήσεων σε λίστες αναρτήσεων, π.χ. σπίτι, αρχεία, αναζήτηση κ.λπ."
+
+#: modules/inject-content/inject-content.class.php:99
+msgid "Post Lists"
+msgstr "Λίστες αναρτήσεων"
+
+#: modules/inject-content/inject-content.class.php:89
+msgid "Attach the ad to any element in the frontend."
+msgstr "Συνδέστε τη διαφήμιση σε οποιοδήποτε στοιχείο της διεπαφής."
+
+#: modules/inject-content/inject-content.class.php:88
+msgid "Custom Position"
+msgstr "Προσαρμοσμένη θέση"
+
+#: modules/inject-content/inject-content.class.php:81
+msgid "In the middle of the main content based on the number of paragraphs."
+msgstr "Στη μέση του κύριου περιεχομένου με βάση τον αριθμό των παραγράφων."
+
+#: modules/inject-content/inject-content.class.php:80
+msgid "Content Middle"
+msgstr "Μέσο Περιεχομένου"
+
+#: modules/inject-content/inject-content.class.php:69
+msgid "Above the main headline on the page (&lt;h1&gt;)."
+msgstr "Πάνω από την κύρια επικεφαλίδα της σελίδας (&lt;h1&gt;)."
+
+#: modules/inject-content/inject-content.class.php:68
+msgid "Above Headline"
+msgstr "Πάνω από την επικεφαλίδα"
+
+#: modules/inject-content/inject-content.class.php:61
+msgid "After a random paragraph in the main content."
+msgstr "Μετά από μια τυχαία παράγραφο στο κύριο περιεχόμενο."
+
+#: modules/inject-content/inject-content.class.php:60
+msgid "Random Paragraph"
+msgstr "Τυχαία Παράγραφος"
+
+#: modules/inject-content/admin.class.php:159
+msgid "secondary loops"
+msgstr "δευτερεύοντες βρόχους"
+
+#: modules/inject-content/admin.class.php:154
+msgid "Only enable this option if you are sure what you are doing!"
+msgstr "Ενεργοποιήστε αυτήν την επιλογή μόνο εάν είστε σίγουροι για το τι κάνετε!"
+
+#: modules/inject-content/admin.class.php:153
+msgid "Allow injection into any custom and secondary queries."
+msgstr "Επιτρέψτε την εισαγωγή σε τυχόν προσαρμοσμένα και δευτερεύοντα ερωτήματα."
+
+#: modules/inject-content/admin.class.php:133
+msgid "minimum content length"
+msgstr "ελάχιστο μήκος περιεχομένου"
+
+#: modules/inject-content/admin.class.php:89
+msgid "Before which post to inject the ad on post lists."
+msgstr "Πριν από ποια ανάρτηση να εισάγετε τη διαφήμιση στις λίστες αναρτήσεων."
+
+#: modules/inject-content/admin.class.php:87
+msgid "Inject before %s. post"
+msgstr "Κάντε την εισαγωγή πριν από %s. Θέση"
+
+#: modules/inject-content/admin.class.php:66
+msgid "Place the following element where the ad should be displayed."
+msgstr "Τοποθετήστε το παρακάτω στοιχείο στο σημείο που πρέπει να εμφανίζεται η διαφήμιση."
+
+#: modules/inject-content/admin.class.php:65
+msgid "by new element"
+msgstr "από νέο στοιχείο"
+
+#: modules/inject-content/admin.class.php:55
+msgid "Position"
+msgstr "Θέση"
+
+#: modules/inject-content/admin.class.php:54
+msgid "Uses <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery selectors</a>, e.g. #container_id, .container_class"
+msgstr "Χρησιμοποιεί <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">επιλογείς jQuery</a>, π.χ. #container_id, .container_class"
+
+#: modules/inject-content/admin.class.php:51
+msgid "or enter manually"
+msgstr "ή εισάγετε χειροκίνητα"
+
+#: modules/inject-content/admin.class.php:53
+msgid "select position"
+msgstr "επιλέξτε θέση"
+
+#: modules/inject-content/admin.class.php:52
+msgctxt "frontend picker"
+msgid "stop selection"
+msgstr "διακοπή επιλογής"
+
+#: modules/inject-content/admin.class.php:48
+msgid "Place ads in relation to an existing element in the frontend."
+msgstr "Τοποθετήστε διαφημίσεις σε σχέση με ένα υπάρχον στοιχείο στο frontend."
+
+#: modules/inject-content/admin.class.php:46
+msgid "by existing element"
+msgstr "από υπάρχον στοιχείο"
+
+#: modules/inject-content/admin.class.php:37
+msgid "below"
+msgstr "παρακάτω"
+
+#: modules/inject-content/admin.class.php:36
+msgid "inside, after other content"
+msgstr "μέσα, μετά από άλλο περιεχόμενο"
+
+#: modules/inject-content/admin.class.php:35
+msgid "inside, before other content"
+msgstr "μέσα, πριν από άλλο περιεχόμενο"
+
+#: modules/inject-content/admin.class.php:34
+msgid "above"
+msgstr "πάνω από"
+
+#: modules/group-refresh/admin.class.php:42
+msgid "Refresh interval"
+msgstr "Διάστημα ανανέωσης"
+
+#: modules/grids/grids.class.php:32
+msgid "Display multiple ads in a grid"
+msgstr "Εμφάνιση πολλαπλών διαφημίσεων σε ένα πλέγμα"
+
+#: modules/grids/grids.class.php:31
+msgid "Grid"
+msgstr "Πλέγμα"
+
+#: modules/grids/admin.class.php:73
+msgid "Random order"
+msgstr "Τυχαία σειρά"
+
+#: modules/grids/admin.class.php:53
+msgid "Minimum width of a column in the grid."
+msgstr "Ελάχιστο πλάτος στήλης στο πλέγμα."
+
+#: modules/grids/admin.class.php:51
+msgid "Min. width"
+msgstr "Ελάχ. πλάτος"
+
+#: modules/grids/admin.class.php:45
+msgid "Inner margin"
+msgstr "Εσωτερικό περιθώριο"
+
+#: modules/grids/admin.class.php:36
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:306
+msgid "Click Fraud Protection enabled"
+msgstr "Η επιλογή Προστασία απάτης από κλικ είναι ενεργοποιημένη"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:128
+msgid "hours"
+msgstr "ώρες"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:126
+msgid "within"
+msgstr "στα πλαίσια"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:96
+msgid "Display ad only if a click limit has not been reached"
+msgstr "Προβολή διαφήμισης μόνο εάν δεν έχει συμπληρωθεί το όριο κλικ"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:95
+msgid "max. ad clicks"
+msgstr "Μέγιστο κλικ σε διαφημίσεις"
+
+#: modules/click-fraud-protection/admin.class.php:19
+msgid "Click Fraud Protection"
+msgstr "Προστασία απάτης από κλικ"
+
+#: modules/cache-busting/cache-busting.class.php:1688
+msgctxt "placement admin label"
+msgid "Cache-busting:"
+msgstr "Καταστροφή κρυφής μνήμης:"
+
+#: modules/cache-busting/cache-busting.class.php:1682
+msgid "The ad is not displayed on the page"
+msgstr "Η διαφήμιση δεν εμφανίζεται στη σελίδα"
+
+#: modules/cache-busting/cache-busting.class.php:1681
+msgid "The ad is displayed on the page"
+msgstr "Η διαφήμιση εμφανίζεται στη σελίδα"
+
+#: modules/cache-busting/cache-busting.class.php:1678
+#: modules/cache-busting/views/settings.php:24
+msgid "passive"
+msgstr "παθητικός"
+
+#: modules/cache-busting/cache-busting.class.php:1672
+msgid "The ad can work with passive cache-busting"
+msgstr "Η διαφήμιση μπορεί να λειτουργήσει με παθητική κατάρρευση της κρυφής μνήμης"
+
+#: modules/cache-busting/cache-busting.class.php:1670
+msgid "The ad can not work with passive cache-busting"
+msgstr "Η διαφήμιση δεν μπορεί να λειτουργήσει με παθητική κατάρρευση της κρυφής μνήμης"
+
+#: modules/cache-busting/admin.class.php:16
+msgid "Cache Busting"
+msgstr "Κατάρρευση της κρυφής μνήμης"
+
+#: modules/cache-busting/admin-ui.class.php:131
+msgid "The <em>Ad Group</em> ad type can only use AJAX or no cache-busting, but not passive cache-busting."
+msgstr "Ο τύπος διαφήμισης <em>Ομάδα διαφημίσεων</em> μπορεί να χρησιμοποιήσει μόνο AJAX ή χωρίς εξάλειψη προσωρινής μνήμης, αλλά όχι παθητική κατάρρευση της κρυφής μνήμης."
+
+#: modules/cache-busting/admin-ui.class.php:78
+msgctxt "placement admin label"
+msgid "Cache-busting"
+msgstr "Καταστροφή κρυφής μνήμης"
+
+#: modules/cache-busting/admin-ui.class.php:59
+msgctxt "setting label"
+msgid "auto"
+msgstr "αυτόματο"
+
+#: modules/cache-busting/admin-ui.class.php:58
+#: modules/cache-busting/cache-busting.class.php:1685
+msgctxt "setting label"
+msgid "off"
+msgstr "κλειστό"
+
+#: modules/cache-busting/cache-busting.class.php:1676
+msgctxt "setting label"
+msgid "ajax"
+msgstr "ajax"
+
+#: modules/buddypress/admin.class.php:107
+msgid "Member List"
+msgstr "Λίστα Μελών"
+
+#: modules/buddypress/admin.class.php:104
+msgid "Group List"
+msgstr "Λίστα ομάδας"
+
+#: modules/buddypress/admin.class.php:88 modules/buddypress/admin.class.php:96
+msgid "Activity Entry"
+msgstr "Είσοδος Δραστηριότητας"
+
+#. %s is an HTML input element.
+#: modules/buddypress/views/position-option.php:30
+msgid "Inject after %s. entry"
+msgstr "Εισαγωγή μετά από %s. είσοδο"
+
+#: modules/buddypress/admin.class.php:52
+msgid "Display ads on BuddyPress related pages."
+msgstr "Προβολή διαφημίσεων σε σελίδες που σχετίζονται με το BuddyPress."
+
+#: modules/buddypress/admin.class.php:51
+msgid "BuddyPress Content"
+msgstr "Περιεχόμενο BuddyPress"
+
+#: modules/bbpress/admin.class.php:90
+msgid "forums page"
+msgstr "σελίδα φόρουμ"
+
+#: modules/bbpress/admin.class.php:86
+msgid "single forum page"
+msgstr "ενιαία σελίδα φόρουμ"
+
+#: modules/bbpress/admin.class.php:82 modules/bbpress/admin.class.php:99
+msgid "forum topic page"
+msgstr "σελίδα θέματος φόρουμ"
+
+#: modules/bbpress/admin.class.php:76
+msgid "Inject at %s. post"
+msgstr "Κάντε την ειαγωγή στο %s. άρθρο"
+
+#: modules/bbpress/admin.class.php:44 modules/bbpress/admin.class.php:60
+#: modules/inject-content/admin.class.php:78
+#: modules/inject-content/admin.class.php:93
+#: modules/buddypress/views/position-option.php:13
+msgid "position"
+msgstr "θέση"
+
+#: modules/bbpress/admin.class.php:33
+msgid "Display ads in bbPress replies."
+msgstr "Εμφάνιση διαφημίσεων σε απαντήσεις bbPress."
+
+#: modules/bbpress/admin.class.php:32
+msgid "bbPress Reply Content"
+msgstr "bbPress Περιεχόμενο Απάντησης"
+
+#: modules/bbpress/admin.class.php:27
+msgid "Display ads on bbPress related pages."
+msgstr "Προβολή διαφημίσεων σε σελίδες που σχετίζονται με το bbPress."
+
+#: modules/bbpress/admin.class.php:26
+msgid "bbPress Static Content"
+msgstr "bbPress Στατικό περιεχόμενο"
+
+#: modules/background-ads/admin.class.php:40
+msgid "background"
+msgstr "φόντο"
+
+#: modules/background-ads/admin.class.php:36
+msgid "Select a background color in case the background image is not high enough to cover the whole screen."
+msgstr "Επιλέξτε ένα χρώμα φόντου σε περίπτωση που η εικόνα φόντου δεν είναι αρκετά υψηλή ώστε να καλύπτει ολόκληρη την οθόνη."
+
+#: modules/background-ads/admin.class.php:25
+msgid "Background of the website behind the main wrapper."
+msgstr "Φόντο του ιστότοπου πίσω από το κύριο περιτύλιγμα."
+
+#: modules/background-ads/admin.class.php:24
+msgid "Background Ad"
+msgstr "Διαφήμιση φόντου"
+
+#: modules/advanced-visitor-conditions/main.class.php:448
+msgid "within %s seconds"
+msgstr "μέσα σε %s δευτερόλεπτα"
+
+#: modules/advanced-visitor-conditions/main.class.php:405
+msgid "Cookie Value"
+msgstr "Αξία cookie"
+
+#: modules/advanced-visitor-conditions/main.class.php:404
+msgid "Cookie Name"
+msgstr "Όνομα cookie"
+
+#: modules/advanced-visitor-conditions/main.class.php:277
+#: modules/advanced-visitor-conditions/main.class.php:317
+#: modules/advanced-visitor-conditions/main.class.php:360
+msgid "-- choose one --"
+msgstr "-- Διάλεξε ένα --"
+
+#: modules/advanced-visitor-conditions/main.class.php:274
+msgid "can not"
+msgstr "δεν μπορεί"
+
+#: modules/advanced-visitor-conditions/main.class.php:273
+msgid "can"
+msgstr "μπορεί"
+
+#: modules/advanced-visitor-conditions/main.class.php:193
+msgid "Display ads to new or returning visitors only."
+msgstr "Εμφάνιση διαφημίσεων μόνο σε νέους ή επανερχόμενους επισκέπτες."
+
+#: modules/advanced-visitor-conditions/main.class.php:192
+msgid "new visitor"
+msgstr "νέος επισκέπτης"
+
+#: modules/advanced-visitor-conditions/main.class.php:186
+msgid "Display the ad only for a few impressions in a given period per user."
+msgstr "Προβάλετε τη διαφήμιση μόνο για λίγες εμφανίσεις σε μια δεδομένη περίοδο ανά χρήστη."
+
+#: modules/advanced-visitor-conditions/main.class.php:185
+msgid "max. ad impressions"
+msgstr "Μέγ εμφανίσεις διαφήμισης"
+
+#: modules/advanced-visitor-conditions/main.class.php:179
+msgid "Display ads based on the number of page impressions the user already made (before the current on)."
+msgstr "Προβολή διαφημίσεων με βάση τον αριθμό των εμφανίσεων σελίδας που έχει ήδη κάνει ο χρήστης (πριν από την τρέχουσα ενεργοποίηση)."
+
+#: modules/advanced-visitor-conditions/main.class.php:178
+msgid "page impressions"
+msgstr "εμφανίσεις σελίδας"
+
+#: modules/advanced-visitor-conditions/main.class.php:171
+msgid "Display ads based on the value of a cookie."
+msgstr "Προβολή διαφημίσεων με βάση την αξία ενός cookie."
+
+#: modules/advanced-visitor-conditions/main.class.php:170
+msgid "cookie"
+msgstr "cookie"
+
+#: modules/advanced-visitor-conditions/main.class.php:163
+msgid "Display ads based on the visitors browser language."
+msgstr "Προβολή διαφημίσεων με βάση τη γλώσσα του προγράμματος περιήγησης των επισκεπτών."
+
+#: modules/advanced-visitor-conditions/main.class.php:162
+msgid "browser language"
+msgstr "γλώσσα προγράμματος περιήγησης"
+
+#: modules/advanced-visitor-conditions/main.class.php:145
+msgid "user can (capabilities)"
+msgstr "ο χρήστης μπορεί (δυνατότητες)"
+
+#: modules/advanced-visitor-conditions/main.class.php:137
+msgid "user agent"
+msgstr "πράκτορας χρήστη"
+
+#: modules/advanced-visitor-conditions/main.class.php:130
+msgid "Display ads based on the referrer url."
+msgstr "Προβολή διαφημίσεων με βάση τη διεύθυνση url παραπομπής."
+
+#: modules/advanced-visitor-conditions/main.class.php:129
+msgid "referrer url"
+msgstr "διεύθυνση url παραπομπής"
+
+#: modules/advanced-visitor-conditions/admin.class.php:16
+msgid "Advanced visitor conditions"
+msgstr "Προηγμένες συνθήκες επισκεπτών"
+
+#: modules/advanced-display-conditions/main.class.php:557
+msgid "count from end"
+msgstr "μετρήστε από το τέλος"
+
+#: modules/advanced-display-conditions/main.class.php:554
+msgid "from %s to %s"
+msgstr "από %s έως %s"
+
+#: modules/advanced-display-conditions/main.class.php:524
+msgid "meta key"
+msgstr "μέτα κλειδί"
+
+#: modules/advanced-display-conditions/main.class.php:523
+msgid "all of"
+msgstr "όλα από"
+
+#: modules/advanced-display-conditions/main.class.php:522
+msgid "any of"
+msgstr "οποιοδήποτε από"
+
+#: modules/advanced-display-conditions/main.class.php:491
+msgid "no languages set up in WPML"
+msgstr "καμία γλώσσα δεν έχει ρυθμιστεί στο WPML"
+
+#: modules/advanced-display-conditions/main.class.php:420
+#: modules/advanced-display-conditions/main.class.php:475
+#: modules/advanced-visitor-conditions/main.class.php:314
+#: modules/advanced-visitor-conditions/main.class.php:357
+#: modules/paid-memberships-pro/main.class.php:112
+#: modules/paid-memberships-pro/main.class.php:226
+#: modules/gamipress/views/visitor-condition-achievement.php:17
+#: modules/geo/classes/admin.php:281
+msgid "is not"
+msgstr "δεν είναι"
+
+#: modules/advanced-display-conditions/main.class.php:419
+#: modules/advanced-display-conditions/main.class.php:474
+#: modules/advanced-visitor-conditions/main.class.php:313
+#: modules/advanced-visitor-conditions/main.class.php:356
+#: modules/paid-memberships-pro/main.class.php:111
+#: modules/paid-memberships-pro/main.class.php:225
+#: modules/gamipress/views/visitor-condition-achievement.php:16
+#: modules/geo/classes/admin.php:280
+msgid "is"
+msgstr "είναι"
+
+#: modules/advanced-display-conditions/main.class.php:102
+msgid "Display ads based on the index of a split page"
+msgstr "Προβολή διαφημίσεων με βάση το ευρετήριο μιας διαχωρισμένης σελίδας"
+
+#: modules/advanced-display-conditions/main.class.php:101
+msgid "pagination"
+msgstr "σελιδοποίηση"
+
+#: modules/advanced-display-conditions/main.class.php:95
+msgid "Display ads based on post meta."
+msgstr "Προβολή διαφημίσεων με βάση το μέτα του άρθρου."
+
+#: modules/advanced-display-conditions/main.class.php:94
+msgid "post meta"
+msgstr "μέτα άρθρου"
+
+#: modules/advanced-display-conditions/main.class.php:88
+msgid "Display ads based on parent page."
+msgstr "Προβολή διαφημίσεων με βάση τη γονική σελίδα."
+
+#: modules/advanced-display-conditions/main.class.php:87
+msgid "parent page"
+msgstr "γονική σελίδα"
+
+#: modules/advanced-display-conditions/main.class.php:80
+msgid "Display ads based on the page’s language set with WPML."
+msgstr "Προβολή διαφημίσεων με βάση τη γλώσσα της σελίδας που έχει οριστεί με το WPML."
+
+#: modules/advanced-display-conditions/main.class.php:79
+msgid "WPML language"
+msgstr "Γλώσσα WPML"
+
+#: modules/advanced-display-conditions/main.class.php:49
+#: modules/advanced-display-conditions/main.class.php:68
+msgid "Display ads based on the template of the %s post type."
+msgstr "Προβολή διαφημίσεων με βάση το πρότυπο του τύπου ανάρτησης %s."
+
+#: modules/advanced-display-conditions/main.class.php:48
+#: modules/advanced-display-conditions/main.class.php:67
+msgid "%s template"
+msgstr "πρότυπο %s"
+
+#: modules/advanced-display-conditions/main.class.php:35
+msgid "url parameters"
+msgstr "παραμέτροι url"
+
+#: modules/ads-for-adblockers/admin.class.php:112
+msgid "The chosen ad contains a reference to an external .js file"
+msgstr "Η επιλεγμένη διαφήμιση περιέχει μια αναφορά σε ένα εξωτερικό αρχείο .js"
+
+#: modules/ads-for-adblockers/admin.class.php:65
+msgid "Displayed to visitors with an ad blocker"
+msgstr "Εμφανίζεται στους επισκέπτες με πρόγραμμα αποκλεισμού διαφημίσεων"
+
+#: modules/ads-for-adblockers/admin.class.php:63
+msgid "Ad blocker item"
+msgstr "Στοιχείο αποκλεισμού διαφημίσεων"
+
+#: modules/ads-for-adblockers/admin.class.php:23
+msgid "Ads for ad blockers"
+msgstr "Διαφημίσεις για προγράμματα αποκλεισμού διαφημίσεων"
+
+#: modules/admin-bar/admin-bar.class.php:89
+msgid "placement"
+msgstr "τοποθέτηση"
+
+#: modules/admin-bar/admin-bar.class.php:86
+msgid "group"
+msgstr "ομάδα"
+
+#: modules/admin-bar/admin-bar.class.php:83
+msgid "ad"
+msgstr "διαφήμιση"
+
+#: modules/admin-bar/admin-bar.class.php:45
+msgid "No Ads found"
+msgstr "Δεν βρέθηκαν διαφημίσεις"
+
+#: modules/admin-bar/admin-bar.class.php:37
+msgid "Ads"
+msgstr "Διαφημίσεις"
+
+#: views/setting_output_once.php:5
+msgid "Display the ad only once per page"
+msgstr "Εμφάνιση της διαφήμισης μόνο μία φορά ανά σελίδα"
+
+#: views/setting_output_once.php:2
+msgid "Display only once"
+msgstr "Εμφάνιση μόνο μία φορά"
+
+#: classes/advanced-ads-pro.php:483
+msgid "Please note, the “Ad Admin“ and the “Ad Manager“ roles have the “upload_files“ and the “unfiltered_html“ capabilities"
+msgstr "Λάβετε υπόψη ότι οι ρόλοι \"Διαχειριστή Διαφήμισης\" και \"Διευθυντή Διαφήμισης\" έχουν τις δυνατότητες \"upload_files\" και \"unfiltered_html\""
+
+#. %s is the plugin’s name.
+#: classes/advanced-ads-pro.php:293
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "Το <strong>%s</strong> απαιτεί την εγκατάσταση και την ενεργοποίηση της προσθήκης <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Σύνθετες διαφημίσεις</a></strong> τον ιστότοπό σας."
+
+#: classes/advanced-ads-pro.php:308
+msgid "Install Now"
+msgstr "Εγκατάσταση τώρα"
+
+#: classes/advanced-ads-pro.php:306
+msgid "Activate Now"
+msgstr "Ενεργοποίηση τώρα"
+
+#. %s is a URL.
+#: classes/advanced-ads-pro-admin.php:388
+msgid "Enable the Advanced Visitor Conditions <a href=\"%s\" target=\"_blank\">in the settings</a>."
+msgstr "Ενεργοποιήστε τις Προηγμένες Συνθήκες επισκεπτών <a href=\"%s\" target=\"_blank\">στις ρυθμίσεις</a>."
+
+#: classes/advanced-ads-pro-admin.php:332
+msgid "Please note, with the last update, the “Ad Admin“ and “Ad Manager“ roles have the “upload_files“ and the “unfiltered_html“ capabilities."
+msgstr "Λάβετε υπόψη ότι με την τελευταία ενημέρωση, οι ρόλοι \"Διαχειριστή Διαφήμισης\" και \"Διευθυντή Διαφήμισης\" έχουν τις δυνατότητες \"upload_files\" και \"unfiltered_html\"."
+
+#: classes/advanced-ads-pro-admin.php:322
+msgid "Ad User Role"
+msgstr "Ρόλος χρήστη διαφήμισης"
+
+#: classes/advanced-ads-pro-admin.php:319
+msgid "Advanced Ads User Role"
+msgstr "Ρόλος χρήστη Advanced Ads"
+
+#: classes/advanced-ads-pro-admin.php:42
+msgid "--no role--"
+msgstr "--κανένας ρόλος--"
+
+#: classes/advanced-ads-pro-admin.php:41 classes/advanced-ads-pro.php:262
+msgid "Ad User"
+msgstr "Χρήστης διαφήμισης"
+
+#: classes/advanced-ads-pro-admin.php:40 classes/advanced-ads-pro.php:249
+msgid "Ad Manager"
+msgstr "Διευθυντής διαφήμισης"
+
+#: classes/advanced-ads-pro-admin.php:39 classes/advanced-ads-pro.php:235
+msgid "Ad Admin"
+msgstr "Διαχειριστής Διαφήμισης"
